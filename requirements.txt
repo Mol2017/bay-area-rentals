@@ -1,0 +1,8 @@
+# The scrapers themselves use only the Python standard library -- urllib for
+# HTTP and re for parsing. That is deliberate: a daily unattended job has
+# fewer ways to break when it has nothing to install, and every source in
+# scrapers/sources.py serves server-rendered HTML or JSON, so no browser
+# automation is needed.
+#
+# pytest is required only to run tests/.
+pytest>=8.0

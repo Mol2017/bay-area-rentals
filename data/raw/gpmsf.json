@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "source": "gpmsf",
+  "manager": "Gordon Property Management",
+  "source_url": "https://gordon.appfolio.com/listings",
+  "scraped_at": "2026-07-22T01:54:00-07:00",
+  "unit_count": 2,
+  "units": [
+    {
+      "address": "105 Richland Avenue - 01, San Francisco, CA 94110",
+      "source": "gpmsf",
+      "manager": "Gordon Property Management",
+      "city": "San Francisco",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 3795.0,
+      "kind": "residential",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 545,
+      "state": "CA",
+      "postal_code": "94110",
+      "title": "Bright and Airy One Bedroom Apartment in Bernal Heights - Please Contact for Showing Availability!",
+      "url": "https://gordon.appfolio.com/listings/detail/b95fe834-cb2b-48f8-9f50-1113eb947980",
+      "image": null,
+      "notes": null
+    },
+    {
+      "address": "3055 Gough Street - 201, San Francisco, CA 94123",
+      "source": "gpmsf",
+      "manager": "Gordon Property Management",
+      "city": "San Francisco",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 5100.0,
+      "kind": "residential",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 525,
+      "state": "CA",
+      "postal_code": "94123",
+      "title": "Prime Location One Bedroom in the Marina - Please Contact for Showing Availability!",
+      "url": "https://gordon.appfolio.com/listings/detail/890595ae-f7f8-40ae-8d64-8c6f8392ffa4",
+      "image": null,
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "source": "bay_cities_pm",
+  "manager": "Bay Cities Property Management",
+  "source_url": "https://baycitiespm.appfolio.com/listings",
+  "scraped_at": "2026-07-22T01:54:00-07:00",
+  "unit_count": 1,
+  "units": [
+    {
+      "address": "1186 Laurel Street - House, Berkeley, CA",
+      "source": "bay_cities_pm",
+      "manager": "Bay Cities Property Management",
+      "city": "Berkeley",
+      "bedrooms": 5.0,
+      "available_date": null,
+      "rent": 7200.0,
+      "kind": "residential",
+      "available_now": false,
+      "bathrooms": 2.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": null,
+      "title": "Gorgeous Berkeley Home",
+      "url": "https://baycitiespm.appfolio.com/listings/detail/c5166602-d4f1-45c0-ae44-c14a72660db7",
+      "image": null,
+      "notes": null
+    }
+  ]
+}

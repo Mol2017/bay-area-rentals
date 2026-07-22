@@ -1,0 +1,79 @@
+name: Refresh rental data
+
+on:
+  schedule:
+    # Daily at 13:20 UTC (06:20 PT during PDT, 05:20 PT during PST).
+    # Deliberately off the hour: every cron job in the world fires at :00,
+    # and an off-minute slot is less likely to collide with a portal's own
+    # maintenance window.
+    - cron: "20 13 * * *"
+  workflow_dispatch: {}
+
+# Only one refresh at a time -- two overlapping runs would race on the
+# data commit and one would have to be force-pushed away.
+concurrency:
+  group: refresh-rental-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The scrapers use only the Python standard library; pytest is the sole
+      # dependency and is needed just for the test step.
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run parser tests
+        run: python -m pytest tests/ -q
+
+      - name: Scrape all sources
+        run: python scripts/run_all_scrapers.py
+
+      - name: Merge into data/merged.json
+        run: python scripts/merge.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/raw/*.json data/merged.json
+          if git diff --staged --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: refresh rental listings ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+  # Publish the static site from the refreshed data.
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The refresh job just pushed; make sure we publish that commit.
+          ref: ${{ github.ref }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

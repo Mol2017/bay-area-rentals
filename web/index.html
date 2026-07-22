@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bay Area Rentals — Available Units</title>
+  <meta name="description" content="Available rental units aggregated daily from Bay Area property managers." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="viz-root">
+
+    <header class="topbar">
+      <div class="topbar__inner">
+        <div class="topbar__title">
+          <h1>Bay Area Rentals</h1>
+          <p class="topbar__sub" id="subtitle">Loading available units…</p>
+        </div>
+        <div class="topbar__actions">
+          <button id="theme-toggle" class="btn btn--icon" type="button"
+                  aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page" id="page" hidden>
+
+      <!-- ── Headline figures ─────────────────────────────────────────── -->
+      <section class="stats" aria-label="Summary">
+        <div class="stat">
+          <div class="stat__value" id="stat-units">—</div>
+          <div class="stat__label">Available units</div>
+        </div>
+        <div class="stat">
+          <div class="stat__value" id="stat-median">—</div>
+          <div class="stat__label">Median rent</div>
+        </div>
+        <div class="stat">
+          <div class="stat__value" id="stat-cities">—</div>
+          <div class="stat__label">Cities</div>
+        </div>
+        <div class="stat">
+          <div class="stat__value" id="stat-sources">—</div>
+          <div class="stat__label">Property managers</div>
+        </div>
+      </section>
+
+      <!-- ── Filters ──────────────────────────────────────────────────── -->
+      <section class="filters" aria-label="Filters">
+        <div class="filters__row">
+          <label class="field">
+            <span class="field__label">City</span>
+            <select id="f-city" class="field__control"><option value="">All cities</option></select>
+          </label>
+
+          <label class="field">
+            <span class="field__label">Bedrooms</span>
+            <select id="f-beds" class="field__control"><option value="">Any</option></select>
+          </label>
+
+          <label class="field">
+            <span class="field__label">Manager</span>
+            <select id="f-manager" class="field__control"><option value="">All managers</option></select>
+          </label>
+
+          <label class="field">
+            <span class="field__label">Max rent</span>
+            <div class="field__control field__control--range">
+              <input type="range" id="f-rent" min="0" max="10000" step="50" />
+              <output id="f-rent-out" class="field__out">Any</output>
+            </div>
+          </label>
+
+          <label class="field">
+            <span class="field__label">Move in by</span>
+            <input type="date" id="f-date" class="field__control" />
+          </label>
+
+          <label class="field field--check">
+            <input type="checkbox" id="f-whole" />
+            <span>Whole units only</span>
+          </label>
+
+          <button id="f-reset" class="btn" type="button">Reset</button>
+        </div>
+        <p class="filters__count" id="result-count" role="status" aria-live="polite"></p>
+      </section>
+
+      <!-- ── Charts ───────────────────────────────────────────────────── -->
+      <section class="charts" aria-label="Charts">
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title">Units by city</h2>
+            <p class="card__sub">Top 12 cities in the current filter</p>
+          </figcaption>
+          <div class="chart" id="chart-city"></div>
+        </figure>
+
+        <figure class="card">
+          <figcaption class="card__head">
+            <h2 class="card__title">Median rent by size</h2>
+            <p class="card__sub">Median rent for whole units; bucket size in parentheses</p>
+          </figcaption>
+          <div class="chart" id="chart-rent"></div>
+        </figure>
+
+        <figure class="card card--wide">
+          <figcaption class="card__head">
+            <h2 class="card__title">When units become available</h2>
+            <p class="card__sub">Move-in month for units in the current filter</p>
+          </figcaption>
+          <div class="chart" id="chart-timeline"></div>
+        </figure>
+      </section>
+
+      <!-- ── Listings ─────────────────────────────────────────────────── -->
+      <section class="listings" aria-label="Listings">
+        <div class="listings__head">
+          <h2 class="card__title">Listings</h2>
+          <label class="field field--inline">
+            <span class="field__label">Sort</span>
+            <select id="f-sort" class="field__control">
+              <option value="soonest">Soonest move-in</option>
+              <option value="rent-asc">Rent: low to high</option>
+              <option value="rent-desc">Rent: high to low</option>
+              <option value="beds-desc">Most bedrooms</option>
+              <option value="city">City</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="table-wrap">
+          <table class="table" id="unit-table">
+            <thead>
+              <tr>
+                <th scope="col">Address</th>
+                <th scope="col">City</th>
+                <th scope="col" class="num">Beds</th>
+                <th scope="col" class="num">Rent</th>
+                <th scope="col">Available</th>
+                <th scope="col">Manager</th>
+              </tr>
+            </thead>
+            <tbody id="unit-tbody"></tbody>
+          </table>
+        </div>
+        <button id="show-more" class="btn btn--wide" type="button" hidden>Show more</button>
+      </section>
+
+      <!-- ── Provenance ───────────────────────────────────────────────── -->
+      <section class="sources" aria-label="Sources">
+        <h2 class="card__title">Sources</h2>
+        <p class="card__sub" id="sources-sub"></p>
+        <div class="sources__grid" id="sources-grid"></div>
+        <details class="notes" id="gaps">
+          <summary>Managers we can't pull data from</summary>
+          <div id="gaps-body"></div>
+        </details>
+      </section>
+
+    </main>
+
+    <div class="loading" id="loading">Loading data…</div>
+    <div class="error" id="error" hidden></div>
+
+    <footer class="foot">
+      <p>Data refreshed daily from each manager's public listings. Rents and
+         availability change without notice — always confirm with the manager.</p>
+    </footer>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

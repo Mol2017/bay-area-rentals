@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "source": "eri_property_management",
+  "manager": "ERI Property Management",
+  "source_url": "https://www.erirentals.com/",
+  "scraped_at": "2026-07-22T01:54:01-07:00",
+  "unit_count": 2,
+  "units": [
+    {
+      "address": "1717 Blake St, D, Berkeley, CA",
+      "source": "eri_property_management",
+      "manager": "ERI Property Management",
+      "city": "Berkeley",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 2450.0,
+      "kind": "residential",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": null,
+      "title": null,
+      "url": "https://www.erirentals.com/unit.php?id=486",
+      "image": null,
+      "notes": null
+    },
+    {
+      "address": "1442 Alcatraz Ave, Berkeley, CA",
+      "source": "eri_property_management",
+      "manager": "ERI Property Management",
+      "city": "Berkeley",
+      "bedrooms": 3.0,
+      "available_date": null,
+      "rent": 3335.0,
+      "kind": "residential",
+      "available_now": true,
+      "bathrooms": 2.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": null,
+      "title": null,
+      "url": "https://www.erirentals.com/unit.php?id=569",
+      "image": null,
+      "notes": null
+    }
+  ]
+}

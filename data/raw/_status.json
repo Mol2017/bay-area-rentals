@@ -1,0 +1,300 @@
+{
+  "checked_at": "2026-07-22T01:54:22-07:00",
+  "sources_ok": 30,
+  "sources_failed": 0,
+  "total_units": 852,
+  "unscrapable": [
+    {
+      "slug": "hudson_mcdonald",
+      "manager": "Hudson McDonald Properties",
+      "note": "Publishes no unit-level inventory. Its Buildium public site is disabled (redirects to the tenant login) and the WordPress site has no listing post type -- only per-building marketing pages quoting 'from $X' floor-plan prices with no addresses, unit numbers or move-in dates."
+    },
+    {
+      "slug": "berkeley_group",
+      "manager": "The Berkeley Group",
+      "note": "Entrata ProspectPortal at properties.tbgpm.com behind a Cloudflare managed challenge. Scrapable only with a headless browser from a residential IP, which is not dependable from GitHub Actions runners. ~59 available student-housing floorplans across 21 Berkeley properties are visible when the challenge clears."
+    },
+    {
+      "slug": "vindium",
+      "manager": "Vindium Real Estate",
+      "note": "Yardi RentCafe behind two Cloudflare layers: the site itself serves a managed JS challenge, and rentcafe.com/securecafe.com hard-block datacenter IPs outright. No HTTP-only path exists."
+    },
+    {
+      "slug": "oxford_apartments",
+      "manager": "Oxford Property Management",
+      "note": "Single hand-authored Wix page listing one vacancy. Bedrooms and availability date are present but rent is deliberately withheld sitewide (zero dollar amounts in 776 KB of HTML) -- the CTA is a phone number, so price cannot be recovered."
+    }
+  ],
+  "sources": [
+    {
+      "slug": "academic_housing_rentals",
+      "manager": "Academic Housing Rentals",
+      "platform": "buildium",
+      "ok": true,
+      "units": 25,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "ap_management",
+      "manager": "AP Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 2,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "authentic_properties",
+      "manager": "Authentic Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 13,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "bay_cities_pm",
+      "manager": "Bay Cities Property Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 1,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "beacon_properties",
+      "manager": "Beacon Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 23,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "boardwalk",
+      "manager": "Boardwalk Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 2,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "boston_pm",
+      "manager": "Boston Property Management",
+      "platform": "boston_pm",
+      "ok": true,
+      "units": 33,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "california_pacific",
+      "manager": "California Pacific Realty",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 8,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "cedar_properties",
+      "manager": "Cedar Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 9,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "collabhome",
+      "manager": "CollabHome",
+      "platform": "buildium",
+      "ok": true,
+      "units": 7,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "domingo_properties",
+      "manager": "Domingo Properties",
+      "platform": "buildium",
+      "ok": true,
+      "units": 8,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "eri_property_management",
+      "manager": "ERI Property Management",
+      "platform": "eri",
+      "ok": true,
+      "units": 2,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "gpmsf",
+      "manager": "Gordon Property Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 2,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "hayes_management",
+      "manager": "Hayes Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 2,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "kasa_properties",
+      "manager": "Kasa Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 35,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "korman_and_ng",
+      "manager": "Korman & Ng Real Estate Services",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 7,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "mmg_properties",
+      "manager": "MMG Properties",
+      "platform": "mmg",
+      "ok": true,
+      "units": 38,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "mpm_oakland",
+      "manager": "MPM Oakland",
+      "platform": "buildium",
+      "ok": true,
+      "units": 36,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "myerhoff",
+      "manager": "Myerhoff & Associates",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 5,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "north_berkeley_properties",
+      "manager": "North Berkeley Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 4,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "panoramic_berkeley",
+      "manager": "Panoramic Berkeley",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 5,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "perkins_realty",
+      "manager": "Perkins Realty Partners",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 3,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "premium_properties",
+      "manager": "Premium Properties",
+      "platform": "showmojo",
+      "ok": true,
+      "units": 6,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "raj_properties",
+      "manager": "Raj Properties",
+      "platform": "buildium",
+      "ok": true,
+      "units": 55,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "relisto",
+      "manager": "ReListo",
+      "platform": "relisto",
+      "ok": true,
+      "units": 15,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "sg_real_estate",
+      "manager": "SG Real Estate Co.",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 164,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "square_one_management",
+      "manager": "Square One Management",
+      "platform": "buildium",
+      "ok": true,
+      "units": 6,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "structure_properties",
+      "manager": "Structure Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 36,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "tripalink",
+      "manager": "Tripalink",
+      "platform": "tripalink",
+      "ok": true,
+      "units": 271,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "two_b_living",
+      "manager": "2B Living",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 29,
+      "error": null,
+      "preserved": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "source": "ap_management",
+  "manager": "AP Management",
+  "source_url": "https://apmgmt.appfolio.com/listings",
+  "scraped_at": "2026-07-22T01:54:00-07:00",
+  "unit_count": 2,
+  "units": [
+    {
+      "address": "AP Management Rental Application - Roommate Change or Addition Only, Leasing Office - 2115 Kala Bagai Way, Berkeley, CA 94704",
+      "source": "ap_management",
+      "manager": "AP Management",
+      "city": "Berkeley",
+      "bedrooms": null,
+      "available_date": null,
+      "rent": null,
+      "kind": "application",
+      "available_now": true,
+      "bathrooms": null,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "Roommate Change or Addition Only - AP Management",
+      "url": "https://apmgmt.appfolio.com/listings/detail/9b33d9bf-814a-4935-b992-5cd5eae34124",
+      "image": null,
+      "notes": null
+    },
+    {
+      "address": "Rental Application, AP Management Office, Berkeley, CA 94704",
+      "source": "ap_management",
+      "manager": "AP Management",
+      "city": "Berkeley",
+      "bedrooms": null,
+      "available_date": null,
+      "rent": null,
+      "kind": "application",
+      "available_now": true,
+      "bathrooms": null,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "Rental Application",
+      "url": "https://apmgmt.appfolio.com/listings/detail/ce9e47d5-59f6-48ca-a993-858d47f71dbf",
+      "image": null,
+      "notes": null
+    }
+  ]
+}
