@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-07-22T01:54:22-07:00",
+  "checked_at": "2026-07-22T07:11:40-07:00",
   "sources_ok": 30,
   "sources_failed": 0,
   "total_units": 852,
@@ -132,7 +132,7 @@
       "ok": true,
       "units": 2,
       "error": null,
-      "preserved": false
+      "preserved": true
     },
     {
       "slug": "gpmsf",

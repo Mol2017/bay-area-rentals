@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T01:54:22-07:00",
+  "generated_at": "2026-07-22T07:11:40-07:00",
   "total_units": 833,
   "stale_after_hours": 48,
   "sources": [
@@ -9,7 +9,7 @@
       "site": "https://tripalink.com/berkeley/homes-for-rent",
       "platform": "tripalink",
       "unit_count": 271,
-      "scraped_at": "2026-07-22T01:54:22-07:00",
+      "scraped_at": "2026-07-22T07:11:29-07:00",
       "stale": false
     },
     {
@@ -18,7 +18,7 @@
       "site": "https://sgreresidential.com/",
       "platform": "appfolio",
       "unit_count": 160,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:09-07:00",
       "stale": false
     },
     {
@@ -27,7 +27,7 @@
       "site": "https://www.rajproperties.com/",
       "platform": "buildium",
       "unit_count": 55,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:08-07:00",
       "stale": false
     },
     {
@@ -36,7 +36,7 @@
       "site": "https://mmgprop.com/",
       "platform": "mmg",
       "unit_count": 38,
-      "scraped_at": "2026-07-22T01:54:03-07:00",
+      "scraped_at": "2026-07-22T07:11:09-07:00",
       "stale": false
     },
     {
@@ -45,7 +45,7 @@
       "site": "https://mpmoakland.managebuilding.com/",
       "platform": "buildium",
       "unit_count": 36,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:08-07:00",
       "stale": false
     },
     {
@@ -54,7 +54,7 @@
       "site": "https://structureproperties.com/",
       "platform": "appfolio",
       "unit_count": 34,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:08-07:00",
       "stale": false
     },
     {
@@ -63,7 +63,7 @@
       "site": "https://bostonpropertymanagementllc.com/",
       "platform": "boston_pm",
       "unit_count": 33,
-      "scraped_at": "2026-07-22T01:54:02-07:00",
+      "scraped_at": "2026-07-22T07:11:09-07:00",
       "stale": false
     },
     {
@@ -72,7 +72,7 @@
       "site": "https://www.kasaproperties.com/",
       "platform": "appfolio",
       "unit_count": 32,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -81,7 +81,7 @@
       "site": "https://www.twobliving.com/",
       "platform": "appfolio",
       "unit_count": 29,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:08-07:00",
       "stale": false
     },
     {
@@ -90,7 +90,7 @@
       "site": "https://www.academichousingrentals.com",
       "platform": "buildium",
       "unit_count": 25,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:08-07:00",
       "stale": false
     },
     {
@@ -99,7 +99,7 @@
       "site": "https://www.beacprop.com/",
       "platform": "appfolio",
       "unit_count": 22,
-      "scraped_at": "2026-07-22T01:54:00-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -108,7 +108,7 @@
       "site": "https://www.relisto.com/",
       "platform": "relisto",
       "unit_count": 15,
-      "scraped_at": "2026-07-22T01:54:17-07:00",
+      "scraped_at": "2026-07-22T07:11:40-07:00",
       "stale": false
     },
     {
@@ -117,7 +117,7 @@
       "site": "https://authenticre.com/",
       "platform": "appfolio",
       "unit_count": 13,
-      "scraped_at": "2026-07-22T01:54:00-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -126,7 +126,7 @@
       "site": "https://www.cedarproperties.com/",
       "platform": "appfolio",
       "unit_count": 8,
-      "scraped_at": "2026-07-22T01:54:00-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -135,7 +135,7 @@
       "site": "https://www.domingoprop.com/",
       "platform": "buildium",
       "unit_count": 8,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:08-07:00",
       "stale": false
     },
     {
@@ -144,7 +144,7 @@
       "site": "https://rentals.collabhome.io/",
       "platform": "buildium",
       "unit_count": 7,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:08-07:00",
       "stale": false
     },
     {
@@ -153,7 +153,7 @@
       "site": "https://www.kormanandngpm.com/",
       "platform": "appfolio",
       "unit_count": 7,
-      "scraped_at": "2026-07-22T01:54:00-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -162,7 +162,7 @@
       "site": "https://californiapacific.appfolio.com/listings",
       "platform": "appfolio",
       "unit_count": 6,
-      "scraped_at": "2026-07-22T01:54:00-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -171,7 +171,7 @@
       "site": "https://premiumpd.com/",
       "platform": "showmojo",
       "unit_count": 6,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:08-07:00",
       "stale": false
     },
     {
@@ -180,7 +180,7 @@
       "site": "https://squareonemanagement.com/",
       "platform": "buildium",
       "unit_count": 6,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:08-07:00",
       "stale": false
     },
     {
@@ -189,7 +189,7 @@
       "site": "https://www.bayapartmentbroker.com/",
       "platform": "appfolio",
       "unit_count": 5,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -198,7 +198,7 @@
       "site": "https://www.panoramicberkeley.com/",
       "platform": "appfolio",
       "unit_count": 5,
-      "scraped_at": "2026-07-22T01:54:00-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -207,7 +207,7 @@
       "site": "https://perkinsrealtypartners.com/",
       "platform": "appfolio",
       "unit_count": 3,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -216,7 +216,7 @@
       "site": "https://www.boardwalkrents.com/",
       "platform": "appfolio",
       "unit_count": 2,
-      "scraped_at": "2026-07-22T01:54:00-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -234,7 +234,7 @@
       "site": "https://gpmsf.com/",
       "platform": "appfolio",
       "unit_count": 2,
-      "scraped_at": "2026-07-22T01:54:00-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -243,7 +243,7 @@
       "site": "https://hayesm.com/available/",
       "platform": "appfolio",
       "unit_count": 2,
-      "scraped_at": "2026-07-22T01:54:00-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -252,7 +252,7 @@
       "site": "https://bcpm.com/",
       "platform": "appfolio",
       "unit_count": 1,
-      "scraped_at": "2026-07-22T01:54:00-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -261,7 +261,7 @@
       "site": "https://apmanage.net/",
       "platform": "appfolio",
       "unit_count": 0,
-      "scraped_at": "2026-07-22T01:54:00-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     },
     {
@@ -270,7 +270,7 @@
       "site": "https://www.northberkeleyproperties.com/",
       "platform": "appfolio",
       "unit_count": 0,
-      "scraped_at": "2026-07-22T01:54:01-07:00",
+      "scraped_at": "2026-07-22T07:11:07-07:00",
       "stale": false
     }
   ],
