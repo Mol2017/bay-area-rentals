@@ -3,7 +3,7 @@
   "source": "ap_management",
   "manager": "AP Management",
   "source_url": "https://apmgmt.appfolio.com/listings",
-  "scraped_at": "2026-07-22T01:54:00-07:00",
+  "scraped_at": "2026-07-22T16:03:21-07:00",
   "unit_count": 2,
   "units": [
     {
@@ -15,15 +15,20 @@
       "available_date": null,
       "rent": null,
       "kind": "application",
+      "unit_type": null,
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
       "available_now": true,
       "bathrooms": null,
       "square_feet": null,
       "state": "CA",
       "postal_code": "94704",
       "title": "Roommate Change or Addition Only - AP Management",
-      "url": "https://apmgmt.appfolio.com/listings/detail/9b33d9bf-814a-4935-b992-5cd5eae34124",
-      "image": null,
-      "notes": null
+      "url": "https://apmgmt.appfolio.com/listings/detail/9b33d9bf-814a-4935-b992-5cd5eae34124"
     },
     {
       "address": "Rental Application, AP Management Office, Berkeley, CA 94704",
@@ -34,15 +39,20 @@
       "available_date": null,
       "rent": null,
       "kind": "application",
+      "unit_type": null,
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
       "available_now": true,
       "bathrooms": null,
       "square_feet": null,
       "state": "CA",
       "postal_code": "94704",
       "title": "Rental Application",
-      "url": "https://apmgmt.appfolio.com/listings/detail/ce9e47d5-59f6-48ca-a993-858d47f71dbf",
-      "image": null,
-      "notes": null
+      "url": "https://apmgmt.appfolio.com/listings/detail/ce9e47d5-59f6-48ca-a993-858d47f71dbf"
     }
   ]
 }

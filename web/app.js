@@ -18,6 +18,7 @@
   var state = {
     all: [],
     meta: null,
+    managers: {},
     filtered: [],
     shown: PAGE_SIZE,
     filters: {
@@ -27,6 +28,11 @@
       maxRent: null,
       byDate: "",
       wholeOnly: false,
+      roomType: "",
+      pets: "",
+      furnished: "",
+      parking: "",
+      laundry: "",
       sort: "soonest"
     }
   };
@@ -43,13 +49,47 @@
   /* A per-room listing's bedroom count describes the floor plan it sits in,
      not what you rent -- labelling an $810 room in a 3-bedroom flat as
      "3 bd" (or a 0-bedroom SRO as "Studio") would misread as a whole
-     apartment. Rooms get their own label and cite the floor plan instead. */
+     apartment. Rooms get their own label and cite the floor plan instead.
+
+     Four states, not three: room_type may be null on a listing that IS a
+     room but whose source never said whether the bedroom is shared. That
+     renders as a bare "Room", never as a whole unit -- calling it "3 bd"
+     would republish a guess as a fact. */
+  function isWholeUnit(u) { return u.room_type === "entire_place"; }
+
   function bedLabel(u) {
     var v = u.bedrooms;
-    if (u.kind === "room") return v ? "Room in " + v + " bd" : "Room";
+    if (!isWholeUnit(u)) {
+      var what = u.room_type === "shared_room" ? "Shared room"
+               : u.room_type === "private_room" ? "Private room"
+               : "Room";
+      return v ? what + " in " + v + " bd" : what;
+    }
     if (v === null || v === undefined) return "—";
     if (v === 0) return "Studio";
     return v + " bd";
+  }
+
+  /* Amenity values are nullable and the null means "the source didn't say",
+     which is a different claim from the negative value. `parking: "none"` is
+     the listing stating there is no parking; null is silence. Rendering both
+     as "No parking" would invent information. */
+  var AMENITY_LABELS = {
+    pets: { allowed: "Pets OK", cats_only: "Cats OK", dogs_only: "Dogs OK", none: "No pets" },
+    furnished: { furnished: "Furnished", partial: "Part furnished", unfurnished: "Unfurnished" },
+    parking: { garage: "Garage", off_street: "Off-street parking", street: "Street parking", none: "No parking" },
+    laundry: { in_unit: "In-unit laundry", shared: "Shared laundry", hookups: "Laundry hookups", none: "No laundry" }
+  };
+
+  function amenityTags(u) {
+    var out = [];
+    ["laundry", "parking", "furnished", "pets"].forEach(function (f) {
+      var v = u[f];
+      if (v && AMENITY_LABELS[f][v]) {
+        out.push({ field: f, value: v, label: AMENITY_LABELS[f][v] });
+      }
+    });
+    return out;
   }
 
   function median(nums) {
@@ -106,7 +146,16 @@
     state.filtered = state.all.filter(function (u) {
       if (f.city && u.city !== f.city) return false;
       if (f.manager && u.manager !== f.manager) return false;
-      if (f.wholeOnly && u.kind !== "residential") return false;
+      if (f.wholeOnly && !isWholeUnit(u)) return false;
+      if (f.roomType && u.room_type !== f.roomType) return false;
+
+      // An amenity filter matches only listings that state the value. A
+      // listing the source was silent about is excluded rather than assumed
+      // either way -- the count shown is "known to have this", not "might".
+      if (f.pets && u.pets !== f.pets) return false;
+      if (f.furnished && u.furnished !== f.furnished) return false;
+      if (f.parking && u.parking !== f.parking) return false;
+      if (f.laundry && u.laundry !== f.laundry) return false;
 
       if (f.beds !== "") {
         // The "4+" bucket collapses everything at or above 4 bedrooms.
@@ -235,7 +284,7 @@
     //    co-living prices into a "3 bed" median would understate it badly.
     var byBed = {};
     units.forEach(function (u) {
-      if (u.kind !== "residential") return;
+      if (!isWholeUnit(u)) return;
       if (u.rent === null || u.rent === undefined) return;
       if (u.bedrooms === null || u.bedrooms === undefined) return;
       // Floor half-bedrooms into their integer bucket: a "1.5 bd" is a
@@ -298,10 +347,34 @@
       } else {
         wrap.appendChild(el("span", null, u.address));
       }
-      if (u.kind === "room") {
-        wrap.appendChild(el("span", "addr__note", u.notes || "Private room in a shared unit"));
-      } else if (u.notes) {
-        wrap.appendChild(el("span", "addr__note", u.notes));
+      if (u.summary) {
+        wrap.appendChild(el("p", "addr__summary", u.summary));
+      }
+      var tags = amenityTags(u);
+      if (tags.length) {
+        var tagRow = el("div", "amenities");
+        tags.forEach(function (t) {
+          tagRow.appendChild(
+            el("span", "amenity amenity--" + t.field +
+               (t.value === "none" ? " amenity--absent" : ""), t.label)
+          );
+        });
+        wrap.appendChild(tagRow);
+      }
+      var contact = state.managers[u.manager];
+      if (contact && (contact.phone || (contact.emails || []).length)) {
+        var c = el("div", "contact");
+        if (contact.phone) {
+          var tel = el("a", "contact__link", contact.phone);
+          tel.href = "tel:" + contact.phone.replace(/[^0-9]/g, "");
+          c.appendChild(tel);
+        }
+        (contact.emails || []).slice(0, 2).forEach(function (addr) {
+          var m = el("a", "contact__link", addr);
+          m.href = "mailto:" + addr;
+          c.appendChild(m);
+        });
+        wrap.appendChild(c);
       }
       tdAddr.appendChild(wrap);
       tr.appendChild(tdAddr);
@@ -309,7 +382,10 @@
       tr.appendChild(el("td", null, u.city || "—"));
 
       var tdBeds = el("td", "num");
-      tdBeds.appendChild(el("span", u.bedrooms === null && u.kind !== "room" ? "muted" : null, bedLabel(u)));
+      // Muted only when there is genuinely nothing to say. A room with no
+      // bedroom count still renders a real label ("Room"), so it is not
+      // greyed out the way an unknown whole-unit bed count is.
+      tdBeds.appendChild(el("span", u.bedrooms === null && isWholeUnit(u) ? "muted" : null, bedLabel(u)));
       tr.appendChild(tdBeds);
 
       var tdRent = el("td", "num");
@@ -350,7 +426,7 @@
     // rent chart is: per-room co-living prices would drag it down and make
     // the figure unrecognizable to someone shopping for an apartment.
     var rents = units
-      .filter(function (u) { return u.kind === "residential" && u.rent !== null && u.rent !== undefined; })
+      .filter(function (u) { return isWholeUnit(u) && u.rent !== null && u.rent !== undefined; })
       .map(function (u) { return u.rent; });
     var med = median(rents);
     $("stat-median").textContent = med === null ? "—" : money(med);
@@ -455,6 +531,37 @@
     $("f-rent-out").textContent = "Any";
   }
 
+  /* Populate the amenity selects from merge.py's facet counts. Options are
+     labelled with their count and the "unknown" bucket is skipped -- it is a
+     real state (the source was silent) but not something you can filter
+     *for*, and offering it would imply the dashboard knows more than it
+     does. The count is shown so an empty-looking filter is obviously empty
+     rather than broken. */
+  function populateAmenityFilters(facets) {
+    var SELECTS = {
+      "f-roomtype": { facet: "room_type", labels: {
+        entire_place: "Entire place", private_room: "Private room",
+        shared_room: "Shared room" } },
+      "f-pets": { facet: "pets", labels: AMENITY_LABELS.pets },
+      "f-furnished": { facet: "furnished", labels: AMENITY_LABELS.furnished },
+      "f-parking": { facet: "parking", labels: AMENITY_LABELS.parking },
+      "f-laundry": { facet: "laundry", labels: AMENITY_LABELS.laundry }
+    };
+    Object.keys(SELECTS).forEach(function (id) {
+      var node = $(id);
+      if (!node) return;
+      var spec = SELECTS[id];
+      (facets[spec.facet] || []).forEach(function (row) {
+        if (row.name === "unknown" || !spec.labels[row.name]) return;
+        var opt = document.createElement("option");
+        opt.value = row.name;
+        opt.textContent = spec.labels[row.name] + " (" + row.count + ")";
+        node.appendChild(opt);
+      });
+      node.disabled = node.options.length <= 1;
+    });
+  }
+
   function wireControls() {
     function rerender() {
       applyFilters();
@@ -482,6 +589,17 @@
       state.filters.sort = e.target.value; sortFiltered(); renderTable();
     });
 
+    // Amenity selects are populated from the facet counts merge.py computes,
+    // so an option never appears unless something actually matches it.
+    ["roomType", "pets", "furnished", "parking", "laundry"].forEach(function (key) {
+      var id = "f-" + key.toLowerCase();
+      var node = $(id);
+      if (!node) return;
+      node.addEventListener("change", function (e) {
+        state.filters[key] = e.target.value; rerender();
+      });
+    });
+
     var rent = $("f-rent");
     rent.addEventListener("input", function (e) {
       var v = Number(e.target.value);
@@ -494,10 +612,14 @@
     $("f-reset").addEventListener("click", function () {
       state.filters = {
         city: "", beds: "", manager: "", maxRent: null,
-        byDate: "", wholeOnly: false, sort: state.filters.sort
+        byDate: "", wholeOnly: false, roomType: "", pets: "",
+        furnished: "", parking: "", laundry: "", sort: state.filters.sort
       };
       $("f-city").value = ""; $("f-beds").value = ""; $("f-manager").value = "";
       $("f-date").value = ""; $("f-whole").checked = false;
+      ["roomtype", "pets", "furnished", "parking", "laundry"].forEach(function (id) {
+        var n = $("f-" + id); if (n) n.value = "";
+      });
       rent.value = rent.max; $("f-rent-out").textContent = "Any";
       rerender();
     });
@@ -537,6 +659,8 @@
     .then(function (data) {
       state.meta = data;
       state.all = data.units || [];
+      state.managers = data.managers || {};
+      populateAmenityFilters(data.facets || {});
 
       $("subtitle").textContent = subtitle(data);
       populateControls();

@@ -3,7 +3,7 @@
   "source": "bay_cities_pm",
   "manager": "Bay Cities Property Management",
   "source_url": "https://baycitiespm.appfolio.com/listings",
-  "scraped_at": "2026-07-22T01:54:00-07:00",
+  "scraped_at": "2026-07-22T16:03:21-07:00",
   "unit_count": 1,
   "units": [
     {
@@ -15,15 +15,20 @@
       "available_date": null,
       "rent": 7200.0,
       "kind": "residential",
-      "available_now": false,
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": "garage",
+      "laundry": null,
+      "summary": "Five-bedroom, two-bathroom house in Berkeley designed by Walter Ratcliff in the 1920s, featuring a deck with bay views and two fireplaces.",
+      "available_now": true,
       "bathrooms": 2.0,
       "square_feet": null,
       "state": "CA",
       "postal_code": null,
       "title": "Gorgeous Berkeley Home",
-      "url": "https://baycitiespm.appfolio.com/listings/detail/c5166602-d4f1-45c0-ae44-c14a72660db7",
-      "image": null,
-      "notes": null
+      "url": "https://baycitiespm.appfolio.com/listings/detail/c5166602-d4f1-45c0-ae44-c14a72660db7"
     }
   ]
 }

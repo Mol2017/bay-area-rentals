@@ -3,7 +3,7 @@
   "source": "north_berkeley_properties",
   "manager": "North Berkeley Properties",
   "source_url": "https://northberkeleyproperties.appfolio.com/listings",
-  "scraped_at": "2026-07-22T01:54:01-07:00",
+  "scraped_at": "2026-07-22T16:03:22-07:00",
   "unit_count": 4,
   "units": [
     {
@@ -15,15 +15,20 @@
       "available_date": null,
       "rent": null,
       "kind": "application",
+      "unit_type": null,
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
       "available_now": false,
       "bathrooms": null,
       "square_feet": null,
       "state": "CA",
       "postal_code": "94704",
       "title": "Rental Application",
-      "url": "https://northberkeleyproperties.appfolio.com/listings/detail/b33bb48b-30e7-4f28-b9e7-46f97be8bcb2",
-      "image": null,
-      "notes": null
+      "url": "https://northberkeleyproperties.appfolio.com/listings/detail/b33bb48b-30e7-4f28-b9e7-46f97be8bcb2"
     },
     {
       "address": "North Berkeley Properties - Rental Application - Returning Resident, Berkeley, CA",
@@ -34,15 +39,20 @@
       "available_date": null,
       "rent": null,
       "kind": "application",
+      "unit_type": null,
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
       "available_now": false,
       "bathrooms": null,
       "square_feet": null,
       "state": "CA",
       "postal_code": null,
       "title": null,
-      "url": "https://northberkeleyproperties.appfolio.com/listings/detail/e59eb194-b495-4583-bcfb-580db992d3f0",
-      "image": null,
-      "notes": null
+      "url": "https://northberkeleyproperties.appfolio.com/listings/detail/e59eb194-b495-4583-bcfb-580db992d3f0"
     },
     {
       "address": "North Berkeley Properties - Rental Application - Roommate Substitution | Roommate Addition, Leasing Office: 2115 Kala Bagai Way, Berkeley, CA 94704",
@@ -53,15 +63,20 @@
       "available_date": null,
       "rent": null,
       "kind": "application",
+      "unit_type": null,
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
       "available_now": true,
       "bathrooms": null,
       "square_feet": null,
       "state": "CA",
       "postal_code": "94704",
       "title": "Roommate Change or Addition Only",
-      "url": "https://northberkeleyproperties.appfolio.com/listings/detail/037f623a-cd42-4bf7-ac3f-3ec3ecb92442",
-      "image": null,
-      "notes": null
+      "url": "https://northberkeleyproperties.appfolio.com/listings/detail/037f623a-cd42-4bf7-ac3f-3ec3ecb92442"
     },
     {
       "address": "North Berkeley Properties - Rental Application - Sublet Application, Berkeley, CA",
@@ -72,15 +87,20 @@
       "available_date": null,
       "rent": null,
       "kind": "application",
+      "unit_type": null,
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
       "available_now": false,
       "bathrooms": null,
       "square_feet": null,
       "state": "CA",
       "postal_code": null,
       "title": "Sublet Application",
-      "url": "https://northberkeleyproperties.appfolio.com/listings/detail/ad264ea3-e634-44cc-81ba-d885ea870d16",
-      "image": null,
-      "notes": null
+      "url": "https://northberkeleyproperties.appfolio.com/listings/detail/ad264ea3-e634-44cc-81ba-d885ea870d16"
     }
   ]
 }

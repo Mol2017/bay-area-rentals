@@ -3,7 +3,7 @@
   "source": "perkins_realty",
   "manager": "Perkins Realty Partners",
   "source_url": "https://perkins.appfolio.com/listings",
-  "scraped_at": "2026-07-22T01:54:01-07:00",
+  "scraped_at": "2026-07-22T16:03:22-07:00",
   "unit_count": 3,
   "units": [
     {
@@ -15,15 +15,20 @@
       "available_date": null,
       "rent": 3700.0,
       "kind": "residential",
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": "allowed",
+      "furnished": null,
+      "parking": "garage",
+      "laundry": "in_unit",
+      "summary": "End unit townhouse with 3 bedrooms, 2.5 bathrooms, and 1,314 sq ft near Kennedy Park. Two-car garage, in-unit washer/dryer, and backyard facing golf course.",
       "available_now": true,
       "bathrooms": 2.5,
       "square_feet": 1314,
       "state": "CA",
       "postal_code": "94541",
       "title": "Beautiful End Unit Townhouse",
-      "url": "https://perkins.appfolio.com/listings/detail/ab744d63-5280-48f5-8088-c535c32316ab",
-      "image": null,
-      "notes": null
+      "url": "https://perkins.appfolio.com/listings/detail/ab744d63-5280-48f5-8088-c535c32316ab"
     },
     {
       "address": "554 Lorren Way, Livermore, CA 94550",
@@ -34,15 +39,20 @@
       "available_date": null,
       "rent": 4200.0,
       "kind": "residential",
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": "allowed",
+      "furnished": null,
+      "parking": null,
+      "laundry": "in_unit",
+      "summary": "Remodeled 4-bedroom, 3-bathroom house in Livermore with granite counters, hardwood floors, pellet stove, and in-unit washer/dryer.",
       "available_now": false,
       "bathrooms": 3.0,
       "square_feet": 1779,
       "state": "CA",
       "postal_code": "94550",
       "title": "Lovely Remodeled Home in Sunset West Livermore",
-      "url": "https://perkins.appfolio.com/listings/detail/bc0cfbd5-e46c-45d5-a48a-73bfa173fa11",
-      "image": null,
-      "notes": null
+      "url": "https://perkins.appfolio.com/listings/detail/bc0cfbd5-e46c-45d5-a48a-73bfa173fa11"
     },
     {
       "address": "609 Poinsettia Ave, San Mateo, CA 94403",
@@ -53,15 +63,20 @@
       "available_date": null,
       "rent": 7500.0,
       "kind": "residential",
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": "allowed",
+      "furnished": "furnished",
+      "parking": "garage",
+      "laundry": "in_unit",
+      "summary": "Large 4-bedroom, 3-bathroom updated home in San Mateo with 2,640 sq ft, including family room, bonus room, and backyard with deck and fruit trees.",
       "available_now": true,
       "bathrooms": 3.0,
       "square_feet": 2640,
       "state": "CA",
       "postal_code": "94403",
       "title": "Large updated home in San Mateo Village!",
-      "url": "https://perkins.appfolio.com/listings/detail/1362f1dd-0413-4fc8-b3f5-c3641bef8e2c",
-      "image": null,
-      "notes": null
+      "url": "https://perkins.appfolio.com/listings/detail/1362f1dd-0413-4fc8-b3f5-c3641bef8e2c"
     }
   ]
 }
