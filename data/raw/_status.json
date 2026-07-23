@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-07-22T20:26:50-07:00",
-  "sources_ok": 48,
+  "checked_at": "2026-07-22T20:38:54-07:00",
+  "sources_ok": 51,
   "sources_failed": 0,
   "total_units": 1577,
   "unscrapable": [
@@ -23,6 +23,41 @@
       "slug": "oxford_apartments",
       "manager": "Oxford Property Management",
       "note": "Single hand-authored Wix page listing one vacancy. Bedrooms and availability date are present but rent is deliberately withheld sitewide (zero dollar amounts in 776 KB of HTML) -- the CTA is a phone number, so price cannot be recovered."
+    },
+    {
+      "slug": "gb_management",
+      "manager": "GB Management",
+      "note": "AppFolio Websites JS widget; listing data loads from a runtime API absent from the server HTML."
+    },
+    {
+      "slug": "gaetani",
+      "manager": "Gaetani Real Estate",
+      "note": "AppFolio Websites JS widget (same as gb_management)."
+    },
+    {
+      "slug": "maisel",
+      "manager": "Maisel Property Management",
+      "note": "AppFolio Websites JS widget (same as gb_management)."
+    },
+    {
+      "slug": "seven_cameron",
+      "manager": "7 Cameron Apartments",
+      "note": "RentCafe (Yardi); 403 to any non-browser client."
+    },
+    {
+      "slug": "chroma_apartments",
+      "manager": "Chroma Apartments",
+      "note": "RentCafe (Yardi); 403 to any non-browser client."
+    },
+    {
+      "slug": "rentsfnow",
+      "manager": "RentSFNow / Veritas Investments",
+      "note": "RentCafe (Yardi); 403 to any non-browser client."
+    },
+    {
+      "slug": "cl_boston",
+      "manager": "CL Boston Property Management",
+      "note": "Rentvine single-page app; listings render client-side, nothing in the server HTML."
     }
   ],
   "sources": [
@@ -198,6 +233,15 @@
       "preserved": false
     },
     {
+      "slug": "cw_management",
+      "manager": "CW Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 0,
+      "error": null,
+      "preserved": false
+    },
+    {
       "slug": "domingo_properties",
       "manager": "Domingo Properties",
       "platform": "buildium",
@@ -234,6 +278,15 @@
       "preserved": false
     },
     {
+      "slug": "hawthorne_pmg",
+      "manager": "Hawthorne Property Management Group",
+      "platform": "buildium",
+      "ok": true,
+      "units": 0,
+      "error": null,
+      "preserved": false
+    },
+    {
       "slug": "hayes_management",
       "manager": "Hayes Management",
       "platform": "appfolio",
@@ -248,6 +301,15 @@
       "platform": "appfolio",
       "ok": true,
       "units": 36,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "keyopp",
+      "manager": "KeyOpp Property Management",
+      "platform": "buildium",
+      "ok": true,
+      "units": 0,
       "error": null,
       "preserved": false
     },
