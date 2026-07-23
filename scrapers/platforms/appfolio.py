@@ -26,6 +26,7 @@ from __future__ import annotations
 import re
 
 from base import (
+    KIND_ROOM,
     Unit,
     classify_listing,
     clean_text,
@@ -38,6 +39,7 @@ from base import (
     parse_square_feet,
     polite_get,
 )
+from enrich import room_type_from_unit_specs
 
 PLATFORM = "appfolio"
 
@@ -122,6 +124,15 @@ def parse_listings(html: str, *, source: str, manager: str, base_url: str) -> li
         if bedrooms is None:
             bedrooms = infer_bedrooms_from_title(title)
 
+        # AppFolio states both facts in one element -- "Shared Room in 1 bd /
+        # 1 ba" is a shared bedroom inside a 1-bedroom floor plan. Free and
+        # unambiguous when the prefix is present; 2 of the 7 current cases
+        # render as a bare "Room in ..." with no private/shared word, and
+        # those correctly fall through to the enrichment pass.
+        room_type, _ = room_type_from_unit_specs(bedbath_text)
+
+        kind = classify_listing(address, title, bedrooms)
+
         href_m = _DETAIL_HREF_RE.search(block)
         img_m = _IMAGE_RE.search(block)
 
@@ -133,7 +144,8 @@ def parse_listings(html: str, *, source: str, manager: str, base_url: str) -> li
                 city=city,
                 state=state or "CA",
                 postal_code=postal,
-                kind=classify_listing(address, title, bedrooms),
+                kind=kind,
+                room_type=room_type,
                 bedrooms=bedrooms,
                 bathrooms=parse_bathrooms(bedbath_text),
                 rent=parse_rent(rent_text),
@@ -142,7 +154,6 @@ def parse_listings(html: str, *, source: str, manager: str, base_url: str) -> li
                 square_feet=parse_square_feet(sqft_text),
                 title=title,
                 url=f"{base_url.rstrip('/')}{href_m.group(1)}" if href_m else base_url,
-                image=img_m.group(1) if img_m else None,
             )
         )
 

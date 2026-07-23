@@ -41,6 +41,7 @@ from base import (
     parse_square_feet,
     polite_get,
 )
+from enrich import pets_from_policy, room_type_from_occupancy
 
 PLATFORM = "tripalink"
 
@@ -92,6 +93,12 @@ def _units_from_property(prop: dict, *, source: str, manager: str) -> list[Unit]
     prop_id = prop.get("id")
     url = f"{BASE}/apartments/bay-area/berkeley/{prop_id}" if prop_id else LISTING_PAGE
 
+    # Property-level policy, already in this payload -- no extra request and
+    # no model needed. Covers 259 of the dataset's 306 room listings, which
+    # is why the enrichment pass barely touches Tripalink.
+    lease_policy = prop.get("leasePolicy")
+    pets, _ = pets_from_policy(lease_policy)
+
     out: list[Unit] = []
     for u in prop.get("availableUnits") or []:
         beds = parse_bedrooms(u.get("floorPlanBedroomNum"))
@@ -119,11 +126,12 @@ def _units_from_property(prop: dict, *, source: str, manager: str) -> list[Unit]
         kind = KIND_ROOM if per_room else classify_listing(
             full_address, u.get("unitType"), beds
         )
-        note = (
-            f"Private room in a shared {int(beds)}-bedroom apartment; "
-            "rent shown is per room"
-            if per_room
-            else None
+        # Only a 1-tenant cap resolves this for free. A 2-tenant cap leaves
+        # open whether the second person is your partner or a stranger the
+        # operator matched you with, so it stays None for the enrichment
+        # pass to attempt -- see enrich.room_type_from_occupancy.
+        room_type, _ = room_type_from_occupancy(
+            lease_policy, is_room=(kind == KIND_ROOM)
         )
 
         out.append(
@@ -134,6 +142,8 @@ def _units_from_property(prop: dict, *, source: str, manager: str) -> list[Unit]
                 city=city,
                 state="CA",
                 kind=kind,
+                room_type=room_type,
+                pets=pets,
                 bedrooms=beds,
                 bathrooms=parse_bathrooms(u.get("floorPlanBathroomNum")),
                 rent=rent,
@@ -142,8 +152,6 @@ def _units_from_property(prop: dict, *, source: str, manager: str) -> list[Unit]
                 square_feet=parse_square_feet(u.get("totalArea")),
                 title=prop.get("name"),
                 url=url,
-                image=prop.get("coverImage") or prop.get("image"),
-                notes=note,
             )
         )
     return out

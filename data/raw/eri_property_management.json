@@ -3,7 +3,7 @@
   "source": "eri_property_management",
   "manager": "ERI Property Management",
   "source_url": "https://www.erirentals.com/",
-  "scraped_at": "2026-07-22T01:54:01-07:00",
+  "scraped_at": "2026-07-22T16:03:22-07:00",
   "unit_count": 2,
   "units": [
     {
@@ -15,15 +15,20 @@
       "available_date": null,
       "rent": 2450.0,
       "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": "none",
+      "furnished": null,
+      "parking": "off_street",
+      "laundry": "shared",
+      "summary": "2-bedroom, 1-bathroom apartment in Berkeley near Ashby BART. Off-street parking and on-site coin-op laundry. No pets allowed.",
       "available_now": true,
       "bathrooms": 1.0,
       "square_feet": null,
       "state": "CA",
       "postal_code": null,
       "title": null,
-      "url": "https://www.erirentals.com/unit.php?id=486",
-      "image": null,
-      "notes": null
+      "url": "https://www.erirentals.com/unit.php?id=486"
     },
     {
       "address": "1442 Alcatraz Ave, Berkeley, CA",
@@ -34,15 +39,20 @@
       "available_date": null,
       "rent": 3335.0,
       "kind": "residential",
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": "street",
+      "laundry": "in_unit",
+      "summary": "Beautifully renovated 3-bedroom, 2-bathroom duplex (lower unit) in South Berkeley with hardwood floors, stainless steel appliances, in-unit washer/dryer, and fenced yard.",
       "available_now": true,
       "bathrooms": 2.0,
       "square_feet": null,
       "state": "CA",
       "postal_code": null,
       "title": null,
-      "url": "https://www.erirentals.com/unit.php?id=569",
-      "image": null,
-      "notes": null
+      "url": "https://www.erirentals.com/unit.php?id=569"
     }
   ]
 }

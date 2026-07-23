@@ -155,7 +155,6 @@ def parse_listings(html: str, *, source: str, manager: str, base_url: str) -> li
                 ),
                 title=title,
                 url=f"{base_url.rstrip('/')}{href_m.group(1)}" if href_m else base_url,
-                image=img,
             )
         )
 

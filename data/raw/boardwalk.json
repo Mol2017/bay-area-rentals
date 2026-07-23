@@ -3,7 +3,7 @@
   "source": "boardwalk",
   "manager": "Boardwalk Properties",
   "source_url": "https://boardwalkinvestments.appfolio.com/listings",
-  "scraped_at": "2026-07-22T07:11:07-07:00",
+  "scraped_at": "2026-07-22T16:03:21-07:00",
   "unit_count": 2,
   "units": [
     {
@@ -15,15 +15,20 @@
       "available_date": null,
       "rent": 3775.0,
       "kind": "residential",
-      "available_now": false,
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": "none",
+      "furnished": null,
+      "parking": "street",
+      "laundry": "hookups",
+      "summary": "Remodeled 3-bedroom, 1.5-bathroom flat in the Inner Mission District with Victorian details, newly remodeled kitchen and bath, hardwood and tile flooring, and 11-foot ceilings. Street parking only; washer and dryer hookups in attached utility room.",
+      "available_now": true,
       "bathrooms": 1.5,
       "square_feet": null,
       "state": "CA",
       "postal_code": "94110",
       "title": "1ST TWO WEEKS FREE! Remodeled 3-bd/1.5-ba Flat in the Inner Mission District",
-      "url": "https://boardwalkinvestments.appfolio.com/listings/detail/abcc56c6-6991-4b24-bd50-453a2c6018a9",
-      "image": null,
-      "notes": null
+      "url": "https://boardwalkinvestments.appfolio.com/listings/detail/abcc56c6-6991-4b24-bd50-453a2c6018a9"
     },
     {
       "address": "426 Fell St. , San Francisco, CA 94102",
@@ -34,15 +39,20 @@
       "available_date": null,
       "rent": 3995.0,
       "kind": "residential",
+      "unit_type": "3plus_bedroom",
+      "room_type": "private_room",
+      "pets": "allowed",
+      "furnished": null,
+      "parking": "garage",
+      "laundry": "in_unit",
+      "summary": "One bedroom available to rent in a shared 3-bedroom Hayes Valley apartment; rent is $1,450/month for the room only.",
       "available_now": true,
       "bathrooms": 1.0,
       "square_feet": 1200,
       "state": "CA",
       "postal_code": "94102",
       "title": "Single Room for Rent in a Bright 3-bed/1-bath Apt in Hayes Valley with Parking!",
-      "url": "https://boardwalkinvestments.appfolio.com/listings/detail/655ff292-265f-497f-a9d0-32d999dceb55",
-      "image": null,
-      "notes": null
+      "url": "https://boardwalkinvestments.appfolio.com/listings/detail/655ff292-265f-497f-a9d0-32d999dceb55"
     }
   ]
 }

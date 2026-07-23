@@ -3,7 +3,7 @@
   "source": "myerhoff",
   "manager": "Myerhoff & Associates",
   "source_url": "https://myerhoff.appfolio.com/listings",
-  "scraped_at": "2026-07-22T07:11:07-07:00",
+  "scraped_at": "2026-07-22T16:03:22-07:00",
   "unit_count": 5,
   "units": [
     {
@@ -15,15 +15,20 @@
       "available_date": null,
       "rent": 1825.0,
       "kind": "residential",
+      "unit_type": "studio",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": "street",
+      "laundry": "shared",
+      "summary": "Studio cottage with private entrance and patio, one block from UC Berkeley campus. 205 sq ft with remodeled kitchen and bathroom.",
       "available_now": true,
       "bathrooms": 1.0,
       "square_feet": 205,
       "state": "CA",
       "postal_code": "94704",
       "title": "Private Cozy Cottage Studio w/Patio 1 block to Campus!",
-      "url": "https://myerhoff.appfolio.com/listings/detail/896c496a-282a-4241-8593-883c3a747af0",
-      "image": null,
-      "notes": null
+      "url": "https://myerhoff.appfolio.com/listings/detail/896c496a-282a-4241-8593-883c3a747af0"
     },
     {
       "address": "2539 Durant - 07, Berkeley, CA 94704",
@@ -34,15 +39,20 @@
       "available_date": "2026-08-01",
       "rent": 1895.0,
       "kind": "residential",
+      "unit_type": "studio",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": "street",
+      "laundry": "shared",
+      "summary": "Studio apartment 1 block from UC Berkeley campus with air conditioning, hardwood floors, and walk-in closet. Street parking only; on-site laundry available.",
       "available_now": false,
       "bathrooms": 1.0,
       "square_feet": 344,
       "state": "CA",
       "postal_code": "94704",
       "title": "Studio 1 block to Cal Campus w/AC!",
-      "url": "https://myerhoff.appfolio.com/listings/detail/db84e26d-4c2d-4e57-ac7b-39c4977cbbe1",
-      "image": null,
-      "notes": null
+      "url": "https://myerhoff.appfolio.com/listings/detail/db84e26d-4c2d-4e57-ac7b-39c4977cbbe1"
     },
     {
       "address": "2539 Durant - 17, Berkeley, CA 94704",
@@ -53,15 +63,20 @@
       "available_date": null,
       "rent": 1895.0,
       "kind": "residential",
+      "unit_type": "studio",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": "street",
+      "laundry": "shared",
+      "summary": "Private studio cottage one block from UC Berkeley campus with remodeled kitchen and bathroom, private entrance and patio. Street parking only; best for those without a car.",
       "available_now": true,
       "bathrooms": 1.0,
       "square_feet": 344,
       "state": "CA",
       "postal_code": "94704",
       "title": "Private Cozy Cottage Studio w/Porch 1 block to Campus!",
-      "url": "https://myerhoff.appfolio.com/listings/detail/90d7ba25-a754-45c9-8f27-e9ae9e117087",
-      "image": null,
-      "notes": null
+      "url": "https://myerhoff.appfolio.com/listings/detail/90d7ba25-a754-45c9-8f27-e9ae9e117087"
     },
     {
       "address": "25013 - 25021 Cypress Ave - 25013 Apt 5, Hayward, CA 94554",
@@ -72,15 +87,20 @@
       "available_date": null,
       "rent": 2050.0,
       "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": "none",
+      "furnished": null,
+      "parking": "garage",
+      "laundry": "shared",
+      "summary": "Fully remodeled 1-bedroom, 1-bathroom apartment in Hayward with private garage parking and on-site laundry. Available now.",
       "available_now": true,
       "bathrooms": 1.0,
       "square_feet": 600,
       "state": "CA",
       "postal_code": "94554",
       "title": "Beautiful Fully Remodeled 1bd w/Balcony & Garage Parking!",
-      "url": "https://myerhoff.appfolio.com/listings/detail/af9ab074-cc81-4a53-9922-9713378f6445",
-      "image": null,
-      "notes": null
+      "url": "https://myerhoff.appfolio.com/listings/detail/af9ab074-cc81-4a53-9922-9713378f6445"
     },
     {
       "address": "1502 Jackson St - 106, Oakland 94612",
@@ -91,15 +111,20 @@
       "available_date": null,
       "rent": 1695.0,
       "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": "none",
+      "furnished": null,
+      "parking": "street",
+      "laundry": "shared",
+      "summary": "Corner 1-bedroom basement unit with 550 sq ft in downtown Oakland, 2 blocks from Lake Merritt. No parking available; street parking only.",
       "available_now": true,
       "bathrooms": 1.0,
       "square_feet": 550,
       "state": "CA",
       "postal_code": null,
       "title": "Close to the Lake! Corner 1 bedroom in Sunny Oakland",
-      "url": "https://myerhoff.appfolio.com/listings/detail/f09d4959-b93f-451d-8090-3d82a83ed114",
-      "image": null,
-      "notes": null
+      "url": "https://myerhoff.appfolio.com/listings/detail/f09d4959-b93f-451d-8090-3d82a83ed114"
     }
   ]
 }

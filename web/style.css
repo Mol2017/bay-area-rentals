@@ -439,7 +439,6 @@ body {
 .table a:hover { text-decoration: underline; }
 
 .addr { display: flex; flex-direction: column; gap: 2px; }
-.addr__note { font-size: 11.5px; color: var(--text-muted); }
 
 .tag {
   display: inline-block;
@@ -522,4 +521,70 @@ body {
   .hbar__row { grid-template-columns: 78px 1fr auto; }
   .stat__value { font-size: 23px; }
   .field__control { min-width: 120px; }
+}
+
+/* ── enrichment: summary, amenity tags, contact ─────────────────────────
+   All three hang off the address cell. Amenity values are nullable and a
+   null is rendered as nothing at all -- absence of a tag means the source
+   was silent, which is why "No parking" (an explicit statement) gets its own
+   muted treatment rather than being omitted alongside the unknowns.
+   Colours come from the same ink tokens as the rest of the table; no series
+   colour is used for text, so contrast holds in both themes. */
+
+.addr__summary {
+  margin: 4px 0 0;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+  max-width: 52ch;
+}
+
+.amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 5px;
+}
+
+.amenity {
+  font-size: 10.5px;
+  line-height: 1;
+  padding: 3px 6px;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+/* An explicit negative ("No pets") is a fact worth showing, but it should
+   not read as loudly as an amenity the unit has. */
+.amenity--absent {
+  color: var(--text-muted);
+  border-style: dashed;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.contact__link {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+
+.contact__link:hover,
+.contact__link:focus-visible {
+  color: var(--text-primary);
+}
+
+/* A disabled amenity select means merge.py found no listing stating that
+   field -- surface it as unavailable rather than an empty dropdown. */
+.field__control:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

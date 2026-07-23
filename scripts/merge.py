@@ -34,6 +34,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = REPO_ROOT / "data" / "raw"
 OUT = REPO_ROOT / "data" / "merged.json"
+CONTACTS_PATH = REPO_ROOT / "data" / "contacts.json"
 
 sys.path.insert(0, str(REPO_ROOT / "scrapers"))
 
@@ -129,19 +130,57 @@ def main() -> int:
         )
     )
 
+    # Last-resort default. Applied here rather than in the adapters so that
+    # anything better -- a structured field, the enrichment pass -- has
+    # already had its say. A whole listing that nothing contradicted is a
+    # whole unit; a room that nothing resolved stays None.
+    for u in all_units:
+        if u.get("room_type") is None and u.get("kind") == "residential":
+            u["room_type"] = "entire_place"
+
+    # `kind` has done its job by this point -- it gated the exclusions above.
+    # It is dropped from the published payload because room_type carries the
+    # part a renter cares about, and two overlapping classifications on the
+    # same record invite the frontend to disagree with itself. The raw files
+    # keep it as the audit trail for why a listing was excluded.
+    for u in all_units:
+        u.pop("kind", None)
+
     city_counts: dict[str, int] = {}
     bed_counts: dict[float | None, int] = {}
-    kind_counts: dict[str, int] = {}
     rents: list[float] = []
+    # Amenity facets. None is counted under "unknown" rather than dropped:
+    # a filter that silently omits listings the source was quiet about would
+    # make the dashboard look emptier than the market is.
+    facet_counts: dict[str, dict[str, int]] = {
+        f: {} for f in ("room_type", "unit_type", "pets", "furnished",
+                        "parking", "laundry")
+    }
     for u in all_units:
-        kind_counts[u.get("kind", "residential")] = (
-            kind_counts.get(u.get("kind", "residential"), 0) + 1
-        )
+        for field, counts in facet_counts.items():
+            key = u.get(field) or "unknown"
+            counts[key] = counts.get(key, 0) + 1
         if u.get("city"):
             city_counts[u["city"]] = city_counts.get(u["city"], 0) + 1
         bed_counts[u.get("bedrooms")] = bed_counts.get(u.get("bedrooms"), 0) + 1
         if u.get("rent") is not None:
             rents.append(u["rent"])
+
+    # Leasing contacts are manager-level -- the same office number appears on
+    # every one of a manager's listings, so it is stored once here and joined
+    # on `manager` by the frontend rather than copied onto 833 records.
+    contacts: dict[str, dict] = {}
+    if CONTACTS_PATH.exists():
+        try:
+            for slug, info in json.loads(CONTACTS_PATH.read_text()).items():
+                if info.get("manager"):
+                    contacts[info["manager"]] = {
+                        "phone": info.get("phone"),
+                        "emails": info.get("emails") or [],
+                        "source_url": info.get("source_url"),
+                    }
+        except json.JSONDecodeError as e:
+            print(f"skip contacts.json: {e}", file=sys.stderr)
 
     payload = {
         "generated_at": now.isoformat(timespec="seconds"),
@@ -164,11 +203,15 @@ def main() -> int:
                 "min": min(rents) if rents else None,
                 "max": max(rents) if rents else None,
             },
-            "kinds": sorted(
-                ({"name": k, "count": n} for k, n in kind_counts.items()),
-                key=lambda x: -x["count"],
-            ),
+            **{
+                field: sorted(
+                    ({"name": k, "count": n} for k, n in counts.items()),
+                    key=lambda x: (x["name"] == "unknown", -x["count"]),
+                )
+                for field, counts in facet_counts.items()
+            },
         },
+        "managers": contacts,
         # Non-livable listings dropped from the dashboard, reported so the
         # count is auditable rather than a silent filter.
         "excluded": dict(sorted(excluded_kinds.items())),
@@ -181,6 +224,11 @@ def main() -> int:
         f"wrote {OUT.relative_to(REPO_ROOT)}: {len(all_units)} units "
         f"from {len(sources_meta)} sources across {len(city_counts)} cities"
     )
+    if contacts:
+        with_phone = sum(1 for c in contacts.values() if c.get("phone"))
+        with_email = sum(1 for c in contacts.values() if c.get("emails"))
+        print(f"  contacts: {len(contacts)} managers "
+              f"({with_phone} with phone, {with_email} with email)")
     if excluded_kinds:
         detail = ", ".join(f"{k}={n}" for k, n in sorted(excluded_kinds.items()))
         print(f"  excluded {sum(excluded_kinds.values())} non-residential listings ({detail})")

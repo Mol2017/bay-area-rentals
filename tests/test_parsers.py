@@ -282,3 +282,195 @@ def test_clean_text(html, expected):
 
 if __name__ == "__main__":
     raise SystemExit(pytest.main([__file__, "-q"]))
+
+
+# ── Enrichment: structured-field readers ─────────────────────────────────
+#
+# Only the free, structured tier is tested here. The prose-regex tier was
+# deleted -- it produced every extraction bug found while building this, and
+# saved nothing, since each detail page is fetched for its summary anyway.
+# The knowledge it encoded now lives in the prompt in scrapers/llm.py.
+
+import enrich as _enrich
+from schema import derive_unit_type as _derive
+
+
+def _policy(catalog, *entries):
+    return [{"catalogName": catalog, "type": list(entries)}]
+
+
+@pytest.mark.parametrize("bedrooms,expected", [
+    (None, None), (0.0, "studio"), (1.0, "1_bedroom"), (1.5, "1_bedroom"),
+    (2.0, "2_bedroom"), (2.5, "2_bedroom"), (3.0, "3plus_bedroom"),
+    (7.0, "3plus_bedroom"),
+])
+def test_derive_unit_type(bedrooms, expected):
+    assert _derive(bedrooms) == expected
+
+
+def test_occupancy_cap_of_one_is_private():
+    """A cap of 1 forecloses sharing -- nobody else can be placed in the room."""
+    value, evidence = _enrich.room_type_from_occupancy(
+        _policy("Occupancy Policy", "1 tenant max per room"), is_room=True
+    )
+    assert value == "private_room"
+    assert evidence == "1 tenant max per room"
+
+
+@pytest.mark.parametrize("entry", ["2 tenants max per room", "3 tenants max per room"])
+def test_occupancy_cap_above_one_is_undetermined(entry):
+    """A higher cap is ambiguous and must not be resolved from this field.
+
+    It says how many people the room holds, not whether the second is the
+    renter's partner (private) or a stranger the operator matched them with
+    (shared). Both readings were implemented at some point and both were
+    wrong; the model also answers this one confidently and wrongly. The only
+    correct value from this field alone is "don't know".
+    """
+    value, _ = _enrich.room_type_from_occupancy(
+        _policy("Occupancy Policy", entry), is_room=True
+    )
+    assert value is None
+
+
+def test_occupancy_ignored_for_whole_units():
+    """On a whole apartment the same policy is about headcount, not sharing."""
+    value, _ = _enrich.room_type_from_occupancy(
+        _policy("Occupancy Policy", "2 tenants max per room"), is_room=False
+    )
+    assert value is None
+
+
+@pytest.mark.parametrize("entries,expected", [
+    (("No Pets",), "none"),
+    (("Cats Allowed", "Dogs Allowed"), "allowed"),
+    (("Cats Allowed",), "cats_only"),
+    (("Dogs Allowed",), "dogs_only"),
+    ((), None),
+])
+def test_pets_from_policy(entries, expected):
+    assert _enrich.pets_from_policy(_policy("Pet Policy", *entries))[0] == expected
+
+
+def test_pets_policy_ignores_other_catalogs():
+    assert _enrich.pets_from_policy(
+        _policy("Application Policy", "Background Check")
+    )[0] is None
+
+
+@pytest.mark.parametrize("specs,expected", [
+    ("Private Room in 3 bd / 2 ba", "private_room"),
+    ("Shared Room in 1 bd / 1 ba", "shared_room"),
+    ("Room in Studio / 1 ba", None),      # unlabelled -> escalate, don't guess
+    ("2 bd / 1 ba", None),
+    (None, None),
+])
+def test_room_type_from_unit_specs(specs, expected):
+    assert _enrich.room_type_from_unit_specs(specs)[0] == expected
+
+
+def test_contact_ignores_analytics_addresses():
+    """A page-wide sweep pulled a real address out of a Snowplow comment."""
+    markup = """
+      <script>window.snowplow('setUserId', 'erica@sgrealestateco.com');</script>
+      <!-- webmaster@example.com -->
+      <a href="mailto:leasing@realco.com">Contact</a>
+      <p>Call (510) 401-1803</p>
+    """
+    got = _enrich.extract_contact(markup)
+    assert got["phone"] == "(510) 401-1803"
+    assert got["emails"] == ["leasing@realco.com"]
+
+
+def test_enrichment_merge_prefers_structured():
+    structured = _enrich.Enrichment(room_type="private_room", method="structured",
+                                    evidence={"room_type": "1 tenant max per room"})
+    model = _enrich.Enrichment(room_type="shared_room", pets="none", method="llm")
+    merged = structured.merge(model)
+    assert merged.room_type == "private_room"   # structured wins
+    assert merged.pets == "none"                # model fills the gap
+    assert merged.method == "structured+llm"
+
+
+# ── Cross-check: parser vs. detail page ──────────────────────────────────
+#
+# Two readers of the same facts from different sources. A disagreement is
+# recorded, never auto-resolved -- the failure mode this catches is a
+# confidently wrong value that nothing contradicts.
+
+def _unit(**over):
+    base = {"address": "1 A St, Berkeley, CA 94704", "bedrooms": 2.0,
+            "bathrooms": 1.0, "rent": 999.0, "square_feet": 890,
+            "available_date": "2026-08-10", "available_now": False,
+            "city": "Berkeley", "kind": "residential"}
+    base.update(over)
+    return base
+
+
+def _page(**over):
+    base = {"describes_one_unit": True, "bedrooms": 2.0, "bathrooms": 1.0,
+            "rent": 999.0, "square_feet": 890, "available_date": "2026-08-10",
+            "available_now": False, "city": "Berkeley",
+            "listing_kind": "residential"}
+    base.update(over)
+    return base
+
+
+def test_crosscheck_agreement_is_silent():
+    assert _enrich.compare_observed(_unit(), _page()) == []
+
+
+@pytest.mark.parametrize("field,page_value", [
+    ("bedrooms", 0.0),
+    ("rent", 1450.0),
+    ("city", "Oakland"),
+    ("available_date", "2026-09-01"),
+])
+def test_crosscheck_flags_disagreement(field, page_value):
+    found = _enrich.compare_observed(_unit(), _page(**{field: page_value}))
+    assert [c["field"] for c in found] == [field]
+    assert found[0]["type"] == "conflict"
+
+
+def test_crosscheck_flags_kind_disagreement():
+    """`kind` is the judgment layer and the largest source of defects."""
+    found = _enrich.compare_observed(_unit(), _page(listing_kind="room"))
+    assert found[0] == {"field": "kind", "parser": "residential",
+                        "page": "room", "type": "conflict"}
+
+
+def test_crosscheck_multi_unit_page_compares_nothing():
+    """A building page cannot confirm any single unit's rent or bedrooms."""
+    wild = _page(describes_one_unit=False, bedrooms=9.0, rent=1.0,
+                 city="Nowhere", listing_kind="parking")
+    assert _enrich.compare_observed(_unit(), wild) == []
+
+
+def test_crosscheck_tolerates_rounded_square_feet():
+    """"About 900 sq ft" vs 890 is not a defect worth a reviewer's time."""
+    assert _enrich.compare_observed(_unit(square_feet=890),
+                                    _page(square_feet=900)) == []
+
+
+def test_crosscheck_flags_real_square_feet_gap():
+    found = _enrich.compare_observed(_unit(square_feet=890), _page(square_feet=1400))
+    assert [c["field"] for c in found] == ["square_feet"]
+
+
+def test_crosscheck_city_case_insensitive():
+    assert _enrich.compare_observed(_unit(city="San Francisco"),
+                                    _page(city="san francisco")) == []
+
+
+def test_crosscheck_reports_what_the_parser_missed():
+    """A value the page states and the parser never captured is not an error."""
+    found = _enrich.compare_observed(_unit(square_feet=None), _page(square_feet=900))
+    assert found[0]["type"] == "parser_missing"
+    assert found[0]["page"] == 900
+
+
+def test_crosscheck_silent_page_is_not_a_conflict():
+    """The page saying nothing is not disagreement."""
+    silent = _page(bedrooms=None, rent=None, square_feet=None,
+                   available_date=None, city=None, listing_kind="unknown")
+    assert _enrich.compare_observed(_unit(), silent) == []

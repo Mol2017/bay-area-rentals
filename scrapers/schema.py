@@ -48,6 +48,77 @@ MIN_RENT = 100.0
 MAX_RENT = 100_000.0
 MAX_BEDROOMS = 20.0
 
+# ── Controlled vocabularies ───────────────────────────────────────────────
+# Every one of these is nullable. None means "the source didn't say", which
+# is a different and more honest claim than the negative value: `parking:
+# None` means unknown, `parking: "none"` means the listing states there is no
+# parking. The UI must not render the two the same way.
+
+UNIT_TYPE_STUDIO = "studio"
+UNIT_TYPES = {UNIT_TYPE_STUDIO, "1_bedroom", "2_bedroom", "3plus_bedroom"}
+
+# What you actually rent, as distinct from the floor plan it sits in. A
+# private room in a 3-bedroom flat is (private_room, 3plus_bedroom).
+#
+# Nullable, and the null carries meaning. Read together with ``kind`` there
+# are four states, not three:
+#
+#   room_type=entire_place   a whole unit
+#   room_type=private_room   your own bedroom in a shared unit
+#   room_type=shared_room    you share the bedroom itself
+#   room_type=None           not yet determined
+#
+# **Adapters must never write `entire_place`.** It reads as a determination
+# but was only ever the schema default, and a non-null default silently
+# outranks a later, better answer: when `classify_listing` missed a room, the
+# defaulted `entire_place` blocked the enrichment pass from correcting it and
+# 113 units -- 110 of them per-bed listings priced $950-$1,200 -- were
+# published as whole apartments. The default is now applied last, in
+# merge.py, only to units nothing else could resolve.
+#
+# The None state is also load-bearing in its own right: an operator running
+# roommate matching with a 2-tenant cap has not said whether the second
+# tenant is your partner or a stranger, and no parsing recovers it.
+ROOM_TYPE_ENTIRE = "entire_place"
+ROOM_TYPES = {ROOM_TYPE_ENTIRE, "private_room", "shared_room"}
+
+PETS_VALUES = {"allowed", "cats_only", "dogs_only", "none"}
+FURNISHED_VALUES = {"furnished", "partial", "unfurnished"}
+PARKING_VALUES = {"garage", "off_street", "street", "none"}
+LAUNDRY_VALUES = {"in_unit", "shared", "hookups", "none"}
+
+# Fields the enrichment pass may write onto a unit. `unit_type` is absent on
+# purpose -- it is derived from `bedrooms` and must never be set externally.
+ENRICHED_ASSIGNABLE = ("room_type", "pets", "furnished", "parking", "laundry")
+
+_ENUM_FIELDS = {
+    "unit_type": UNIT_TYPES,
+    "room_type": ROOM_TYPES,
+    "pets": PETS_VALUES,
+    "furnished": FURNISHED_VALUES,
+    "parking": PARKING_VALUES,
+    "laundry": LAUNDRY_VALUES,
+}
+
+
+def derive_unit_type(bedrooms: float | None) -> str | None:
+    """Bucket a bedroom count into the coarse ``unit_type`` label.
+
+    Half-bedrooms floor into their integer bucket -- a "1.5 bd" is a
+    one-bedroom-plus-den, and giving it its own bucket produced a
+    single-listing column in the rent chart whose median read as a real
+    market rate. Returns None for an unknown bedroom count rather than
+    guessing; `studio` is a claim the listing has to actually make.
+    """
+    if bedrooms is None:
+        return None
+    if bedrooms == 0:
+        return UNIT_TYPE_STUDIO
+    n = int(bedrooms)  # floors 1.5 -> 1, 2.5 -> 2
+    if n >= 3:
+        return "3plus_bedroom"
+    return f"{n}_bedroom"
+
 
 class SchemaError(ValueError):
     """Raised when a Unit or ScrapeResult fails validation."""
@@ -85,6 +156,26 @@ class Unit:
     # base.classify_listing.
     kind: str = "residential"
 
+    # What you rent, vs. the floor plan it sits in. ``unit_type`` is derived
+    # from ``bedrooms`` in __post_init__ so no adapter has to set it and the
+    # two can never disagree. ``room_type`` stays None until something
+    # establishes it -- see the vocabulary note above.
+    unit_type: str | None = None
+    room_type: str | None = None
+
+    # Amenities. Stated inconsistently by every source ("Fully-Furnished
+    # By-The-Bed Unit", "On-site laundry facilities", "Cats allowed"), so
+    # these are populated by scrapers/enrich.py rather than by the adapters.
+    pets: str | None = None
+    furnished: str | None = None
+    parking: str | None = None
+    laundry: str | None = None
+
+    # Human-readable blurb generated from the listing's own detail page.
+    # Distinct from ``notes``, which carries machine-generated provenance
+    # ("rent shown is per room") that must survive independently.
+    summary: str | None = None
+
     # Context
     available_now: bool = False
     bathrooms: float | None = None
@@ -93,8 +184,25 @@ class Unit:
     postal_code: str | None = None
     title: str | None = None
     url: str | None = None
-    image: str | None = None
-    notes: str | None = None
+
+    def __post_init__(self) -> None:
+        # Derived, never supplied. Recomputed on every construction so a
+        # bedroom count corrected by a later parse can't leave a stale label.
+        self.unit_type = derive_unit_type(self.bedrooms)
+
+        # Defaulted here rather than on the field, so that every adapter gets
+        # it right without knowing about it. A whole unit is `entire_place`;
+        # a room whose adapter said nothing stays None, meaning "this is a
+        # room and nobody has established whether the bedroom is shared".
+        # Defaulting rooms to `entire_place` would publish a per-room price
+        # under a whole-apartment label -- the exact failure `kind` exists to
+        # prevent. Adapters that do know (AppFolio's "Shared Room in 1 bd",
+        # Tripalink's 1-tenant cap) pass a value and it is kept.
+        # Deliberately NOT defaulting room_type here. Applying it at
+        # construction makes a schema default indistinguishable from a
+        # determination, and a non-null default silently outranks the
+        # enrichment pass that would have corrected it. merge.py applies it
+        # last, once nothing better is available.
 
     def validate(self) -> None:
         if not self.address or not self.address.strip():
@@ -131,6 +239,26 @@ class Unit:
 
         if self.square_feet is not None and self.square_feet <= 0:
             raise SchemaError(f"[{self.source}] {self.address!r} square_feet must be positive")
+
+        # Controlled vocabularies. A typo'd enum ("in-unit" for "in_unit")
+        # would silently disappear from every facet count rather than error,
+        # so it is worth failing the unit outright.
+        for name, allowed in _ENUM_FIELDS.items():
+            value = getattr(self, name)
+            if value is not None and value not in allowed:
+                raise SchemaError(
+                    f"[{self.source}] {self.address!r} {name}={value!r} is not one of "
+                    f"{sorted(allowed)}"
+                )
+
+        # room_type may be None -- see the vocabulary note above. What is not
+        # allowed is claiming a whole unit while `kind` says it is a room,
+        # which would hide a per-room price behind an apartment label.
+        if self.kind == "room" and self.room_type == ROOM_TYPE_ENTIRE:
+            raise SchemaError(
+                f"[{self.source}] {self.address!r} is classified as a room but "
+                f"room_type={ROOM_TYPE_ENTIRE!r}; use None when sharing is undetermined"
+            )
 
     @property
     def dedupe_key(self) -> tuple:

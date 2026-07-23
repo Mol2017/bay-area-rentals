@@ -142,7 +142,6 @@ def parse_listings(html: str, *, source: str, manager: str) -> list[Unit]:
                 square_feet=parse_square_feet(clean_text(area_m.group(1))) if area_m else None,
                 title=title,
                 url=href_m.group(1) if href_m else LISTING_URL,
-                notes="Move-in date not published by this source",
             )
         )
 
