@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-07-22T20:22:12-07:00",
-  "sources_ok": 1,
+  "checked_at": "2026-07-22T20:26:50-07:00",
+  "sources_ok": 48,
   "sources_failed": 0,
-  "total_units": 300,
+  "total_units": 1577,
   "unscrapable": [
     {
       "slug": "hudson_mcdonald",
@@ -27,11 +27,434 @@
   ],
   "sources": [
     {
+      "slug": "academic_housing_rentals",
+      "manager": "Academic Housing Rentals",
+      "platform": "buildium",
+      "ok": true,
+      "units": 25,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "advent_properties",
+      "manager": "Advent Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 12,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "all_east_bay",
+      "manager": "All East Bay Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 14,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "ap_management",
+      "manager": "AP Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 2,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "authentic_properties",
+      "manager": "Authentic Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 12,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "bancal_pm",
+      "manager": "BanCal Property Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 4,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "bay_cities_pm",
+      "manager": "Bay Cities Property Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 1,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "bay_property_group",
+      "manager": "Bay Property Group",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 23,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "beacon_properties",
+      "manager": "Beacon Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 23,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "boardwalk",
+      "manager": "Boardwalk Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 1,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "boston_luxury",
+      "manager": "Boston Luxury Real Estate",
+      "platform": "buildium",
+      "ok": true,
+      "units": 5,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "boston_pm",
+      "manager": "Boston Property Management",
+      "platform": "boston_pm",
+      "ok": true,
+      "units": 33,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "boston_property_care",
+      "manager": "Boston Property Care",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 17,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "california_pacific",
+      "manager": "California Pacific Realty",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 8,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "cambridge_management_group",
+      "manager": "Cambridge Management Group",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 17,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "cedar_properties",
+      "manager": "Cedar Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 8,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "chandler_properties",
+      "manager": "Chandler Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 2,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "collabhome",
+      "manager": "CollabHome",
+      "platform": "buildium",
+      "ok": true,
+      "units": 7,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "community_realty",
+      "manager": "Community Realty Property Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 54,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "domingo_properties",
+      "manager": "Domingo Properties",
+      "platform": "buildium",
+      "ok": true,
+      "units": 8,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "eri_property_management",
+      "manager": "ERI Property Management",
+      "platform": "eri",
+      "ok": true,
+      "units": 2,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "golden_gate_pm",
+      "manager": "Golden State Property Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 10,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "gpmsf",
+      "manager": "Gordon Property Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 2,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "hayes_management",
+      "manager": "Hayes Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 2,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "kasa_properties",
+      "manager": "Kasa Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 36,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "korman_and_ng",
+      "manager": "Korman & Ng Real Estate Services",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 7,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "ks_company",
+      "manager": "K&S Company",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 79,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "lapham_company",
+      "manager": "Lapham Company",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 58,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "mmg_properties",
+      "manager": "MMG Properties",
+      "platform": "mmg",
+      "ok": true,
+      "units": 38,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "mpm_oakland",
+      "manager": "MPM Oakland",
+      "platform": "buildium",
+      "ok": true,
+      "units": 36,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "myerhoff",
+      "manager": "Myerhoff & Associates",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 5,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "north_berkeley_properties",
+      "manager": "North Berkeley Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 4,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "panoramic_berkeley",
+      "manager": "Panoramic Berkeley",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 5,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "perkins_realty",
+      "manager": "Perkins Realty Partners",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 3,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "premium_properties",
+      "manager": "Premium Properties",
+      "platform": "showmojo",
+      "ok": true,
+      "units": 6,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "professional_pm",
+      "manager": "Professional Property Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 16,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "raj_properties",
+      "manager": "Raj Properties",
+      "platform": "buildium",
+      "ok": true,
+      "units": 53,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "relisto",
+      "manager": "ReListo",
+      "platform": "relisto",
+      "ok": true,
+      "units": 15,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "selborne_properties",
+      "manager": "Selborne Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 19,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "sg_real_estate",
+      "manager": "SG Real Estate Co.",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 164,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "square_one_management",
+      "manager": "Square One Management",
+      "platform": "buildium",
+      "ok": true,
+      "units": 6,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "structure_boston",
+      "manager": "Structure Boston",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 75,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "structure_properties",
+      "manager": "Structure Properties",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 40,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "t_lee_development",
+      "manager": "T. Lee Development",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 2,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "tripalink",
+      "manager": "Tripalink",
+      "platform": "tripalink",
+      "ok": true,
+      "units": 271,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "two_b_living",
+      "manager": "2B Living",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 29,
+      "error": null,
+      "preserved": false
+    },
+    {
       "slug": "utopia_management",
       "manager": "Utopia Management",
       "platform": "appfolio",
       "ok": true,
       "units": 300,
+      "error": null,
+      "preserved": false
+    },
+    {
+      "slug": "west_coast_pm",
+      "manager": "West Coast Property Management",
+      "platform": "appfolio",
+      "ok": true,
+      "units": 18,
       "error": null,
       "preserved": false
     }
