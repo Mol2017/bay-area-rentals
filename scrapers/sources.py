@@ -126,6 +126,11 @@ SOURCES: list[Source] = [
            "https://tleedevelopment.appfolio.com/", "appfolio", "tleedevelopment"),
     Source("west_coast_pm", "West Coast Property Management",
            "https://wcpm.com/", "appfolio", "wcpm"),
+    # Valid AppFolio account with no current vacancies (its /listings renders
+    # "no available listings"); registered so the daily job picks up its
+    # inventory when it lists.
+    Source("cw_management", "CW Management",
+           "https://www.cwmgmtinc.com/", "appfolio", "cwmgmt"),
 
     # ── Buildium ──────────────────────────────────────────────────────────
     Source("academic_housing_rentals", "Academic Housing Rentals",
@@ -143,6 +148,12 @@ SOURCES: list[Source] = [
            "https://squareonemanagement.com/", "buildium", "som"),
     Source("boston_luxury", "Boston Luxury Real Estate",
            "https://bostonluxury.managebuilding.com/", "buildium", "bostonluxury"),
+    # Valid Buildium accounts with no current vacancies ("no results" on the
+    # public rentals page); registered so they populate when they list.
+    Source("hawthorne_pmg", "Hawthorne Property Management Group",
+           "https://hawthornepmg.managebuilding.com/", "buildium", "hawthornepmg"),
+    Source("keyopp", "KeyOpp Property Management",
+           "https://keyopp.net/", "buildium", "keyopp"),
 
     # ── Own platform / bespoke ────────────────────────────────────────────
     Source("tripalink", "Tripalink",
@@ -185,6 +196,36 @@ SOURCES: list[Source] = [
                 "and availability date are present but rent is deliberately "
                 "withheld sitewide (zero dollar amounts in 776 KB of HTML) -- "
                 "the CTA is a phone number, so price cannot be recovered."),
+    # AppFolio Websites (the hosted-site product, not the classic portal):
+    # the page ships an `appfolio-listings` div and a base64 widget bundle
+    # that fetches unit data from a runtime API at render time. The server
+    # HTML and the ?format=json config both contain zero addresses or rents,
+    # so there is no HTTP-only path -- only a headless browser would see the
+    # listings. Their AppFolio *account* subdomain is not exposed either.
+    Source("gb_management", "GB Management", "https://www.gbmboston.com/", "none",
+           note="AppFolio Websites JS widget; listing data loads from a "
+                "runtime API absent from the server HTML."),
+    Source("gaetani", "Gaetani Real Estate",
+           "https://www.gaetanirealestate.com/", "none",
+           note="AppFolio Websites JS widget (same as gb_management)."),
+    Source("maisel", "Maisel Property Management",
+           "https://www.maiselpropertymanagement.com/", "none",
+           note="AppFolio Websites JS widget (same as gb_management)."),
+    # RentCafe / Yardi: the community pages hard-block non-browser requests
+    # with HTTP 403, same wall as vindium above.
+    Source("seven_cameron", "7 Cameron Apartments",
+           "https://www.rentcafe.com/apartments/ma/cambridge/7-cameron/default.aspx",
+           "none", note="RentCafe (Yardi); 403 to any non-browser client."),
+    Source("chroma_apartments", "Chroma Apartments",
+           "https://www.rentcafe.com/apartments/ma/cambridge/chroma/default.aspx",
+           "none", note="RentCafe (Yardi); 403 to any non-browser client."),
+    Source("rentsfnow", "RentSFNow / Veritas Investments",
+           "https://www.rentsfnow.com/", "none",
+           note="RentCafe (Yardi); 403 to any non-browser client."),
+    Source("cl_boston", "CL Boston Property Management",
+           "https://www.clbostonpropertymanagement.com/", "none",
+           note="Rentvine single-page app; listings render client-side, "
+                "nothing in the server HTML."),
 ]
 
 
