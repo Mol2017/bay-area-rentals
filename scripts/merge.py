@@ -39,6 +39,7 @@ CONTACTS_PATH = REPO_ROOT / "data" / "contacts.json"
 sys.path.insert(0, str(REPO_ROOT / "scrapers"))
 
 from base import LIVABLE_KINDS  # noqa: E402
+from regions import in_covered_metro
 from schema import PACIFIC, _normalize_address  # noqa: E402
 from sources import by_slug  # noqa: E402
 
@@ -67,6 +68,7 @@ def main() -> int:
     sources_meta: list[dict] = []
     seen: set[tuple] = set()
     excluded_kinds: dict[str, int] = {}
+    out_of_area: dict[str, int] = {}
 
     for path in sorted(RAW_DIR.glob("*.json")):
         if path.name.startswith("_"):  # _status.json and friends
@@ -96,6 +98,15 @@ def main() -> int:
             # traceability but never reach the dashboard.
             if u.get("kind", "residential") not in LIVABLE_KINDS:
                 excluded_kinds[u.get("kind")] = excluded_kinds.get(u.get("kind"), 0) + 1
+                continue
+            # Keep only the covered metros (Bay Area + Boston/Cambridge). A
+            # national operator's out-of-market listings are dropped here
+            # rather than by excluding the whole manager -- see regions.py.
+            if not in_covered_metro(u.get("city"), u.get("state")):
+                city = u.get("city") or "(unknown)"
+                out_of_area[f"{city}, {u.get('state')}"] = (
+                    out_of_area.get(f"{city}, {u.get('state')}", 0) + 1
+                )
                 continue
             key = (
                 _normalize_address(u.get("address", "")),
@@ -232,6 +243,12 @@ def main() -> int:
     if excluded_kinds:
         detail = ", ".join(f"{k}={n}" for k, n in sorted(excluded_kinds.items()))
         print(f"  excluded {sum(excluded_kinds.values())} non-residential listings ({detail})")
+    if out_of_area:
+        total = sum(out_of_area.values())
+        top = ", ".join(f"{c}={n}" for c, n in
+                        sorted(out_of_area.items(), key=lambda kv: -kv[1])[:8])
+        print(f"  dropped {total} out-of-metro listings across "
+              f"{len(out_of_area)} cities ({top})")
     return 0
 
 

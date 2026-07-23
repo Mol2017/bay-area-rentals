@@ -5,13 +5,33 @@
     ],
     "manager": "Academic Housing Rentals",
     "phone": "(510) 761-9599",
-    "source_url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/111308"
+    "source_url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/146040"
+  },
+  "advent_properties": {
+    "emails": [
+      "team@adventpropertiesinc.com"
+    ],
+    "manager": "Advent Properties",
+    "phone": "(510) 993-4600",
+    "source_url": "https://adventproperties.appfolio.com/listings/detail/049f54c6-4fc5-4065-af5c-745252e1fcf1"
+  },
+  "all_east_bay": {
+    "emails": [],
+    "manager": "All East Bay Properties",
+    "phone": "(510) 756-2248",
+    "source_url": "https://alleastbayproperties.appfolio.com/listings/detail/1fcf70a7-d79a-47fa-9f87-c33dc4202b80"
   },
   "authentic_properties": {
     "emails": [],
     "manager": "Authentic Properties",
-    "phone": "(510) 332-7320",
-    "source_url": "https://authenticrealestate.appfolio.com/listings/detail/164327ce-251e-4c88-92c4-43ef7f15945d"
+    "phone": "(510) 542-9565",
+    "source_url": "https://authenticrealestate.appfolio.com/listings/detail/5f34d031-2d50-41a7-a45d-f0c112f2f2d4"
+  },
+  "bancal_pm": {
+    "emails": [],
+    "manager": "BanCal Property Management",
+    "phone": "(510) 424-7567",
+    "source_url": "https://bancalsf.appfolio.com/listings/detail/1b6edcc1-1053-4fc4-bf14-f6751c972bdf"
   },
   "bay_cities_pm": {
     "emails": [],
@@ -19,11 +39,17 @@
     "phone": "(510) 715-0528",
     "source_url": "https://baycitiespm.appfolio.com/listings/detail/c5166602-d4f1-45c0-ae44-c14a72660db7"
   },
+  "bay_property_group": {
+    "emails": [],
+    "manager": "Bay Property Group",
+    "phone": "(415) 649-7685",
+    "source_url": "https://baypropertygroup.appfolio.com/listings/detail/63078cb9-8c3b-4913-b404-6f9e6f85d488"
+  },
   "beacon_properties": {
     "emails": [],
     "manager": "Beacon Properties",
-    "phone": "(510) 428-1864",
-    "source_url": "https://beaconprop.appfolio.com/listings/detail/004233a7-d3c6-40b6-8fa7-e7277197ce07"
+    "phone": "(510) 961-3757",
+    "source_url": "https://beaconprop.appfolio.com/listings/detail/bfbe8133-674e-41f2-968b-523b75171a8d"
   },
   "boardwalk": {
     "emails": [
@@ -33,23 +59,49 @@
     "phone": "(650) 355-5556",
     "source_url": "https://boardwalkinvestments.appfolio.com/listings/detail/abcc56c6-6991-4b24-bd50-453a2c6018a9"
   },
+  "boston_luxury": {
+    "emails": [],
+    "manager": "Boston Luxury Real Estate",
+    "phone": null,
+    "source_url": "https://bostonluxury.managebuilding.com/Resident/public/rentals/319551"
+  },
   "boston_pm": {
     "emails": [],
     "manager": "Boston Property Management",
     "phone": "(617) 282-1400",
-    "source_url": "https://bostonpropertymanagementllc.com/resident_listings/10-merrymount-106-quincy/"
+    "source_url": "https://bostonpropertymanagementllc.com/resident_listings/20-pond-208a-braintree/"
+  },
+  "boston_property_care": {
+    "emails": [],
+    "manager": "Boston Property Care",
+    "phone": "(617) 648-9804",
+    "source_url": "https://bostonpropertycare.appfolio.com/listings/detail/a834ad21-9789-45b2-9592-40dffd0db21e"
   },
   "california_pacific": {
     "emails": [],
     "manager": "California Pacific Realty",
-    "phone": "(510) 468-0565",
-    "source_url": "https://californiapacific.appfolio.com/listings/detail/0495f1b1-c7b5-416e-8550-74aa1037b2b4"
+    "phone": "(510) 757-1265",
+    "source_url": "https://californiapacific.appfolio.com/listings/detail/1b03abf4-d76c-4272-b030-3653400d9cf6"
+  },
+  "cambridge_management_group": {
+    "emails": [],
+    "manager": "Cambridge Management Group",
+    "phone": "(619) 536-0523",
+    "source_url": "https://cambridgemgi.appfolio.com/listings/detail/9d0e83ef-58ee-4571-bc1a-faeff9d8a761"
   },
   "cedar_properties": {
     "emails": [],
     "manager": "Cedar Properties",
     "phone": "(510) 925-7500",
-    "source_url": "https://cedarpm.appfolio.com/listings/detail/01f91f7f-8278-4575-b338-f38a4691a08e"
+    "source_url": "https://cedarpm.appfolio.com/listings/detail/6ed2516f-47b9-45bb-a25a-53f1ea8ac4ea"
+  },
+  "chandler_properties": {
+    "emails": [
+      "leasing@chandlerproperties.com"
+    ],
+    "manager": "Chandler Properties",
+    "phone": "(415) 921-9960",
+    "source_url": "https://chandlerproperties.appfolio.com/listings/detail/d15f2291-b017-4d67-bdf0-303c9892b883"
   },
   "collabhome": {
     "emails": [
@@ -57,15 +109,22 @@
     ],
     "manager": "CollabHome",
     "phone": "(341) 202-5530",
-    "source_url": "https://collab.managebuilding.com/Resident/public/rentals/18211"
+    "source_url": "https://collab.managebuilding.com/Resident/public/rentals/56097"
+  },
+  "community_realty": {
+    "emails": [],
+    "manager": "Community Realty Property Management",
+    "phone": "(510) 530-1005",
+    "source_url": "https://communityrealtypm.appfolio.com/listings/detail/089a86dc-2fff-48fb-a798-de30fa8b0c94"
   },
   "domingo_properties": {
     "emails": [
+      "venkata@domingoprop.com",
       "info@domingoprop.com"
     ],
     "manager": "Domingo Properties",
-    "phone": "(510) 993-6411",
-    "source_url": "https://domingoprop.managebuilding.com/Resident/public/rentals/10512"
+    "phone": "(408) 604-0879",
+    "source_url": "https://domingoprop.managebuilding.com/Resident/public/rentals/1375"
   },
   "eri_property_management": {
     "emails": [
@@ -76,13 +135,19 @@
     "phone": "(510) 883-7070",
     "source_url": "https://www.erirentals.com/unit.php?id=486"
   },
+  "golden_gate_pm": {
+    "emails": [],
+    "manager": "Golden State Property Management",
+    "phone": "(408) 477-2635",
+    "source_url": "https://goldenstate.appfolio.com/listings/detail/d9eb0e92-58dd-48aa-bf15-f6ee045a54c1"
+  },
   "gpmsf": {
     "emails": [
       "gpmleasing@gpmsf.com"
     ],
     "manager": "Gordon Property Management",
     "phone": "(415) 554-8812",
-    "source_url": "https://gordon.appfolio.com/listings/detail/890595ae-f7f8-40ae-8d64-8c6f8392ffa4"
+    "source_url": "https://gordon.appfolio.com/listings/detail/b95fe834-cb2b-48f8-9f50-1113eb947980"
   },
   "hayes_management": {
     "emails": [],
@@ -96,19 +161,31 @@
     ],
     "manager": "Kasa Properties",
     "phone": "(510) 373-8008",
-    "source_url": "https://kasaproperties.appfolio.com/listings/detail/0b55a7fb-7b51-40e0-9331-a4ce23bdf09a"
+    "source_url": "https://kasaproperties.appfolio.com/listings/detail/b989e788-520f-433e-8ef6-79830e12638f"
   },
   "korman_and_ng": {
     "emails": [],
     "manager": "Korman & Ng Real Estate Services",
     "phone": "(415) 420-7663",
-    "source_url": "https://kormanandng.appfolio.com/listings/detail/44d1477a-f57f-46e7-936d-73a6bd6cbf8b"
+    "source_url": "https://kormanandng.appfolio.com/listings/detail/cc4dc2e3-9ae5-4f68-8050-6aa2f562603d"
+  },
+  "ks_company": {
+    "emails": [],
+    "manager": "K&S Company",
+    "phone": "(510) 766-8414",
+    "source_url": "https://kands.appfolio.com/listings/detail/7cd9185b-7f04-47cd-ac22-441e0aa7624e"
+  },
+  "lapham_company": {
+    "emails": [],
+    "manager": "Lapham Company",
+    "phone": "(415) 894-9334",
+    "source_url": "https://laphamcompany.appfolio.com/listings/detail/111adadf-1d39-4501-b4a4-606d73df07da"
   },
   "mmg_properties": {
     "emails": [],
     "manager": "MMG Properties",
-    "phone": "(415) 816-6564",
-    "source_url": "https://mmgprop.com/properties/1-Apartment-378-Golden-Gate-Avenue-San-Francisco-California-United-States-94102-1-Bathroom-USD1-650/"
+    "phone": "(510) 457-5661",
+    "source_url": "https://mmgprop.com/properties/935-Apartment-266-Lenox-Ave-Oakland-California-United-States-94619-1-Bathroom-USD2-195/"
   },
   "mpm_oakland": {
     "emails": [
@@ -117,7 +194,7 @@
     ],
     "manager": "MPM Oakland",
     "phone": "(510) 530-2050",
-    "source_url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/35753"
+    "source_url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95053"
   },
   "myerhoff": {
     "emails": [],
@@ -129,13 +206,13 @@
     "emails": [],
     "manager": "Panoramic Berkeley",
     "phone": "(510) 306-7408",
-    "source_url": "https://panoramicmgt.appfolio.com/listings/detail/034a3740-b941-4090-8d1d-68666bf92245"
+    "source_url": "https://panoramicmgt.appfolio.com/listings/detail/e080f443-b7b6-4f98-bcc6-5a1d90194429"
   },
   "perkins_realty": {
     "emails": [],
     "manager": "Perkins Realty Partners",
     "phone": "(510) 621-6637",
-    "source_url": "https://perkins.appfolio.com/listings/detail/1362f1dd-0413-4fc8-b3f5-c3641bef8e2c"
+    "source_url": "https://perkins.appfolio.com/listings/detail/ab744d63-5280-48f5-8088-c535c32316ab"
   },
   "premium_properties": {
     "emails": [
@@ -145,13 +222,19 @@
     "phone": "(510) 306-2086",
     "source_url": "https://showmojo.com/a2a2489044/l"
   },
+  "professional_pm": {
+    "emails": [],
+    "manager": "Professional Property Management",
+    "phone": "(510) 758-5636",
+    "source_url": "https://profpm.appfolio.com/listings/detail/51ac7809-a1a3-4f8e-b89a-94acf7a05acb"
+  },
   "raj_properties": {
     "emails": [
       "office@rajproperties.com"
     ],
     "manager": "Raj Properties",
     "phone": "(510) 848-9958",
-    "source_url": "https://rajproperties.managebuilding.com/Resident/public/rentals/10148"
+    "source_url": "https://rajproperties.managebuilding.com/Resident/public/rentals/63529"
   },
   "relisto": {
     "emails": [
@@ -159,41 +242,73 @@
     ],
     "manager": "ReListo",
     "phone": "(415) 236-6116",
-    "source_url": "https://www.relisto.com/rentals/267757707-1873-turk-st-san-francisco-ca-94115/"
+    "source_url": "https://www.relisto.com/rentals/405878281-1426-addison-st-b-berkeley-ca-94702/"
+  },
+  "selborne_properties": {
+    "emails": [],
+    "manager": "Selborne Properties",
+    "phone": "(510) 422-0985",
+    "source_url": "https://selborne.appfolio.com/listings/detail/bf3644f0-56e6-4d97-bd2c-f2c5bd7bd55a"
   },
   "sg_real_estate": {
     "emails": [
-      "christine@sgrealestateco.com",
+      "colter@sgrealestateco.com",
       "leasing@sgrealestateco.com"
     ],
     "manager": "SG Real Estate Co.",
-    "phone": "(510) 394-0336",
-    "source_url": "https://sgrealestate.appfolio.com/listings/detail/0151187b-27c8-46c2-a37a-23b10122f8ff"
+    "phone": "(510) 394-3038",
+    "source_url": "https://sgrealestate.appfolio.com/listings/detail/986d2ce3-4e3f-41f7-a372-2c4525e9cdb1"
   },
   "square_one_management": {
     "emails": [
-      "wendy@squareonemanagement.com"
+      "info@squareonemanagement.com"
     ],
     "manager": "Square One Management",
-    "phone": "(510) 900-9056",
-    "source_url": "https://som.managebuilding.com/Resident/public/rentals/10537"
+    "phone": "(510) 900-4649",
+    "source_url": "https://som.managebuilding.com/Resident/public/rentals/10981"
+  },
+  "structure_boston": {
+    "emails": [],
+    "manager": "Structure Boston",
+    "phone": "(617) 396-3102",
+    "source_url": "https://structureboston.appfolio.com/listings/detail/3ecbc7b4-42c7-402f-958d-9ace0f34164a"
   },
   "structure_properties": {
     "emails": [],
     "manager": "Structure Properties",
     "phone": "(415) 237-1083",
-    "source_url": "https://spsf.appfolio.com/listings/detail/06a19d9a-1279-461f-9210-115977a74962"
+    "source_url": "https://spsf.appfolio.com/listings/detail/42b22bab-51b3-4ff0-a124-6803eaa61c62"
+  },
+  "t_lee_development": {
+    "emails": [],
+    "manager": "T. Lee Development",
+    "phone": "(617) 294-9119",
+    "source_url": "https://tleedevelopment.appfolio.com/listings/detail/861d9594-4266-4f9c-ae84-378fee33b3e9"
   },
   "tripalink": {
     "emails": [],
     "manager": "Tripalink",
     "phone": "(206) 525-5625",
-    "source_url": "https://tripalink.com/apartments/bay-area/berkeley/50000210"
+    "source_url": "https://tripalink.com/apartments/bay-area/berkeley/50000211"
   },
   "two_b_living": {
     "emails": [],
     "manager": "2B Living",
-    "phone": "(408) 476-3379",
-    "source_url": "https://twobliving.appfolio.com/listings/detail/02e24a45-2d8a-4d6b-90bb-0ac34e3a2ef1"
+    "phone": "(415) 246-9872",
+    "source_url": "https://twobliving.appfolio.com/listings/detail/6e5bd184-e7f1-4593-ae19-000d1f827f4e"
+  },
+  "utopia_management": {
+    "emails": [],
+    "manager": "Utopia Management",
+    "phone": "(510) 556-1111",
+    "source_url": "https://utopiamanagement.appfolio.com/listings/detail/0749704b-f7b1-44e7-b8c3-224e4c5d6133"
+  },
+  "west_coast_pm": {
+    "emails": [
+      "johnf@wcpm.com"
+    ],
+    "manager": "West Coast Property Management",
+    "phone": "(415) 885-6970",
+    "source_url": "https://wcpm.appfolio.com/listings/detail/054efdaf-8e6a-4e63-9f0a-83a5846c9f71"
   }
 }

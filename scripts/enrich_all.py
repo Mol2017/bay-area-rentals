@@ -38,6 +38,7 @@ sys.path.insert(0, str(SCRAPERS_DIR / "platforms"))
 
 import enrich  # noqa: E402
 import llm  # noqa: E402
+from regions import in_covered_metro  # noqa: E402
 from schema import ENRICHED_ASSIGNABLE, RAW_DIR  # noqa: E402
 
 # Rough per-listing input size, refined by --estimate against real pages.
@@ -61,6 +62,9 @@ def enrichable(doc: dict) -> list[dict]:
     return [
         u for u in doc.get("units", [])
         if u.get("url") and u.get("kind") in ("residential", "room")
+        # Skip out-of-metro units: merge.py drops them, so enriching them
+        # would pay for summaries no one ever sees.
+        and in_covered_metro(u.get("city"), u.get("state"))
     ]
 
 
@@ -292,9 +296,22 @@ def run(payloads: list[dict], meta: dict, ctx: dict, args) -> int:
 
 
 def write_contacts(contacts: dict) -> None:
-    """Persist manager-level leasing contacts for merge.py to join on."""
+    """Merge manager-level leasing contacts into the committed file.
+
+    A union, never an overwrite: a run that only fetched a few sources'
+    pages knows contacts for those sources alone, and replacing the file
+    would wipe every other manager's phone and email. Existing entries are
+    kept unless this run has a fresh one for the same slug.
+    """
     path = REPO_ROOT / "data" / "contacts.json"
-    path.write_text(json.dumps(contacts, indent=2, sort_keys=True))
+    merged = {}
+    if path.exists():
+        try:
+            merged = json.loads(path.read_text())
+        except json.JSONDecodeError:
+            merged = {}
+    merged.update(contacts)
+    path.write_text(json.dumps(merged, indent=2, sort_keys=True))
 
 
 def write_conflicts(rows: list, counts: Counter, checked: int) -> None:

@@ -3,8 +3,8 @@
   "source": "sg_real_estate",
   "manager": "SG Real Estate Co.",
   "source_url": "https://sgrealestate.appfolio.com/listings",
-  "scraped_at": "2026-07-22T19:36:52-07:00",
-  "unit_count": 165,
+  "scraped_at": "2026-07-22T20:06:51-07:00",
+  "unit_count": 164,
   "units": [
     {
       "address": "935 Solano Ave. - 06, 06, Albany, CA 94706",
@@ -2841,37 +2841,6 @@
       "postal_code": "94704",
       "title": "2026-2027 Availability! (LOOK & LEASE! 1 MONTH FREE + $1000 Amazon Gift card!) Fully Furnished Two Bedroom Two Bath Suites! Welcome to The Kittredge! Across from UC Berkeley!",
       "url": "https://sgrealestate.appfolio.com/listings/detail/96274a5f-53ba-4733-91b1-78b7db7eed5b"
-    },
-    {
-      "address": "2715 Channing Way - 5, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": "2026-07-31",
-      "rent": null,
-      "kind": "room",
-      "unit_type": "2_bedroom",
-      "room_type": "private_room",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "street",
-      "laundry": "in_unit",
-      "summary": "Private room in a 2-bedroom, 1-bathroom apartment near UC Berkeley; rent not listed. Building features in-unit washer/dryer and stainless steel appliances. Current tenant seeking female roommate.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Room Available \u2013 Female Roommate Needed",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/2b445648-f71a-446a-b5d2-4e511fd3abc2",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
     },
     {
       "address": "2077 Haste St - 301 Room 3 Bed B, Berkeley, CA 94704",

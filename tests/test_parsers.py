@@ -479,3 +479,36 @@ def test_crosscheck_silent_page_is_not_a_conflict():
     silent = _page(bedrooms=None, rent=None, square_feet=None,
                    available_date=None, city=None, listing_kind="unknown")
     assert _enrich.compare_observed(_unit(), silent) == []
+
+
+# ── Region coverage filter ───────────────────────────────────────────────
+# Keeps national operators' out-of-market listings out of the dashboard
+# while retaining their in-market ones.
+
+from regions import in_covered_metro as _covered
+
+
+@pytest.mark.parametrize("city,state,expected", [
+    ("Berkeley", "CA", True),
+    ("Oakland", "CA", True),
+    ("San Francisco", "CA", True),
+    ("san jose", "CA", True),          # case-insensitive
+    ("Boston", "MA", True),
+    ("Cambridge", "MA", True),
+    ("Dorchester", "MA", True),        # a Boston neighbourhood as its own city
+    ("San Diego", "CA", False),        # CA but not Bay Area
+    ("Fresno", "CA", False),
+    ("Los Angeles", "CA", False),
+    ("Fall River", "MA", False),       # MA but not Boston metro
+    ("Plymouth", "MA", False),
+    ("League City", "TX", False),      # uncovered state
+    (None, "CA", True),                # unknown city is kept, not dropped
+])
+def test_in_covered_metro(city, state, expected):
+    assert _covered(city, state) is expected
+
+
+def test_belmont_collision_both_covered():
+    """Belmont exists in both metros; both are in scope, no cross-leak."""
+    assert _covered("Belmont", "CA") is True   # San Mateo County
+    assert _covered("Belmont", "MA") is True    # Middlesex County

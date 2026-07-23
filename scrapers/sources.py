@@ -86,6 +86,47 @@ SOURCES: list[Source] = [
     Source("two_b_living", "2B Living", "https://www.twobliving.com/",
            "appfolio", "twobliving"),
 
+    # ── AppFolio (East Bay / SF / Boston expansion) ───────────────────────
+    # Added 2026-07; account verified by scraping a non-empty /listings.
+    # Utopia Management is a national operator (300 units, 120 cities); it is
+    # included because regions.py filters each manager's listings down to the
+    # covered metros at merge time, so it contributes only its in-market units
+    # rather than swamping the dataset.
+    Source("utopia_management", "Utopia Management",
+           "https://utopiamanagement.com/", "appfolio", "utopiamanagement"),
+    Source("advent_properties", "Advent Properties",
+           "https://adventpropertiesinc.com/", "appfolio", "adventproperties"),
+    Source("all_east_bay", "All East Bay Properties",
+           "https://alleastbayproperties.com/", "appfolio", "alleastbayproperties"),
+    Source("bancal_pm", "BanCal Property Management",
+           "https://www.bancalsf.com/", "appfolio", "bancalsf"),
+    Source("bay_property_group", "Bay Property Group",
+           "https://www.baypropertygroup.com/", "appfolio", "baypropertygroup"),
+    Source("boston_property_care", "Boston Property Care",
+           "https://www.bostonpropertycare.com/", "appfolio", "bostonpropertycare"),
+    Source("cambridge_management_group", "Cambridge Management Group",
+           "https://cambridgemgi.appfolio.com/", "appfolio", "cambridgemgi"),
+    Source("chandler_properties", "Chandler Properties",
+           "https://www.chandlerproperties.com/", "appfolio", "chandlerproperties"),
+    Source("community_realty", "Community Realty Property Management",
+           "https://www.crpmrealty.com/", "appfolio", "communityrealtypm"),
+    Source("golden_gate_pm", "Golden State Property Management",
+           "https://www.goldenstatepropertymanagement.com/", "appfolio", "goldenstate"),
+    Source("ks_company", "K&S Company", "https://www.kands.com/",
+           "appfolio", "kands"),
+    Source("lapham_company", "Lapham Company", "https://www.laphamcompany.com/",
+           "appfolio", "laphamcompany"),
+    Source("professional_pm", "Professional Property Management",
+           "https://www.ppm4rent.com/", "appfolio", "profpm"),
+    Source("selborne_properties", "Selborne Properties",
+           "https://www.selborneproperties.com/", "appfolio", "selborne"),
+    Source("structure_boston", "Structure Boston",
+           "https://structureboston.appfolio.com/", "appfolio", "structureboston"),
+    Source("t_lee_development", "T. Lee Development",
+           "https://tleedevelopment.appfolio.com/", "appfolio", "tleedevelopment"),
+    Source("west_coast_pm", "West Coast Property Management",
+           "https://wcpm.com/", "appfolio", "wcpm"),
+
     # ── Buildium ──────────────────────────────────────────────────────────
     Source("academic_housing_rentals", "Academic Housing Rentals",
            "https://www.academichousingrentals.com",
@@ -100,6 +141,8 @@ SOURCES: list[Source] = [
            "buildium", "rajproperties"),
     Source("square_one_management", "Square One Management",
            "https://squareonemanagement.com/", "buildium", "som"),
+    Source("boston_luxury", "Boston Luxury Real Estate",
+           "https://bostonluxury.managebuilding.com/", "buildium", "bostonluxury"),
 
     # ── Own platform / bespoke ────────────────────────────────────────────
     Source("tripalink", "Tripalink",
