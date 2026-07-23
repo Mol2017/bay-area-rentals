@@ -34,6 +34,9 @@
       furnished: "",
       parking: "",
       laundry: "",
+      baths: "",
+      minSqft: 0,
+      nowOnly: false,
       sort: "soonest"
     }
   };
@@ -80,6 +83,15 @@
     furnished: { furnished: "Furnished", partial: "Part furnished", unfurnished: "Unfurnished" },
     parking: { garage: "Garage", off_street: "Off-street parking", street: "Street parking", none: "No parking" },
     laundry: { in_unit: "In-unit laundry", shared: "Shared laundry", hookups: "Laundry hookups", none: "No laundry" }
+  };
+
+  var UNIT_TYPE_LABELS = {
+    studio: "Studio", "1_bedroom": "1 bedroom", "2_bedroom": "2 bedroom",
+    "3plus_bedroom": "3+ bedroom"
+  };
+  var ROOM_TYPE_LABELS = {
+    entire_place: "Entire place", private_room: "Private room",
+    shared_room: "Shared room"
   };
 
   function amenityTags(u) {
@@ -158,6 +170,16 @@
       if (f.furnished && u.furnished !== f.furnished) return false;
       if (f.parking && u.parking !== f.parking) return false;
       if (f.laundry && u.laundry !== f.laundry) return false;
+
+      if (f.baths !== "") {
+        if (u.bathrooms !== null && u.bathrooms !== undefined &&
+            u.bathrooms < Number(f.baths)) return false;
+      }
+      if (f.minSqft > 0) {
+        if (u.square_feet !== null && u.square_feet !== undefined &&
+            u.square_feet < f.minSqft) return false;
+      }
+      if (f.nowOnly && !u.available_now) return false;
 
       if (f.beds !== "") {
         // The "4+" bucket collapses everything at or above 4 bedrooms.
@@ -367,6 +389,78 @@
 
   // ── table ──────────────────────────────────────────────────────────────
 
+  function numCell(text, muted) {
+    var td = el("td", "num");
+    td.appendChild(el("span", muted ? "muted" : null, text));
+    return td;
+  }
+
+  /* Every extracted field for one listing, as a labelled grid. This is the
+     "show me everything" view -- the table columns are the at-a-glance
+     subset, this is the full record. A null renders as a muted em-dash so
+     the distinction between "stated absent" and "source silent" stays
+     visible (e.g. parking "No parking" vs parking "—"). */
+  function fullRecord(u) {
+    function amenityText(field) {
+      var v = u[field];
+      if (v === null || v === undefined) return null;
+      return (AMENITY_LABELS[field] && AMENITY_LABELS[field][v]) || v;
+    }
+    var rows = [
+      ["Unit type", UNIT_TYPE_LABELS[u.unit_type] || u.unit_type],
+      ["Rental type", ROOM_TYPE_LABELS[u.room_type] || u.room_type],
+      ["Bedrooms", u.bedrooms === 0 ? "Studio (0)" : u.bedrooms],
+      ["Bathrooms", u.bathrooms],
+      ["Square feet", u.square_feet ? u.square_feet.toLocaleString("en-US") : null],
+      ["Rent", u.rent !== null && u.rent !== undefined ? money(u.rent) : null],
+      ["Available", u.available_now ? "Now" : (fmtDate(u.available_date) || null)],
+      ["Laundry", amenityText("laundry")],
+      ["Parking", amenityText("parking")],
+      ["Furnished", amenityText("furnished")],
+      ["Pets", amenityText("pets")],
+      ["City", u.city],
+      ["Postal code", u.postal_code],
+      ["State", u.state],
+      ["Manager", u.manager],
+      ["Source", u.source]
+    ];
+
+    var box = el("div", "record");
+    if (u.summary) box.appendChild(el("p", "record__summary", u.summary));
+
+    var dl = el("dl", "record__grid");
+    rows.forEach(function (r) {
+      dl.appendChild(el("dt", null, r[0]));
+      var blank = (r[1] === null || r[1] === undefined || r[1] === "");
+      dl.appendChild(el("dd", blank ? "muted" : null, blank ? "—" : String(r[1])));
+    });
+    box.appendChild(dl);
+
+    if (u.title) {
+      var t = el("p", "record__title");
+      t.appendChild(el("span", "record__title-label", "Listing title: "));
+      t.appendChild(document.createTextNode(u.title));
+      box.appendChild(t);
+    }
+    if (u.url) {
+      var link = el("a", "record__link", "Open original listing ↗");
+      link.href = u.url; link.target = "_blank"; link.rel = "noopener noreferrer";
+      box.appendChild(link);
+    }
+    // Surface the parser/detail-page disagreements when present -- the
+    // cross-check that reconcile.py acts on, shown here for transparency.
+    if (u.conflicts && u.conflicts.length) {
+      var warn = el("div", "record__conflicts");
+      warn.appendChild(el("span", "record__conflicts-label", "Cross-check notes:"));
+      u.conflicts.forEach(function (c) {
+        warn.appendChild(el("span", "record__conflict",
+          c.field + ": index read " + c.parsed + ", page said " + c.observed));
+      });
+      box.appendChild(warn);
+    }
+    return box;
+  }
+
   function renderTable() {
     var tbody = $("unit-tbody");
     tbody.innerHTML = "";
@@ -418,6 +512,15 @@
         wrap.appendChild(c);
       }
       tdAddr.appendChild(wrap);
+
+      // Leading expand toggle -- reveals the full record for this listing.
+      var tdToggle = el("td", "col-toggle");
+      var toggle = el("button", "row-toggle", "▸");
+      toggle.type = "button";
+      toggle.setAttribute("aria-label", "Show all fields");
+      toggle.setAttribute("aria-expanded", "false");
+      tdToggle.appendChild(toggle);
+      tr.appendChild(tdToggle);
       tr.appendChild(tdAddr);
 
       tr.appendChild(el("td", null, u.city || "—"));
@@ -428,6 +531,12 @@
       // greyed out the way an unknown whole-unit bed count is.
       tdBeds.appendChild(el("span", u.bedrooms === null && isWholeUnit(u) ? "muted" : null, bedLabel(u)));
       tr.appendChild(tdBeds);
+
+      var baths = (u.bathrooms === null || u.bathrooms === undefined);
+      tr.appendChild(numCell(baths ? "—" : String(u.bathrooms), baths));
+
+      var noSqft = (u.square_feet === null || u.square_feet === undefined);
+      tr.appendChild(numCell(noSqft ? "—" : u.square_feet.toLocaleString("en-US"), noSqft));
 
       var tdRent = el("td", "num");
       tdRent.appendChild(el("span", u.rent === null ? "muted" : null, money(u.rent)));
@@ -445,6 +554,22 @@
 
       tr.appendChild(el("td", null, u.manager || u.source));
       tbody.appendChild(tr);
+
+      // The full-record detail row, hidden until the toggle is clicked.
+      var detailTr = el("tr", "detail-row");
+      detailTr.hidden = true;
+      var detailTd = el("td");
+      detailTd.colSpan = 9;
+      detailTd.appendChild(fullRecord(u));
+      detailTr.appendChild(detailTd);
+      tbody.appendChild(detailTr);
+
+      toggle.addEventListener("click", function () {
+        var open = detailTr.hidden;
+        detailTr.hidden = !open;
+        toggle.textContent = open ? "▾" : "▸";
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      });
     });
 
     var more = $("show-more");
@@ -629,6 +754,12 @@
     $("f-whole").addEventListener("change", function (e) {
       state.filters.wholeOnly = e.target.checked; rerender();
     });
+    $("f-baths").addEventListener("change", function (e) {
+      state.filters.baths = e.target.value; rerender();
+    });
+    $("f-now").addEventListener("change", function (e) {
+      state.filters.nowOnly = e.target.checked; rerender();
+    });
     $("f-sort").addEventListener("change", function (e) {
       state.filters.sort = e.target.value; sortFiltered(); renderTable();
     });
@@ -644,6 +775,14 @@
       });
     });
 
+    var sqft = $("f-sqft");
+    sqft.addEventListener("input", function (e) {
+      var v = Number(e.target.value);
+      state.filters.minSqft = v;
+      $("f-sqft-out").textContent = v === 0 ? "Any" : v.toLocaleString("en-US") + "+";
+      rerender();
+    });
+
     var rent = $("f-rent");
     rent.addEventListener("input", function (e) {
       var v = Number(e.target.value);
@@ -657,14 +796,17 @@
       state.filters = {
         city: "", beds: "", manager: "", maxRent: null,
         byDate: "", wholeOnly: false, unitType: "", roomType: "", pets: "",
-        furnished: "", parking: "", laundry: "", sort: state.filters.sort
+        furnished: "", parking: "", laundry: "", baths: "", minSqft: 0,
+        nowOnly: false, sort: state.filters.sort
       };
       $("f-city").value = ""; $("f-beds").value = ""; $("f-manager").value = "";
       $("f-date").value = ""; $("f-whole").checked = false;
+      $("f-now").checked = false; $("f-baths").value = "";
       ["unittype", "roomtype", "pets", "furnished", "parking", "laundry"].forEach(function (id) {
         var n = $("f-" + id); if (n) n.value = "";
       });
       rent.value = rent.max; $("f-rent-out").textContent = "Any";
+      sqft.value = 0; $("f-sqft-out").textContent = "Any";
       rerender();
     });
 

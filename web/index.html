@@ -106,6 +106,30 @@
             <select id="f-pets" class="field__control"><option value="">Any</option></select>
           </label>
 
+          <label class="field">
+            <span class="field__label">Baths</span>
+            <select id="f-baths" class="field__control">
+              <option value="">Any</option>
+              <option value="1">1+</option>
+              <option value="1.5">1.5+</option>
+              <option value="2">2+</option>
+              <option value="3">3+</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span class="field__label">Min sq ft</span>
+            <div class="field__control field__control--range">
+              <input type="range" id="f-sqft" min="0" max="2000" step="50" value="0" />
+              <output id="f-sqft-out" class="field__out">Any</output>
+            </div>
+          </label>
+
+          <label class="field field--check">
+            <input type="checkbox" id="f-now" />
+            <span>Available now</span>
+          </label>
+
           <label class="field field--check">
             <input type="checkbox" id="f-whole" />
             <span>Whole units only</span>
@@ -179,9 +203,12 @@
           <table class="table" id="unit-table">
             <thead>
               <tr>
+                <th scope="col" class="col-toggle"><span class="sr-only">Expand</span></th>
                 <th scope="col">Address</th>
                 <th scope="col">City</th>
                 <th scope="col" class="num">Beds</th>
+                <th scope="col" class="num">Baths</th>
+                <th scope="col" class="num">Sq ft</th>
                 <th scope="col" class="num">Rent</th>
                 <th scope="col">Available</th>
                 <th scope="col">Manager</th>
