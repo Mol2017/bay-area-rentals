@@ -29,6 +29,7 @@
       byDate: "",
       wholeOnly: false,
       roomType: "",
+      unitType: "",
       pets: "",
       furnished: "",
       parking: "",
@@ -148,6 +149,7 @@
       if (f.manager && u.manager !== f.manager) return false;
       if (f.wholeOnly && !isWholeUnit(u)) return false;
       if (f.roomType && u.room_type !== f.roomType) return false;
+      if (f.unitType && u.unit_type !== f.unitType) return false;
 
       // An amenity filter matches only listings that state the value. A
       // listing the source was silent about is excluded rather than assumed
@@ -578,6 +580,9 @@
      rather than broken. */
   function populateAmenityFilters(facets) {
     var SELECTS = {
+      "f-unittype": { facet: "unit_type", labels: {
+        studio: "Studio", "1_bedroom": "1 bedroom", "2_bedroom": "2 bedroom",
+        "3plus_bedroom": "3+ bedroom" } },
       "f-roomtype": { facet: "room_type", labels: {
         entire_place: "Entire place", private_room: "Private room",
         shared_room: "Shared room" } },
@@ -630,7 +635,7 @@
 
     // Amenity selects are populated from the facet counts merge.py computes,
     // so an option never appears unless something actually matches it.
-    ["roomType", "pets", "furnished", "parking", "laundry"].forEach(function (key) {
+    ["unitType", "roomType", "pets", "furnished", "parking", "laundry"].forEach(function (key) {
       var id = "f-" + key.toLowerCase();
       var node = $(id);
       if (!node) return;
@@ -651,12 +656,12 @@
     $("f-reset").addEventListener("click", function () {
       state.filters = {
         city: "", beds: "", manager: "", maxRent: null,
-        byDate: "", wholeOnly: false, roomType: "", pets: "",
+        byDate: "", wholeOnly: false, unitType: "", roomType: "", pets: "",
         furnished: "", parking: "", laundry: "", sort: state.filters.sort
       };
       $("f-city").value = ""; $("f-beds").value = ""; $("f-manager").value = "";
       $("f-date").value = ""; $("f-whole").checked = false;
-      ["roomtype", "pets", "furnished", "parking", "laundry"].forEach(function (id) {
+      ["unittype", "roomtype", "pets", "furnished", "parking", "laundry"].forEach(function (id) {
         var n = $("f-" + id); if (n) n.value = "";
       });
       rent.value = rent.max; $("f-rent-out").textContent = "Any";
