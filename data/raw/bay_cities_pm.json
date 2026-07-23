@@ -3,7 +3,7 @@
   "source": "bay_cities_pm",
   "manager": "Bay Cities Property Management",
   "source_url": "https://baycitiespm.appfolio.com/listings",
-  "scraped_at": "2026-07-22T16:03:21-07:00",
+  "scraped_at": "2026-07-22T18:13:01-07:00",
   "unit_count": 1,
   "units": [
     {
@@ -22,7 +22,7 @@
       "parking": "garage",
       "laundry": null,
       "summary": "Five-bedroom, two-bathroom house in Berkeley designed by Walter Ratcliff in the 1920s, featuring a deck with bay views and two fireplaces.",
-      "available_now": true,
+      "available_now": false,
       "bathrooms": 2.0,
       "square_feet": null,
       "state": "CA",

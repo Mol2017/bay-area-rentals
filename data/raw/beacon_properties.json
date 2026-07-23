@@ -3,7 +3,7 @@
   "source": "beacon_properties",
   "manager": "Beacon Properties",
   "source_url": "https://beaconprop.appfolio.com/listings",
-  "scraped_at": "2026-07-22T16:03:21-07:00",
+  "scraped_at": "2026-07-22T18:13:01-07:00",
   "unit_count": 23,
   "units": [
     {
@@ -244,7 +244,14 @@
       "state": "CA",
       "postal_code": "94702",
       "title": "Viewing Schedule: Please reply to schedule a viewing!",
-      "url": "https://beaconprop.appfolio.com/listings/detail/cfa63ee4-2820-4c2e-b613-d434dc79b08a"
+      "url": "https://beaconprop.appfolio.com/listings/detail/cfa63ee4-2820-4c2e-b613-d434dc79b08a",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "commercial"
+        }
+      ]
     },
     {
       "address": "375 Colusa Ave - 4, Kensington, CA 94707",
@@ -412,7 +419,14 @@
       "state": "CA",
       "postal_code": "94606",
       "title": "Viewing Schedule: Please call Shammie at (415) 225-2543 to schedule a viewing!",
-      "url": "https://beaconprop.appfolio.com/listings/detail/90b05bef-01d9-4be4-b4ca-c6460574100d"
+      "url": "https://beaconprop.appfolio.com/listings/detail/90b05bef-01d9-4be4-b4ca-c6460574100d",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1830 6th Avenue - 10, Oakland, CA 94606",
@@ -475,7 +489,7 @@
       "room_type": "entire_place",
       "pets": "none",
       "furnished": null,
-      "parking": null,
+      "parking": "off_street",
       "laundry": "shared",
       "summary": "1-bedroom, 1-bathroom apartment in Oakland near Lake Merritt, newly remodeled with utilities and garbage included. No pets allowed.",
       "available_now": true,

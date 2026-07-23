@@ -3,7 +3,7 @@
   "source": "boston_pm",
   "manager": "Boston Property Management",
   "source_url": "https://bostonpropertymanagementllc.com/",
-  "scraped_at": "2026-07-22T16:03:23-07:00",
+  "scraped_at": "2026-07-22T18:13:03-07:00",
   "unit_count": 33,
   "units": [
     {
@@ -124,7 +124,14 @@
       "state": "MA",
       "postal_code": null,
       "title": "78 Washington # 8",
-      "url": "https://bostonpropertymanagementllc.com/resident_listings/78-washington-8-chelsea-2/"
+      "url": "https://bostonpropertymanagementllc.com/resident_listings/78-washington-8-chelsea-2/",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "121 Hawthorne #B6, Chelsea, MA",
@@ -522,7 +529,7 @@
       "unit_type": "1_bedroom",
       "room_type": "private_room",
       "pets": null,
-      "furnished": null,
+      "furnished": "partial",
       "parking": null,
       "laundry": "shared",
       "summary": "One-bedroom, one-bath unit in a multi-unit building in West Plymouth with hardwood flooring, appliances, and shared laundry.",
@@ -796,7 +803,14 @@
       "state": "MA",
       "postal_code": null,
       "title": "10 Merrymount # 403",
-      "url": "https://bostonpropertymanagementllc.com/resident_listings/10-merrymount-403-quincy/"
+      "url": "https://bostonpropertymanagementllc.com/resident_listings/10-merrymount-403-quincy/",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 3.0,
+          "observed": 2
+        }
+      ]
     }
   ]
 }

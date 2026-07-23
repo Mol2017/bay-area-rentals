@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-07-22T16:03:43-07:00",
+  "checked_at": "2026-07-22T18:13:23-07:00",
   "sources_ok": 30,
   "sources_failed": 0,
   "total_units": 853,
@@ -76,7 +76,7 @@
       "manager": "Boardwalk Properties",
       "platform": "appfolio",
       "ok": true,
-      "units": 2,
+      "units": 1,
       "error": null,
       "preserved": false
     },
@@ -132,7 +132,7 @@
       "ok": true,
       "units": 2,
       "error": null,
-      "preserved": true
+      "preserved": false
     },
     {
       "slug": "gpmsf",
@@ -256,7 +256,7 @@
       "manager": "SG Real Estate Co.",
       "platform": "appfolio",
       "ok": true,
-      "units": 164,
+      "units": 165,
       "error": null,
       "preserved": false
     },

@@ -35,7 +35,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scrapers"))
 
-from schema import RAW_DIR, derive_unit_type  # noqa: E402
+from schema import RAW_DIR, UNIT_TYPES, derive_unit_type  # noqa: E402
 
 CONFLICTS = REPO_ROOT / "data" / "conflicts.json"
 
@@ -79,7 +79,13 @@ def main() -> int:
                 # bedrooms drives unit_type, which the parser derived from the
                 # now-stale value; recompute it here.
                 if field == "bedrooms":
-                    u["unit_type"] = derive_unit_type(page_value)
+                    ut = derive_unit_type(page_value)
+                    # reconcile writes raw dicts, bypassing Unit.validate --
+                    # so guard the one derived field here rather than trust it.
+                    if ut is not None and ut not in UNIT_TYPES:
+                        raise AssertionError(f"derive_unit_type({page_value}) "
+                                             f"-> invalid {ut!r}")
+                    u["unit_type"] = ut
                 print(f"  {field:15} {str(old):>12} -> {str(page_value):<12} "
                       f"{(u.get('address') or '')[:44]}")
         if changed:

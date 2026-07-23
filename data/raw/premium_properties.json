@@ -3,7 +3,7 @@
   "source": "premium_properties",
   "manager": "Premium Properties",
   "source_url": "https://premiumpd.com/",
-  "scraped_at": "2026-07-22T16:03:22-07:00",
+  "scraped_at": "2026-07-22T18:13:02-07:00",
   "unit_count": 6,
   "units": [
     {
@@ -52,7 +52,19 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2338 Telegraph Ave. - Standard Room",
-      "url": "https://showmojo.com/a2a2489044/l"
+      "url": "https://showmojo.com/a2a2489044/l",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 875.0,
+          "observed": 1995
+        },
+        {
+          "field": "kind",
+          "parsed": "room",
+          "observed": "residential"
+        }
+      ]
     },
     {
       "address": "2338 Telegraph Ave. - Select Room, Berkeley, CA 94704",
@@ -76,7 +88,19 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2338 Telegraph Ave. - Select Room",
-      "url": "https://showmojo.com/a2a2489044/l"
+      "url": "https://showmojo.com/a2a2489044/l",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 995.0,
+          "observed": 1995
+        },
+        {
+          "field": "kind",
+          "parsed": "room",
+          "observed": "residential"
+        }
+      ]
     },
     {
       "address": "2338 Telegraph Ave. - Premium Room, Berkeley, CA 94704",
@@ -100,7 +124,19 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2338 Telegraph Ave. - Premium Room",
-      "url": "https://showmojo.com/a2a2489044/l"
+      "url": "https://showmojo.com/a2a2489044/l",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 1095.0,
+          "observed": 1995
+        },
+        {
+          "field": "kind",
+          "parsed": "room",
+          "observed": "residential"
+        }
+      ]
     },
     {
       "address": "870 Appian Way - A, El Sobrante, CA 94803",
@@ -124,7 +160,24 @@
       "state": "CA",
       "postal_code": "94803",
       "title": "870 Appian Way - A",
-      "url": "https://showmojo.com/a2a2489044/l"
+      "url": "https://showmojo.com/a2a2489044/l",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 5.0,
+          "observed": 1
+        },
+        {
+          "field": "rent",
+          "parsed": 3995.0,
+          "observed": 1995
+        },
+        {
+          "field": "city",
+          "parsed": "El Sobrante",
+          "observed": "Berkeley"
+        }
+      ]
     },
     {
       "address": "870 Appian Way, El Sobrante, CA 94803",
@@ -148,7 +201,24 @@
       "state": "CA",
       "postal_code": "94803",
       "title": "870 Appian Way",
-      "url": "https://showmojo.com/a2a2489044/l"
+      "url": "https://showmojo.com/a2a2489044/l",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 7.0,
+          "observed": 1
+        },
+        {
+          "field": "rent",
+          "parsed": 4750.0,
+          "observed": 1995
+        },
+        {
+          "field": "city",
+          "parsed": "El Sobrante",
+          "observed": "Berkeley"
+        }
+      ]
     }
   ]
 }

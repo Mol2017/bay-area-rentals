@@ -3,7 +3,7 @@
   "source": "california_pacific",
   "manager": "California Pacific Realty",
   "source_url": "https://californiapacific.appfolio.com/listings",
-  "scraped_at": "2026-07-22T16:03:21-07:00",
+  "scraped_at": "2026-07-22T18:13:01-07:00",
   "unit_count": 8,
   "units": [
     {
@@ -42,7 +42,7 @@
       "unit_type": "studio",
       "room_type": "entire_place",
       "pets": "none",
-      "furnished": null,
+      "furnished": "partial",
       "parking": "none",
       "laundry": "shared",
       "summary": "Modern studio apartment with 1 bathroom and hardwood flooring in a gated Berkeley building near BART and UC Berkeley. Water and garbage included; cats and dogs not allowed.",

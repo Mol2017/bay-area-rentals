@@ -360,6 +360,37 @@ def compare_observed(unit: dict, observed: dict | None) -> list[dict]:
     return out
 
 
+def conflicts_from_cache(raw: dict, cache: dict) -> tuple[list, dict]:
+    """Recompute parser/page disagreements from the URL-keyed cache.
+
+    URL-keyed throughout, so it is stable across re-scrapes -- the earlier
+    positional approach compared batch id ``p00042`` against the 42nd unit of
+    whatever scrape happened to be on disk, which drifted the moment the URL
+    set changed. Returns ``(rows, counts)``.
+    """
+    import collections
+    counts = collections.Counter()
+    rows = []
+    for slug, doc in raw.items():
+        members = collections.defaultdict(list)
+        for u in doc.get("units", []):
+            if u.get("url") and u.get("kind") in ("residential", "room"):
+                members[u["url"]].append(u)
+        for url, units in members.items():
+            if len(units) != 1:
+                continue                     # multi-unit page: can't confirm
+            hit = cache.get(url)
+            if not hit or not hit.get("observed"):
+                continue
+            for c in compare_observed(units[0], hit["observed"]):
+                counts[c["type"]] += 1
+                if c["type"] == "conflict":
+                    rows.append({"address": units[0].get("address"),
+                                 "manager": doc.get("manager"),
+                                 "url": url, **c})
+    return sorted(rows, key=lambda r: (r["field"], r["address"] or "")), counts
+
+
 # ── Detail pages and cache ────────────────────────────────────────────────
 
 

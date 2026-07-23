@@ -3,7 +3,7 @@
   "source": "structure_properties",
   "manager": "Structure Properties",
   "source_url": "https://spsf.appfolio.com/listings",
-  "scraped_at": "2026-07-22T16:03:22-07:00",
+  "scraped_at": "2026-07-22T18:13:02-07:00",
   "unit_count": 40,
   "units": [
     {
@@ -275,11 +275,11 @@
       "source": "structure_properties",
       "manager": "Structure Properties",
       "city": "San Francisco",
-      "bedrooms": 1,
+      "bedrooms": 0.0,
       "available_date": null,
       "rent": 850.0,
       "kind": "room",
-      "unit_type": "1_bedroom",
+      "unit_type": "studio",
       "room_type": "private_room",
       "pets": "none",
       "furnished": "partial",
@@ -292,7 +292,14 @@
       "state": "CA",
       "postal_code": "94111",
       "title": "One Month Free!! Private Room near Financial District!",
-      "url": "https://spsf.appfolio.com/listings/detail/fdd5d1d2-22e7-4ac4-84b3-f1f1903c92d7"
+      "url": "https://spsf.appfolio.com/listings/detail/fdd5d1d2-22e7-4ac4-84b3-f1f1903c92d7",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 0.0,
+          "observed": 1
+        }
+      ]
     },
     {
       "address": "833 Kearny St # 50, San Francisco, CA 94108",
@@ -323,11 +330,11 @@
       "source": "structure_properties",
       "manager": "Structure Properties",
       "city": "San Francisco",
-      "bedrooms": 1,
+      "bedrooms": 0.0,
       "available_date": null,
       "rent": 999.0,
       "kind": "room",
-      "unit_type": "1_bedroom",
+      "unit_type": "studio",
       "room_type": "private_room",
       "pets": "none",
       "furnished": "partial",
@@ -340,7 +347,14 @@
       "state": "CA",
       "postal_code": "94111",
       "title": "One Month Free!! Street-Facing Private Room near Financial District!",
-      "url": "https://spsf.appfolio.com/listings/detail/39d282d9-edd4-48d4-816c-7fb70c494f97"
+      "url": "https://spsf.appfolio.com/listings/detail/39d282d9-edd4-48d4-816c-7fb70c494f97",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 0.0,
+          "observed": 1
+        }
+      ]
     },
     {
       "address": "858 WASHINGTON ST # 2, SAN FRANCISCO, CA 94108",
@@ -364,7 +378,14 @@
       "state": "CA",
       "postal_code": "94108",
       "title": "New Renovated, Spacious Street-Facing Private Room in the heart of Chinatown",
-      "url": "https://spsf.appfolio.com/listings/detail/cb41faf0-5cc0-4b43-9c29-7e5f8c5c531b"
+      "url": "https://spsf.appfolio.com/listings/detail/cb41faf0-5cc0-4b43-9c29-7e5f8c5c531b",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 0.0,
+          "observed": 1
+        }
+      ]
     },
     {
       "address": "1426 Stockton St, San Francisco, CA 94133",
@@ -412,7 +433,14 @@
       "state": "CA",
       "postal_code": "94108",
       "title": "Furnished Rooms in Union Square!!",
-      "url": "https://spsf.appfolio.com/listings/detail/cfbff6a6-7e26-413d-aebc-6d703a7f4106"
+      "url": "https://spsf.appfolio.com/listings/detail/cfbff6a6-7e26-413d-aebc-6d703a7f4106",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Hotel Ikon - 519, 325 Sutter Street, San Francisco, CA 94108",
@@ -436,7 +464,14 @@
       "state": "CA",
       "postal_code": "94108",
       "title": "Furnished Rooms in Union Square!!",
-      "url": "https://spsf.appfolio.com/listings/detail/9209809b-c202-4f9c-8bb7-2a0ec146c591"
+      "url": "https://spsf.appfolio.com/listings/detail/9209809b-c202-4f9c-8bb7-2a0ec146c591",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "748 JACKSON ST # 7, SAN FRANCISCO, CA 94133",

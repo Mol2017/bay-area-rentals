@@ -112,7 +112,11 @@ def derive_unit_type(bedrooms: float | None) -> str | None:
     """
     if bedrooms is None:
         return None
-    if bedrooms == 0:
+    if bedrooms < 1:
+        # 0 is a studio; so is a sub-one "0.5 bd" junior -- flooring it to
+        # int gave the bogus label "0_bedroom", which is not even a valid
+        # unit_type, and slipped through because reconcile.py writes raw
+        # dicts without re-validating.
         return UNIT_TYPE_STUDIO
     n = int(bedrooms)  # floors 1.5 -> 1, 2.5 -> 2
     if n >= 3:

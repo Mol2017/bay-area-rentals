@@ -3,7 +3,7 @@
   "source": "authentic_properties",
   "manager": "Authentic Properties",
   "source_url": "https://authenticrealestate.appfolio.com/listings",
-  "scraped_at": "2026-07-22T16:03:21-07:00",
+  "scraped_at": "2026-07-22T18:13:01-07:00",
   "unit_count": 12,
   "units": [
     {
@@ -28,7 +28,14 @@
       "state": "CA",
       "postal_code": "94703",
       "title": "Private 3rd Floor Room with Shared Ammenities",
-      "url": "https://authenticrealestate.appfolio.com/listings/detail/5f34d031-2d50-41a7-a45d-f0c112f2f2d4"
+      "url": "https://authenticrealestate.appfolio.com/listings/detail/5f34d031-2d50-41a7-a45d-f0c112f2f2d4",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1619 Fairview Street - Unit 2, Berkeley, CA 94703",

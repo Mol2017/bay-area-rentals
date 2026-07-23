@@ -3,7 +3,7 @@
   "source": "cedar_properties",
   "manager": "Cedar Properties",
   "source_url": "https://cedarpm.appfolio.com/listings",
-  "scraped_at": "2026-07-22T16:03:21-07:00",
+  "scraped_at": "2026-07-22T18:13:01-07:00",
   "unit_count": 8,
   "units": [
     {
@@ -76,7 +76,14 @@
       "state": "CA",
       "postal_code": "94703",
       "title": "Furnished Bedroom in 4 Bedroom Apartment",
-      "url": "https://cedarpm.appfolio.com/listings/detail/46f529d7-4329-4826-84fd-aa687efd81d2"
+      "url": "https://cedarpm.appfolio.com/listings/detail/46f529d7-4329-4826-84fd-aa687efd81d2",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "2930 Adeline, Apt. D, Berkeley, CA 94703",

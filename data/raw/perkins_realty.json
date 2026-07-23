@@ -3,7 +3,7 @@
   "source": "perkins_realty",
   "manager": "Perkins Realty Partners",
   "source_url": "https://perkins.appfolio.com/listings",
-  "scraped_at": "2026-07-22T16:03:22-07:00",
+  "scraped_at": "2026-07-22T18:13:02-07:00",
   "unit_count": 3,
   "units": [
     {
@@ -13,7 +13,7 @@
       "city": "Hayward",
       "bedrooms": 3.0,
       "available_date": null,
-      "rent": 3700.0,
+      "rent": 3600.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
       "room_type": "entire_place",

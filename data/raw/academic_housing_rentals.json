@@ -3,7 +3,7 @@
   "source": "academic_housing_rentals",
   "manager": "Academic Housing Rentals",
   "source_url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-22T16:03:22-07:00",
+  "scraped_at": "2026-07-22T18:13:02-07:00",
   "unit_count": 25,
   "units": [
     {
@@ -28,7 +28,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 3A - BED IN TRIPLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/146040"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/146040",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 2C - BED IN TRIPLE, Berkeley, CA 94704",
@@ -52,7 +59,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 2C - BED IN TRIPLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/207507"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/207507",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 7 - PRIVATE ROOM, Berkeley, CA 94704",
@@ -76,7 +90,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 7 - PRIVATE ROOM",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/147388"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/147388",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 0.0,
+          "observed": 1
+        }
+      ]
     },
     {
       "address": "Dwight 3B - BED IN TRIPLE, Berkeley, CA 94704",
@@ -100,7 +121,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 3B - BED IN TRIPLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/207508"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/207508",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 3C - BED IN TRIPLE, Berkeley, CA 94704",
@@ -110,7 +138,7 @@
       "bedrooms": 1.0,
       "available_date": "2026-06-01",
       "rent": 950.0,
-      "kind": "residential",
+      "kind": "room",
       "unit_type": "1_bedroom",
       "room_type": "shared_room",
       "pets": null,
@@ -124,7 +152,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 3C - BED IN TRIPLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/111312"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/111312",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 2A - BED IN TRIPLE, Berkeley, CA 94704",
@@ -134,7 +169,7 @@
       "bedrooms": 1.0,
       "available_date": "2026-06-01",
       "rent": 1000.0,
-      "kind": "room",
+      "kind": "residential",
       "unit_type": "1_bedroom",
       "room_type": "shared_room",
       "pets": null,
@@ -148,7 +183,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 2A - BED IN TRIPLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/150171"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/150171",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 2B - BED IN TRIPLE, Berkeley, CA 94704",
@@ -172,7 +214,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 2B - BED IN TRIPLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/206953"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/206953",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 1A - BED IN DOUBLE, Berkeley, CA 94704",
@@ -196,7 +245,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 1A - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149311"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149311",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 1B - BED IN DOUBLE, Berkeley, CA 94704",
@@ -220,7 +276,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 1B - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/147377"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/147377",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 4A - BED IN DOUBLE, Berkeley, CA 94704",
@@ -244,7 +307,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 4A - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149828"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149828",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 4B - BED IN DOUBLE, Berkeley, CA 94704",
@@ -268,7 +338,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 4B - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149829"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149829",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 5A - BED IN DOUBLE, Berkeley, CA 94704",
@@ -292,7 +369,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 5A - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/150172"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/150172",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 5B - BED IN DOUBLE, Berkeley, CA 94704",
@@ -316,7 +400,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 5B - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/152268"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/152268",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 6A - BED IN DOUBLE, Berkeley, CA 94704",
@@ -340,7 +431,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 6A - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149830"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149830",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 6B - BED IN DOUBLE, Berkeley, CA 94704",
@@ -364,7 +462,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 6B - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149831"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149831",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 7A - BED IN DOUBLE, Berkeley, CA 94704",
@@ -388,7 +493,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 7A - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/111342"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/111342",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Fulton 6A - BED IN DOUBLE, Berkeley, CA 94704",
@@ -412,7 +524,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Fulton 6A - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/271886"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/271886",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Fulton 6B - BED IN DOUBLE, Berkeley, CA 94704",
@@ -436,7 +555,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Fulton 6B - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/271895"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/271895",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "Dwight 1 - PRIVATE ROOM, Berkeley, CA 94704",
@@ -604,7 +730,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 7B - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/126492"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/126492",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     }
   ]
 }

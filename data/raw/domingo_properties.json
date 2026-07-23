@@ -3,7 +3,7 @@
   "source": "domingo_properties",
   "manager": "Domingo Properties",
   "source_url": "https://domingoprop.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-22T16:03:22-07:00",
+  "scraped_at": "2026-07-22T18:13:02-07:00",
   "unit_count": 8,
   "units": [
     {
@@ -134,7 +134,7 @@
       "bedrooms": 1.0,
       "available_date": "2026-07-01",
       "rent": 2195.0,
-      "kind": "room",
+      "kind": "residential",
       "unit_type": "1_bedroom",
       "room_type": "private_room",
       "pets": "none",
@@ -148,7 +148,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2417 Blake Street #2",
-      "url": "https://domingoprop.managebuilding.com/Resident/public/rentals/40693"
+      "url": "https://domingoprop.managebuilding.com/Resident/public/rentals/40693",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "2606 Benvenue Avenue, #103, Berkeley, CA 94704",

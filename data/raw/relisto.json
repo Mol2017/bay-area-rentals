@@ -3,7 +3,7 @@
   "source": "relisto",
   "manager": "ReListo",
   "source_url": "https://www.relisto.com/",
-  "scraped_at": "2026-07-22T16:03:38-07:00",
+  "scraped_at": "2026-07-22T18:13:23-07:00",
   "unit_count": 15,
   "units": [
     {
@@ -76,7 +76,14 @@
       "state": "CA",
       "postal_code": "94133",
       "title": "402 Broadway #130",
-      "url": "https://www.relisto.com/rentals/418637671-402-broadway-130-san-francisco-ca-94133/"
+      "url": "https://www.relisto.com/rentals/418637671-402-broadway-130-san-francisco-ca-94133/",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "402 Broadway, San Francisco, CA, 94133",
@@ -100,7 +107,14 @@
       "state": "CA",
       "postal_code": "94133",
       "title": "402 Broadway #38",
-      "url": "https://www.relisto.com/rentals/440430865-402-broadway-38-san-francisco-ca-94133/"
+      "url": "https://www.relisto.com/rentals/440430865-402-broadway-38-san-francisco-ca-94133/",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "402 Broadway, San Francisco, CA, 94133",
@@ -124,7 +138,14 @@
       "state": "CA",
       "postal_code": "94133",
       "title": "402 Broadway #126",
-      "url": "https://www.relisto.com/rentals/440430879-402-broadway-126-san-francisco-ca-94133/"
+      "url": "https://www.relisto.com/rentals/440430879-402-broadway-126-san-francisco-ca-94133/",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "18 Lansing, San Francisco, CA, 94105",
@@ -148,7 +169,14 @@
       "state": "CA",
       "postal_code": "94105",
       "title": "18 Lansing",
-      "url": "https://www.relisto.com/rentals/32691836-18-lansing-307-san-francisco-ca-94105/"
+      "url": "https://www.relisto.com/rentals/32691836-18-lansing-307-san-francisco-ca-94105/",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 5400.0,
+          "observed": 5800
+        }
+      ]
     },
     {
       "address": "74 States, San Francisco, CA, 94114",
@@ -292,7 +320,14 @@
       "state": "CA",
       "postal_code": "94133",
       "title": "402 Broadway",
-      "url": "https://www.relisto.com/rentals/440430884-402-broadway-147-san-francisco-ca-94133/"
+      "url": "https://www.relisto.com/rentals/440430884-402-broadway-147-san-francisco-ca-94133/",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "875 Post St., San Francisco, CA, 94109",
@@ -316,7 +351,14 @@
       "state": "CA",
       "postal_code": "94109",
       "title": "875 Post St.",
-      "url": "https://www.relisto.com/rentals/442982682-875-post-st-201-san-francisco-ca-94109/"
+      "url": "https://www.relisto.com/rentals/442982682-875-post-st-201-san-francisco-ca-94109/",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "402 Broadway, San Francisco, CA, 94133",
@@ -340,7 +382,14 @@
       "state": "CA",
       "postal_code": "94133",
       "title": "402 Broadway",
-      "url": "https://www.relisto.com/rentals/440430867-402-broadway-58-san-francisco-ca-94133/"
+      "url": "https://www.relisto.com/rentals/440430867-402-broadway-58-san-francisco-ca-94133/",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "875 Post St., San Francisco, CA, 94109",
@@ -364,7 +413,14 @@
       "state": "CA",
       "postal_code": "94109",
       "title": "875 Post St.",
-      "url": "https://www.relisto.com/rentals/442984773-875-post-st-315-san-francisco-ca-94109/"
+      "url": "https://www.relisto.com/rentals/442984773-875-post-st-315-san-francisco-ca-94109/",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     }
   ]
 }

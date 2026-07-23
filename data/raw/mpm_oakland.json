@@ -3,7 +3,7 @@
   "source": "mpm_oakland",
   "manager": "MPM Oakland",
   "source_url": "https://mpmoakland.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-22T16:03:22-07:00",
+  "scraped_at": "2026-07-22T18:13:02-07:00",
   "unit_count": 36,
   "units": [
     {
@@ -124,7 +124,14 @@
       "state": "CA",
       "postal_code": "94612",
       "title": "1515 Webster Street - 4-404",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94408"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94408",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1515 Webster Street - 4-415, Oakland, CA 94612",
@@ -148,7 +155,14 @@
       "state": "CA",
       "postal_code": "94612",
       "title": "1515 Webster Street - 4-415",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93673"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93673",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1515 Webster Street - 5-501, Oakland, CA 94612",
@@ -172,7 +186,14 @@
       "state": "CA",
       "postal_code": "94612",
       "title": "1515 Webster Street - 5-501",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94790"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94790",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1515 Webster Street - 5-503, Oakland, CA 94612",
@@ -196,7 +217,14 @@
       "state": "CA",
       "postal_code": "94612",
       "title": "1515 Webster Street - 5-503",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/92289"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/92289",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1515 Webster Street - 4-416, Oakland, CA 94612",
@@ -220,7 +248,14 @@
       "state": "CA",
       "postal_code": "94612",
       "title": "1515 Webster Street - 4-416",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95035"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95035",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1515 Webster Street - 4-418, Oakland, CA 94612",
@@ -244,7 +279,14 @@
       "state": "CA",
       "postal_code": "94612",
       "title": "1515 Webster Street - 4-418",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93913"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93913",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1515 Webster Street - 4-420, Oakland, CA 94612",
@@ -268,7 +310,14 @@
       "state": "CA",
       "postal_code": "94612",
       "title": "1515 Webster Street - 4-420",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93169"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93169",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1515 Webster Street - 5-512, Oakland, CA 94612",
@@ -292,7 +341,14 @@
       "state": "CA",
       "postal_code": "94612",
       "title": "1515 Webster Street - 5-512",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93674"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93674",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1515 Webster Street - 5-522, Oakland, CA 94612",
@@ -316,7 +372,14 @@
       "state": "CA",
       "postal_code": "94612",
       "title": "1515 Webster Street - 5-522",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93179"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93179",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1515 Webster Street - 5-527, Oakland, CA 94612",
@@ -340,7 +403,14 @@
       "state": "CA",
       "postal_code": "94612",
       "title": "1515 Webster Street - 5-527",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94409"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94409",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1515 Webster Street - 5-518, Oakland, CA 94612",
@@ -364,7 +434,14 @@
       "state": "CA",
       "postal_code": "94612",
       "title": "1515 Webster Street - 5-518",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95039"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95039",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "2032 92nd Ave - 2036, Oakland, CA 94603",
@@ -446,7 +523,7 @@
       "bedrooms": 0.0,
       "available_date": "2026-06-01",
       "rent": 3900.0,
-      "kind": "residential",
+      "kind": "commercial",
       "unit_type": "studio",
       "room_type": null,
       "pets": null,
@@ -460,7 +537,14 @@
       "state": "CA",
       "postal_code": "94603",
       "title": "9822 International Boulevard 9818-9824 International Boulevard - 9828",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94649"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94649",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "commercial"
+        }
+      ]
     },
     {
       "address": "7231 Lockwood Street - 1, Oakland, CA 94621",
@@ -474,7 +558,7 @@
       "unit_type": "1_bedroom",
       "room_type": "entire_place",
       "pets": null,
-      "furnished": null,
+      "furnished": "unfurnished",
       "parking": "street",
       "laundry": null,
       "summary": "1 bedroom, 1 bathroom apartment in Oakland with updated appliances, new paint, and laminate flooring. Street parking only.",

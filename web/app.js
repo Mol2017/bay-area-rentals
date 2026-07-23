@@ -322,6 +322,45 @@
     });
     if (nowCount) monthCols.unshift({ label: "Now", value: nowCount, isNow: true });
     renderVBar($("chart-timeline"), monthCols, null, function (c) { return !!c.isNow; });
+
+    // 4. Rental type. Composition of what you actually rent, which the rent
+    //    chart deliberately can't show (it is whole-units only). Fixed row
+    //    order so the bars don't reshuffle as the filter changes; the
+    //    undetermined bucket is listed last and only when non-empty.
+    var RT = [
+      { key: "entire_place", name: "Entire place" },
+      { key: "private_room", name: "Private room" },
+      { key: "shared_room", name: "Shared room" }
+    ];
+    var rtCount = {};
+    units.forEach(function (u) {
+      var k = u.room_type || "unknown";
+      rtCount[k] = (rtCount[k] || 0) + 1;
+    });
+    var rtRows = RT
+      .filter(function (r) { return rtCount[r.key]; })
+      .map(function (r) { return { name: r.name, value: rtCount[r.key] }; });
+    if (rtCount.unknown) rtRows.push({ name: "Undetermined", value: rtCount.unknown });
+    renderHBar($("chart-roomtype"), rtRows);
+
+    // 5. Amenity coverage. A count of listings that STATE each amenity --
+    //    silence is not counted as absence, so these read as "known to
+    //    have", never "guaranteed all others lack". Renter-facing positives,
+    //    not raw field completeness.
+    var amen = [
+      { name: "In-unit laundry", test: function (u) { return u.laundry === "in_unit"; } },
+      { name: "Any laundry", test: function (u) { return u.laundry && u.laundry !== "none"; } },
+      { name: "Parking", test: function (u) { return u.parking && u.parking !== "none"; } },
+      { name: "Furnished", test: function (u) { return u.furnished === "furnished"; } },
+      { name: "Pets OK", test: function (u) { return u.pets && u.pets !== "none"; } }
+    ];
+    var amenRows = amen
+      .map(function (a) {
+        return { name: a.name, value: units.filter(a.test).length };
+      })
+      .filter(function (r) { return r.value > 0; })
+      .sort(function (a, b) { return b.value - a.value; });
+    renderHBar($("chart-amenities"), amenRows);
   }
 
   // ── table ──────────────────────────────────────────────────────────────

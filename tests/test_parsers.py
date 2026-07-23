@@ -300,12 +300,17 @@ def _policy(catalog, *entries):
 
 
 @pytest.mark.parametrize("bedrooms,expected", [
-    (None, None), (0.0, "studio"), (1.0, "1_bedroom"), (1.5, "1_bedroom"),
-    (2.0, "2_bedroom"), (2.5, "2_bedroom"), (3.0, "3plus_bedroom"),
-    (7.0, "3plus_bedroom"),
+    (None, None), (0.0, "studio"), (0.5, "studio"), (1.0, "1_bedroom"),
+    (1.5, "1_bedroom"), (2.0, "2_bedroom"), (2.5, "2_bedroom"),
+    (3.0, "3plus_bedroom"), (7.0, "3plus_bedroom"),
 ])
 def test_derive_unit_type(bedrooms, expected):
-    assert _derive(bedrooms) == expected
+    # 0.5 once produced the bogus label "0_bedroom", which is not a valid
+    # unit_type -- a sub-one bedroom count is a studio.
+    got = _derive(bedrooms)
+    assert got == expected
+    from schema import UNIT_TYPES
+    assert got is None or got in UNIT_TYPES
 
 
 def test_occupancy_cap_of_one_is_private():

@@ -3,7 +3,7 @@
   "source": "collabhome",
   "manager": "CollabHome",
   "source_url": "https://collab.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-22T16:03:22-07:00",
+  "scraped_at": "2026-07-22T18:13:02-07:00",
   "unit_count": 7,
   "units": [
     {
@@ -28,7 +28,19 @@
       "state": "CA",
       "postal_code": "94705",
       "title": "2710 Belrose Avenue - 2",
-      "url": "https://collab.managebuilding.com/Resident/public/rentals/56097"
+      "url": "https://collab.managebuilding.com/Resident/public/rentals/56097",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 0.0,
+          "observed": 1
+        },
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "19 Buttonwood Street, Boston, MA 02125",
@@ -64,12 +76,12 @@
       "rent": 3980.0,
       "kind": "residential",
       "unit_type": "2_bedroom",
-      "room_type": null,
+      "room_type": "entire_place",
       "pets": null,
       "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
+      "parking": "off_street",
+      "laundry": "in_unit",
+      "summary": "Brand new construction 2-bed, 2-bath apartment in a third-floor unit with in-unit laundry and private building storage. Available September 1, 2026.",
       "available_now": false,
       "bathrooms": 2.0,
       "square_feet": 1013,

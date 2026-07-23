@@ -3,7 +3,7 @@
   "source": "tripalink",
   "manager": "Tripalink",
   "source_url": "https://tripalink.com/berkeley/homes-for-rent",
-  "scraped_at": "2026-07-22T16:03:43-07:00",
+  "scraped_at": "2026-07-22T18:13:23-07:00",
   "unit_count": 271,
   "units": [
     {
@@ -724,7 +724,14 @@
       "state": "CA",
       "postal_code": null,
       "title": "2360 Ellsworth",
-      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000217"
+      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000217",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "room",
+          "observed": "residential"
+        }
+      ]
     },
     {
       "address": "2729 Dwight Way, Berkeley, CA 94704 #1203-203-B2",
@@ -928,7 +935,7 @@
       "rent": 1650.0,
       "kind": "room",
       "unit_type": "2_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1360,7 +1367,7 @@
       "rent": 810.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1384,7 +1391,7 @@
       "rent": 810.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1408,7 +1415,7 @@
       "rent": 810.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1432,7 +1439,7 @@
       "rent": 810.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1456,7 +1463,7 @@
       "rent": 810.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1480,7 +1487,7 @@
       "rent": 810.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1504,7 +1511,7 @@
       "rent": 810.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1528,7 +1535,7 @@
       "rent": 810.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1552,7 +1559,7 @@
       "rent": 810.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1576,7 +1583,7 @@
       "rent": 810.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1600,7 +1607,7 @@
       "rent": 1070.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1624,7 +1631,7 @@
       "rent": 1070.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1648,7 +1655,7 @@
       "rent": 1070.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1672,7 +1679,7 @@
       "rent": 1070.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -1696,7 +1703,7 @@
       "rent": 1070.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2128,7 +2135,7 @@
       "rent": 1520.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2152,7 +2159,7 @@
       "rent": 1520.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2176,7 +2183,7 @@
       "rent": 1520.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2200,7 +2207,7 @@
       "rent": 1560.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2224,7 +2231,7 @@
       "rent": 1560.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2248,7 +2255,7 @@
       "rent": 1560.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2272,7 +2279,7 @@
       "rent": 1560.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2296,7 +2303,7 @@
       "rent": 1560.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2320,7 +2327,7 @@
       "rent": 1560.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2344,7 +2351,7 @@
       "rent": 1560.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2368,7 +2375,7 @@
       "rent": 1560.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2392,7 +2399,7 @@
       "rent": 1560.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2416,7 +2423,7 @@
       "rent": 1560.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2440,7 +2447,7 @@
       "rent": 1620.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2464,7 +2471,7 @@
       "rent": 1620.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2488,7 +2495,7 @@
       "rent": 1620.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2512,7 +2519,7 @@
       "rent": 1660.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -2536,7 +2543,7 @@
       "rent": 1660.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -4552,7 +4559,7 @@
       "rent": 1580.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -4576,7 +4583,7 @@
       "rent": 1580.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -5620,7 +5627,14 @@
       "state": "CA",
       "postal_code": null,
       "title": "2710 College",
-      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000214"
+      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000214",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 5.0,
+          "observed": 1
+        }
+      ]
     },
     {
       "address": "2430 Prospect Street, Berkeley, CA 94704 #1109-109-E",
@@ -5668,7 +5682,19 @@
       "state": "CA",
       "postal_code": null,
       "title": "2710 College",
-      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000214"
+      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000214",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 5.0,
+          "observed": 1
+        },
+        {
+          "field": "rent",
+          "parsed": 1960.0,
+          "observed": 1860
+        }
+      ]
     },
     {
       "address": "2710 College Avenue, Berkeley, CA 94705 #1001-2710A-C",
@@ -5692,7 +5718,19 @@
       "state": "CA",
       "postal_code": null,
       "title": "2710 College",
-      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000214"
+      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000214",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 5.0,
+          "observed": 1
+        },
+        {
+          "field": "rent",
+          "parsed": 1960.0,
+          "observed": 1860
+        }
+      ]
     },
     {
       "address": "2710 College Avenue, Berkeley, CA 94705 #1001-2710A-D",
@@ -5716,7 +5754,19 @@
       "state": "CA",
       "postal_code": null,
       "title": "2710 College",
-      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000214"
+      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000214",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 5.0,
+          "observed": 1
+        },
+        {
+          "field": "rent",
+          "parsed": 1960.0,
+          "observed": 1860
+        }
+      ]
     },
     {
       "address": "2710 College Avenue, Berkeley, CA 94705 #1001-2710A-E",
@@ -5740,7 +5790,19 @@
       "state": "CA",
       "postal_code": null,
       "title": "2710 College",
-      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000214"
+      "url": "https://tripalink.com/apartments/bay-area/berkeley/50000214",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 5.0,
+          "observed": 1
+        },
+        {
+          "field": "rent",
+          "parsed": 1960.0,
+          "observed": 1860
+        }
+      ]
     },
     {
       "address": "2701 Durant Avenue, Berkeley, CA 94704 #1002-201-B",
@@ -5968,7 +6030,7 @@
       "rent": 1380.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -5992,7 +6054,7 @@
       "rent": 1380.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "shared_room",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,

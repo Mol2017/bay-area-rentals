@@ -3,7 +3,7 @@
   "source": "panoramic_berkeley",
   "manager": "Panoramic Berkeley",
   "source_url": "https://panoramicmgt.appfolio.com/listings",
-  "scraped_at": "2026-07-22T16:03:21-07:00",
+  "scraped_at": "2026-07-22T18:13:01-07:00",
   "unit_count": 5,
   "units": [
     {
@@ -88,7 +88,7 @@
       "rent": 6554.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "entire_place",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,
@@ -112,7 +112,7 @@
       "rent": 7225.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
-      "room_type": null,
+      "room_type": "entire_place",
       "pets": "none",
       "furnished": "furnished",
       "parking": null,

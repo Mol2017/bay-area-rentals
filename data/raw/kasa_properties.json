@@ -3,7 +3,7 @@
   "source": "kasa_properties",
   "manager": "Kasa Properties",
   "source_url": "https://kasaproperties.appfolio.com/listings",
-  "scraped_at": "2026-07-22T16:03:22-07:00",
+  "scraped_at": "2026-07-22T18:13:02-07:00",
   "unit_count": 36,
   "units": [
     {
@@ -252,7 +252,7 @@
       "manager": "Kasa Properties",
       "city": "Berkeley",
       "bedrooms": 2.0,
-      "available_date": "2026-07-23",
+      "available_date": null,
       "rent": 3695.0,
       "kind": "residential",
       "unit_type": "2_bedroom",

@@ -3,7 +3,7 @@
   "source": "square_one_management",
   "manager": "Square One Management",
   "source_url": "https://som.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-22T16:03:22-07:00",
+  "scraped_at": "2026-07-22T18:13:02-07:00",
   "unit_count": 6,
   "units": [
     {
@@ -36,7 +36,7 @@
       "manager": "Square One Management",
       "city": "Berkeley",
       "bedrooms": 3.0,
-      "available_date": "2026-08-04",
+      "available_date": "2026-08-03",
       "rent": 1250.0,
       "kind": "room",
       "unit_type": "3plus_bedroom",
@@ -52,7 +52,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2556 Telegraph Ave #503",
-      "url": "https://som.managebuilding.com/Resident/public/rentals/10537"
+      "url": "https://som.managebuilding.com/Resident/public/rentals/10537",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "2556 Telegraph Ave. -Suite B, Berkeley, CA 94704",
@@ -124,18 +131,25 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2556 Telegraph Ave. -401",
-      "url": "https://som.managebuilding.com/Resident/public/rentals/41700"
+      "url": "https://som.managebuilding.com/Resident/public/rentals/41700",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "2556 Telegraph Ave. -504, Berkeley, CA 94704",
       "source": "square_one_management",
       "manager": "Square One Management",
       "city": "Berkeley",
-      "bedrooms": 1,
+      "bedrooms": 4.0,
       "available_date": "2026-06-10",
       "rent": 1950.0,
       "kind": "room",
-      "unit_type": "1_bedroom",
+      "unit_type": "3plus_bedroom",
       "room_type": "private_room",
       "pets": "allowed",
       "furnished": "furnished",
@@ -148,7 +162,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2556 Telegraph Ave. -504",
-      "url": "https://som.managebuilding.com/Resident/public/rentals/38089"
+      "url": "https://som.managebuilding.com/Resident/public/rentals/38089",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     }
   ]
 }

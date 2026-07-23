@@ -3,7 +3,7 @@
   "source": "raj_properties",
   "manager": "Raj Properties",
   "source_url": "https://rajproperties.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-22T16:03:22-07:00",
+  "scraped_at": "2026-07-22T18:13:02-07:00",
   "unit_count": 53,
   "units": [
     {
@@ -28,7 +28,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "1931 Dwight Way, 10",
-      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/63529"
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/63529",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "1931 Dwight Way, 2, Berkeley, CA 94704",
@@ -76,7 +83,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2070 University Avenue, 113",
-      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/52777"
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/52777",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
     },
     {
       "address": "2541 Regent Street, 103, Berkeley, CA 94704",
@@ -724,7 +738,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2431 Ellsworth Street, 109",
-      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/62919"
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/62919",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 2.0,
+          "observed": 1
+        }
+      ]
     },
     {
       "address": "2431 Ellsworth Street, 302, Berkeley, CA 94704",
@@ -748,7 +769,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2431 Ellsworth Street, 302",
-      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/63109"
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/63109",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 2.0,
+          "observed": 1
+        }
+      ]
     },
     {
       "address": "2442 Piedmont Avenue, 10, Berkeley, CA 94704",
@@ -1084,7 +1112,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2431 Ellsworth Street, 401",
-      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/62920"
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/62920",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 3.0,
+          "observed": 1
+        }
+      ]
     },
     {
       "address": "1919 E. Sussex Way, 112, Fresno, CA 93726",
