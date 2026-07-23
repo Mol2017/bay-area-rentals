@@ -1,6 +1,6 @@
 {
-  "checked": 986,
-  "conflicts": 203,
+  "checked": 984,
+  "conflicts": 204,
   "parser_missing": 99,
   "rows": [
     {
@@ -1729,6 +1729,15 @@
       "field": "rent",
       "parser": 5400.0,
       "page": 5800,
+      "type": "conflict"
+    },
+    {
+      "address": "2077 Haste St - 706, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/e7938540-b6e2-4bde-9456-ff4eec6ff55d",
+      "field": "rent",
+      "parser": 3195.0,
+      "page": 3250,
       "type": "conflict"
     },
     {

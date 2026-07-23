@@ -3,8 +3,8 @@
   "source": "structure_boston",
   "manager": "Structure Boston",
   "source_url": "https://structureboston.appfolio.com/listings",
-  "scraped_at": "2026-07-22T20:38:32-07:00",
-  "unit_count": 75,
+  "scraped_at": "2026-07-23T07:02:53-07:00",
+  "unit_count": 74,
   "units": [
     {
       "address": "7 Wilton Street - 12, Allston, MA 02134",
@@ -317,30 +317,6 @@
       "postal_code": "02150",
       "title": null,
       "url": "https://structureboston.appfolio.com/listings/detail/f2220289-e26e-4f41-a811-a0895221c962"
-    },
-    {
-      "address": "65 Saxton Street - 2, Dorchester, MA 02125",
-      "source": "structure_boston",
-      "manager": "Structure Boston",
-      "city": "Dorchester",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2700.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": "2-bedroom, 1-bathroom apartment in Dorchester available now at $2,700/month.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "MA",
-      "postal_code": "02125",
-      "title": null,
-      "url": "https://structureboston.appfolio.com/listings/detail/32e1fea4-eaf8-4a65-9f39-4b69f22b09a5"
     },
     {
       "address": "10 Everett Ave. - 1, Dorchester, MA 02125",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T20:38:54-07:00",
-  "total_units": 1179,
+  "generated_at": "2026-07-23T07:04:30-07:00",
+  "total_units": 1178,
   "stale_after_hours": 48,
   "sources": [
     {
@@ -9,7 +9,7 @@
       "site": "https://tripalink.com/berkeley/homes-for-rent",
       "platform": "tripalink",
       "unit_count": 271,
-      "scraped_at": "2026-07-22T20:38:54-07:00",
+      "scraped_at": "2026-07-23T07:03:16-07:00",
       "stale": false
     },
     {
@@ -18,7 +18,7 @@
       "site": "https://sgreresidential.com/",
       "platform": "appfolio",
       "unit_count": 156,
-      "scraped_at": "2026-07-22T20:38:31-07:00",
+      "scraped_at": "2026-07-23T07:02:52-07:00",
       "stale": false
     },
     {
@@ -27,7 +27,7 @@
       "site": "https://www.kands.com/",
       "platform": "appfolio",
       "unit_count": 75,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -36,7 +36,7 @@
       "site": "https://www.laphamcompany.com/",
       "platform": "appfolio",
       "unit_count": 58,
-      "scraped_at": "2026-07-22T20:38:31-07:00",
+      "scraped_at": "2026-07-23T07:02:52-07:00",
       "stale": false
     },
     {
@@ -45,7 +45,7 @@
       "site": "https://www.crpmrealty.com/",
       "platform": "appfolio",
       "unit_count": 53,
-      "scraped_at": "2026-07-22T20:38:31-07:00",
+      "scraped_at": "2026-07-23T07:02:52-07:00",
       "stale": false
     },
     {
@@ -54,7 +54,7 @@
       "site": "https://www.rajproperties.com/",
       "platform": "buildium",
       "unit_count": 45,
-      "scraped_at": "2026-07-22T20:38:33-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -62,8 +62,8 @@
       "manager": "Structure Boston",
       "site": "https://structureboston.appfolio.com/",
       "platform": "appfolio",
-      "unit_count": 41,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "unit_count": 40,
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -72,7 +72,7 @@
       "site": "https://mmgprop.com/",
       "platform": "mmg",
       "unit_count": 38,
-      "scraped_at": "2026-07-22T20:38:33-07:00",
+      "scraped_at": "2026-07-23T07:02:55-07:00",
       "stale": false
     },
     {
@@ -81,7 +81,7 @@
       "site": "https://structureproperties.com/",
       "platform": "appfolio",
       "unit_count": 34,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:51-07:00",
       "stale": false
     },
     {
@@ -90,7 +90,7 @@
       "site": "https://www.kasaproperties.com/",
       "platform": "appfolio",
       "unit_count": 33,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:50-07:00",
       "stale": false
     },
     {
@@ -99,7 +99,7 @@
       "site": "https://mpmoakland.managebuilding.com/",
       "platform": "buildium",
       "unit_count": 33,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -108,7 +108,7 @@
       "site": "https://www.twobliving.com/",
       "platform": "appfolio",
       "unit_count": 29,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:51-07:00",
       "stale": false
     },
     {
@@ -117,7 +117,7 @@
       "site": "https://bostonpropertymanagementllc.com/",
       "platform": "boston_pm",
       "unit_count": 26,
-      "scraped_at": "2026-07-22T20:38:33-07:00",
+      "scraped_at": "2026-07-23T07:02:55-07:00",
       "stale": false
     },
     {
@@ -126,7 +126,7 @@
       "site": "https://utopiamanagement.com/",
       "platform": "appfolio",
       "unit_count": 26,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:54-07:00",
       "stale": false
     },
     {
@@ -135,7 +135,7 @@
       "site": "https://www.academichousingrentals.com",
       "platform": "buildium",
       "unit_count": 25,
-      "scraped_at": "2026-07-22T20:38:31-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -144,7 +144,7 @@
       "site": "https://www.baypropertygroup.com/",
       "platform": "appfolio",
       "unit_count": 22,
-      "scraped_at": "2026-07-22T20:38:31-07:00",
+      "scraped_at": "2026-07-23T07:02:52-07:00",
       "stale": false
     },
     {
@@ -153,7 +153,7 @@
       "site": "https://www.beacprop.com/",
       "platform": "appfolio",
       "unit_count": 21,
-      "scraped_at": "2026-07-22T20:38:29-07:00",
+      "scraped_at": "2026-07-23T07:02:50-07:00",
       "stale": false
     },
     {
@@ -162,7 +162,7 @@
       "site": "https://www.selborneproperties.com/",
       "platform": "appfolio",
       "unit_count": 17,
-      "scraped_at": "2026-07-22T20:38:31-07:00",
+      "scraped_at": "2026-07-23T07:02:52-07:00",
       "stale": false
     },
     {
@@ -171,7 +171,7 @@
       "site": "https://www.bostonpropertycare.com/",
       "platform": "appfolio",
       "unit_count": 16,
-      "scraped_at": "2026-07-22T20:38:31-07:00",
+      "scraped_at": "2026-07-23T07:02:52-07:00",
       "stale": false
     },
     {
@@ -179,8 +179,8 @@
       "manager": "ReListo",
       "site": "https://www.relisto.com/",
       "platform": "relisto",
-      "unit_count": 15,
-      "scraped_at": "2026-07-22T20:38:49-07:00",
+      "unit_count": 16,
+      "scraped_at": "2026-07-23T07:04:30-07:00",
       "stale": false
     },
     {
@@ -189,7 +189,7 @@
       "site": "https://alleastbayproperties.com/",
       "platform": "appfolio",
       "unit_count": 14,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:51-07:00",
       "stale": false
     },
     {
@@ -198,7 +198,7 @@
       "site": "https://authenticre.com/",
       "platform": "appfolio",
       "unit_count": 12,
-      "scraped_at": "2026-07-22T20:38:29-07:00",
+      "scraped_at": "2026-07-23T07:02:50-07:00",
       "stale": false
     },
     {
@@ -207,7 +207,7 @@
       "site": "https://adventpropertiesinc.com/",
       "platform": "appfolio",
       "unit_count": 11,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:51-07:00",
       "stale": false
     },
     {
@@ -216,7 +216,7 @@
       "site": "https://wcpm.com/",
       "platform": "appfolio",
       "unit_count": 11,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -225,7 +225,7 @@
       "site": "https://www.goldenstatepropertymanagement.com/",
       "platform": "appfolio",
       "unit_count": 10,
-      "scraped_at": "2026-07-22T20:38:31-07:00",
+      "scraped_at": "2026-07-23T07:02:52-07:00",
       "stale": false
     },
     {
@@ -234,7 +234,7 @@
       "site": "https://www.ppm4rent.com/",
       "platform": "appfolio",
       "unit_count": 10,
-      "scraped_at": "2026-07-22T20:38:31-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -243,7 +243,7 @@
       "site": "https://www.domingoprop.com/",
       "platform": "buildium",
       "unit_count": 8,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -252,7 +252,7 @@
       "site": "https://www.cedarproperties.com/",
       "platform": "appfolio",
       "unit_count": 7,
-      "scraped_at": "2026-07-22T20:38:29-07:00",
+      "scraped_at": "2026-07-23T07:02:50-07:00",
       "stale": false
     },
     {
@@ -261,7 +261,7 @@
       "site": "https://www.kormanandngpm.com/",
       "platform": "appfolio",
       "unit_count": 7,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:51-07:00",
       "stale": false
     },
     {
@@ -270,7 +270,7 @@
       "site": "https://californiapacific.appfolio.com/listings",
       "platform": "appfolio",
       "unit_count": 6,
-      "scraped_at": "2026-07-22T20:38:29-07:00",
+      "scraped_at": "2026-07-23T07:02:50-07:00",
       "stale": false
     },
     {
@@ -279,7 +279,7 @@
       "site": "https://premiumpd.com/",
       "platform": "showmojo",
       "unit_count": 6,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:54-07:00",
       "stale": false
     },
     {
@@ -288,7 +288,7 @@
       "site": "https://squareonemanagement.com/",
       "platform": "buildium",
       "unit_count": 6,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -297,7 +297,7 @@
       "site": "https://bostonluxury.managebuilding.com/",
       "platform": "buildium",
       "unit_count": 5,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:54-07:00",
       "stale": false
     },
     {
@@ -306,16 +306,7 @@
       "site": "https://www.bayapartmentbroker.com/",
       "platform": "appfolio",
       "unit_count": 5,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
-      "stale": false
-    },
-    {
-      "slug": "panoramic_berkeley",
-      "manager": "Panoramic Berkeley",
-      "site": "https://www.panoramicberkeley.com/",
-      "platform": "appfolio",
-      "unit_count": 5,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:51-07:00",
       "stale": false
     },
     {
@@ -324,7 +315,16 @@
       "site": "https://www.bancalsf.com/",
       "platform": "appfolio",
       "unit_count": 4,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:51-07:00",
+      "stale": false
+    },
+    {
+      "slug": "panoramic_berkeley",
+      "manager": "Panoramic Berkeley",
+      "site": "https://www.panoramicberkeley.com/",
+      "platform": "appfolio",
+      "unit_count": 4,
+      "scraped_at": "2026-07-23T07:02:51-07:00",
       "stale": false
     },
     {
@@ -333,7 +333,7 @@
       "site": "https://rentals.collabhome.io/",
       "platform": "buildium",
       "unit_count": 3,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -342,7 +342,7 @@
       "site": "https://perkinsrealtypartners.com/",
       "platform": "appfolio",
       "unit_count": 3,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:51-07:00",
       "stale": false
     },
     {
@@ -351,7 +351,7 @@
       "site": "https://www.chandlerproperties.com/",
       "platform": "appfolio",
       "unit_count": 2,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:51-07:00",
       "stale": false
     },
     {
@@ -369,7 +369,7 @@
       "site": "https://gpmsf.com/",
       "platform": "appfolio",
       "unit_count": 2,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:50-07:00",
       "stale": false
     },
     {
@@ -378,7 +378,7 @@
       "site": "https://hayesm.com/available/",
       "platform": "appfolio",
       "unit_count": 2,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:51-07:00",
       "stale": false
     },
     {
@@ -387,7 +387,7 @@
       "site": "https://tleedevelopment.appfolio.com/",
       "platform": "appfolio",
       "unit_count": 2,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -396,7 +396,7 @@
       "site": "https://bcpm.com/",
       "platform": "appfolio",
       "unit_count": 1,
-      "scraped_at": "2026-07-22T20:38:29-07:00",
+      "scraped_at": "2026-07-23T07:02:50-07:00",
       "stale": false
     },
     {
@@ -405,7 +405,7 @@
       "site": "https://www.boardwalkrents.com/",
       "platform": "appfolio",
       "unit_count": 1,
-      "scraped_at": "2026-07-22T20:38:29-07:00",
+      "scraped_at": "2026-07-23T07:02:50-07:00",
       "stale": false
     },
     {
@@ -414,7 +414,7 @@
       "site": "https://apmanage.net/",
       "platform": "appfolio",
       "unit_count": 0,
-      "scraped_at": "2026-07-22T20:38:29-07:00",
+      "scraped_at": "2026-07-23T07:02:50-07:00",
       "stale": false
     },
     {
@@ -423,7 +423,7 @@
       "site": "https://cambridgemgi.appfolio.com/",
       "platform": "appfolio",
       "unit_count": 0,
-      "scraped_at": "2026-07-22T20:38:31-07:00",
+      "scraped_at": "2026-07-23T07:02:52-07:00",
       "stale": false
     },
     {
@@ -432,7 +432,7 @@
       "site": "https://www.cwmgmtinc.com/",
       "platform": "appfolio",
       "unit_count": 0,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -441,7 +441,7 @@
       "site": "https://hawthornepmg.managebuilding.com/",
       "platform": "buildium",
       "unit_count": 0,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -450,7 +450,7 @@
       "site": "https://keyopp.net/",
       "platform": "buildium",
       "unit_count": 0,
-      "scraped_at": "2026-07-22T20:38:32-07:00",
+      "scraped_at": "2026-07-23T07:02:53-07:00",
       "stale": false
     },
     {
@@ -459,7 +459,7 @@
       "site": "https://www.northberkeleyproperties.com/",
       "platform": "appfolio",
       "unit_count": 0,
-      "scraped_at": "2026-07-22T20:38:30-07:00",
+      "scraped_at": "2026-07-23T07:02:51-07:00",
       "stale": false
     }
   ],
@@ -467,7 +467,7 @@
     "cities": [
       {
         "name": "Berkeley",
-        "count": 652
+        "count": 651
       },
       {
         "name": "Oakland",
@@ -495,7 +495,7 @@
       },
       {
         "name": "Richmond",
-        "count": 14
+        "count": 15
       },
       {
         "name": "El Cerrito",
@@ -511,7 +511,7 @@
       },
       {
         "name": "Dorchester",
-        "count": 9
+        "count": 8
       },
       {
         "name": "Emeryville",
@@ -722,7 +722,7 @@
       {
         "value": 2.0,
         "label": "2 bed",
-        "count": 287
+        "count": 286
       },
       {
         "value": 2.5,
@@ -767,7 +767,7 @@
     "room_type": [
       {
         "name": "entire_place",
-        "count": 754
+        "count": 753
       },
       {
         "name": "private_room",
@@ -793,7 +793,7 @@
       },
       {
         "name": "2_bedroom",
-        "count": 288
+        "count": 287
       },
       {
         "name": "studio",
@@ -807,7 +807,7 @@
     "pets": [
       {
         "name": "none",
-        "count": 554
+        "count": 553
       },
       {
         "name": "allowed",
@@ -829,7 +829,7 @@
     "furnished": [
       {
         "name": "furnished",
-        "count": 410
+        "count": 409
       },
       {
         "name": "partial",
@@ -863,7 +863,7 @@
       },
       {
         "name": "unknown",
-        "count": 610
+        "count": 609
       }
     ],
     "laundry": [
@@ -885,7 +885,7 @@
       },
       {
         "name": "unknown",
-        "count": 204
+        "count": 203
       }
     ]
   },
@@ -1097,7 +1097,7 @@
       "emails": [
         "service@relisto.com"
       ],
-      "source_url": "https://www.relisto.com/rentals/405878281-1426-addison-st-b-berkeley-ca-94702/"
+      "source_url": "https://www.relisto.com/rentals/442092409-369-s-20th-st-richmond-ca-94804/"
     },
     "Selborne Properties": {
       "phone": "(510) 422-0985",
@@ -8696,29 +8696,6 @@
       "url": "https://structureboston.appfolio.com/listings/detail/5d552504-3b16-40e4-80cf-62e62ffef9ed"
     },
     {
-      "address": "65 Saxton Street - 2, Dorchester, MA 02125",
-      "source": "structure_boston",
-      "manager": "Structure Boston",
-      "city": "Dorchester",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2700.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": "2-bedroom, 1-bathroom apartment in Dorchester available now at $2,700/month.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "MA",
-      "postal_code": "02125",
-      "title": null,
-      "url": "https://structureboston.appfolio.com/listings/detail/32e1fea4-eaf8-4a65-9f39-4b69f22b09a5"
-    },
-    {
       "address": "950 63rd Street, Unit 310, Oakland, CA 94608",
       "source": "two_b_living",
       "manager": "2B Living",
@@ -14387,6 +14364,29 @@
       "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95214"
     },
     {
+      "address": "369 S 20th St., Richmond, CA, 94804",
+      "source": "relisto",
+      "manager": "ReListo",
+      "city": "Richmond",
+      "bedrooms": 4.0,
+      "available_date": "2026-07-15",
+      "rent": 3495.0,
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": null,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94804",
+      "title": "369 S 20th St.",
+      "url": "https://www.relisto.com/rentals/442092409-369-s-20th-st-richmond-ca-94804/"
+    },
+    {
       "address": "13 James Way, Cambridge, MA 02141",
       "source": "boston_luxury",
       "manager": "Boston Luxury Real Estate",
@@ -16471,6 +16471,29 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/127511d5-0609-4aa6-9a98-9b4eb5343c9e"
     },
     {
+      "address": "2077 Haste St - 706, Berkeley, CA 94704",
+      "source": "sg_real_estate",
+      "manager": "SG Real Estate Co.",
+      "city": "Berkeley",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-01",
+      "rent": 3195.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": "allowed",
+      "furnished": "furnished",
+      "parking": null,
+      "laundry": "in_unit",
+      "summary": "Brand new furnished 1-bedroom, 1-bathroom apartment (651 sq ft) in Berkeley with an additional Ori bed, sleeping up to 3. Includes in-unit washer/dryer, AC/heat, and rooftop amenities. Available August 1, 2026.",
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 651,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "Check out the ORI BED! Welcome to The Lair! 1Bdr + Ori Bed (Max Occupancy 3) Beyond Modern Short Term & beyond Brand New Furnished Apartments! Close to UC Berkeley and BART",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/e7938540-b6e2-4bde-9456-ff4eec6ff55d"
+    },
+    {
       "address": "3105 Telegraph Ave, Apt 1, Berkeley, CA 94705",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -16492,29 +16515,6 @@
       "postal_code": "94705",
       "title": "AMAZING Reno! Dishwasher! In Unit Washer & Dryer! Owner pays for Water! Right up Telegraph Ave to UC Berkeley!",
       "url": "https://sgrealestate.appfolio.com/listings/detail/f7a32fbb-a29c-4e91-ae69-cd85dcc284c6"
-    },
-    {
-      "address": "2077 Haste St - 706, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": "2026-08-01",
-      "rent": 3250.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "in_unit",
-      "summary": "Brand new furnished 1-bedroom, 1-bathroom apartment (651 sq ft) in Berkeley with an additional Ori bed, sleeping up to 3. Includes in-unit washer/dryer, AC/heat, and rooftop amenities. Available August 1, 2026.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 651,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Check out the ORI BED! Welcome to The Lair! 1Bdr + Ori Bed (Max Occupancy 3) Beyond Modern Short Term & beyond Brand New Furnished Apartments! Close to UC Berkeley and BART",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/e7938540-b6e2-4bde-9456-ff4eec6ff55d"
     },
     {
       "address": "2644 Dwight Way. -29, Berkeley, CA 94704",
@@ -17107,29 +17107,6 @@
       "postal_code": "94501",
       "title": "Spacious Spanish-Styled 3Bed/2Bath SFH For Rent in the Desirable City of Alameda, Ca!!!",
       "url": "https://utopiamanagement.appfolio.com/listings/detail/f493a299-bdeb-4614-9570-d8db51fde289"
-    },
-    {
-      "address": "1752 Shattuck Avenue, Unit 304, Berkeley, CA 94709",
-      "source": "panoramic_berkeley",
-      "manager": "Panoramic Berkeley",
-      "city": "Berkeley",
-      "bedrooms": 4.0,
-      "available_date": "2026-08-01",
-      "rent": 6150.0,
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": null,
-      "summary": "Furnished 4-bedroom, 1.5-bathroom apartment in Berkeley with modern amenities including rooftop garden, soundproofing, and utilities included. Available 8/1/26.",
-      "available_now": false,
-      "bathrooms": 1.5,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94709",
-      "title": "New Modern FURNISHED Apt with 4 PRIVATE ROOMS",
-      "url": "https://panoramicmgt.appfolio.com/listings/detail/af8dbec9-3731-4caa-8837-10392e2e60e4"
     },
     {
       "address": "1752 Shattuck Avenue, Unit 608, Berkeley, CA 94709",

@@ -3,7 +3,7 @@
   "source": "sg_real_estate",
   "manager": "SG Real Estate Co.",
   "source_url": "https://sgrealestate.appfolio.com/listings",
-  "scraped_at": "2026-07-22T20:38:31-07:00",
+  "scraped_at": "2026-07-23T07:02:52-07:00",
   "unit_count": 164,
   "units": [
     {
@@ -2177,7 +2177,7 @@
       "city": "Berkeley",
       "bedrooms": 1.0,
       "available_date": "2026-08-01",
-      "rent": 3250.0,
+      "rent": 3195.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
       "room_type": "entire_place",

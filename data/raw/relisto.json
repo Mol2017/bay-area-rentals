@@ -3,8 +3,8 @@
   "source": "relisto",
   "manager": "ReListo",
   "source_url": "https://www.relisto.com/",
-  "scraped_at": "2026-07-22T20:38:49-07:00",
-  "unit_count": 15,
+  "scraped_at": "2026-07-23T07:04:30-07:00",
+  "unit_count": 16,
   "units": [
     {
       "address": "1426 Addison St., Berkeley, CA, 94702",
@@ -53,6 +53,30 @@
       "postal_code": "94608",
       "title": "966 53rd St.",
       "url": "https://www.relisto.com/rentals/436460895-966-53rd-st-oakland-ca-94608/"
+    },
+    {
+      "address": "369 S 20th St., Richmond, CA, 94804",
+      "source": "relisto",
+      "manager": "ReListo",
+      "city": "Richmond",
+      "bedrooms": 4.0,
+      "available_date": "2026-07-15",
+      "rent": 3495.0,
+      "kind": "residential",
+      "unit_type": "3plus_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": null,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94804",
+      "title": "369 S 20th St.",
+      "url": "https://www.relisto.com/rentals/442092409-369-s-20th-st-richmond-ca-94804/"
     },
     {
       "address": "402 Broadway, San Francisco, CA, 94133",

@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-07-22T20:38:54-07:00",
+  "checked_at": "2026-07-23T07:04:30-07:00",
   "sources_ok": 51,
   "sources_failed": 0,
-  "total_units": 1577,
+  "total_units": 1576,
   "unscrapable": [
     {
       "slug": "hudson_mcdonald",
@@ -257,7 +257,7 @@
       "ok": true,
       "units": 2,
       "error": null,
-      "preserved": false
+      "preserved": true
     },
     {
       "slug": "golden_gate_pm",
@@ -381,7 +381,7 @@
       "manager": "Panoramic Berkeley",
       "platform": "appfolio",
       "ok": true,
-      "units": 5,
+      "units": 4,
       "error": null,
       "preserved": false
     },
@@ -426,7 +426,7 @@
       "manager": "ReListo",
       "platform": "relisto",
       "ok": true,
-      "units": 15,
+      "units": 16,
       "error": null,
       "preserved": false
     },
@@ -462,7 +462,7 @@
       "manager": "Structure Boston",
       "platform": "appfolio",
       "ok": true,
-      "units": 75,
+      "units": 74,
       "error": null,
       "preserved": false
     },
