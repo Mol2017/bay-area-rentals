@@ -382,6 +382,7 @@ def conflicts_from_cache(raw: dict, cache: dict) -> tuple[list, dict]:
             hit = cache.get(url)
             if not hit or not hit.get("observed"):
                 continue
+            counts["checked"] += 1
             for c in compare_observed(units[0], hit["observed"]):
                 counts[c["type"]] += 1
                 if c["type"] == "conflict":

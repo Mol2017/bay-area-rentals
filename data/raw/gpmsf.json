@@ -3,7 +3,7 @@
   "source": "gpmsf",
   "manager": "Gordon Property Management",
   "source_url": "https://gordon.appfolio.com/listings",
-  "scraped_at": "2026-07-22T18:13:01-07:00",
+  "scraped_at": "2026-07-22T18:45:18-07:00",
   "unit_count": 2,
   "units": [
     {
@@ -21,7 +21,7 @@
       "furnished": null,
       "parking": "street",
       "laundry": "shared",
-      "summary": "Bright one-bedroom, one-bathroom apartment in Bernal Heights with hardwood floors, walk-in closet, and newly updated kitchen. Available now.",
+      "summary": "Bright one-bedroom, one-bathroom apartment in Bernal Heights with hardwood floors, walk-in closet, and newly updated kitchen. Street parking only, laundromat on ground floor, no pets allowed.",
       "available_now": true,
       "bathrooms": 1.0,
       "square_feet": 545,

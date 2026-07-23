@@ -3,7 +3,7 @@
   "source": "domingo_properties",
   "manager": "Domingo Properties",
   "source_url": "https://domingoprop.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-22T18:13:02-07:00",
+  "scraped_at": "2026-07-22T18:45:19-07:00",
   "unit_count": 8,
   "units": [
     {
@@ -21,7 +21,7 @@
       "furnished": null,
       "parking": "off_street",
       "laundry": "shared",
-      "summary": "Studio apartment in Berkeley near UC Berkeley campus and BART with hardwood floors, updated kitchen, and on-site laundry. Water and garbage included; parking available for additional fee.",
+      "summary": "Studio apartment in Berkeley near UC Berkeley campus and BART with hardwood floors, updated kitchen, and on-site laundry. Water and garbage included; private parking available for additional fee.",
       "available_now": false,
       "bathrooms": 1.0,
       "square_feet": 315,
@@ -117,7 +117,7 @@
       "furnished": null,
       "parking": "off_street",
       "laundry": null,
-      "summary": "One-bedroom, one-bath unit in a small 5-unit building near UC Berkeley; parking available for $150/month.",
+      "summary": "One-bedroom, one-bath unit with 500 sq ft in a 5-unit building near UC Berkeley; off-street parking available for $150/month.",
       "available_now": false,
       "bathrooms": 1.0,
       "square_feet": 500,
@@ -148,14 +148,7 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "2417 Blake Street #2",
-      "url": "https://domingoprop.managebuilding.com/Resident/public/rentals/40693",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
+      "url": "https://domingoprop.managebuilding.com/Resident/public/rentals/40693"
     },
     {
       "address": "2606 Benvenue Avenue, #103, Berkeley, CA 94704",
@@ -172,7 +165,7 @@
       "furnished": "partial",
       "parking": "garage",
       "laundry": "shared",
-      "summary": "1-bedroom, 1-bathroom apartment in Berkeley near campus with hardwood floors and garage parking available. No pets allowed.",
+      "summary": "1-bedroom, 1-bathroom apartment in Berkeley with 628 sq ft, hardwood floors, and underground garage parking ($100/month extra). No pets allowed.",
       "available_now": false,
       "bathrooms": 1.0,
       "square_feet": 628,
@@ -191,12 +184,12 @@
       "rent": 2195.0,
       "kind": "residential",
       "unit_type": "2_bedroom",
-      "room_type": "private_room",
+      "room_type": "entire_place",
       "pets": null,
       "furnished": null,
       "parking": null,
       "laundry": null,
-      "summary": "Two-bedroom private apartment in Lake Merritt District with hardwood floors and spacious closets.",
+      "summary": "Two-bedroom, one-bathroom apartment in Lake Merritt District with hardwood floors, large closets, and storage.",
       "available_now": false,
       "bathrooms": 1.0,
       "square_feet": 700,

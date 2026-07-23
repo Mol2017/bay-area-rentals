@@ -297,6 +297,35 @@ def write_contacts(contacts: dict) -> None:
     path.write_text(json.dumps(contacts, indent=2, sort_keys=True))
 
 
+def write_conflicts(rows: list, counts: Counter, checked: int) -> None:
+    """Persist the parser/detail-page cross-check for reconcile.py + review."""
+    path = REPO_ROOT / "data" / "conflicts.json"
+    path.write_text(json.dumps(
+        {"checked": checked,
+         "conflicts": counts.get("conflict", 0),
+         "parser_missing": counts.get("parser_missing", 0),
+         "rows": sorted(rows, key=lambda r: (r["field"], r["address"] or ""))},
+        indent=2))
+
+
+def replay_cache(raw: dict, cache: dict) -> int:
+    """Apply cached enrichment onto every unit whose URL is known.
+
+    URL-keyed, so it survives a fresh scrape: the daily job re-scrapes, then
+    this puts every unchanged listing's summary and amenities back with no
+    API call. Only genuinely new URLs are left unenriched. Returns the number
+    of units it touched.
+    """
+    n = 0
+    for doc in raw.values():
+        for unit in enrichable(doc):
+            hit = cache.get(enrich.cache_key(unit.get("url")))
+            if hit:
+                apply_to_unit(unit, {**hit})
+                n += 1
+    return n
+
+
 def apply_results(results: dict, meta: dict, ctx: dict, args) -> int:
     """Merge model answers onto the raw files and persist caches."""
     cache, raw = ctx["cache"], ctx["raw"]
@@ -353,30 +382,27 @@ def apply_results(results: dict, meta: dict, ctx: dict, args) -> int:
         (RAW_DIR / f"{slug}.json").write_text(json.dumps(doc, indent=2))
     enrich.save_cache(cache)
 
-    # Written whether or not anything disagreed: an empty report is a
-    # meaningful result, and a missing file is indistinguishable from a run
-    # that never checked.
+    # Rebuild the whole cross-check from the (now-updated) cache, not just
+    # this run's pages -- so a daily run that only touched a few new listings
+    # still writes a complete conflicts.json, not a near-empty one.
+    all_rows, all_counts = enrich.conflicts_from_cache(raw, cache)
+    write_conflicts(all_rows, all_counts,
+                    checked=sum(1 for m in meta.values() if len(m["members"]) == 1))
     report = REPO_ROOT / "data" / "conflicts.json"
-    report.write_text(json.dumps(
-        {"checked": sum(1 for m in meta.values() if len(m["members"]) == 1),
-         "conflicts": conflicts.get("conflict", 0),
-         "parser_missing": conflicts.get("parser_missing", 0),
-         "rows": sorted(conflict_rows, key=lambda r: (r["field"], r["address"] or ""))},
-        indent=2))
 
     write_contacts(ctx["contacts"])
 
     print(f"\nenriched {sum(applied.values())} units from {len(results)}/{len(meta)} "
           f"pages across {len(applied)} sources")
     print(f"contacts written for {len(ctx['contacts'])} managers")
-    print(f"cross-check: {conflicts.get('conflict', 0)} conflicts, "
-          f"{conflicts.get('parser_missing', 0)} fields the page had and the "
+    print(f"cross-check: {all_counts.get('conflict', 0)} conflicts, "
+          f"{all_counts.get('parser_missing', 0)} fields the page had and the "
           f"parser missed -> {report.name}")
-    for row in conflict_rows[:8]:
+    for row in all_rows[:8]:
         print(f"    {row['field']:15} parser={row['parser']!r} page={row['page']!r}  "
               f"{(row['address'] or '')[:40]}")
-    if len(conflict_rows) > 8:
-        print(f"    ... and {len(conflict_rows) - 8} more in {report.name}")
+    if len(all_rows) > 8:
+        print(f"    ... and {len(all_rows) - 8} more in {report.name}")
     return 0
 
 
@@ -432,16 +458,24 @@ def main() -> int:
         estimate(payloads, ctx, args)
         return 0
     if args.no_llm:
-        # Contacts come from page text, not the model, so this path still
-        # produces them -- that is the point of --no-llm. But only overwrite
-        # the existing file when this run actually fetched pages; a --no-llm
-        # run against a warm cache has no page text and would otherwise
-        # replace real contacts with an empty file.
+        # The zero-cost daily path: no model call, no key. Replay the
+        # committed URL-keyed cache onto the fresh scrape so every unchanged
+        # listing keeps its summary and amenities, then rebuild the
+        # cross-check from the cached `observed` blocks (also URL-keyed, so
+        # reconcile.py still has real conflicts to apply). Genuinely new URLs
+        # are left bare until a keyed run fills them.
+        replayed = replay_cache(ctx["raw"], ctx["cache"])
+        for slug, doc in ctx["raw"].items():
+            (RAW_DIR / f"{slug}.json").write_text(json.dumps(doc, indent=2))
+        rows, counts = enrich.conflicts_from_cache(ctx["raw"], ctx["cache"])
+        write_conflicts(rows, counts, checked=counts.get("checked", 0))
+        # Contacts: only overwrite when this run actually fetched pages;
+        # a warm-cache run has none and must keep the committed file.
         if ctx["contacts"]:
             write_contacts(ctx["contacts"])
-            print(f"--no-llm: contacts written for {len(ctx['contacts'])} managers")
-        else:
-            print("--no-llm: no pages fetched this run; kept existing contacts")
+        print(f"--no-llm: replayed cache onto {replayed} units, "
+              f"{counts.get('conflict', 0)} conflicts from cache; "
+              f"{'wrote' if ctx['contacts'] else 'kept'} contacts")
         return 0
     if not payloads and not (args.use_batch or args.results_file):
         print("nothing to do")

@@ -3,7 +3,7 @@
   "source": "academic_housing_rentals",
   "manager": "Academic Housing Rentals",
   "source_url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-22T18:13:02-07:00",
+  "scraped_at": "2026-07-22T18:45:19-07:00",
   "unit_count": 25,
   "units": [
     {
@@ -183,14 +183,7 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 2A - BED IN TRIPLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/150171",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/150171"
     },
     {
       "address": "Dwight 2B - BED IN TRIPLE, Berkeley, CA 94704",
@@ -331,7 +324,7 @@
       "furnished": "furnished",
       "parking": null,
       "laundry": "shared",
-      "summary": "A twin bed in a double-occupancy room in a shared 7-bedroom house near UC Berkeley, fully furnished with utilities and laundry included.",
+      "summary": "A twin bed in a double-occupancy room in a 7-bedroom shared house near UC Berkeley, fully furnished with utilities and laundry included.",
       "available_now": false,
       "bathrooms": 3.0,
       "square_feet": null,
@@ -393,7 +386,7 @@
       "furnished": "furnished",
       "parking": null,
       "laundry": "shared",
-      "summary": "A bed in a shared double room (loft bed setup) in a furnished 7-bedroom house near UC Berkeley, rent includes utilities, laundry, and shared amenities.",
+      "summary": "A bed in a shared double room in a furnished 7-bedroom house near UC Berkeley; rent includes utilities, laundry, and shared amenities.",
       "available_now": false,
       "bathrooms": 3.0,
       "square_feet": null,
@@ -548,7 +541,7 @@
       "furnished": "furnished",
       "parking": null,
       "laundry": "in_unit",
-      "summary": "A bed in a double room in a fully furnished co-living house, 180 sq ft shared space with access to common areas including free washer/dryer. Rent is per bed.",
+      "summary": "A bed in a shared double room (180 sq ft) in a fully furnished co-living house near UC Berkeley, with in-unit washer/dryer and access to common kitchen and living areas. Rent is per bed.",
       "available_now": false,
       "bathrooms": 3.0,
       "square_feet": null,
@@ -579,7 +572,7 @@
       "furnished": "furnished",
       "parking": null,
       "laundry": "shared",
-      "summary": "Furnished private bedroom in a 7-bedroom coliving house near UC Berkeley, rent is per room.",
+      "summary": "Furnished private bedroom with full and twin bed in a 7-bedroom coliving house near UC Berkeley, rent is per room and includes utilities, WiFi, and household essentials.",
       "available_now": false,
       "bathrooms": 3.0,
       "square_feet": 2390,
@@ -627,7 +620,7 @@
       "furnished": "furnished",
       "parking": null,
       "laundry": "shared",
-      "summary": "Furnished private bedroom in a 7-bedroom shared house near UC Berkeley, with access to shared kitchen, bathrooms, and communal spaces. Rent includes utilities, WiFi, and cleaning of common areas.",
+      "summary": "Furnished private bedroom with twin and loft bed in a 7-bedroom shared house near UC Berkeley. Rent includes utilities, WiFi, furniture, linens, kitchen and bathroom essentials, and bi-weekly cleaning of common areas.",
       "available_now": false,
       "bathrooms": 3.0,
       "square_feet": null,
@@ -675,7 +668,7 @@
       "furnished": "furnished",
       "parking": null,
       "laundry": "in_unit",
-      "summary": "Fully furnished private bedroom in a 5-bedroom house shared with other tenants, 167 sq ft, utilities and furnished amenities included in rent. Located 5 minutes walk from UC Berkeley campus.",
+      "summary": "Fully furnished private bedroom (167 sq ft) in a 5-bedroom house shared with other tenants, with utilities and household essentials included. Located 5 minutes walk from UC Berkeley campus.",
       "available_now": false,
       "bathrooms": 2.0,
       "square_feet": null,

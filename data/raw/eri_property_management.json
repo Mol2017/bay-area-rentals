@@ -3,7 +3,7 @@
   "source": "eri_property_management",
   "manager": "ERI Property Management",
   "source_url": "https://www.erirentals.com/",
-  "scraped_at": "2026-07-22T18:13:02-07:00",
+  "scraped_at": "2026-07-22T18:45:19-07:00",
   "unit_count": 2,
   "units": [
     {
@@ -21,7 +21,7 @@
       "furnished": null,
       "parking": "off_street",
       "laundry": "shared",
-      "summary": "2-bedroom, 1-bathroom apartment in Berkeley near Ashby BART. Off-street parking and on-site coin-op laundry. No pets allowed.",
+      "summary": "2-bedroom, 1-bathroom apartment in Berkeley near Ashby BART, approximately 1 mile away. Off-street parking and on-site coin-op laundry. No pets allowed.",
       "available_now": true,
       "bathrooms": 1.0,
       "square_feet": null,

@@ -3,7 +3,7 @@
   "source": "myerhoff",
   "manager": "Myerhoff & Associates",
   "source_url": "https://myerhoff.appfolio.com/listings",
-  "scraped_at": "2026-07-22T18:13:01-07:00",
+  "scraped_at": "2026-07-22T18:45:19-07:00",
   "unit_count": 5,
   "units": [
     {
@@ -93,7 +93,7 @@
       "furnished": null,
       "parking": "garage",
       "laundry": "shared",
-      "summary": "Fully remodeled 1-bedroom, 1-bathroom apartment in Hayward with private garage parking and on-site laundry. Available now.",
+      "summary": "Fully remodeled 1-bedroom, 1-bathroom apartment in Hayward with private garage parking, personal balcony, and on-site laundry. Available now.",
       "available_now": true,
       "bathrooms": 1.0,
       "square_feet": 600,
@@ -117,7 +117,7 @@
       "furnished": null,
       "parking": "street",
       "laundry": "shared",
-      "summary": "Corner 1-bedroom basement unit with 550 sq ft in downtown Oakland, 2 blocks from Lake Merritt. No parking available; street parking only.",
+      "summary": "1-bedroom basement corner unit with 550 sq ft near Lake Merritt in downtown Oakland. Street parking only, no off-street parking available.",
       "available_now": true,
       "bathrooms": 1.0,
       "square_feet": 550,

@@ -3,7 +3,7 @@
   "source": "collabhome",
   "manager": "CollabHome",
   "source_url": "https://collab.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-22T18:13:02-07:00",
+  "scraped_at": "2026-07-22T18:45:19-07:00",
   "unit_count": 7,
   "units": [
     {
@@ -21,7 +21,7 @@
       "furnished": null,
       "parking": "street",
       "laundry": "shared",
-      "summary": "Private bedroom and bathroom in a shared house near UC Berkeley, utilities included, street parking available. Landlord-occupied; shared kitchen, dining room, and laundry.",
+      "summary": "Private bedroom and bathroom in a shared house near UC Berkeley; rent includes utilities, street parking available, no pets allowed.",
       "available_now": false,
       "bathrooms": 1.0,
       "square_feet": 400,
@@ -153,7 +153,7 @@
       "furnished": null,
       "parking": "street",
       "laundry": null,
-      "summary": "Spacious 2-bed, 1-bath apartment on the second floor of a walk-up community in League City. All utilities included; free street parking available.",
+      "summary": "Spacious 2-bed, 1-bath apartment on the second floor of a walk-up community in League City with all utilities included and free street parking.",
       "available_now": false,
       "bathrooms": 1.0,
       "square_feet": 1200,

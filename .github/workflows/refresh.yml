@@ -41,6 +41,35 @@ jobs:
       - name: Scrape all sources
         run: python scripts/run_all_scrapers.py
 
+      # Detail-page fields (amenities, room type, summaries) and the
+      # parser cross-check. Two modes, decided by whether the repo has an
+      # ANTHROPIC_API_KEY secret:
+      #
+      #   key set    -> full pass. The committed data/enrich_cache.json means
+      #                 only genuinely new listings hit the API, so the daily
+      #                 cost is a few cents; unchanged listings are free.
+      #   key unset  -> --no-llm. Replays the committed cache onto the fresh
+      #                 scrape (zero cost, no network to the model) so every
+      #                 unchanged listing keeps its enrichment. New listings
+      #                 stay bare until a keyed run fills them.
+      #
+      # Either way enrich_all.py exits 0 on failure, so a dead key or a rate
+      # limit degrades detail without ever blocking the merge and deploy.
+      - name: Enrich (amenities, summaries, contacts, cross-check)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "ANTHROPIC_API_KEY present -- full enrichment"
+            python scripts/enrich_all.py
+          else
+            echo "no ANTHROPIC_API_KEY -- replaying committed cache only"
+            python scripts/enrich_all.py --no-llm
+          fi
+
+      - name: Apply cross-check over the index parser
+        run: python scripts/reconcile.py
+
       - name: Merge into data/merged.json
         run: python scripts/merge.py
 
@@ -48,7 +77,11 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/raw/*.json data/merged.json
+          # enrich_cache.json is committed so the next run can replay it;
+          # conflicts.json and contacts.json are the enrichment's other
+          # outputs. .page_cache.json stays gitignored -- it is scratch.
+          git add data/raw/*.json data/merged.json \
+                  data/enrich_cache.json data/conflicts.json data/contacts.json
           if git diff --staged --quiet; then
             echo "No data changes."
           else
