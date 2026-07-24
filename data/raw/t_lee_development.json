@@ -3,7 +3,7 @@
   "source": "t_lee_development",
   "manager": "T. Lee Development",
   "source_url": "https://tleedevelopment.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:53-07:00",
+  "scraped_at": "2026-07-24T07:01:29-07:00",
   "unit_count": 2,
   "units": [
     {
@@ -13,7 +13,7 @@
       "city": "Dorchester",
       "bedrooms": 1.0,
       "available_date": null,
-      "rent": 2000.0,
+      "rent": 2200.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
       "room_type": "entire_place",
@@ -28,7 +28,14 @@
       "state": "MA",
       "postal_code": "02121",
       "title": "One Bedroom Apt Available",
-      "url": "https://tleedevelopment.appfolio.com/listings/detail/861d9594-4266-4f9c-ae84-378fee33b3e9"
+      "url": "https://tleedevelopment.appfolio.com/listings/detail/861d9594-4266-4f9c-ae84-378fee33b3e9",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 2200.0,
+          "observed": 2000
+        }
+      ]
     },
     {
       "address": "56-58 Bowdoin Ave, 56-5, Dorchester, MA 02121",

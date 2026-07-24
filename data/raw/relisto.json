@@ -3,8 +3,8 @@
   "source": "relisto",
   "manager": "ReListo",
   "source_url": "https://www.relisto.com/",
-  "scraped_at": "2026-07-23T07:04:30-07:00",
-  "unit_count": 16,
+  "scraped_at": "2026-07-24T07:01:50-07:00",
+  "unit_count": 13,
   "units": [
     {
       "address": "1426 Addison St., Berkeley, CA, 94702",
@@ -84,7 +84,7 @@
       "manager": "ReListo",
       "city": "San Francisco",
       "bedrooms": 0.0,
-      "available_date": "2026-05-15",
+      "available_date": "2026-07-25",
       "rent": 600.0,
       "kind": "room",
       "unit_type": "studio",
@@ -93,14 +93,14 @@
       "furnished": "partial",
       "parking": null,
       "laundry": "shared",
-      "summary": "Private room in an SRO building in North Beach with shared bathrooms, on-site laundry, and all utilities included in flat $99/month rate. Twin bed, mini fridge, and microwave provided.",
+      "summary": "Private room in an SRO building in North Beach with shared bathroom, twin bed, mini fridge, and microwave. Utilities included at $99/month.",
       "available_now": false,
       "bathrooms": null,
       "square_feet": null,
       "state": "CA",
       "postal_code": "94133",
-      "title": "402 Broadway #130",
-      "url": "https://www.relisto.com/rentals/418637671-402-broadway-130-san-francisco-ca-94133/",
+      "title": "402 Broadway #147",
+      "url": "https://www.relisto.com/rentals/440430884-402-broadway-147-san-francisco-ca-94133/",
       "conflicts": [
         {
           "field": "kind",
@@ -115,38 +115,7 @@
       "manager": "ReListo",
       "city": "San Francisco",
       "bedrooms": 0.0,
-      "available_date": "2026-07-09",
-      "rent": 800.0,
-      "kind": "room",
-      "unit_type": "studio",
-      "room_type": "shared_room",
-      "pets": "allowed",
-      "furnished": "partial",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Single room in a North Beach SRO building with a twin bed, private sink, shared bathrooms, and on-site laundry. Utilities included at $99/month.",
-      "available_now": false,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94133",
-      "title": "402 Broadway #38",
-      "url": "https://www.relisto.com/rentals/440430865-402-broadway-38-san-francisco-ca-94133/",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
-      "address": "402 Broadway, San Francisco, CA, 94133",
-      "source": "relisto",
-      "manager": "ReListo",
-      "city": "San Francisco",
-      "bedrooms": 0.0,
-      "available_date": "2026-06-19",
+      "available_date": "2026-07-25",
       "rent": 950.0,
       "kind": "room",
       "unit_type": "studio",
@@ -155,14 +124,14 @@
       "furnished": "partial",
       "parking": null,
       "laundry": "shared",
-      "summary": "Private room in a San Francisco SRO building in North Beach with a twin bed, private sink, and shared bathrooms. Rent is $950/month with utilities included at $99/month.",
+      "summary": "Private room in a North Beach SRO building at 402 Broadway with twin bed, private sink, mini fridge, and microwave. Shared bathrooms, on-site laundry, and all utilities included at $99/month.",
       "available_now": false,
       "bathrooms": null,
       "square_feet": null,
       "state": "CA",
       "postal_code": "94133",
-      "title": "402 Broadway #126",
-      "url": "https://www.relisto.com/rentals/440430879-402-broadway-126-san-francisco-ca-94133/",
+      "title": "402 Broadway #58",
+      "url": "https://www.relisto.com/rentals/440430867-402-broadway-58-san-francisco-ca-94133/",
       "conflicts": [
         {
           "field": "kind",
@@ -170,6 +139,61 @@
           "observed": "room"
         }
       ]
+    },
+    {
+      "address": "875 Post St., San Francisco, CA, 94109",
+      "source": "relisto",
+      "manager": "ReListo",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": "2026-07-25",
+      "rent": 1200.0,
+      "kind": "room",
+      "unit_type": "studio",
+      "room_type": "private_room",
+      "pets": "allowed",
+      "furnished": "partial",
+      "parking": null,
+      "laundry": "shared",
+      "summary": "SRO studio with private bathroom in Lower Nob Hill near Union Square. Furnished or unfurnished options available; utilities included in $99/month building operations fee.",
+      "available_now": false,
+      "bathrooms": null,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94109",
+      "title": "875 Post St #315",
+      "url": "https://www.relisto.com/rentals/442984773-875-post-st-315-san-francisco-ca-94109/",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
+    },
+    {
+      "address": "1924 Cabrillo St., San Francisco, CA, 94121",
+      "source": "relisto",
+      "manager": "ReListo",
+      "city": "San Francisco",
+      "bedrooms": 1.0,
+      "available_date": "2026-07-23",
+      "rent": 3800.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": null,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94121",
+      "title": "1924 Cabrillo St.",
+      "url": "https://www.relisto.com/rentals/443120384-1924-cabrillo-st-3-san-francisco-ca-94121/"
     },
     {
       "address": "18 Lansing, San Francisco, CA, 94105",
@@ -321,130 +345,6 @@
       "postal_code": "94131",
       "title": "37 Crestmont Dr.",
       "url": "https://www.relisto.com/rentals/367132337-37-crestmont-dr-san-francisco-ca-94131/"
-    },
-    {
-      "address": "402 Broadway, San Francisco, CA, 94133",
-      "source": "relisto",
-      "manager": "ReListo",
-      "city": "San Francisco",
-      "bedrooms": null,
-      "available_date": "2026-07-25",
-      "rent": 600.0,
-      "kind": "room",
-      "unit_type": null,
-      "room_type": "private_room",
-      "pets": "allowed",
-      "furnished": "partial",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Private room in an SRO building in North Beach with shared bathroom, twin bed, mini fridge, and microwave. Utilities included at $99/month.",
-      "available_now": false,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94133",
-      "title": "402 Broadway",
-      "url": "https://www.relisto.com/rentals/440430884-402-broadway-147-san-francisco-ca-94133/",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
-      "address": "875 Post St., San Francisco, CA, 94109",
-      "source": "relisto",
-      "manager": "ReListo",
-      "city": "San Francisco",
-      "bedrooms": null,
-      "available_date": "2026-07-25",
-      "rent": 900.0,
-      "kind": "room",
-      "unit_type": null,
-      "room_type": "shared_room",
-      "pets": "allowed",
-      "furnished": "partial",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Studio SRO (single room occupancy) in Lower Nob Hill with shared bathroom and kitchen; rent is per room.",
-      "available_now": false,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94109",
-      "title": "875 Post St.",
-      "url": "https://www.relisto.com/rentals/442982682-875-post-st-201-san-francisco-ca-94109/",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
-      "address": "402 Broadway, San Francisco, CA, 94133",
-      "source": "relisto",
-      "manager": "ReListo",
-      "city": "San Francisco",
-      "bedrooms": null,
-      "available_date": "2026-07-25",
-      "rent": 950.0,
-      "kind": "room",
-      "unit_type": null,
-      "room_type": "private_room",
-      "pets": "allowed",
-      "furnished": "partial",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Private room in a North Beach SRO building at 402 Broadway with twin bed, private sink, mini fridge, and microwave. Shared bathrooms, on-site laundry, and all utilities included at $99/month.",
-      "available_now": false,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94133",
-      "title": "402 Broadway",
-      "url": "https://www.relisto.com/rentals/440430867-402-broadway-58-san-francisco-ca-94133/",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
-      "address": "875 Post St., San Francisco, CA, 94109",
-      "source": "relisto",
-      "manager": "ReListo",
-      "city": "San Francisco",
-      "bedrooms": null,
-      "available_date": "2026-07-25",
-      "rent": 1200.0,
-      "kind": "room",
-      "unit_type": null,
-      "room_type": "private_room",
-      "pets": "allowed",
-      "furnished": "partial",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "SRO studio with private bathroom in Lower Nob Hill near Union Square. Furnished or unfurnished options available; utilities included in $99/month building operations fee.",
-      "available_now": false,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94109",
-      "title": "875 Post St.",
-      "url": "https://www.relisto.com/rentals/442984773-875-post-st-315-san-francisco-ca-94109/",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
     }
   ]
 }

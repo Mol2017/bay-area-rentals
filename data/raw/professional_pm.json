@@ -3,8 +3,8 @@
   "source": "professional_pm",
   "manager": "Professional Property Management",
   "source_url": "https://profpm.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:53-07:00",
-  "unit_count": 16,
+  "scraped_at": "2026-07-24T07:01:29-07:00",
+  "unit_count": 17,
   "units": [
     {
       "address": "201 West Richmond, Point Richmond, CA 94801",
@@ -101,6 +101,30 @@
       "postal_code": "94801",
       "title": "Beautiful 2 bedroom Apartment located in Pt. Richmond",
       "url": "https://profpm.appfolio.com/listings/detail/cd08515c-399b-4a01-9dbe-913724e31a13"
+    },
+    {
+      "address": "5534 Jefferson Avenue - 2, Richmond, CA 94804",
+      "source": "professional_pm",
+      "manager": "Professional Property Management",
+      "city": "Richmond",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 2695.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 2.0,
+      "square_feet": 742,
+      "state": "CA",
+      "postal_code": "94804",
+      "title": "Lower Level Newly Built Apartment on the El Cerrito/Richmond Border...Two Weeks Free Move In Bonus",
+      "url": "https://profpm.appfolio.com/listings/detail/283fc68e-0925-4d34-b789-53bff701c761"
     },
     {
       "address": "4001 Mozart, Richmond, CA 94803",

@@ -3,7 +3,7 @@
   "source": "ks_company",
   "manager": "K&S Company",
   "source_url": "https://kands.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:53-07:00",
+  "scraped_at": "2026-07-24T07:01:29-07:00",
   "unit_count": 79,
   "units": [
     {
@@ -679,6 +679,30 @@
       "url": "https://kands.appfolio.com/listings/detail/381076c5-a53d-404b-9322-a8907e95a76d"
     },
     {
+      "address": "2642 Derby St. Apt 01, Berkeley, CA 94705",
+      "source": "ks_company",
+      "manager": "K&S Company",
+      "city": "Berkeley",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-05",
+      "rent": 2200.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94705",
+      "title": "Quite a bedroom with plenty of light, Great location and is just off the main St. It is quite also amazingly close to the necessities",
+      "url": "https://kands.appfolio.com/listings/detail/335f0e8d-10a4-43fe-80a9-88a2fc98cc30"
+    },
+    {
       "address": "2322 Haste St. Apt 28, Berkeley, CA 94704",
       "source": "ks_company",
       "manager": "K&S Company",
@@ -747,7 +771,7 @@
       "square_feet": null,
       "state": "CA",
       "postal_code": "94709",
-      "title": "COMING SOON-Huge 1BR/1B GOURMET GHETTO BEAUTY LOCATED AT 1550 WALNUT (at Cedar)-",
+      "title": "COMING SOON-Huge 1BR/1B GOURMET GHETTO- ~ SECURITY DEPOSIT REDUCED..",
       "url": "https://kands.appfolio.com/listings/detail/d707fba3-6eec-43a3-86f9-806394f275ff"
     },
     {
@@ -1022,30 +1046,6 @@
       "url": "https://kands.appfolio.com/listings/detail/562f5edd-88e7-4cb2-a782-e2908ab49c4d"
     },
     {
-      "address": "1638 Hearst Ave. Apt 1D, Berkeley, CA 94703",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2595.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": null,
-      "summary": "Newly refurbished 2-bedroom, 1-bathroom apartment across from Ohlone Park with upgraded kitchen and hardwood floors. Water and garbage included; off-street parking available for an extra fee.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94703",
-      "title": "Newly refurbished 2 bed across from Ohlone Park",
-      "url": "https://kands.appfolio.com/listings/detail/f56152fe-60ef-48c9-bcec-49dfacf85148"
-    },
-    {
       "address": "2428 Ellsworth St Apt 205, Berkeley, CA 94704",
       "source": "ks_company",
       "manager": "K&S Company",
@@ -1210,7 +1210,7 @@
       "square_feet": null,
       "state": "CA",
       "postal_code": "94709",
-      "title": "-This large 3 bedroom 2 bath apartment is in the heart of Gourmet Ghetto",
+      "title": "-This large 3 bedroom 2 bath apartment is in the heart of Gourmet Ghetto~ SECURITY DEPOSIT REDUCED..",
       "url": "https://kands.appfolio.com/listings/detail/78e5f40f-5612-48c8-911c-3724025d9f42"
     },
     {
@@ -1234,7 +1234,7 @@
       "square_feet": null,
       "state": "CA",
       "postal_code": "94709",
-      "title": "This large 3 bedroom 3 bath apartment is in the heart of Gourmet Ghetto",
+      "title": "This large 3 bedroom 3 bath apartment is in the heart of Gourmet Ghetto ~ SECURITY DEPOSIT REDUCED..",
       "url": "https://kands.appfolio.com/listings/detail/50827022-4f51-41b8-a758-09b60faf59e2"
     },
     {

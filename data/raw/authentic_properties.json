@@ -3,8 +3,8 @@
   "source": "authentic_properties",
   "manager": "Authentic Properties",
   "source_url": "https://authenticrealestate.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:50-07:00",
-  "unit_count": 12,
+  "scraped_at": "2026-07-24T07:01:27-07:00",
+  "unit_count": 13,
   "units": [
     {
       "address": "2228 McKinnley Ave - 2228 McKinley Ave Unit 1, Unit 1, Berkeley, CA 94703",
@@ -156,6 +156,30 @@
       "postal_code": "94803",
       "title": "2 BR, 1 BA with Garage",
       "url": "https://authenticrealestate.appfolio.com/listings/detail/926bb041-8aa2-4524-954f-a3f913757ddb"
+    },
+    {
+      "address": "925 Apgar Street , Emeryville, CA 94608",
+      "source": "authentic_properties",
+      "manager": "Authentic Properties",
+      "city": "Emeryville",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 2495.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 825,
+      "state": "CA",
+      "postal_code": "94608",
+      "title": "Excellent Condition 2 Bedroom, 1 Bath in Emeryville with Parking",
+      "url": "https://authenticrealestate.appfolio.com/listings/detail/66b71969-70da-4698-a388-e64c4d07b51a"
     },
     {
       "address": "741-743 Hilgrit Circle - Unit B, Oakland, CA 94610",

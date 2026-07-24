@@ -3,8 +3,8 @@
   "source": "boston_property_care",
   "manager": "Boston Property Care",
   "source_url": "https://bostonpropertycare.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:52-07:00",
-  "unit_count": 17,
+  "scraped_at": "2026-07-24T07:01:28-07:00",
+  "unit_count": 19,
   "units": [
     {
       "address": "67 Park Dr #1, Boston, MA 02115",
@@ -103,6 +103,30 @@
       "url": "https://bostonpropertycare.appfolio.com/listings/detail/55328147-0037-4c9c-bab4-a49da0d11662"
     },
     {
+      "address": "210 Chestnut Hill Ave #3, Brighton, MA 02135",
+      "source": "boston_property_care",
+      "manager": "Boston Property Care",
+      "city": "Brighton",
+      "bedrooms": 2.0,
+      "available_date": "2026-09-01",
+      "rent": 3200.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 2.0,
+      "square_feet": 1180,
+      "state": "MA",
+      "postal_code": "02135",
+      "title": "Two Bed, Two Bath Brighton Condo Available September 1st",
+      "url": "https://bostonpropertycare.appfolio.com/listings/detail/994986be-6ff9-45af-833b-f6e3873a0d33"
+    },
+    {
       "address": "35 Woodstock Ave, Brighton, MA 02135",
       "source": "boston_property_care",
       "manager": "Boston Property Care",
@@ -151,13 +175,37 @@
       "url": "https://bostonpropertycare.appfolio.com/listings/detail/2390b44a-f0e0-4738-addd-1695b0358c04"
     },
     {
+      "address": "53 Kelly Rd #2, Cambridge, MA 02139",
+      "source": "boston_property_care",
+      "manager": "Boston Property Care",
+      "city": "Cambridge",
+      "bedrooms": 2.0,
+      "available_date": "2026-09-01",
+      "rent": 2950.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 700,
+      "state": "MA",
+      "postal_code": "02139",
+      "title": "Cambridgeport 2 Bed Condo For September 1st",
+      "url": "https://bostonpropertycare.appfolio.com/listings/detail/a4ed282b-35d2-4d43-981e-8290ff932df5"
+    },
+    {
       "address": "64 Florida St #2, Dorchester, MA 02124",
       "source": "boston_property_care",
       "manager": "Boston Property Care",
       "city": "Dorchester",
       "bedrooms": 3.0,
       "available_date": null,
-      "rent": 3000.0,
+      "rent": 2795.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
       "room_type": "entire_place",
@@ -172,7 +220,14 @@
       "state": "MA",
       "postal_code": "02124",
       "title": "Updated Dorchester 3 Bed, 1 Bath Apartment With In-Unit Laundry",
-      "url": "https://bostonpropertycare.appfolio.com/listings/detail/1e39111b-3177-427a-a237-68693112d8b3"
+      "url": "https://bostonpropertycare.appfolio.com/listings/detail/1e39111b-3177-427a-a237-68693112d8b3",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 2795.0,
+          "observed": 3000
+        }
+      ]
     },
     {
       "address": "5 Beaver Park Rd #1, Framingham, MA 01702",

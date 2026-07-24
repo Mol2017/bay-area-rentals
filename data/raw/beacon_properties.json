@@ -3,8 +3,8 @@
   "source": "beacon_properties",
   "manager": "Beacon Properties",
   "source_url": "https://beaconprop.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:50-07:00",
-  "unit_count": 23,
+  "scraped_at": "2026-07-24T07:01:27-07:00",
+  "unit_count": 22,
   "units": [
     {
       "address": "2091 California Street - 225, Berkeley, CA 94703",
@@ -252,30 +252,6 @@
           "observed": "commercial"
         }
       ]
-    },
-    {
-      "address": "375 Colusa Ave - 4, Kensington, CA 94707",
-      "source": "beacon_properties",
-      "manager": "Beacon Properties",
-      "city": "Kensington",
-      "bedrooms": 1.0,
-      "available_date": "2026-07-25",
-      "rent": 1895.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": null,
-      "summary": "One-bedroom, one-bathroom apartment in Kensington with parking, available July 25, 2026.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94707",
-      "title": "Viewing Schedule: Coming Soon!",
-      "url": "https://beaconprop.appfolio.com/listings/detail/53fbae75-9a86-4def-b809-283812dcf29b"
     },
     {
       "address": "354 Vernon Street - 105, Oakland, CA 94610",

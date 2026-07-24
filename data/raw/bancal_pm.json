@@ -3,7 +3,7 @@
   "source": "bancal_pm",
   "manager": "BanCal Property Management",
   "source_url": "https://bancalsf.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:51-07:00",
+  "scraped_at": "2026-07-24T07:01:28-07:00",
   "unit_count": 4,
   "units": [
     {
@@ -43,7 +43,7 @@
       "manager": "BanCal Property Management",
       "city": "San Francisco",
       "bedrooms": 0.0,
-      "available_date": "2026-07-24",
+      "available_date": null,
       "rent": 1900.0,
       "kind": "residential",
       "unit_type": "studio",
@@ -79,7 +79,7 @@
       "summary": "Newly updated standalone cottage in SOMA with 1 bedroom, 1 bathroom, and 388 sq. ft. of private space. No shared walls and includes private entrance and outdoor area.",
       "available_now": true,
       "bathrooms": 1.0,
-      "square_feet": 388,
+      "square_feet": 493,
       "state": "CA",
       "postal_code": "94103",
       "title": "1033 Minna | Newly Updated 1BR/1BA Cottage in SOMA, Pet Friendly",

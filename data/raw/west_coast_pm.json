@@ -3,8 +3,8 @@
   "source": "west_coast_pm",
   "manager": "West Coast Property Management",
   "source_url": "https://wcpm.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:53-07:00",
-  "unit_count": 18,
+  "scraped_at": "2026-07-24T07:01:29-07:00",
+  "unit_count": 17,
   "units": [
     {
       "address": "461 Broadway Street, #211, San Francisco, CA 94133",
@@ -75,7 +75,7 @@
       "city": "San Francisco",
       "bedrooms": 0.0,
       "available_date": null,
-      "rent": 3395.0,
+      "rent": 3150.0,
       "kind": "residential",
       "unit_type": "studio",
       "room_type": "entire_place",
@@ -89,8 +89,15 @@
       "square_feet": 450,
       "state": "CA",
       "postal_code": "94109",
-      "title": "$3,395 Bright, Remodeled, Hdwd, Marble bthrm, Large Kitchen! PICS!",
-      "url": "https://wcpm.appfolio.com/listings/detail/3157d943-3498-47fe-a0db-88b1b7e08922"
+      "title": "$3,150 Bright, Remodeled, Hdwd, Marble bthrm, Large Kitchen! PICS!",
+      "url": "https://wcpm.appfolio.com/listings/detail/3157d943-3498-47fe-a0db-88b1b7e08922",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 3150.0,
+          "observed": 3395
+        }
+      ]
     },
     {
       "address": "2905 Van Ness Ave, #201, San Francisco, CA 94109",
@@ -187,30 +194,6 @@
       "postal_code": "94121",
       "title": "Beautiful 3BR flat with In-Unit Laundry & Parking in Richmond District",
       "url": "https://wcpm.appfolio.com/listings/detail/f77465b8-6427-4701-8ade-763fa9c4c356"
-    },
-    {
-      "address": "1118 Waller Street, San Francisco, CA 94117",
-      "source": "west_coast_pm",
-      "manager": "West Coast Property Management",
-      "city": "San Francisco",
-      "bedrooms": 3.0,
-      "available_date": null,
-      "rent": 6495.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "cats_only",
-      "furnished": null,
-      "parking": "none",
-      "laundry": "in_unit",
-      "summary": "Recently renovated 3-bedroom, 1-bathroom apartment in Haight-Ashbury with in-unit washer and dryer, hardwood floors, and modern kitchen. Cats allowed but no dogs; no parking available.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 1200,
-      "state": "CA",
-      "postal_code": "94117",
-      "title": "1118 Waller St - Recently Renovated 3BR 1BA w/ In-Unit Laundry",
-      "url": "https://wcpm.appfolio.com/listings/detail/abcab006-e866-4d7e-82b5-ad7e1a639d2d"
     },
     {
       "address": "461 Broadway Street, #204, San Francisco, CA 94133",

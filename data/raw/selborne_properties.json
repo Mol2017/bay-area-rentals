@@ -3,8 +3,8 @@
   "source": "selborne_properties",
   "manager": "Selborne Properties",
   "source_url": "https://selborne.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:52-07:00",
-  "unit_count": 19,
+  "scraped_at": "2026-07-24T07:01:29-07:00",
+  "unit_count": 20,
   "units": [
     {
       "address": "5339 Broadway - 105, Oakland, CA 94618",
@@ -245,6 +245,30 @@
       "postal_code": "94611",
       "title": "2BD/1BA Apartment in Adams Point!",
       "url": "https://selborne.appfolio.com/listings/detail/cef44de7-276e-49e0-a772-d49d326a832d"
+    },
+    {
+      "address": "407 Fairmount Ave - 104, Oakland, CA 94611",
+      "source": "selborne_properties",
+      "manager": "Selborne Properties",
+      "city": "Oakland",
+      "bedrooms": 2.0,
+      "available_date": "2026-08-01",
+      "rent": 2295.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 821,
+      "state": "CA",
+      "postal_code": "94611",
+      "title": "2BD/1BA Apartment in Adams Point!",
+      "url": "https://selborne.appfolio.com/listings/detail/dd4391a7-7629-41b3-a059-3ebb4f128476"
     },
     {
       "address": "407 Fairmount Ave - 202, Oakland, CA 94611",

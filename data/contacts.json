@@ -18,14 +18,14 @@
   "all_east_bay": {
     "emails": [],
     "manager": "All East Bay Properties",
-    "phone": "(510) 756-2248",
-    "source_url": "https://alleastbayproperties.appfolio.com/listings/detail/1fcf70a7-d79a-47fa-9f87-c33dc4202b80"
+    "phone": "(510) 698-8133",
+    "source_url": "https://alleastbayproperties.appfolio.com/listings/detail/78b5697a-e7ac-4050-ba3d-593d57b6ada0"
   },
   "authentic_properties": {
     "emails": [],
     "manager": "Authentic Properties",
-    "phone": "(510) 542-9565",
-    "source_url": "https://authenticrealestate.appfolio.com/listings/detail/5f34d031-2d50-41a7-a45d-f0c112f2f2d4"
+    "phone": "(510) 368-5835",
+    "source_url": "https://authenticrealestate.appfolio.com/listings/detail/66b71969-70da-4698-a388-e64c4d07b51a"
   },
   "bancal_pm": {
     "emails": [],
@@ -43,7 +43,7 @@
     "emails": [],
     "manager": "Bay Property Group",
     "phone": "(415) 649-7685",
-    "source_url": "https://baypropertygroup.appfolio.com/listings/detail/63078cb9-8c3b-4913-b404-6f9e6f85d488"
+    "source_url": "https://baypropertygroup.appfolio.com/listings/detail/53f9e3bb-84f4-475f-8606-0ad8138d789c"
   },
   "beacon_properties": {
     "emails": [],
@@ -75,7 +75,7 @@
     "emails": [],
     "manager": "Boston Property Care",
     "phone": "(617) 648-9804",
-    "source_url": "https://bostonpropertycare.appfolio.com/listings/detail/a834ad21-9789-45b2-9592-40dffd0db21e"
+    "source_url": "https://bostonpropertycare.appfolio.com/listings/detail/994986be-6ff9-45af-833b-f6e3873a0d33"
   },
   "california_pacific": {
     "emails": [],
@@ -133,7 +133,7 @@
     ],
     "manager": "ERI Property Management",
     "phone": "(510) 883-7070",
-    "source_url": "https://www.erirentals.com/unit.php?id=486"
+    "source_url": "https://www.erirentals.com/unit.php?id=540"
   },
   "golden_gate_pm": {
     "emails": [],
@@ -172,8 +172,8 @@
   "ks_company": {
     "emails": [],
     "manager": "K&S Company",
-    "phone": "(510) 766-8414",
-    "source_url": "https://kands.appfolio.com/listings/detail/7cd9185b-7f04-47cd-ac22-441e0aa7624e"
+    "phone": "(510) 388-3048",
+    "source_url": "https://kands.appfolio.com/listings/detail/335f0e8d-10a4-43fe-80a9-88a2fc98cc30"
   },
   "lapham_company": {
     "emails": [],
@@ -226,7 +226,7 @@
     "emails": [],
     "manager": "Professional Property Management",
     "phone": "(510) 758-5636",
-    "source_url": "https://profpm.appfolio.com/listings/detail/51ac7809-a1a3-4f8e-b89a-94acf7a05acb"
+    "source_url": "https://profpm.appfolio.com/listings/detail/283fc68e-0925-4d34-b789-53bff701c761"
   },
   "raj_properties": {
     "emails": [
@@ -248,7 +248,7 @@
     "emails": [],
     "manager": "Selborne Properties",
     "phone": "(510) 422-0985",
-    "source_url": "https://selborne.appfolio.com/listings/detail/bf3644f0-56e6-4d97-bd2c-f2c5bd7bd55a"
+    "source_url": "https://selborne.appfolio.com/listings/detail/dd4391a7-7629-41b3-a059-3ebb4f128476"
   },
   "sg_real_estate": {
     "emails": [
@@ -256,8 +256,8 @@
       "leasing@sgrealestateco.com"
     ],
     "manager": "SG Real Estate Co.",
-    "phone": "(510) 394-3038",
-    "source_url": "https://sgrealestate.appfolio.com/listings/detail/986d2ce3-4e3f-41f7-a372-2c4525e9cdb1"
+    "phone": "(510) 704-1240",
+    "source_url": "https://sgrealestate.appfolio.com/listings/detail/c51df77f-37f9-4c21-a43a-ffa6abdbe79a"
   },
   "square_one_management": {
     "emails": [
@@ -271,13 +271,13 @@
     "emails": [],
     "manager": "Structure Boston",
     "phone": "(617) 396-3102",
-    "source_url": "https://structureboston.appfolio.com/listings/detail/3ecbc7b4-42c7-402f-958d-9ace0f34164a"
+    "source_url": "https://structureboston.appfolio.com/listings/detail/947e179d-f9d8-4d4a-beb6-659cb4f34cf8"
   },
   "structure_properties": {
     "emails": [],
     "manager": "Structure Properties",
     "phone": "(415) 237-1083",
-    "source_url": "https://spsf.appfolio.com/listings/detail/42b22bab-51b3-4ff0-a124-6803eaa61c62"
+    "source_url": "https://spsf.appfolio.com/listings/detail/23495649-4d1c-40ce-ba68-a788646d3589"
   },
   "t_lee_development": {
     "emails": [],
@@ -298,10 +298,12 @@
     "source_url": "https://twobliving.appfolio.com/listings/detail/6e5bd184-e7f1-4593-ae19-000d1f827f4e"
   },
   "utopia_management": {
-    "emails": [],
+    "emails": [
+      "eastbay@utopiamanagement.com"
+    ],
     "manager": "Utopia Management",
     "phone": "(510) 556-1111",
-    "source_url": "https://utopiamanagement.appfolio.com/listings/detail/0749704b-f7b1-44e7-b8c3-224e4c5d6133"
+    "source_url": "https://utopiamanagement.appfolio.com/listings/detail/66661d7c-66f5-4099-8021-283275b7e1d2"
   },
   "west_coast_pm": {
     "emails": [

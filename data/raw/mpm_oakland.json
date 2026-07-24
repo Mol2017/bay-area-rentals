@@ -3,8 +3,8 @@
   "source": "mpm_oakland",
   "manager": "MPM Oakland",
   "source_url": "https://mpmoakland.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-23T07:02:53-07:00",
-  "unit_count": 36,
+  "scraped_at": "2026-07-24T07:01:29-07:00",
+  "unit_count": 35,
   "units": [
     {
       "address": "7990 Glenbar Way, Fair Oaks, CA 95628",
@@ -809,30 +809,6 @@
       "postal_code": "94607",
       "title": "109 Uptown Circle - 1",
       "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/81477"
-    },
-    {
-      "address": "1933 84th Avenue - B, Oakland, CA 94621",
-      "source": "mpm_oakland",
-      "manager": "MPM Oakland",
-      "city": "Oakland",
-      "bedrooms": 3.0,
-      "available_date": "2026-04-14",
-      "rent": 2395.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": "unfurnished",
-      "parking": "off_street",
-      "laundry": null,
-      "summary": "Ground-floor 3-bed, 1-bath unit in a triplex with gas heating and one off-street parking space. Water and garbage included.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94621",
-      "title": "1933 84th Avenue - B",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/63221"
     },
     {
       "address": "9518 B Street, Oakland, CA 94603",

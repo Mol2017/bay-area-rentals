@@ -1,7 +1,7 @@
 {
-  "checked": 984,
-  "conflicts": 204,
-  "parser_missing": 99,
+  "checked": 949,
+  "conflicts": 206,
+  "parser_missing": 93,
   "rows": [
     {
       "address": "1515 Webster Street - 4-404, Oakland, CA 94612",
@@ -46,6 +46,15 @@
       "field": "available_date",
       "parser": "2027-01-31",
       "page": "2025-01-31",
+      "type": "conflict"
+    },
+    {
+      "address": "18 Lansing, San Francisco, CA, 94105",
+      "manager": "ReListo",
+      "url": "https://www.relisto.com/rentals/32691836-18-lansing-307-san-francisco-ca-94105/",
+      "field": "available_date",
+      "parser": "2026-08-01",
+      "page": "2026-07-01",
       "type": "conflict"
     },
     {
@@ -121,12 +130,12 @@
       "type": "conflict"
     },
     {
-      "address": "1933 84th Avenue - B, Oakland, CA 94621",
-      "manager": "MPM Oakland",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/63221",
+      "address": "1932 Haste St. Apt 1, Berkeley, CA 94704",
+      "manager": "K&S Company",
+      "url": "https://kands.appfolio.com/listings/detail/0221e2e7-d10a-45d6-8e5c-e024664d4c26",
       "field": "available_date",
-      "parser": "2027-04-14",
-      "page": "2026-04-14",
+      "parser": "2026-08-10",
+      "page": "2026-08-05",
       "type": "conflict"
     },
     {
@@ -136,6 +145,15 @@
       "field": "available_date",
       "parser": "2027-02-24",
       "page": "2026-02-24",
+      "type": "conflict"
+    },
+    {
+      "address": "2025 Kala Bagai Way 707, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/a301cae5-e728-4083-9860-e902efe5b7f4",
+      "field": "available_date",
+      "parser": "2026-08-07",
+      "page": "2026-08-20",
       "type": "conflict"
     },
     {
@@ -436,15 +454,6 @@
       "type": "conflict"
     },
     {
-      "address": "2221 Parker Street , Unit F, Berkeley, CA 94704",
-      "manager": "Kasa Properties",
-      "url": "https://kasaproperties.appfolio.com/listings/detail/d93984b9-ea81-445d-be5a-22fc3569e7ba",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
       "address": "2233 Channing Way - 08, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/9fced1d1-9ff9-420c-815d-54766f493e07",
@@ -580,6 +589,15 @@
       "type": "conflict"
     },
     {
+      "address": "411 Euclid Ave, Apt 6, Oakland, CA 94610-3531",
+      "manager": "Advent Properties",
+      "url": "https://adventproperties.appfolio.com/listings/detail/978b8cb4-5ede-4a60-8485-393fe0ce0237",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "4690 Tompkins Avenue, Unit 220, Oakland, CA 94619",
       "manager": "2B Living",
       "url": "https://twobliving.appfolio.com/listings/detail/2d19f5b4-44b0-4cc0-afdd-d6b8eaa230eb",
@@ -667,15 +685,6 @@
       "field": "available_now",
       "parser": true,
       "page": false,
-      "type": "conflict"
-    },
-    {
-      "address": "826A Castro St, San Francisco, CA 94114",
-      "manager": "BanCal Property Management",
-      "url": "https://bancalsf.appfolio.com/listings/detail/736448f0-3245-4d83-9f0f-4cee5f72a9e2",
-      "field": "available_now",
-      "parser": false,
-      "page": true,
       "type": "conflict"
     },
     {
@@ -1291,15 +1300,6 @@
       "type": "conflict"
     },
     {
-      "address": "2731 Durant Ave - 1, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/ce413179-654e-4248-8fb9-96ce5a7974e2",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
       "address": "2731 Durant Ave - 2A, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/cba6f469-f11a-4cd7-87d1-5c459d317843",
@@ -1401,33 +1401,6 @@
     {
       "address": "402 Broadway, San Francisco, CA, 94133",
       "manager": "ReListo",
-      "url": "https://www.relisto.com/rentals/418637671-402-broadway-130-san-francisco-ca-94133/",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "402 Broadway, San Francisco, CA, 94133",
-      "manager": "ReListo",
-      "url": "https://www.relisto.com/rentals/440430865-402-broadway-38-san-francisco-ca-94133/",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "402 Broadway, San Francisco, CA, 94133",
-      "manager": "ReListo",
-      "url": "https://www.relisto.com/rentals/440430879-402-broadway-126-san-francisco-ca-94133/",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "402 Broadway, San Francisco, CA, 94133",
-      "manager": "ReListo",
       "url": "https://www.relisto.com/rentals/440430884-402-broadway-147-san-francisco-ca-94133/",
       "field": "kind",
       "parser": "residential",
@@ -1519,15 +1492,6 @@
       "address": "78 Washington # 8, Chelsea, MA",
       "manager": "Boston Property Management",
       "url": "https://bostonpropertymanagementllc.com/resident_listings/78-washington-8-chelsea-2/",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "875 Post St., San Francisco, CA, 94109",
-      "manager": "ReListo",
-      "url": "https://www.relisto.com/rentals/442982682-875-post-st-201-san-francisco-ca-94109/",
       "field": "kind",
       "parser": "residential",
       "page": "room",
@@ -1723,12 +1687,30 @@
       "type": "conflict"
     },
     {
+      "address": "1201 Green Street, #4, San Francisco, CA 94109",
+      "manager": "West Coast Property Management",
+      "url": "https://wcpm.appfolio.com/listings/detail/3157d943-3498-47fe-a0db-88b1b7e08922",
+      "field": "rent",
+      "parser": 3150.0,
+      "page": 3395,
+      "type": "conflict"
+    },
+    {
       "address": "18 Lansing, San Francisco, CA, 94105",
       "manager": "ReListo",
       "url": "https://www.relisto.com/rentals/32691836-18-lansing-307-san-francisco-ca-94105/",
       "field": "rent",
       "parser": 5400.0,
       "page": 5800,
+      "type": "conflict"
+    },
+    {
+      "address": "2025 Kala Bagai Way - 702 , Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/557b206a-abb6-42bc-88d0-57edb63f62bb",
+      "field": "rent",
+      "parser": 2837.08,
+      "page": 3095,
       "type": "conflict"
     },
     {
@@ -1750,6 +1732,42 @@
       "type": "conflict"
     },
     {
+      "address": "2304 Dwight Way, Berkeley, CA 94704",
+      "manager": "Domingo Properties",
+      "url": "https://domingoprop.managebuilding.com/Resident/public/rentals/30170",
+      "field": "rent",
+      "parser": 1945.0,
+      "page": 1995,
+      "type": "conflict"
+    },
+    {
+      "address": "56-58 Bowdoin Ave - 1 Bedroom Available, Dorchester, MA 02121",
+      "manager": "T. Lee Development",
+      "url": "https://tleedevelopment.appfolio.com/listings/detail/861d9594-4266-4f9c-ae84-378fee33b3e9",
+      "field": "rent",
+      "parser": 2200.0,
+      "page": 2000,
+      "type": "conflict"
+    },
+    {
+      "address": "574-576 State Rd. # 7, Plymouth, MA",
+      "manager": "Boston Property Management",
+      "url": "https://bostonpropertymanagementllc.com/resident_listings/574-576-state-rd-7-plymouth-2/",
+      "field": "rent",
+      "parser": 2350.0,
+      "page": 2423,
+      "type": "conflict"
+    },
+    {
+      "address": "64 Florida St #2, Dorchester, MA 02124",
+      "manager": "Boston Property Care",
+      "url": "https://bostonpropertycare.appfolio.com/listings/detail/1e39111b-3177-427a-a237-68693112d8b3",
+      "field": "rent",
+      "parser": 2795.0,
+      "page": 3000,
+      "type": "conflict"
+    },
+    {
       "address": "950 63rd Street, Unit 310, Oakland, CA 94608",
       "manager": "2B Living",
       "url": "https://twobliving.appfolio.com/listings/detail/0a46d776-ea72-4f2f-93ab-ee0155f20b2d",
@@ -1765,6 +1783,15 @@
       "field": "rent",
       "parser": 3600.0,
       "page": 3700,
+      "type": "conflict"
+    },
+    {
+      "address": "1033 Minna Street, San Francisco, CA 94103",
+      "manager": "BanCal Property Management",
+      "url": "https://bancalsf.appfolio.com/listings/detail/d33b327a-a3c5-44f6-831b-37c2c502a8e7",
+      "field": "square_feet",
+      "parser": 493,
+      "page": 388,
       "type": "conflict"
     },
     {
@@ -1828,15 +1855,6 @@
       "field": "square_feet",
       "parser": 600,
       "page": 550,
-      "type": "conflict"
-    },
-    {
-      "address": "860 Bush Street, Unit 603, San Francisco, CA 94108",
-      "manager": "2B Living",
-      "url": "https://twobliving.appfolio.com/listings/detail/1b6289e7-2790-4092-92c2-79fe9fd9c5b3",
-      "field": "square_feet",
-      "parser": 400,
-      "page": 346,
       "type": "conflict"
     }
   ]

@@ -3,8 +3,8 @@
   "source": "structure_boston",
   "manager": "Structure Boston",
   "source_url": "https://structureboston.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:53-07:00",
-  "unit_count": 74,
+  "scraped_at": "2026-07-24T07:01:29-07:00",
+  "unit_count": 75,
   "units": [
     {
       "address": "7 Wilton Street - 12, Allston, MA 02134",
@@ -1733,6 +1733,30 @@
       "postal_code": "02760",
       "title": null,
       "url": "https://structureboston.appfolio.com/listings/detail/469c96f9-1d2f-4fbf-b47b-a73565cb1bb5"
+    },
+    {
+      "address": "43 Sumner Street - 3, Revere, MA 02151",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Revere",
+      "bedrooms": 2.0,
+      "available_date": "2026-11-10",
+      "rent": 2500.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "MA",
+      "postal_code": "02151",
+      "title": null,
+      "url": "https://structureboston.appfolio.com/listings/detail/947e179d-f9d8-4d4a-beb6-659cb4f34cf8"
     },
     {
       "address": "240 Crescent Street - 3, Waltham, MA 02453",

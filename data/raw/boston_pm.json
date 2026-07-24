@@ -3,7 +3,7 @@
   "source": "boston_pm",
   "manager": "Boston Property Management",
   "source_url": "https://bostonpropertymanagementllc.com/",
-  "scraped_at": "2026-07-23T07:02:55-07:00",
+  "scraped_at": "2026-07-24T07:01:31-07:00",
   "unit_count": 33,
   "units": [
     {
@@ -596,7 +596,7 @@
       "city": "Plymouth",
       "bedrooms": 2.0,
       "available_date": null,
-      "rent": 2423.0,
+      "rent": 2350.0,
       "kind": "residential",
       "unit_type": "2_bedroom",
       "room_type": null,

@@ -3,8 +3,8 @@
   "source": "structure_properties",
   "manager": "Structure Properties",
   "source_url": "https://spsf.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:51-07:00",
-  "unit_count": 40,
+  "scraped_at": "2026-07-24T07:01:27-07:00",
+  "unit_count": 41,
   "units": [
     {
       "address": "6500 Yucca Street #432, Los Angeles, CA 90028",
@@ -578,6 +578,30 @@
       "postal_code": "94133",
       "title": "Spacious 1BD with View of the Golden Gate Bridge and the Bay in the Heart of North Beach!",
       "url": "https://spsf.appfolio.com/listings/detail/21c78fcd-a832-45a5-a042-b8e71e0d811d"
+    },
+    {
+      "address": "1111 Jones Street #5, San Francisco, CA 94109",
+      "source": "structure_properties",
+      "manager": "Structure Properties",
+      "city": "San Francisco",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 4395.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 559,
+      "state": "CA",
+      "postal_code": "94109",
+      "title": "Available Now!! Renovated, 1BD/1BA w/ Stunning Views & Tons of Natural Light!",
+      "url": "https://spsf.appfolio.com/listings/detail/23495649-4d1c-40ce-ba68-a788646d3589"
     },
     {
       "address": "3400 Fulton Street - 4, San Francisco, CA 94118",

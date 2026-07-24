@@ -3,7 +3,7 @@
   "source": "advent_properties",
   "manager": "Advent Properties",
   "source_url": "https://adventproperties.appfolio.com/listings",
-  "scraped_at": "2026-07-23T07:02:51-07:00",
+  "scraped_at": "2026-07-24T07:01:28-07:00",
   "unit_count": 12,
   "units": [
     {
@@ -252,7 +252,7 @@
       "manager": "Advent Properties",
       "city": "Oakland",
       "bedrooms": 2.0,
-      "available_date": "2026-07-24",
+      "available_date": null,
       "rent": 2695.0,
       "kind": "residential",
       "unit_type": "2_bedroom",
