@@ -3,8 +3,8 @@
   "source": "authentic_properties",
   "manager": "Authentic Properties",
   "source_url": "https://authenticrealestate.appfolio.com/listings",
-  "scraped_at": "2026-07-24T07:01:27-07:00",
-  "unit_count": 13,
+  "scraped_at": "2026-07-25T06:58:09-07:00",
+  "unit_count": 12,
   "units": [
     {
       "address": "2228 McKinnley Ave - 2228 McKinley Ave Unit 1, Unit 1, Berkeley, CA 94703",
@@ -132,30 +132,6 @@
       "postal_code": "94546",
       "title": "Near-New Construction, 2 Bedroom, 2 Bath apartment with sweeping mountain views",
       "url": "https://authenticrealestate.appfolio.com/listings/detail/af5199bb-3558-4f2b-a293-ea60a49d3d9d"
-    },
-    {
-      "address": "5071 Appian Way, Unit 3, El Sobrante, CA 94803",
-      "source": "authentic_properties",
-      "manager": "Authentic Properties",
-      "city": "El Sobrante",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2195.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "shared",
-      "summary": "2-bedroom, 1-bathroom apartment in a 4-plex with private garage and shared on-site laundry, 800 square feet, available now.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 800,
-      "state": "CA",
-      "postal_code": "94803",
-      "title": "2 BR, 1 BA with Garage",
-      "url": "https://authenticrealestate.appfolio.com/listings/detail/926bb041-8aa2-4524-954f-a3f913757ddb"
     },
     {
       "address": "925 Apgar Street , Emeryville, CA 94608",

@@ -3,8 +3,8 @@
   "source": "boston_property_care",
   "manager": "Boston Property Care",
   "source_url": "https://bostonpropertycare.appfolio.com/listings",
-  "scraped_at": "2026-07-24T07:01:28-07:00",
-  "unit_count": 19,
+  "scraped_at": "2026-07-25T06:58:10-07:00",
+  "unit_count": 18,
   "units": [
     {
       "address": "67 Park Dr #1, Boston, MA 02115",
@@ -324,30 +324,6 @@
       "postal_code": "02130",
       "title": "Updated Two Bed, Two Bath Jamaica Plain Condo With Laundry For 9/1",
       "url": "https://bostonpropertycare.appfolio.com/listings/detail/2bd8eeaf-4d45-4c14-a59e-8199f704f2dc"
-    },
-    {
-      "address": "6 Wyman St # 2, Jamaica Plain, MA 02130",
-      "source": "boston_property_care",
-      "manager": "Boston Property Care",
-      "city": "Jamaica Plain",
-      "bedrooms": 3.0,
-      "available_date": "2026-09-01",
-      "rent": 3800.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "street",
-      "laundry": "in_unit",
-      "summary": "Renovated 3-bedroom, 2-bathroom condo in Jamaica Plain with modern kitchen, gas fireplace, in-unit laundry, and shared roof deck. No pets allowed; street parking only with resident sticker.",
-      "available_now": false,
-      "bathrooms": 2.0,
-      "square_feet": 1008,
-      "state": "MA",
-      "postal_code": "02130",
-      "title": "Sunny, Renovated 3 Bed, 2 Bath Jamaica Plain Condo For 9/1",
-      "url": "https://bostonpropertycare.appfolio.com/listings/detail/9fd1e278-24fb-4682-90d6-15f6d519af1c"
     },
     {
       "address": "12-14 Weld Hill St #1 , Jamaica Plain, MA 02130",

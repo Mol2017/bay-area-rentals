@@ -3,7 +3,7 @@
   "source": "selborne_properties",
   "manager": "Selborne Properties",
   "source_url": "https://selborne.appfolio.com/listings",
-  "scraped_at": "2026-07-24T07:01:29-07:00",
+  "scraped_at": "2026-07-25T06:58:11-07:00",
   "unit_count": 20,
   "units": [
     {
@@ -53,6 +53,30 @@
       "postal_code": "94610",
       "title": "Junior 1bd Apartment in Adams Point!",
       "url": "https://selborne.appfolio.com/listings/detail/99398631-f3e3-48b0-970d-a119e5c427dc"
+    },
+    {
+      "address": "443 Lee St. - 304 , Oakland, CA 94610",
+      "source": "selborne_properties",
+      "manager": "Selborne Properties",
+      "city": "Oakland",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-17",
+      "rent": 1545.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 425,
+      "state": "CA",
+      "postal_code": "94610",
+      "title": "Junior 1bd apartment in Adams Point available now!",
+      "url": "https://selborne.appfolio.com/listings/detail/a14da7ae-9673-409f-911b-d17c3bbec9f7"
     },
     {
       "address": "359 Grand Ave. - 104, Oakland, CA 94610",
@@ -461,30 +485,6 @@
       "postal_code": "94612",
       "title": null,
       "url": "https://selborne.appfolio.com/listings/detail/f0087694-c26d-4e4e-ad7b-24210de86466"
-    },
-    {
-      "address": "SP Application ONLY - Root, Oakland, CA 94618",
-      "source": "selborne_properties",
-      "manager": "Selborne Properties",
-      "city": "Oakland",
-      "bedrooms": null,
-      "available_date": null,
-      "rent": null,
-      "kind": "application",
-      "unit_type": null,
-      "room_type": null,
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": true,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94618",
-      "title": null,
-      "url": "https://selborne.appfolio.com/listings/detail/b1e53236-9fbe-4dc3-bda1-08bc5f9206cf"
     }
   ]
 }

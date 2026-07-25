@@ -3,8 +3,8 @@
   "source": "chandler_properties",
   "manager": "Chandler Properties",
   "source_url": "https://chandlerproperties.appfolio.com/listings",
-  "scraped_at": "2026-07-24T07:01:28-07:00",
-  "unit_count": 2,
+  "scraped_at": "2026-07-25T06:58:10-07:00",
+  "unit_count": 3,
   "units": [
     {
       "address": "2107 Larkin St. Apt 2, San Francisco, CA 94109",
@@ -53,6 +53,30 @@
       "postal_code": "94123",
       "title": "Charming Studio in Cow Hollow",
       "url": "https://chandlerproperties.appfolio.com/listings/detail/9245d600-2c43-4abe-8874-61aeb0d298bc"
+    },
+    {
+      "address": "2141 26th Street #101, San Francisco, CA 94107",
+      "source": "chandler_properties",
+      "manager": "Chandler Properties",
+      "city": "San Francisco",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 4395.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 2.0,
+      "square_feet": 1800,
+      "state": "CA",
+      "postal_code": "94107",
+      "title": "Spacious Modern 1-Bedroom Loft w/ In-Unit Washer/Dryer! Parking Included!",
+      "url": "https://chandlerproperties.appfolio.com/listings/detail/8afacf89-ab01-4fb7-bc6f-b5a475a34ff6"
     }
   ]
 }

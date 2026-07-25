@@ -3,8 +3,8 @@
   "source": "mpm_oakland",
   "manager": "MPM Oakland",
   "source_url": "https://mpmoakland.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-24T07:01:29-07:00",
-  "unit_count": 35,
+  "scraped_at": "2026-07-25T06:58:11-07:00",
+  "unit_count": 34,
   "units": [
     {
       "address": "7990 Glenbar Way, Fair Oaks, CA 95628",
@@ -737,30 +737,6 @@
       "postal_code": "94621",
       "title": "1933 84th Avenue - C",
       "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/68101"
-    },
-    {
-      "address": "3566 Dimond Avenue - 1, Oakland, CA 94602",
-      "source": "mpm_oakland",
-      "manager": "MPM Oakland",
-      "city": "Oakland",
-      "bedrooms": 2.0,
-      "available_date": "2026-06-10",
-      "rent": 2399.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "shared",
-      "summary": "Spacious 2-bedroom, 1-bathroom downstairs apartment in Oakland's Dimond District with hardwood floors and Craftsman character. One off-street parking space available for additional $75/month.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94602",
-      "title": "3566 Dimond Avenue - 1",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94778"
     },
     {
       "address": "350 Perkins Street - 208, Oakland, CA 94610",

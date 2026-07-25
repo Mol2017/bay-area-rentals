@@ -3,8 +3,8 @@
   "source": "cambridge_management_group",
   "manager": "Cambridge Management Group",
   "source_url": "https://cambridgemgi.appfolio.com/listings",
-  "scraped_at": "2026-07-24T07:01:28-07:00",
-  "unit_count": 17,
+  "scraped_at": "2026-07-25T06:58:10-07:00",
+  "unit_count": 16,
   "units": [
     {
       "address": "1371 E Lexington Ave - 27, El Cajon, CA 92019",
@@ -173,30 +173,6 @@
       "postal_code": "92065",
       "title": "Check THIS OUT! We've Gone in and UPGRADED Top to Bottom! No Pet Rent!",
       "url": "https://cambridgemgi.appfolio.com/listings/detail/bba5df4c-b861-4d95-b607-664720757385"
-    },
-    {
-      "address": "3553 College Avenue - 05, San Diego, CA 92115",
-      "source": "cambridge_management_group",
-      "manager": "Cambridge Management Group",
-      "city": "San Diego",
-      "bedrooms": 1.0,
-      "available_date": "2026-08-23",
-      "rent": 1695.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": null,
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "92115",
-      "title": "Great layout, new upgrades, close to SDSU, MUST SEE !",
-      "url": "https://cambridgemgi.appfolio.com/listings/detail/74f2b3f9-6b90-4304-be84-8a06c16a0103"
     },
     {
       "address": "4055 48th Street - 10, San Diego, CA 92105",

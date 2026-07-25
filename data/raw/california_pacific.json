@@ -3,7 +3,7 @@
   "source": "california_pacific",
   "manager": "California Pacific Realty",
   "source_url": "https://californiapacific.appfolio.com/listings",
-  "scraped_at": "2026-07-24T07:01:27-07:00",
+  "scraped_at": "2026-07-25T06:58:09-07:00",
   "unit_count": 8,
   "units": [
     {
@@ -84,7 +84,7 @@
       "manager": "California Pacific Realty",
       "city": "Berkeley",
       "bedrooms": 1.0,
-      "available_date": "2026-07-25",
+      "available_date": null,
       "rent": 1995.0,
       "kind": "residential",
       "unit_type": "1_bedroom",

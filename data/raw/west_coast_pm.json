@@ -3,8 +3,8 @@
   "source": "west_coast_pm",
   "manager": "West Coast Property Management",
   "source_url": "https://wcpm.appfolio.com/listings",
-  "scraped_at": "2026-07-24T07:01:29-07:00",
-  "unit_count": 17,
+  "scraped_at": "2026-07-25T06:58:11-07:00",
+  "unit_count": 15,
   "units": [
     {
       "address": "461 Broadway Street, #211, San Francisco, CA 94133",
@@ -69,37 +69,6 @@
       ]
     },
     {
-      "address": "1201 Green Street, #4, San Francisco, CA 94109",
-      "source": "west_coast_pm",
-      "manager": "West Coast Property Management",
-      "city": "San Francisco",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 3150.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Remodeled studio apartment with 1 bathroom in Russian Hill, San Francisco. 450 sq ft with hardwood and marble finishes, available now.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 450,
-      "state": "CA",
-      "postal_code": "94109",
-      "title": "$3,150 Bright, Remodeled, Hdwd, Marble bthrm, Large Kitchen! PICS!",
-      "url": "https://wcpm.appfolio.com/listings/detail/3157d943-3498-47fe-a0db-88b1b7e08922",
-      "conflicts": [
-        {
-          "field": "rent",
-          "parsed": 3150.0,
-          "observed": 3395
-        }
-      ]
-    },
-    {
       "address": "2905 Van Ness Ave, #201, San Francisco, CA 94109",
       "source": "west_coast_pm",
       "manager": "West Coast Property Management",
@@ -129,7 +98,7 @@
       "manager": "West Coast Property Management",
       "city": "San Francisco",
       "bedrooms": 1.0,
-      "available_date": "2026-07-25",
+      "available_date": null,
       "rent": 4295.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
@@ -170,30 +139,6 @@
       "postal_code": "94107",
       "title": "Luxury New Construction Apartments Near UCSF & Chase Center",
       "url": "https://wcpm.appfolio.com/listings/detail/0da483af-29b8-47a4-b8e5-f3648fdc4f97"
-    },
-    {
-      "address": "833 24th Avenue, San Francisco, CA 94121",
-      "source": "west_coast_pm",
-      "manager": "West Coast Property Management",
-      "city": "San Francisco",
-      "bedrooms": 3.0,
-      "available_date": "2026-08-10",
-      "rent": 5985.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "cats_only",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "in_unit",
-      "summary": "Three-bedroom, one-bathroom flat in Richmond District with in-unit washer/dryer, one-car garage parking, private deck, and shared backyard. Cats allowed, dogs not allowed.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94121",
-      "title": "Beautiful 3BR flat with In-Unit Laundry & Parking in Richmond District",
-      "url": "https://wcpm.appfolio.com/listings/detail/f77465b8-6427-4701-8ade-763fa9c4c356"
     },
     {
       "address": "461 Broadway Street, #204, San Francisco, CA 94133",

@@ -1,7 +1,7 @@
 {
-  "checked": 949,
-  "conflicts": 206,
-  "parser_missing": 93,
+  "checked": 919,
+  "conflicts": 222,
+  "parser_missing": 100,
   "rows": [
     {
       "address": "1515 Webster Street - 4-404, Oakland, CA 94612",
@@ -148,6 +148,15 @@
       "type": "conflict"
     },
     {
+      "address": "2001 Milvia St - 407A (shared female), Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/84c96696-1542-4378-9dd7-aa6d5012b696",
+      "field": "available_date",
+      "parser": "2026-08-28",
+      "page": "2026-08-19",
+      "type": "conflict"
+    },
+    {
       "address": "2025 Kala Bagai Way 707, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/a301cae5-e728-4083-9860-e902efe5b7f4",
@@ -181,6 +190,33 @@
       "field": "available_date",
       "parser": "2026-08-12",
       "page": "2025-08-12",
+      "type": "conflict"
+    },
+    {
+      "address": "20900 Birch St, Hayward, CA 94541",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/4bad92e0-50a2-4a1f-98bd-291460835798",
+      "field": "available_date",
+      "parser": "2026-09-01",
+      "page": "2026-07-25",
+      "type": "conflict"
+    },
+    {
+      "address": "2099 Martin Luther King Jr. Way - 411-Room 2 Bed A, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/7813fec6-dd9f-4013-ace3-2635ae524780",
+      "field": "available_date",
+      "parser": "2026-08-03",
+      "page": "2026-08-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2099 Martin Luther King Jr. Way - 711A, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/5b998938-7fe2-495a-97ec-c7a5ab6c0653",
+      "field": "available_date",
+      "parser": "2026-08-11",
+      "page": "2026-08-01",
       "type": "conflict"
     },
     {
@@ -265,12 +301,30 @@
       "type": "conflict"
     },
     {
+      "address": "529 Stevenson Street #415, San Francisco, CA 94103",
+      "manager": "Structure Properties",
+      "url": "https://spsf.appfolio.com/listings/detail/0cee2c93-54e3-4cf5-9e5d-00d1bc52f36f",
+      "field": "available_date",
+      "parser": "2026-08-03",
+      "page": "2026-07-30",
+      "type": "conflict"
+    },
+    {
       "address": "7231 Lockwood Street - 1, Oakland, CA 94621",
       "manager": "MPM Oakland",
       "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94334",
       "field": "available_date",
       "parser": "2027-05-11",
       "page": "2026-05-11",
+      "type": "conflict"
+    },
+    {
+      "address": "95 Linda Avenue 310, Oakland, CA 94611",
+      "manager": "Lapham Company",
+      "url": "https://laphamcompany.appfolio.com/listings/detail/ea5ed445-409e-4110-b0f9-0e1354609ea2",
+      "field": "available_date",
+      "parser": "2026-12-28",
+      "page": "2026-07-25",
       "type": "conflict"
     },
     {
@@ -364,6 +418,15 @@
       "type": "conflict"
     },
     {
+      "address": "1835 28th. Ave. #302, Oakland, CA 94601",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/be667f42-9d2c-4f05-9208-e923fc66bda5",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "1901 Dwight Way - 302, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/8acaf405-7e35-45bd-a874-1d053fcffa1f",
@@ -379,6 +442,15 @@
       "field": "available_now",
       "parser": false,
       "page": true,
+      "type": "conflict"
+    },
+    {
+      "address": "193 Redwood Avenue - Unit 3, Redwood City, CA 94061",
+      "manager": "Golden State Property Management",
+      "url": "https://goldenstate.appfolio.com/listings/detail/da84a5a8-695a-433c-8c4f-af2a0f27e00e",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
       "type": "conflict"
     },
     {
@@ -463,6 +535,51 @@
       "type": "conflict"
     },
     {
+      "address": "2250 96th. Avenue #208, Oakland, CA 94603",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/32998641-261b-4939-9867-af515745eb76",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2330 Blake St , Unit 204, Berkeley, CA 94704",
+      "manager": "Kasa Properties",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/9e9c257d-f6ae-4868-bad3-6237258b0673",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2330 Blake St , Unit 205, Berkeley, CA 94704",
+      "manager": "Kasa Properties",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/3c29a9d4-cc74-43f6-8cef-9d4563424899",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2330 Blake St , Unit 307, Berkeley, CA 94704",
+      "manager": "Kasa Properties",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/b989e788-520f-433e-8ef6-79830e12638f",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2330 Blake St, Unit 209, Berkeley, CA 94704",
+      "manager": "Kasa Properties",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/b83e699a-df9f-4f45-ae8d-5c2fe261bb00",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "24 Akron St #2, Roxbury, MA 02119",
       "manager": "Boston Property Care",
       "url": "https://bostonpropertycare.appfolio.com/listings/detail/08683c82-71ee-414e-84eb-6d5d6be3ab96",
@@ -538,6 +655,15 @@
       "address": "2737 Durant Avenue - D, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/8d16387e-3ebe-4d01-858c-348002165338",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2801 College Ave - 10, Berkeley, CA 94705",
+      "manager": "California Pacific Realty",
+      "url": "https://californiapacific.appfolio.com/listings/detail/3cd4d831-2aeb-4cb9-a4c1-275a7e806ce9",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -670,6 +796,15 @@
       "type": "conflict"
     },
     {
+      "address": "659 Fillmore Street, #1, San Francisco, CA 94117",
+      "manager": "West Coast Property Management",
+      "url": "https://wcpm.appfolio.com/listings/detail/7561b7f6-d6b2-4ac3-b3d1-5cef90a54c86",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "666 17th Street, Unit 03-A, Oakland, CA 94612",
       "manager": "2B Living",
       "url": "https://twobliving.appfolio.com/listings/detail/0524fbd8-9fcf-43bf-ac0b-9b8b481f5bb4",
@@ -682,6 +817,15 @@
       "address": "78 Washington # 8, Chelsea, MA",
       "manager": "Boston Property Management",
       "url": "https://bostonpropertymanagementllc.com/resident_listings/78-washington-8-chelsea-2/",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "939 Lexington Ave. #1, El Cerrito, CA 94530",
+      "manager": "K&S Company",
+      "url": "https://kands.appfolio.com/listings/detail/383bbbd2-77fe-4d2b-9ae5-15772f42f1d1",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -754,15 +898,6 @@
       "address": "2025 Kala Bagai Way - 405A, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/d264808d-0f47-4890-93c8-4ec033e4dd65",
-      "field": "bedrooms",
-      "parser": 0.0,
-      "page": 1,
-      "type": "conflict"
-    },
-    {
-      "address": "2025 Kala Bagai Way - 503A, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/c45a4861-b1a4-4a5d-ab13-94457400f6a9",
       "field": "bedrooms",
       "parser": 0.0,
       "page": 1,
@@ -1039,15 +1174,6 @@
       "type": "conflict"
     },
     {
-      "address": "2001 Milvia St - 803, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/880fb2b4-f882-43cd-b0cd-f9af64059277",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
       "address": "2001 Milvia St - 807A (shared female), Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/dfeb41a3-87fd-43d0-82a2-beded1298e4c",
@@ -1114,15 +1240,6 @@
       "address": "2025 Kala Bagai Way - 405A, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/d264808d-0f47-4890-93c8-4ec033e4dd65",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "2025 Kala Bagai Way - 503A, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/c45a4861-b1a4-4a5d-ab13-94457400f6a9",
       "field": "kind",
       "parser": "residential",
       "page": "room",
@@ -1273,36 +1390,9 @@
       "type": "conflict"
     },
     {
-      "address": "2556 Telegraph Ave. -401, Berkeley, CA 94704",
-      "manager": "Square One Management",
-      "url": "https://som.managebuilding.com/Resident/public/rentals/41700",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "2556 Telegraph Ave. -504, Berkeley, CA 94704",
-      "manager": "Square One Management",
-      "url": "https://som.managebuilding.com/Resident/public/rentals/38089",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
       "address": "2710 Belrose Avenue - 2, Berkeley, CA 94705",
       "manager": "CollabHome",
       "url": "https://collab.managebuilding.com/Resident/public/rentals/56097",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "2731 Durant Ave - 2A, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/cba6f469-f11a-4cd7-87d1-5c459d317843",
       "field": "kind",
       "parser": "residential",
       "page": "room",
@@ -1399,24 +1489,6 @@
       "type": "conflict"
     },
     {
-      "address": "402 Broadway, San Francisco, CA, 94133",
-      "manager": "ReListo",
-      "url": "https://www.relisto.com/rentals/440430884-402-broadway-147-san-francisco-ca-94133/",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "402 Broadway, San Francisco, CA, 94133",
-      "manager": "ReListo",
-      "url": "https://www.relisto.com/rentals/440430867-402-broadway-58-san-francisco-ca-94133/",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
       "address": "461 Broadway Street, #204, San Francisco, CA 94133",
       "manager": "West Coast Property Management",
       "url": "https://wcpm.appfolio.com/listings/detail/b0309b7a-6860-4068-ad76-eca0011ba442",
@@ -1492,15 +1564,6 @@
       "address": "78 Washington # 8, Chelsea, MA",
       "manager": "Boston Property Management",
       "url": "https://bostonpropertymanagementllc.com/resident_listings/78-washington-8-chelsea-2/",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "875 Post St., San Francisco, CA, 94109",
-      "manager": "ReListo",
-      "url": "https://www.relisto.com/rentals/442984773-875-post-st-315-san-francisco-ca-94109/",
       "field": "kind",
       "parser": "residential",
       "page": "room",
@@ -1687,12 +1750,66 @@
       "type": "conflict"
     },
     {
-      "address": "1201 Green Street, #4, San Francisco, CA 94109",
-      "manager": "West Coast Property Management",
-      "url": "https://wcpm.appfolio.com/listings/detail/3157d943-3498-47fe-a0db-88b1b7e08922",
+      "address": "1284 Mattox Rd 14, Hayward, CA 94541",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/2cc36513-e58e-42c9-a5d1-ee0918bfb813",
       "field": "rent",
-      "parser": 3150.0,
-      "page": 3395,
+      "parser": 1892.31,
+      "page": 2026.15,
+      "type": "conflict"
+    },
+    {
+      "address": "1284 Mattox Rd 17, Hayward, CA 94541",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/b509f66f-a005-4da5-923d-35df29ad12cf",
+      "field": "rent",
+      "parser": 1892.31,
+      "page": 2026.15,
+      "type": "conflict"
+    },
+    {
+      "address": "1511 Jefferson St Unit 218, Oakland, CA 94612",
+      "manager": "Utopia Management",
+      "url": "https://utopiamanagement.appfolio.com/listings/detail/c27c4fd3-bfde-4ab5-a33a-5f5d57765419",
+      "field": "rent",
+      "parser": 2295.0,
+      "page": 2595,
+      "type": "conflict"
+    },
+    {
+      "address": "1640 5th Avenue - 14, Oakland, CA 94606",
+      "manager": "Beacon Properties",
+      "url": "https://beaconprop.appfolio.com/listings/detail/004233a7-d3c6-40b6-8fa7-e7277197ce07",
+      "field": "rent",
+      "parser": 1795.0,
+      "page": 1850,
+      "type": "conflict"
+    },
+    {
+      "address": "1640 5th Avenue - 9, Oakland, CA 94606",
+      "manager": "Beacon Properties",
+      "url": "https://beaconprop.appfolio.com/listings/detail/1e71edc7-4789-4a13-a8ec-ad47ee3f9096",
+      "field": "rent",
+      "parser": 1750.0,
+      "page": 1795,
+      "type": "conflict"
+    },
+    {
+      "address": "1757 Oxford St, Apt 12, Berkeley, CA 94709",
+      "manager": "K&S Company",
+      "url": "https://kands.appfolio.com/listings/detail/3b6a6cfd-05e6-4de5-945a-ebe7c8d95562",
+      "field": "rent",
+      "parser": 2195.0,
+      "page": 2295,
+      "type": "conflict"
+    },
+    {
+      "address": "1757 Oxford St, Apt 8, Berkeley, CA 94709",
+      "manager": "K&S Company",
+      "url": "https://kands.appfolio.com/listings/detail/dba9aa58-eddd-400b-9892-d2c16e48bbe2",
+      "field": "rent",
+      "parser": 1745.0,
+      "page": 1795,
       "type": "conflict"
     },
     {
@@ -1711,6 +1828,24 @@
       "field": "rent",
       "parser": 2837.08,
       "page": 3095,
+      "type": "conflict"
+    },
+    {
+      "address": "2067 University Ave - 702, 702, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/c9e0a0c1-516f-4875-b00f-c0b0e0531f12",
+      "field": "rent",
+      "parser": 3050.0,
+      "page": 3195,
+      "type": "conflict"
+    },
+    {
+      "address": "2067 University Ave - 704, 704, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/4ed2ec0d-4820-414d-8be0-793e70dd67ff",
+      "field": "rent",
+      "parser": 3995.0,
+      "page": 4200,
       "type": "conflict"
     },
     {
@@ -1738,6 +1873,15 @@
       "field": "rent",
       "parser": 1945.0,
       "page": 1995,
+      "type": "conflict"
+    },
+    {
+      "address": "3719 Emerson Street, Unit 09, Oakland, CA 94610",
+      "manager": "2B Living",
+      "url": "https://twobliving.appfolio.com/listings/detail/f2ccdac1-be6b-4af1-8161-4cb0acd7442b",
+      "field": "rent",
+      "parser": 3346.0,
+      "page": 3479,
       "type": "conflict"
     },
     {

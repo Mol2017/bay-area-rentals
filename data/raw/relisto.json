@@ -3,8 +3,8 @@
   "source": "relisto",
   "manager": "ReListo",
   "source_url": "https://www.relisto.com/",
-  "scraped_at": "2026-07-24T07:01:50-07:00",
-  "unit_count": 13,
+  "scraped_at": "2026-07-25T06:58:37-07:00",
+  "unit_count": 11,
   "units": [
     {
       "address": "1426 Addison St., Berkeley, CA, 94702",
@@ -77,99 +77,6 @@
       "postal_code": "94804",
       "title": "369 S 20th St.",
       "url": "https://www.relisto.com/rentals/442092409-369-s-20th-st-richmond-ca-94804/"
-    },
-    {
-      "address": "402 Broadway, San Francisco, CA, 94133",
-      "source": "relisto",
-      "manager": "ReListo",
-      "city": "San Francisco",
-      "bedrooms": 0.0,
-      "available_date": "2026-07-25",
-      "rent": 600.0,
-      "kind": "room",
-      "unit_type": "studio",
-      "room_type": "private_room",
-      "pets": "allowed",
-      "furnished": "partial",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Private room in an SRO building in North Beach with shared bathroom, twin bed, mini fridge, and microwave. Utilities included at $99/month.",
-      "available_now": false,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94133",
-      "title": "402 Broadway #147",
-      "url": "https://www.relisto.com/rentals/440430884-402-broadway-147-san-francisco-ca-94133/",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
-      "address": "402 Broadway, San Francisco, CA, 94133",
-      "source": "relisto",
-      "manager": "ReListo",
-      "city": "San Francisco",
-      "bedrooms": 0.0,
-      "available_date": "2026-07-25",
-      "rent": 950.0,
-      "kind": "room",
-      "unit_type": "studio",
-      "room_type": "private_room",
-      "pets": "allowed",
-      "furnished": "partial",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Private room in a North Beach SRO building at 402 Broadway with twin bed, private sink, mini fridge, and microwave. Shared bathrooms, on-site laundry, and all utilities included at $99/month.",
-      "available_now": false,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94133",
-      "title": "402 Broadway #58",
-      "url": "https://www.relisto.com/rentals/440430867-402-broadway-58-san-francisco-ca-94133/",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
-      "address": "875 Post St., San Francisco, CA, 94109",
-      "source": "relisto",
-      "manager": "ReListo",
-      "city": "San Francisco",
-      "bedrooms": 0.0,
-      "available_date": "2026-07-25",
-      "rent": 1200.0,
-      "kind": "room",
-      "unit_type": "studio",
-      "room_type": "private_room",
-      "pets": "allowed",
-      "furnished": "partial",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "SRO studio with private bathroom in Lower Nob Hill near Union Square. Furnished or unfurnished options available; utilities included in $99/month building operations fee.",
-      "available_now": false,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94109",
-      "title": "875 Post St #315",
-      "url": "https://www.relisto.com/rentals/442984773-875-post-st-315-san-francisco-ca-94109/",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
     },
     {
       "address": "1924 Cabrillo St., San Francisco, CA, 94121",
@@ -249,6 +156,30 @@
       "postal_code": "94114",
       "title": "74 States",
       "url": "https://www.relisto.com/rentals/281209431-74-states-san-francisco-ca-94114/"
+    },
+    {
+      "address": "1353 Minna St., San Francisco, CA, 94013",
+      "source": "relisto",
+      "manager": "ReListo",
+      "city": "San Francisco",
+      "bedrooms": 2.0,
+      "available_date": "2026-08-03",
+      "rent": 5695.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": null,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94013",
+      "title": "1353 Minna St.",
+      "url": "https://www.relisto.com/rentals/443114629-1353-minna-st-san-francisco-ca-94013/"
     },
     {
       "address": "1873 Turk St., San Francisco, CA, 94115",

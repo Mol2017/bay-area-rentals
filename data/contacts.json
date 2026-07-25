@@ -48,8 +48,8 @@
   "beacon_properties": {
     "emails": [],
     "manager": "Beacon Properties",
-    "phone": "(510) 961-3757",
-    "source_url": "https://beaconprop.appfolio.com/listings/detail/bfbe8133-674e-41f2-968b-523b75171a8d"
+    "phone": "(510) 428-1864",
+    "source_url": "https://beaconprop.appfolio.com/listings/detail/23b07b1e-b9ae-408f-b5fc-f9cd9035bcd3"
   },
   "boardwalk": {
     "emails": [
@@ -97,11 +97,11 @@
   },
   "chandler_properties": {
     "emails": [
-      "leasing@chandlerproperties.com"
+      "ethelpropmanagement@gmail.com"
     ],
     "manager": "Chandler Properties",
-    "phone": "(415) 921-9960",
-    "source_url": "https://chandlerproperties.appfolio.com/listings/detail/d15f2291-b017-4d67-bdf0-303c9892b883"
+    "phone": "(415) 921-5733",
+    "source_url": "https://chandlerproperties.appfolio.com/listings/detail/8afacf89-ab01-4fb7-bc6f-b5a475a34ff6"
   },
   "collabhome": {
     "emails": [
@@ -115,7 +115,7 @@
     "emails": [],
     "manager": "Community Realty Property Management",
     "phone": "(510) 530-1005",
-    "source_url": "https://communityrealtypm.appfolio.com/listings/detail/089a86dc-2fff-48fb-a798-de30fa8b0c94"
+    "source_url": "https://communityrealtypm.appfolio.com/listings/detail/6fa9eb43-34a8-4c22-a8bc-19aa5d24ff7a"
   },
   "domingo_properties": {
     "emails": [
@@ -127,12 +127,9 @@
     "source_url": "https://domingoprop.managebuilding.com/Resident/public/rentals/1375"
   },
   "eri_property_management": {
-    "emails": [
-      "terrence@erihomes.com",
-      "info@erihomes.com"
-    ],
+    "emails": [],
     "manager": "ERI Property Management",
-    "phone": "(510) 883-7070",
+    "phone": null,
     "source_url": "https://www.erirentals.com/unit.php?id=540"
   },
   "golden_gate_pm": {
@@ -172,14 +169,14 @@
   "ks_company": {
     "emails": [],
     "manager": "K&S Company",
-    "phone": "(510) 388-3048",
+    "phone": "(510) 345-8381",
     "source_url": "https://kands.appfolio.com/listings/detail/335f0e8d-10a4-43fe-80a9-88a2fc98cc30"
   },
   "lapham_company": {
     "emails": [],
     "manager": "Lapham Company",
-    "phone": "(415) 894-9334",
-    "source_url": "https://laphamcompany.appfolio.com/listings/detail/111adadf-1d39-4501-b4a4-606d73df07da"
+    "phone": "(510) 938-8802",
+    "source_url": "https://laphamcompany.appfolio.com/listings/detail/5ac417b8-b79f-459a-89fd-84460ec60367"
   },
   "mmg_properties": {
     "emails": [],
@@ -248,16 +245,16 @@
     "emails": [],
     "manager": "Selborne Properties",
     "phone": "(510) 422-0985",
-    "source_url": "https://selborne.appfolio.com/listings/detail/dd4391a7-7629-41b3-a059-3ebb4f128476"
+    "source_url": "https://selborne.appfolio.com/listings/detail/a14da7ae-9673-409f-911b-d17c3bbec9f7"
   },
   "sg_real_estate": {
     "emails": [
-      "colter@sgrealestateco.com",
-      "leasing@sgrealestateco.com"
+      "theberkeleyplace@sgrealestateco.com",
+      "jonathan@sgrealestateco.com"
     ],
     "manager": "SG Real Estate Co.",
-    "phone": "(510) 704-1240",
-    "source_url": "https://sgrealestate.appfolio.com/listings/detail/c51df77f-37f9-4c21-a43a-ffa6abdbe79a"
+    "phone": "(510) 405-8433",
+    "source_url": "https://sgrealestate.appfolio.com/listings/detail/0409e751-c1d1-4cc3-8b27-b1bea6fff6c1"
   },
   "square_one_management": {
     "emails": [
@@ -294,8 +291,8 @@
   "two_b_living": {
     "emails": [],
     "manager": "2B Living",
-    "phone": "(415) 246-9872",
-    "source_url": "https://twobliving.appfolio.com/listings/detail/6e5bd184-e7f1-4593-ae19-000d1f827f4e"
+    "phone": "(650) 763-8552",
+    "source_url": "https://twobliving.appfolio.com/listings/detail/3163ccea-522f-43c1-a529-03c521625022"
   },
   "utopia_management": {
     "emails": [

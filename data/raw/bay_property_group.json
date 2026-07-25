@@ -3,8 +3,8 @@
   "source": "bay_property_group",
   "manager": "Bay Property Group",
   "source_url": "https://baypropertygroup.appfolio.com/listings",
-  "scraped_at": "2026-07-24T07:01:28-07:00",
-  "unit_count": 20,
+  "scraped_at": "2026-07-25T06:58:10-07:00",
+  "unit_count": 19,
   "units": [
     {
       "address": "2829 Prince St. - 5, Berkeley, CA 94705",
@@ -197,30 +197,6 @@
       "postal_code": "94612",
       "title": "Studio Available Now!!",
       "url": "https://baypropertygroup.appfolio.com/listings/detail/f4bcaa34-e3c8-4c9f-b19d-cfa298ff2d0b"
-    },
-    {
-      "address": "1580 Madison Street - 306, Oakland, CA 94612",
-      "source": "bay_property_group",
-      "manager": "Bay Property Group",
-      "city": "Oakland",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 1550.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "street",
-      "laundry": "shared",
-      "summary": "Remodeled studio apartment near Lake Merritt with renovated kitchen, hardwood floors, and high ceilings. Street parking only; no pets allowed.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94612",
-      "title": "Remodeled 1 bedroom close to Lake Merritt Studio close to BART",
-      "url": "https://baypropertygroup.appfolio.com/listings/detail/8ba36216-6d5e-457c-bb09-0b4032f78d97"
     },
     {
       "address": "635 Hillsborough St. - 635 C, Oakland, CA 94606",
