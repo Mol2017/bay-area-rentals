@@ -1,6 +1,6 @@
 {
-  "checked": 919,
-  "conflicts": 222,
+  "checked": 911,
+  "conflicts": 227,
   "parser_missing": 100,
   "rows": [
     {
@@ -19,6 +19,15 @@
       "field": "available_date",
       "parser": "2027-03-19",
       "page": "2026-03-19",
+      "type": "conflict"
+    },
+    {
+      "address": "1515 Webster Street - 4-418, Oakland, CA 94612",
+      "manager": "MPM Oakland",
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93913",
+      "field": "available_date",
+      "parser": "2027-05-26",
+      "page": "2026-05-26",
       "type": "conflict"
     },
     {
@@ -73,6 +82,15 @@
       "field": "available_date",
       "parser": "2027-04-02",
       "page": "2026-04-02",
+      "type": "conflict"
+    },
+    {
+      "address": "1835 28th. Ave. #302, Oakland, CA 94601",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/be667f42-9d2c-4f05-9208-e923fc66bda5",
+      "field": "available_date",
+      "parser": "2026-08-01",
+      "page": "2026-07-25",
       "type": "conflict"
     },
     {
@@ -154,15 +172,6 @@
       "field": "available_date",
       "parser": "2026-08-28",
       "page": "2026-08-19",
-      "type": "conflict"
-    },
-    {
-      "address": "2025 Kala Bagai Way 707, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/a301cae5-e728-4083-9860-e902efe5b7f4",
-      "field": "available_date",
-      "parser": "2026-08-07",
-      "page": "2026-08-20",
       "type": "conflict"
     },
     {
@@ -412,15 +421,6 @@
       "address": "164-166 Washington # 7, Chelsea, MA",
       "manager": "Boston Property Management",
       "url": "https://bostonpropertymanagementllc.com/resident_listings/164-166-washington-7-chelsea-2/",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
-      "address": "1835 28th. Ave. #302, Oakland, CA 94601",
-      "manager": "Community Realty Property Management",
-      "url": "https://communityrealtypm.appfolio.com/listings/detail/be667f42-9d2c-4f05-9208-e923fc66bda5",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -811,6 +811,15 @@
       "field": "available_now",
       "parser": false,
       "page": true,
+      "type": "conflict"
+    },
+    {
+      "address": "741-743 Hilgrit Circle - Unit B, Oakland, CA 94610",
+      "manager": "Authentic Properties",
+      "url": "https://authenticrealestate.appfolio.com/listings/detail/3b633106-c8da-451c-a656-5c1510f941b1",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
       "type": "conflict"
     },
     {
@@ -1267,15 +1276,6 @@
       "address": "2025 Kala Bagai Way -405B, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/6e19f846-1d92-42c8-a961-b5d723d04b37",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "2025 Kala Bagai Way 707, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/a301cae5-e728-4083-9860-e902efe5b7f4",
       "field": "kind",
       "parser": "residential",
       "page": "room",
@@ -1867,6 +1867,42 @@
       "type": "conflict"
     },
     {
+      "address": "2233 Channing Way - 01, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/04580ca5-3298-42ef-b072-fb95b2b27847",
+      "field": "rent",
+      "parser": 5995.0,
+      "page": 6395,
+      "type": "conflict"
+    },
+    {
+      "address": "2233 Channing Way - 02, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/f191c8ec-c3d9-43d7-9456-edbab1b49ae3",
+      "field": "rent",
+      "parser": 2895.0,
+      "page": 3195,
+      "type": "conflict"
+    },
+    {
+      "address": "2233 Channing Way - 06, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/9a95984f-becc-4dc8-95b5-1fecb3fedb01",
+      "field": "rent",
+      "parser": 2895.0,
+      "page": 3195,
+      "type": "conflict"
+    },
+    {
+      "address": "2233 Channing Way - 08, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/9fced1d1-9ff9-420c-815d-54766f493e07",
+      "field": "rent",
+      "parser": 2895.0,
+      "page": 3295,
+      "type": "conflict"
+    },
+    {
       "address": "2304 Dwight Way, Berkeley, CA 94704",
       "manager": "Domingo Properties",
       "url": "https://domingoprop.managebuilding.com/Resident/public/rentals/30170",
@@ -1909,6 +1945,15 @@
       "field": "rent",
       "parser": 2795.0,
       "page": 3000,
+      "type": "conflict"
+    },
+    {
+      "address": "785 Duke Circle, Pleasant Hill, CA 94523",
+      "manager": "Authentic Properties",
+      "url": "https://authenticrealestate.appfolio.com/listings/detail/431ee71c-7875-4158-9d9b-ce17bc31791a",
+      "field": "rent",
+      "parser": 4195.0,
+      "page": 4395,
       "type": "conflict"
     },
     {

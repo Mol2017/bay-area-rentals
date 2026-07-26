@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-07-25T06:58:37-07:00",
+  "checked_at": "2026-07-26T06:56:04-07:00",
   "sources_ok": 51,
   "sources_failed": 0,
-  "total_units": 1555,
+  "total_units": 1562,
   "unscrapable": [
     {
       "slug": "hudson_mcdonald",
@@ -75,7 +75,7 @@
       "manager": "Advent Properties",
       "platform": "appfolio",
       "ok": true,
-      "units": 12,
+      "units": 13,
       "error": null,
       "preserved": false
     },
@@ -111,7 +111,7 @@
       "manager": "BanCal Property Management",
       "platform": "appfolio",
       "ok": true,
-      "units": 4,
+      "units": 5,
       "error": null,
       "preserved": false
     },
@@ -257,7 +257,7 @@
       "ok": true,
       "units": 1,
       "error": null,
-      "preserved": true
+      "preserved": false
     },
     {
       "slug": "golden_gate_pm",
@@ -327,7 +327,7 @@
       "manager": "K&S Company",
       "platform": "appfolio",
       "ok": true,
-      "units": 78,
+      "units": 77,
       "error": null,
       "preserved": false
     },
@@ -444,7 +444,7 @@
       "manager": "SG Real Estate Co.",
       "platform": "appfolio",
       "ok": true,
-      "units": 165,
+      "units": 171,
       "error": null,
       "preserved": false
     },
@@ -453,7 +453,7 @@
       "manager": "Square One Management",
       "platform": "buildium",
       "ok": true,
-      "units": 4,
+      "units": 5,
       "error": null,
       "preserved": false
     },
@@ -471,7 +471,7 @@
       "manager": "Structure Properties",
       "platform": "appfolio",
       "ok": true,
-      "units": 38,
+      "units": 37,
       "error": null,
       "preserved": false
     },

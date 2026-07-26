@@ -3,7 +3,7 @@
   "source": "authentic_properties",
   "manager": "Authentic Properties",
   "source_url": "https://authenticrealestate.appfolio.com/listings",
-  "scraped_at": "2026-07-25T06:58:09-07:00",
+  "scraped_at": "2026-07-26T06:55:40-07:00",
   "unit_count": 12,
   "units": [
     {
@@ -163,7 +163,7 @@
       "manager": "Authentic Properties",
       "city": "Oakland",
       "bedrooms": 1.0,
-      "available_date": "2026-07-26",
+      "available_date": null,
       "rent": 2095.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
@@ -260,7 +260,7 @@
       "city": "Pleasant Hill",
       "bedrooms": 3.0,
       "available_date": "2026-08-01",
-      "rent": 4395.0,
+      "rent": 4195.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
       "room_type": "entire_place",

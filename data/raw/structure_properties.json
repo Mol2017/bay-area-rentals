@@ -3,8 +3,8 @@
   "source": "structure_properties",
   "manager": "Structure Properties",
   "source_url": "https://spsf.appfolio.com/listings",
-  "scraped_at": "2026-07-25T06:58:10-07:00",
-  "unit_count": 38,
+  "scraped_at": "2026-07-26T06:55:41-07:00",
+  "unit_count": 37,
   "units": [
     {
       "address": "6500 Yucca Street #432, Los Angeles, CA 90028",
@@ -698,30 +698,6 @@
       "postal_code": "94109",
       "title": "2 Bedroom / 2 Bathroom with Laundry and 24 Hour Doorman",
       "url": "https://spsf.appfolio.com/listings/detail/3160555a-213d-4e03-bd74-5dbaba337de0"
-    },
-    {
-      "address": "1753 - 1763 Fulton Street - 1755, San Francisco, CA 94117",
-      "source": "structure_properties",
-      "manager": "Structure Properties",
-      "city": "San Francisco",
-      "bedrooms": 5.0,
-      "available_date": "2026-08-01",
-      "rent": 10000.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": null,
-      "laundry": "in_unit",
-      "summary": "5-bedroom, 2-bathroom apartment in San Francisco available August 1, 2026. In-unit washer/dryer and dishwasher; cats and dogs allowed.",
-      "available_now": false,
-      "bathrooms": 2.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94117",
-      "title": "5 Bedroom Apartment perfect for roommates!",
-      "url": "https://spsf.appfolio.com/listings/detail/af0de67f-3562-4d03-adef-c00b981b2acd"
     },
     {
       "address": "1753-1763 Fulton Street - 1757, San Francisco, CA 94117",

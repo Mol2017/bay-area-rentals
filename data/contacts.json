@@ -8,12 +8,10 @@
     "source_url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/146040"
   },
   "advent_properties": {
-    "emails": [
-      "team@adventpropertiesinc.com"
-    ],
+    "emails": [],
     "manager": "Advent Properties",
-    "phone": "(510) 993-4600",
-    "source_url": "https://adventproperties.appfolio.com/listings/detail/049f54c6-4fc5-4065-af5c-745252e1fcf1"
+    "phone": "(510) 250-7918",
+    "source_url": "https://adventproperties.appfolio.com/listings/detail/8f6f9fd1-c8ee-4444-95e7-3e82a7548d34"
   },
   "all_east_bay": {
     "emails": [],
@@ -31,7 +29,7 @@
     "emails": [],
     "manager": "BanCal Property Management",
     "phone": "(510) 424-7567",
-    "source_url": "https://bancalsf.appfolio.com/listings/detail/1b6edcc1-1053-4fc4-bf14-f6751c972bdf"
+    "source_url": "https://bancalsf.appfolio.com/listings/detail/5f6b3190-0105-41ed-b0d7-cfb537d69b40"
   },
   "bay_cities_pm": {
     "emails": [],
@@ -127,9 +125,12 @@
     "source_url": "https://domingoprop.managebuilding.com/Resident/public/rentals/1375"
   },
   "eri_property_management": {
-    "emails": [],
+    "emails": [
+      "terrence@erihomes.com",
+      "info@erihomes.com"
+    ],
     "manager": "ERI Property Management",
-    "phone": null,
+    "phone": "(510) 883-7070",
     "source_url": "https://www.erirentals.com/unit.php?id=540"
   },
   "golden_gate_pm": {
@@ -169,8 +170,8 @@
   "ks_company": {
     "emails": [],
     "manager": "K&S Company",
-    "phone": "(510) 345-8381",
-    "source_url": "https://kands.appfolio.com/listings/detail/335f0e8d-10a4-43fe-80a9-88a2fc98cc30"
+    "phone": "(628) 255-0421",
+    "source_url": "https://kands.appfolio.com/listings/detail/3074aa4b-0fd3-4056-a4d9-41e3ed0a4ccc"
   },
   "lapham_company": {
     "emails": [],
@@ -258,11 +259,11 @@
   },
   "square_one_management": {
     "emails": [
-      "info@squareonemanagement.com"
+      "wendy@squareonemanagement.com"
     ],
     "manager": "Square One Management",
-    "phone": "(510) 900-4649",
-    "source_url": "https://som.managebuilding.com/Resident/public/rentals/10981"
+    "phone": "(510) 900-9056",
+    "source_url": "https://som.managebuilding.com/Resident/public/rentals/24923"
   },
   "structure_boston": {
     "emails": [],
@@ -295,12 +296,10 @@
     "source_url": "https://twobliving.appfolio.com/listings/detail/3163ccea-522f-43c1-a529-03c521625022"
   },
   "utopia_management": {
-    "emails": [
-      "eastbay@utopiamanagement.com"
-    ],
+    "emails": [],
     "manager": "Utopia Management",
-    "phone": "(510) 556-1111",
-    "source_url": "https://utopiamanagement.appfolio.com/listings/detail/66661d7c-66f5-4099-8021-283275b7e1d2"
+    "phone": "(707) 532-1111",
+    "source_url": "https://utopiamanagement.appfolio.com/listings/detail/3bd5c64f-fa65-4b1f-8e8f-62a1737f490e"
   },
   "west_coast_pm": {
     "emails": [
