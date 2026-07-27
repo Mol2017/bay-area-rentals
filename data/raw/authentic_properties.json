@@ -3,8 +3,8 @@
   "source": "authentic_properties",
   "manager": "Authentic Properties",
   "source_url": "https://authenticrealestate.appfolio.com/listings",
-  "scraped_at": "2026-07-26T06:55:40-07:00",
-  "unit_count": 12,
+  "scraped_at": "2026-07-27T07:05:20-07:00",
+  "unit_count": 11,
   "units": [
     {
       "address": "2228 McKinnley Ave - 2228 McKinley Ave Unit 1, Unit 1, Berkeley, CA 94703",
@@ -60,30 +60,6 @@
       "postal_code": "94703",
       "title": "Bright 2BR Home-Style Unit | Free Parking | Pet Friendly | Near Ashby BART & UC Berkeley",
       "url": "https://authenticrealestate.appfolio.com/listings/detail/164327ce-251e-4c88-92c4-43ef7f15945d"
-    },
-    {
-      "address": "2409 College Ave - 15, Berkeley, CA 94704",
-      "source": "authentic_properties",
-      "manager": "Authentic Properties",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2995.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "shared",
-      "summary": "2-bedroom, 1-bathroom apartment in a 1920s building 2 blocks from UC Berkeley, featuring original wood floors, 9-foot ceilings, and modern kitchen. Covered parking and shared laundry available.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 850,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "$3,195 / 2br - 850ft2 - Great Location-2 Blocks from UC Berkeley on College Ave",
-      "url": "https://authenticrealestate.appfolio.com/listings/detail/ea1c40db-6ca1-4e2d-b82b-cacc02df6b0f"
     },
     {
       "address": "19770 Sprague Ct, Castro Valley, CA 94546",

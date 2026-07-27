@@ -3,8 +3,8 @@
   "source": "boston_property_care",
   "manager": "Boston Property Care",
   "source_url": "https://bostonpropertycare.appfolio.com/listings",
-  "scraped_at": "2026-07-26T06:55:41-07:00",
-  "unit_count": 18,
+  "scraped_at": "2026-07-27T07:05:20-07:00",
+  "unit_count": 19,
   "units": [
     {
       "address": "67 Park Dr #1, Boston, MA 02115",
@@ -197,6 +197,30 @@
       "postal_code": "02139",
       "title": "Cambridgeport 2 Bed Condo For September 1st",
       "url": "https://bostonpropertycare.appfolio.com/listings/detail/a4ed282b-35d2-4d43-981e-8290ff932df5"
+    },
+    {
+      "address": "318 Rindge Ave #204, Cambridge, MA 02140",
+      "source": "boston_property_care",
+      "manager": "Boston Property Care",
+      "city": "Cambridge",
+      "bedrooms": 2.0,
+      "available_date": "2026-09-01",
+      "rent": 3500.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 2.0,
+      "square_feet": 1170,
+      "state": "MA",
+      "postal_code": "02140",
+      "title": "Two Bed, Two Bath Cambridge Condo With TWO Garage Parking Spots",
+      "url": "https://bostonpropertycare.appfolio.com/listings/detail/3fb4aee2-c029-4fb7-80f9-a70a2707457c"
     },
     {
       "address": "64 Florida St #2, Dorchester, MA 02124",

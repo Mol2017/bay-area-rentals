@@ -3,7 +3,7 @@
   "source": "collabhome",
   "manager": "CollabHome",
   "source_url": "https://collab.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-26T06:55:42-07:00",
+  "scraped_at": "2026-07-27T07:05:22-07:00",
   "unit_count": 7,
   "units": [
     {
@@ -73,7 +73,7 @@
       "city": "Boston",
       "bedrooms": 2.0,
       "available_date": "2026-09-01",
-      "rent": 3980.0,
+      "rent": 3895.0,
       "kind": "residential",
       "unit_type": "2_bedroom",
       "room_type": "entire_place",

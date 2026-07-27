@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-07-26T06:56:04-07:00",
+  "checked_at": "2026-07-27T07:05:44-07:00",
   "sources_ok": 51,
   "sources_failed": 0,
-  "total_units": 1562,
+  "total_units": 1556,
   "unscrapable": [
     {
       "slug": "hudson_mcdonald",
@@ -102,7 +102,7 @@
       "manager": "Authentic Properties",
       "platform": "appfolio",
       "ok": true,
-      "units": 12,
+      "units": 11,
       "error": null,
       "preserved": false
     },
@@ -111,7 +111,7 @@
       "manager": "BanCal Property Management",
       "platform": "appfolio",
       "ok": true,
-      "units": 5,
+      "units": 4,
       "error": null,
       "preserved": false
     },
@@ -174,7 +174,7 @@
       "manager": "Boston Property Care",
       "platform": "appfolio",
       "ok": true,
-      "units": 18,
+      "units": 19,
       "error": null,
       "preserved": false
     },
@@ -336,7 +336,7 @@
       "manager": "Lapham Company",
       "platform": "appfolio",
       "ok": true,
-      "units": 60,
+      "units": 57,
       "error": null,
       "preserved": false
     },
@@ -381,7 +381,7 @@
       "manager": "Panoramic Berkeley",
       "platform": "appfolio",
       "ok": true,
-      "units": 4,
+      "units": 3,
       "error": null,
       "preserved": false
     },
@@ -444,7 +444,7 @@
       "manager": "SG Real Estate Co.",
       "platform": "appfolio",
       "ok": true,
-      "units": 171,
+      "units": 172,
       "error": null,
       "preserved": false
     },
@@ -462,7 +462,7 @@
       "manager": "Structure Boston",
       "platform": "appfolio",
       "ok": true,
-      "units": 75,
+      "units": 73,
       "error": null,
       "preserved": false
     },

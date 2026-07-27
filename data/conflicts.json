@@ -1,7 +1,7 @@
 {
-  "checked": 911,
+  "checked": 898,
   "conflicts": 227,
-  "parser_missing": 100,
+  "parser_missing": 99,
   "rows": [
     {
       "address": "1515 Webster Street - 4-404, Oakland, CA 94612",
@@ -1228,15 +1228,6 @@
       "type": "conflict"
     },
     {
-      "address": "2025 Kala Bagai Way - 306A, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/108e599b-2675-4564-ba00-67e1ed2b71c2",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
       "address": "2025 Kala Bagai Way - 306B, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/192be9b2-788b-479f-8731-47625550c3fd",
@@ -1864,6 +1855,15 @@
       "field": "rent",
       "parser": 2296.0,
       "page": 1148,
+      "type": "conflict"
+    },
+    {
+      "address": "21 Buttonwood Street, Boston, MA 02125",
+      "manager": "CollabHome",
+      "url": "https://collab.managebuilding.com/Resident/public/rentals/36719",
+      "field": "rent",
+      "parser": 3895.0,
+      "page": 3980,
       "type": "conflict"
     },
     {

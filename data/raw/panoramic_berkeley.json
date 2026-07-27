@@ -3,8 +3,8 @@
   "source": "panoramic_berkeley",
   "manager": "Panoramic Berkeley",
   "source_url": "https://panoramicmgt.appfolio.com/listings",
-  "scraped_at": "2026-07-26T06:55:40-07:00",
-  "unit_count": 4,
+  "scraped_at": "2026-07-27T07:05:19-07:00",
+  "unit_count": 3,
   "units": [
     {
       "address": "1752 Shattuck Avenue, Unit 406, Berkeley, CA 94709",
@@ -29,30 +29,6 @@
       "postal_code": "94709",
       "title": "New Modern FURNISHED Apt with 4 PRIVATE ROOMS",
       "url": "https://panoramicmgt.appfolio.com/listings/detail/e080f443-b7b6-4f98-bcc6-5a1d90194429"
-    },
-    {
-      "address": "1752 Shattuck Avenue, Unit 608, Berkeley, CA 94709",
-      "source": "panoramic_berkeley",
-      "manager": "Panoramic Berkeley",
-      "city": "Berkeley",
-      "bedrooms": 4.0,
-      "available_date": "2026-08-01",
-      "rent": 6468.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": null,
-      "summary": "New furnished 4-bedroom, 1.5-bathroom apartment in Berkeley. All utilities and gig-speed internet included; one month free on 12-month leases.",
-      "available_now": false,
-      "bathrooms": 1.5,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94709",
-      "title": "New Modern FURNISHED Apt with 4 PRIVATE ROOMS",
-      "url": "https://panoramicmgt.appfolio.com/listings/detail/6aff3023-3a9e-47a9-bad9-7f0428f991d2"
     },
     {
       "address": "1752 Shattuck Avenue, Unit 711, Berkeley, CA 94709",
