@@ -3,8 +3,8 @@
   "source": "korman_and_ng",
   "manager": "Korman & Ng Real Estate Services",
   "source_url": "https://kormanandng.appfolio.com/listings",
-  "scraped_at": "2026-07-27T07:05:20-07:00",
-  "unit_count": 7,
+  "scraped_at": "2026-07-28T07:03:18-07:00",
+  "unit_count": 6,
   "units": [
     {
       "address": "1607-1611 Fairview St - 1607-B, Berkeley, CA 94703",
@@ -125,30 +125,6 @@
       "postal_code": "94705",
       "title": "Spacious 2 Bedroom Apartment with Private Balcony | Pets Welcome!",
       "url": "https://kormanandng.appfolio.com/listings/detail/44d1477a-f57f-46e7-936d-73a6bd6cbf8b"
-    },
-    {
-      "address": "1826 Euclid Avenue, Berkeley, CA 94709",
-      "source": "korman_and_ng",
-      "manager": "Korman & Ng Real Estate Services",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 3700.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": "Brand new 2 bedroom, 2 bathroom apartment near UC Berkeley North Gate with stainless steel appliances, gas stove, and wood-like floors. Utilities included except internet.",
-      "available_now": true,
-      "bathrooms": 2.0,
-      "square_feet": 750,
-      "state": "CA",
-      "postal_code": "94709",
-      "title": "Brand new unit near UC Berkley North Gate",
-      "url": "https://kormanandng.appfolio.com/listings/detail/a52d87c9-6c26-4bec-bc55-235ae1a146a2"
     },
     {
       "address": "66 Fairmount Ave Unit 219, oakland, CA 94611",

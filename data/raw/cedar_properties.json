@@ -3,8 +3,8 @@
   "source": "cedar_properties",
   "manager": "Cedar Properties",
   "source_url": "https://cedarpm.appfolio.com/listings",
-  "scraped_at": "2026-07-27T07:05:19-07:00",
-  "unit_count": 8,
+  "scraped_at": "2026-07-28T07:03:17-07:00",
+  "unit_count": 9,
   "units": [
     {
       "address": "2930 Adeline, Apt. C, Berkeley, CA 94703",
@@ -108,6 +108,30 @@
       "postal_code": "94703",
       "title": "A Cute & Cozy Junior One Bedroom w/ Community Garden",
       "url": "https://cedarpm.appfolio.com/listings/detail/01f91f7f-8278-4575-b338-f38a4691a08e"
+    },
+    {
+      "address": "2627 Virginia Street - 14, Berkeley, CA 94709",
+      "source": "cedar_properties",
+      "manager": "Cedar Properties",
+      "city": "Berkeley",
+      "bedrooms": null,
+      "available_date": null,
+      "rent": 1200.0,
+      "kind": "residential",
+      "unit_type": null,
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": null,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94709",
+      "title": "Wanna live in a Frat House with Chef-Provided Dinners?",
+      "url": "https://cedarpm.appfolio.com/listings/detail/30a27c23-7b0d-4a07-93f4-ab110cddf92b"
     },
     {
       "address": "3401 Richmond Blvd #8, Oakland, CA 94611",

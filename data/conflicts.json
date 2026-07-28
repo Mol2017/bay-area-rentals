@@ -1,7 +1,7 @@
 {
-  "checked": 898,
-  "conflicts": 227,
-  "parser_missing": 99,
+  "checked": 869,
+  "conflicts": 233,
+  "parser_missing": 93,
   "rows": [
     {
       "address": "1515 Webster Street - 4-404, Oakland, CA 94612",
@@ -46,6 +46,15 @@
       "field": "available_date",
       "parser": "2027-05-15",
       "page": "2026-05-15",
+      "type": "conflict"
+    },
+    {
+      "address": "1752 Shattuck Avenue, Unit 104, Berkeley, CA 94709",
+      "manager": "Panoramic Berkeley",
+      "url": "https://panoramicmgt.appfolio.com/listings/detail/61885c45-9cd5-4969-8f7e-9cd18f33e7c8",
+      "field": "available_date",
+      "parser": "2027-01-01",
+      "page": "2026-08-01",
       "type": "conflict"
     },
     {
@@ -206,7 +215,7 @@
       "manager": "Community Realty Property Management",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/4bad92e0-50a2-4a1f-98bd-291460835798",
       "field": "available_date",
-      "parser": "2026-09-01",
+      "parser": "2026-08-31",
       "page": "2026-07-25",
       "type": "conflict"
     },
@@ -229,6 +238,42 @@
       "type": "conflict"
     },
     {
+      "address": "2330 Blake St , Unit 204, Berkeley, CA 94704",
+      "manager": "Kasa Properties",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/9e9c257d-f6ae-4868-bad3-6237258b0673",
+      "field": "available_date",
+      "parser": "2027-01-01",
+      "page": "2026-10-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2330 Blake St , Unit 205, Berkeley, CA 94704",
+      "manager": "Kasa Properties",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/3c29a9d4-cc74-43f6-8cef-9d4563424899",
+      "field": "available_date",
+      "parser": "2027-01-01",
+      "page": "2026-10-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2330 Blake St , Unit 307, Berkeley, CA 94704",
+      "manager": "Kasa Properties",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/b989e788-520f-433e-8ef6-79830e12638f",
+      "field": "available_date",
+      "parser": "2027-01-01",
+      "page": "2026-10-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2330 Blake St, Unit 209, Berkeley, CA 94704",
+      "manager": "Kasa Properties",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/b83e699a-df9f-4f45-ae8d-5c2fe261bb00",
+      "field": "available_date",
+      "parser": "2027-01-01",
+      "page": "2026-10-15",
+      "type": "conflict"
+    },
+    {
       "address": "2333 Humboldt Avenue - B, Oakland, CA 94601",
       "manager": "MPM Oakland",
       "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94460",
@@ -244,6 +289,15 @@
       "field": "available_date",
       "parser": "2026-08-01",
       "page": "2024-08-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2505 Virginia St #10, Berkeley, CA 94709",
+      "manager": "Hayes Management",
+      "url": "https://hayesmanagement.appfolio.com/listings/detail/1e21e7df-0471-4c45-89d5-989b288d8f93",
+      "field": "available_date",
+      "parser": "2026-08-01",
+      "page": "2026-08-02",
       "type": "conflict"
     },
     {
@@ -541,51 +595,6 @@
       "field": "available_now",
       "parser": true,
       "page": false,
-      "type": "conflict"
-    },
-    {
-      "address": "2330 Blake St , Unit 204, Berkeley, CA 94704",
-      "manager": "Kasa Properties",
-      "url": "https://kasaproperties.appfolio.com/listings/detail/9e9c257d-f6ae-4868-bad3-6237258b0673",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
-      "address": "2330 Blake St , Unit 205, Berkeley, CA 94704",
-      "manager": "Kasa Properties",
-      "url": "https://kasaproperties.appfolio.com/listings/detail/3c29a9d4-cc74-43f6-8cef-9d4563424899",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
-      "address": "2330 Blake St , Unit 307, Berkeley, CA 94704",
-      "manager": "Kasa Properties",
-      "url": "https://kasaproperties.appfolio.com/listings/detail/b989e788-520f-433e-8ef6-79830e12638f",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
-      "address": "2330 Blake St, Unit 209, Berkeley, CA 94704",
-      "manager": "Kasa Properties",
-      "url": "https://kasaproperties.appfolio.com/listings/detail/b83e699a-df9f-4f45-ae8d-5c2fe261bb00",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
-      "address": "24 Akron St #2, Roxbury, MA 02119",
-      "manager": "Boston Property Care",
-      "url": "https://bostonpropertycare.appfolio.com/listings/detail/08683c82-71ee-414e-84eb-6d5d6be3ab96",
-      "field": "available_now",
-      "parser": false,
-      "page": true,
       "type": "conflict"
     },
     {
@@ -1759,6 +1768,15 @@
       "type": "conflict"
     },
     {
+      "address": "15065 Hesperian Blvd. #29 , San Leandro, CA 94578",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/1098ee8e-401e-4de4-942a-6d7cbc6feec4",
+      "field": "rent",
+      "parser": 2400.0,
+      "page": 2450,
+      "type": "conflict"
+    },
+    {
       "address": "1511 Jefferson St Unit 218, Oakland, CA 94612",
       "manager": "Utopia Management",
       "url": "https://utopiamanagement.appfolio.com/listings/detail/c27c4fd3-bfde-4ab5-a33a-5f5d57765419",
@@ -1912,12 +1930,30 @@
       "type": "conflict"
     },
     {
+      "address": "2954 Mission Blvd - 4, San Diego, CA 92109",
+      "manager": "Cambridge Management Group",
+      "url": "https://cambridgemgi.appfolio.com/listings/detail/d615941b-8503-4ca2-ad18-db3eba83cecb",
+      "field": "rent",
+      "parser": 4295.0,
+      "page": 4395,
+      "type": "conflict"
+    },
+    {
       "address": "3719 Emerson Street, Unit 09, Oakland, CA 94610",
       "manager": "2B Living",
       "url": "https://twobliving.appfolio.com/listings/detail/f2ccdac1-be6b-4af1-8161-4cb0acd7442b",
       "field": "rent",
       "parser": 3346.0,
       "page": 3479,
+      "type": "conflict"
+    },
+    {
+      "address": "407 Fairmount Ave - 102, Oakland, CA 94611",
+      "manager": "Selborne Properties",
+      "url": "https://selborne.appfolio.com/listings/detail/cef44de7-276e-49e0-a772-d49d326a832d",
+      "field": "rent",
+      "parser": 2195.0,
+      "page": 2295,
       "type": "conflict"
     },
     {
@@ -1939,12 +1975,30 @@
       "type": "conflict"
     },
     {
+      "address": "603 Tennessee Street # 502, San Francisco, CA 94107",
+      "manager": "West Coast Property Management",
+      "url": "https://wcpm.appfolio.com/listings/detail/0da483af-29b8-47a4-b8e5-f3648fdc4f97",
+      "field": "rent",
+      "parser": 6950.0,
+      "page": 7000,
+      "type": "conflict"
+    },
+    {
       "address": "64 Florida St #2, Dorchester, MA 02124",
       "manager": "Boston Property Care",
       "url": "https://bostonpropertycare.appfolio.com/listings/detail/1e39111b-3177-427a-a237-68693112d8b3",
       "field": "rent",
       "parser": 2795.0,
       "page": 3000,
+      "type": "conflict"
+    },
+    {
+      "address": "6616 Telegraph Avenue - 02, Unit 2, Oakland, CA 94609",
+      "manager": "Kasa Properties",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/46cd6c85-91c3-4ff3-a692-3cfb67a0444d",
+      "field": "rent",
+      "parser": 2395.0,
+      "page": 2495,
       "type": "conflict"
     },
     {

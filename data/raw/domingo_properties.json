@@ -3,8 +3,8 @@
   "source": "domingo_properties",
   "manager": "Domingo Properties",
   "source_url": "https://domingoprop.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-27T07:05:22-07:00",
-  "unit_count": 7,
+  "scraped_at": "2026-07-28T07:03:20-07:00",
+  "unit_count": 6,
   "units": [
     {
       "address": "1918 Channing Way - A, Berkeley, CA 94704",
@@ -53,30 +53,6 @@
       "postal_code": "94709",
       "title": "1760 Walnut Street #104",
       "url": "https://domingoprop.managebuilding.com/Resident/public/rentals/63564"
-    },
-    {
-      "address": "2119 Hearst Avenue,#5, Berkeley, CA 94709",
-      "source": "domingo_properties",
-      "manager": "Domingo Properties",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": "2026-08-10",
-      "rent": 2095.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "shared",
-      "summary": "Studio apartment in downtown Berkeley with hardwood floors, new kitchen and bathroom fixtures. Walking distance to BART and Shattuck Avenue restaurants.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 435,
-      "state": "CA",
-      "postal_code": "94709",
-      "title": "2119 Hearst Avenue,#5",
-      "url": "https://domingoprop.managebuilding.com/Resident/public/rentals/13682"
     },
     {
       "address": "2304 Dwight Way, Berkeley, CA 94704",

@@ -3,8 +3,8 @@
   "source": "hayes_management",
   "manager": "Hayes Management",
   "source_url": "https://hayesmanagement.appfolio.com/listings",
-  "scraped_at": "2026-07-27T07:05:19-07:00",
-  "unit_count": 2,
+  "scraped_at": "2026-07-28T07:03:18-07:00",
+  "unit_count": 1,
   "units": [
     {
       "address": "2505 Virginia St #10, Berkeley, CA 94709",
@@ -29,30 +29,6 @@
       "postal_code": "94709",
       "title": "Top Floor Spacious North Berkeley Unit Just Blocks from Campus",
       "url": "https://hayesmanagement.appfolio.com/listings/detail/1e21e7df-0471-4c45-89d5-989b288d8f93"
-    },
-    {
-      "address": "2505 Virginia St #5, Berkeley, CA 94709",
-      "source": "hayes_management",
-      "manager": "Hayes Management",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 3295.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "street",
-      "laundry": "shared",
-      "summary": "Sunny 2-bedroom, 1-bath apartment in Berkeley near UC Campus with south-facing bay windows. Street parking included; garage parking available for additional fee.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94709",
-      "title": "Sunny 2 bedroom, south facing with lots of light.",
-      "url": "https://hayesmanagement.appfolio.com/listings/detail/edab3bcc-a568-4312-b6d0-92106168d4fa"
     }
   ]
 }

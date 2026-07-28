@@ -3,8 +3,8 @@
   "source": "advent_properties",
   "manager": "Advent Properties",
   "source_url": "https://adventproperties.appfolio.com/listings",
-  "scraped_at": "2026-07-27T07:05:21-07:00",
-  "unit_count": 13,
+  "scraped_at": "2026-07-28T07:03:18-07:00",
+  "unit_count": 12,
   "units": [
     {
       "address": "2451 Bonar St, Berkeley, CA 94702-2062",
@@ -245,30 +245,6 @@
       "postal_code": "94607",
       "title": "Beautiful Spacious 1 Bedroom Loft at Pacific Cannery Lofts \u2013 1201 Pine St , Oakland",
       "url": "https://adventproperties.appfolio.com/listings/detail/a95d6b39-1742-47cb-91a9-f8c4198190a0"
-    },
-    {
-      "address": "217 Santa Clara Ave, Apt 404, Oakland, CA 94610-2647",
-      "source": "advent_properties",
-      "manager": "Advent Properties",
-      "city": "Oakland",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2495.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "shared",
-      "summary": "Two-bedroom, one-bath apartment in Oakland's Adams Point neighborhood with dishwasher, coin-op laundry, and gated parking lot.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 825,
-      "state": "CA",
-      "postal_code": "94610",
-      "title": "Beautiful Two Bedroom Apartment W/ Dishwasher, On Site Laundry & Available Parking",
-      "url": "https://adventproperties.appfolio.com/listings/detail/52f8ddd2-0dfe-4989-a027-d6c9b6d8ec48"
     },
     {
       "address": "411 Euclid Ave, Apt 6, Oakland, CA 94610-3531",

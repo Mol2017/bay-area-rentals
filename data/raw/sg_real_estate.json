@@ -3,8 +3,8 @@
   "source": "sg_real_estate",
   "manager": "SG Real Estate Co.",
   "source_url": "https://sgrealestate.appfolio.com/listings",
-  "scraped_at": "2026-07-27T07:05:20-07:00",
-  "unit_count": 172,
+  "scraped_at": "2026-07-28T07:03:19-07:00",
+  "unit_count": 169,
   "units": [
     {
       "address": "935 Solano Ave. - 06, 06, Albany, CA 94706",
@@ -761,30 +761,6 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/f155b978-1f4c-4945-80e1-7250a25fa6a2"
     },
     {
-      "address": "2640 Shattuck Ave , 509, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": "2026-08-18",
-      "rent": 2595.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": null,
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 443,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "\u2728 Unit 509 \u2013 Bay Glimpse, Big Windows, Wake up in the hills!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/d28bdca9-639d-479d-87d3-8c05f94c16ae"
-    },
-    {
       "address": "2701 Shattuck Ave \u2013 509, Berkeley, CA 94705",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -1279,30 +1255,6 @@
           "observed": "room"
         }
       ]
-    },
-    {
-      "address": "2731 Durant Ave - 4A, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": "2026-08-01",
-      "rent": 1195.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": null,
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 200,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Available now. Perfect Location 2 Blocks to Campus! Inspiring Furnished Single Room! An Inviting and Super Friendly & Supportive Community! Join Us!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/071a448b-ede2-424c-881d-6f17196f8f07"
     },
     {
       "address": "2731 Durant Ave - 5A, Berkeley, CA 94704",
@@ -2724,30 +2676,6 @@
       "postal_code": "94704",
       "title": "\u2728Unit 410 Summer Subletting Opportunity! Sun-Drenched Corner with Room to Breathe",
       "url": "https://sgrealestate.appfolio.com/listings/detail/c8c74814-4a4d-47f4-8159-a2af2da7fea3"
-    },
-    {
-      "address": "2099 Martin Luther King Jr. Way - 501, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": "2026-08-01",
-      "rent": 4295.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Fully furnished 2-bedroom, 2-bathroom apartment with in-unit washer/dryer and private balcony, located minutes from UC Berkeley and BART.",
-      "available_now": false,
-      "bathrooms": 2.0,
-      "square_feet": 890,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "#501 Space + Sunlight! Private balcony! Minutes to UC Berkeley! Rumi at King",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/e35c19e4-8d2a-4aca-a39d-222e09779823"
     },
     {
       "address": "2640 Shattuck Ave - 305, 305, Berkeley, CA 94704",

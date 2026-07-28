@@ -3,8 +3,8 @@
   "source": "lapham_company",
   "manager": "Lapham Company",
   "source_url": "https://laphamcompany.appfolio.com/listings",
-  "scraped_at": "2026-07-27T07:05:21-07:00",
-  "unit_count": 57,
+  "scraped_at": "2026-07-28T07:03:19-07:00",
+  "unit_count": 56,
   "units": [
     {
       "address": "2550 Telegraph Ave. Apt 220, Berkeley, CA 94704",
@@ -221,30 +221,6 @@
       "postal_code": "94702",
       "title": "1225 Ashby Ave! Cute 1 Bed/1 Bath Updated Unit",
       "url": "https://laphamcompany.appfolio.com/listings/detail/a6a064b6-61ec-4fa7-9fa7-5190beec77ae"
-    },
-    {
-      "address": "2317 Webster Street C, Berkeley, CA",
-      "source": "lapham_company",
-      "manager": "Lapham Company",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 1895.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": "Spacious 1-bedroom, 1-bathroom apartment in Berkeley with stone countertops and carpeted floors. Pets not allowed.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": null,
-      "title": "Spacious 1 Bedroom Apartment near Whole Foods in Berkeley!",
-      "url": "https://laphamcompany.appfolio.com/listings/detail/dfae3150-13a4-41c3-b92f-59dd21105af8"
     },
     {
       "address": "2430 Dwight Way Apt 106, Berkeley, CA 94704",

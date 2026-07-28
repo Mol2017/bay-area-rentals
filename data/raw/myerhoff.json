@@ -3,8 +3,8 @@
   "source": "myerhoff",
   "manager": "Myerhoff & Associates",
   "source_url": "https://myerhoff.appfolio.com/listings",
-  "scraped_at": "2026-07-27T07:05:20-07:00",
-  "unit_count": 3,
+  "scraped_at": "2026-07-28T07:03:18-07:00",
+  "unit_count": 2,
   "units": [
     {
       "address": "2539 Durant - 18, Berkeley, CA 94704",
@@ -29,30 +29,6 @@
       "postal_code": "94704",
       "title": "Private Cozy Cottage Studio w/Patio 1 block to Campus!",
       "url": "https://myerhoff.appfolio.com/listings/detail/896c496a-282a-4241-8593-883c3a747af0"
-    },
-    {
-      "address": "2539 Durant - 07, Berkeley, CA 94704",
-      "source": "myerhoff",
-      "manager": "Myerhoff & Associates",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": "2026-08-01",
-      "rent": 1895.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": "street",
-      "laundry": "shared",
-      "summary": "Studio apartment 1 block from UC Berkeley campus with air conditioning, hardwood floors, and walk-in closet. Street parking only; on-site laundry available.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 344,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Studio 1 block to Cal Campus w/AC!",
-      "url": "https://myerhoff.appfolio.com/listings/detail/db84e26d-4c2d-4e57-ac7b-39c4977cbbe1"
     },
     {
       "address": "1502 Jackson St - 106, Oakland 94612",

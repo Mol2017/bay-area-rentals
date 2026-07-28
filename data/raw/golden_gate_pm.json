@@ -3,7 +3,7 @@
   "source": "golden_gate_pm",
   "manager": "Golden State Property Management",
   "source_url": "https://goldenstate.appfolio.com/listings",
-  "scraped_at": "2026-07-27T07:05:21-07:00",
+  "scraped_at": "2026-07-28T07:03:19-07:00",
   "unit_count": 9,
   "units": [
     {
@@ -27,7 +27,7 @@
       "square_feet": 2102,
       "state": "CA",
       "postal_code": "95014",
-      "title": "Large Landscaped Backyard! Fruit Trees- Fresh Interior Paint- Fresh Exterior paint- New Roof Coming Soon",
+      "title": "Large Landscaped Backyard! Fruit Trees",
       "url": "https://goldenstate.appfolio.com/listings/detail/d9eb0e92-58dd-48aa-bf15-f6ee045a54c1"
     },
     {
@@ -127,28 +127,28 @@
       "url": "https://goldenstate.appfolio.com/listings/detail/ce97c393-f979-46bb-b685-739f5c4b9248"
     },
     {
-      "address": "6063 Pineland Avenue, San Jose, CA 95123",
+      "address": "4712 Clarendon Drive, San Jose, CA 95129",
       "source": "golden_gate_pm",
       "manager": "Golden State Property Management",
       "city": "San Jose",
       "bedrooms": 3.0,
       "available_date": null,
-      "rent": 4195.0,
+      "rent": 4995.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": "unfurnished",
-      "parking": "garage",
-      "laundry": "none",
-      "summary": "A spacious 3-bedroom, 2-bathroom single-story home with a 2-car garage, stainless steel kitchen appliances, and covered patio. Tenants must provide their own washer and dryer.",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
       "available_now": true,
       "bathrooms": 2.0,
-      "square_feet": 1223,
+      "square_feet": 1800,
       "state": "CA",
-      "postal_code": "95123",
-      "title": "Spacious 3 Bedroom 2 Bath Home with 2 Car Garage and Central Air Conditioning",
-      "url": "https://goldenstate.appfolio.com/listings/detail/f7f06907-12cd-4ae1-9d5a-ee9540adcbd1"
+      "postal_code": "95129",
+      "title": "Hardwood Floors- Top Moreland SCH- SM Dogs Welcome- Close to Apple",
+      "url": "https://goldenstate.appfolio.com/listings/detail/c89d5526-edfb-4ac8-bef8-ed8f33776343"
     },
     {
       "address": "6187 Meridian Avenue, San Jose, CA 95120",

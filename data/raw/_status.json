@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-07-27T07:05:44-07:00",
+  "checked_at": "2026-07-28T07:03:49-07:00",
   "sources_ok": 51,
   "sources_failed": 0,
-  "total_units": 1556,
+  "total_units": 1549,
   "unscrapable": [
     {
       "slug": "hudson_mcdonald",
@@ -75,7 +75,7 @@
       "manager": "Advent Properties",
       "platform": "appfolio",
       "ok": true,
-      "units": 13,
+      "units": 12,
       "error": null,
       "preserved": false
     },
@@ -84,7 +84,7 @@
       "manager": "All East Bay Properties",
       "platform": "appfolio",
       "ok": true,
-      "units": 19,
+      "units": 17,
       "error": null,
       "preserved": false
     },
@@ -102,7 +102,7 @@
       "manager": "Authentic Properties",
       "platform": "appfolio",
       "ok": true,
-      "units": 11,
+      "units": 12,
       "error": null,
       "preserved": false
     },
@@ -138,7 +138,7 @@
       "manager": "Beacon Properties",
       "platform": "appfolio",
       "ok": true,
-      "units": 22,
+      "units": 20,
       "error": null,
       "preserved": false
     },
@@ -174,7 +174,7 @@
       "manager": "Boston Property Care",
       "platform": "appfolio",
       "ok": true,
-      "units": 19,
+      "units": 18,
       "error": null,
       "preserved": false
     },
@@ -183,7 +183,7 @@
       "manager": "California Pacific Realty",
       "platform": "appfolio",
       "ok": true,
-      "units": 8,
+      "units": 5,
       "error": null,
       "preserved": false
     },
@@ -192,7 +192,7 @@
       "manager": "Cambridge Management Group",
       "platform": "appfolio",
       "ok": true,
-      "units": 16,
+      "units": 17,
       "error": null,
       "preserved": false
     },
@@ -201,7 +201,7 @@
       "manager": "Cedar Properties",
       "platform": "appfolio",
       "ok": true,
-      "units": 8,
+      "units": 9,
       "error": null,
       "preserved": false
     },
@@ -210,7 +210,7 @@
       "manager": "Chandler Properties",
       "platform": "appfolio",
       "ok": true,
-      "units": 3,
+      "units": 2,
       "error": null,
       "preserved": false
     },
@@ -228,7 +228,7 @@
       "manager": "Community Realty Property Management",
       "platform": "appfolio",
       "ok": true,
-      "units": 55,
+      "units": 54,
       "error": null,
       "preserved": false
     },
@@ -246,7 +246,7 @@
       "manager": "Domingo Properties",
       "platform": "buildium",
       "ok": true,
-      "units": 7,
+      "units": 6,
       "error": null,
       "preserved": false
     },
@@ -291,7 +291,7 @@
       "manager": "Hayes Management",
       "platform": "appfolio",
       "ok": true,
-      "units": 2,
+      "units": 1,
       "error": null,
       "preserved": false
     },
@@ -300,7 +300,7 @@
       "manager": "Kasa Properties",
       "platform": "appfolio",
       "ok": true,
-      "units": 30,
+      "units": 31,
       "error": null,
       "preserved": false
     },
@@ -318,7 +318,7 @@
       "manager": "Korman & Ng Real Estate Services",
       "platform": "appfolio",
       "ok": true,
-      "units": 7,
+      "units": 6,
       "error": null,
       "preserved": false
     },
@@ -336,7 +336,7 @@
       "manager": "Lapham Company",
       "platform": "appfolio",
       "ok": true,
-      "units": 57,
+      "units": 56,
       "error": null,
       "preserved": false
     },
@@ -363,7 +363,7 @@
       "manager": "Myerhoff & Associates",
       "platform": "appfolio",
       "ok": true,
-      "units": 3,
+      "units": 2,
       "error": null,
       "preserved": false
     },
@@ -381,7 +381,7 @@
       "manager": "Panoramic Berkeley",
       "platform": "appfolio",
       "ok": true,
-      "units": 3,
+      "units": 5,
       "error": null,
       "preserved": false
     },
@@ -408,7 +408,7 @@
       "manager": "Professional Property Management",
       "platform": "appfolio",
       "ok": true,
-      "units": 17,
+      "units": 18,
       "error": null,
       "preserved": false
     },
@@ -426,7 +426,7 @@
       "manager": "ReListo",
       "platform": "relisto",
       "ok": true,
-      "units": 11,
+      "units": 10,
       "error": null,
       "preserved": false
     },
@@ -444,7 +444,7 @@
       "manager": "SG Real Estate Co.",
       "platform": "appfolio",
       "ok": true,
-      "units": 172,
+      "units": 169,
       "error": null,
       "preserved": false
     },
@@ -453,7 +453,7 @@
       "manager": "Square One Management",
       "platform": "buildium",
       "ok": true,
-      "units": 5,
+      "units": 6,
       "error": null,
       "preserved": false
     },
@@ -498,7 +498,7 @@
       "manager": "2B Living",
       "platform": "appfolio",
       "ok": true,
-      "units": 25,
+      "units": 28,
       "error": null,
       "preserved": false
     },
@@ -516,7 +516,7 @@
       "manager": "West Coast Property Management",
       "platform": "appfolio",
       "ok": true,
-      "units": 15,
+      "units": 17,
       "error": null,
       "preserved": false
     }

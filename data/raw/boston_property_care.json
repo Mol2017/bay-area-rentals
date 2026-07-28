@@ -3,8 +3,8 @@
   "source": "boston_property_care",
   "manager": "Boston Property Care",
   "source_url": "https://bostonpropertycare.appfolio.com/listings",
-  "scraped_at": "2026-07-27T07:05:20-07:00",
-  "unit_count": 19,
+  "scraped_at": "2026-07-28T07:03:19-07:00",
+  "unit_count": 18,
   "units": [
     {
       "address": "67 Park Dr #1, Boston, MA 02115",
@@ -420,30 +420,6 @@
       "postal_code": "02130",
       "title": "New Roommate Application",
       "url": "https://bostonpropertycare.appfolio.com/listings/detail/c0fd4718-e75b-4424-874c-c624437f1580"
-    },
-    {
-      "address": "24 Akron St #2, Roxbury, MA 02119",
-      "source": "boston_property_care",
-      "manager": "Boston Property Care",
-      "city": "Roxbury",
-      "bedrooms": 1.0,
-      "available_date": "2026-08-15",
-      "rent": 1900.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "cats_only",
-      "furnished": null,
-      "parking": null,
-      "laundry": "shared",
-      "summary": "One-bedroom, one-bathroom apartment in Roxbury with recently updated kitchen, wood floors, and porch access. Shared yard and on-site laundry.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 750,
-      "state": "MA",
-      "postal_code": "02119",
-      "title": "Just Updated One Bed Apartment With Big Eat-In-Kitchen + Porch",
-      "url": "https://bostonpropertycare.appfolio.com/listings/detail/08683c82-71ee-414e-84eb-6d5d6be3ab96"
     },
     {
       "address": "96 Harrishof St #1, Roxbury, MA 02121",
