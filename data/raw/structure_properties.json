@@ -3,8 +3,8 @@
   "source": "structure_properties",
   "manager": "Structure Properties",
   "source_url": "https://spsf.appfolio.com/listings",
-  "scraped_at": "2026-07-28T07:03:18-07:00",
-  "unit_count": 37,
+  "scraped_at": "2026-07-29T07:03:35-07:00",
+  "unit_count": 36,
   "units": [
     {
       "address": "6500 Yucca Street #432, Los Angeles, CA 90028",
@@ -532,30 +532,6 @@
       "url": "https://spsf.appfolio.com/listings/detail/23495649-4d1c-40ce-ba68-a788646d3589"
     },
     {
-      "address": "3400 Fulton Street - 4, San Francisco, CA 94118",
-      "source": "structure_properties",
-      "manager": "Structure Properties",
-      "city": "San Francisco",
-      "bedrooms": 1.0,
-      "available_date": "2026-08-07",
-      "rent": 4495.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Large 1-bedroom, 1-bathroom apartment in San Francisco's Inner Richmond neighborhood directly across from Golden Gate Park, with hardwood floors, bay windows, stainless steel appliances, and ample closet space.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94118",
-      "title": "Large 1BR W/ Great Storage & Golden Gate Park Views!",
-      "url": "https://spsf.appfolio.com/listings/detail/b8dc52d1-0784-4c5f-9ca3-a1e2d4452b3a"
-    },
-    {
       "address": "1010 Anza Street #103, San Francisco, CA 94118",
       "source": "structure_properties",
       "manager": "Structure Properties",
@@ -724,6 +700,30 @@
       "url": "https://spsf.appfolio.com/listings/detail/3160555a-213d-4e03-bd74-5dbaba337de0"
     },
     {
+      "address": "1310 Jones Street #603, San Francisco, CA 94109",
+      "source": "structure_properties",
+      "manager": "Structure Properties",
+      "city": "San Francisco",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 11500.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 2.0,
+      "square_feet": 1505,
+      "state": "CA",
+      "postal_code": "94109",
+      "title": "Curated for Elevated Living!",
+      "url": "https://spsf.appfolio.com/listings/detail/3a52dc90-aff3-424b-9989-1a7273d1ef6f"
+    },
+    {
       "address": "1753 - 1763 Fulton Street - 1755, San Francisco, CA 94117",
       "source": "structure_properties",
       "manager": "Structure Properties",
@@ -890,30 +890,6 @@
       "postal_code": "94903",
       "title": "Spacious 1BR Apartment with Private Deck - One Month Free!",
       "url": "https://spsf.appfolio.com/listings/detail/d77acb65-a953-404f-b2a9-33211358be52"
-    },
-    {
-      "address": "406 Woodland Ave, San Rafael, CA 94901",
-      "source": "structure_properties",
-      "manager": "Structure Properties",
-      "city": "San Rafael",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 2695.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "One-bedroom, one-bathroom apartment in San Rafael with in-unit washer and dryer, covered parking, and private fenced backyard.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94901",
-      "title": "Charming San Rafael One Bedroom w/ In-Unit Laundry and Backyard!",
-      "url": "https://spsf.appfolio.com/listings/detail/07480b46-a450-4013-a26e-6dd69dd2000e"
     }
   ]
 }

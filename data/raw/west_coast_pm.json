@@ -3,7 +3,7 @@
   "source": "west_coast_pm",
   "manager": "West Coast Property Management",
   "source_url": "https://wcpm.appfolio.com/listings",
-  "scraped_at": "2026-07-28T07:03:20-07:00",
+  "scraped_at": "2026-07-29T07:03:36-07:00",
   "unit_count": 17,
   "units": [
     {
@@ -123,7 +123,7 @@
       "city": "San Francisco",
       "bedrooms": 1.0,
       "available_date": null,
-      "rent": 4295.0,
+      "rent": 4195.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
       "room_type": "private_room",

@@ -1,7 +1,7 @@
 {
-  "checked": 869,
-  "conflicts": 233,
-  "parser_missing": 93,
+  "checked": 835,
+  "conflicts": 250,
+  "parser_missing": 89,
   "rows": [
     {
       "address": "1515 Webster Street - 4-404, Oakland, CA 94612",
@@ -211,6 +211,15 @@
       "type": "conflict"
     },
     {
+      "address": "2077 Haste St - 701, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/fbaa7d70-576c-49c3-a390-8d4c569d3af1",
+      "field": "available_date",
+      "parser": "2026-08-10",
+      "page": "2026-08-11",
+      "type": "conflict"
+    },
+    {
       "address": "20900 Birch St, Hayward, CA 94541",
       "manager": "Community Realty Property Management",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/4bad92e0-50a2-4a1f-98bd-291460835798",
@@ -301,6 +310,15 @@
       "type": "conflict"
     },
     {
+      "address": "2510 Channing Way - 403, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/9bcd9069-c74a-4219-8586-ac0fd386146a",
+      "field": "available_date",
+      "parser": "2026-08-10",
+      "page": "2026-08-01",
+      "type": "conflict"
+    },
+    {
       "address": "2541 Regent Street, 203, Berkeley, CA 94704",
       "manager": "Raj Properties",
       "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/62256",
@@ -316,6 +334,15 @@
       "field": "available_date",
       "parser": "2026-06-04",
       "page": "2025-06-04",
+      "type": "conflict"
+    },
+    {
+      "address": "2731 Durant Ave - 8, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/df6fe0d3-2c50-4d71-a463-4597871e3d6b",
+      "field": "available_date",
+      "parser": "2026-08-01",
+      "page": "2024-08-01",
       "type": "conflict"
     },
     {
@@ -343,6 +370,15 @@
       "field": "available_date",
       "parser": "2027-04-09",
       "page": "2025-04-09",
+      "type": "conflict"
+    },
+    {
+      "address": "3256 Martin Luther King Jr. Way, Oakland, CA 94609",
+      "manager": "MPM Oakland",
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94179",
+      "field": "available_date",
+      "parser": "2027-05-29",
+      "page": "2026-05-29",
       "type": "conflict"
     },
     {
@@ -634,18 +670,9 @@
       "type": "conflict"
     },
     {
-      "address": "2731 Durant Ave - 2B, Berkeley, CA 94704",
+      "address": "2701 Shattuck Ave \u2013 409, Berkeley, CA 94705",
       "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/46047423-6f30-4d19-aeaf-6177c2f10c64",
-      "field": "available_now",
-      "parser": false,
-      "page": true,
-      "type": "conflict"
-    },
-    {
-      "address": "2731 Durant Ave - 8, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/df6fe0d3-2c50-4d71-a463-4597871e3d6b",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/cb816552-2d5d-43b6-91cd-7c3b656bedc4",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -814,24 +841,6 @@
       "type": "conflict"
     },
     {
-      "address": "666 17th Street, Unit 03-A, Oakland, CA 94612",
-      "manager": "2B Living",
-      "url": "https://twobliving.appfolio.com/listings/detail/0524fbd8-9fcf-43bf-ac0b-9b8b481f5bb4",
-      "field": "available_now",
-      "parser": false,
-      "page": true,
-      "type": "conflict"
-    },
-    {
-      "address": "741-743 Hilgrit Circle - Unit B, Oakland, CA 94610",
-      "manager": "Authentic Properties",
-      "url": "https://authenticrealestate.appfolio.com/listings/detail/3b633106-c8da-451c-a656-5c1510f941b1",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
       "address": "78 Washington # 8, Chelsea, MA",
       "manager": "Boston Property Management",
       "url": "https://bostonpropertymanagementllc.com/resident_listings/78-washington-8-chelsea-2/",
@@ -955,15 +964,6 @@
       "field": "bedrooms",
       "parser": 1.0,
       "page": 2,
-      "type": "conflict"
-    },
-    {
-      "address": "2710 Belrose Avenue - 2, Berkeley, CA 94705",
-      "manager": "CollabHome",
-      "url": "https://collab.managebuilding.com/Resident/public/rentals/56097",
-      "field": "bedrooms",
-      "parser": 0.0,
-      "page": 1,
       "type": "conflict"
     },
     {
@@ -1390,33 +1390,6 @@
       "type": "conflict"
     },
     {
-      "address": "2710 Belrose Avenue - 2, Berkeley, CA 94705",
-      "manager": "CollabHome",
-      "url": "https://collab.managebuilding.com/Resident/public/rentals/56097",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "2731 Durant Ave - 2B, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/46047423-6f30-4d19-aeaf-6177c2f10c64",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "2731 Durant Ave - 3B, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/b89ab31f-7928-4582-877b-9772515a94d3",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
       "address": "2731 Durant Ave - 5A, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/786c4b0a-0448-47cc-893b-4afe32c4dba4",
@@ -1768,6 +1741,15 @@
       "type": "conflict"
     },
     {
+      "address": "1385 Shattuck Ave. Apt 204, Berkeley, CA 94709",
+      "manager": "K&S Company",
+      "url": "https://kands.appfolio.com/listings/detail/26466f27-d24b-4650-aaa7-f0bad027f739",
+      "field": "rent",
+      "parser": 1995.0,
+      "page": 2095,
+      "type": "conflict"
+    },
+    {
       "address": "15065 Hesperian Blvd. #29 , San Leandro, CA 94578",
       "manager": "Community Realty Property Management",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/1098ee8e-401e-4de4-942a-6d7cbc6feec4",
@@ -1831,6 +1813,33 @@
       "type": "conflict"
     },
     {
+      "address": "19 Buttonwood Street, Boston, MA 02125",
+      "manager": "CollabHome",
+      "url": "https://collab.managebuilding.com/Resident/public/rentals/18211",
+      "field": "rent",
+      "parser": 3595.0,
+      "page": 3695,
+      "type": "conflict"
+    },
+    {
+      "address": "1901 Dwight Way - 206, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/124b5010-25e4-440f-a900-6febee87c56b",
+      "field": "rent",
+      "parser": 3995.0,
+      "page": 4895,
+      "type": "conflict"
+    },
+    {
+      "address": "1901 Dwight Way - 302, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/8acaf405-7e35-45bd-a874-1d053fcffa1f",
+      "field": "rent",
+      "parser": 3995.0,
+      "page": 4795,
+      "type": "conflict"
+    },
+    {
       "address": "2025 Kala Bagai Way - 702 , Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/557b206a-abb6-42bc-88d0-57edb63f62bb",
@@ -1858,12 +1867,66 @@
       "type": "conflict"
     },
     {
-      "address": "2077 Haste St - 706, Berkeley, CA 94704",
+      "address": "2077 Haste St - 202 Room 2 Bed B, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/e7938540-b6e2-4bde-9456-ff4eec6ff55d",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/5c46cc14-6356-4cd1-a712-d8759896f360",
       "field": "rent",
-      "parser": 3195.0,
-      "page": 3250,
+      "parser": 916.0,
+      "page": 1008,
+      "type": "conflict"
+    },
+    {
+      "address": "2077 Haste St - 202 Room 3 Bed A, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/9b9ee47d-9967-46fd-bdd1-ad57fe971463",
+      "field": "rent",
+      "parser": 1832.0,
+      "page": 2016,
+      "type": "conflict"
+    },
+    {
+      "address": "2077 Haste St - 301 Room 3 Bed B, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/6049656a-ebef-4839-a868-5a3998792d56",
+      "field": "rent",
+      "parser": 895.0,
+      "page": 992,
+      "type": "conflict"
+    },
+    {
+      "address": "2077 Haste St - 405, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/70c7e13e-6154-458a-b143-ce444bed5b69",
+      "field": "rent",
+      "parser": 4412.0,
+      "page": 4854,
+      "type": "conflict"
+    },
+    {
+      "address": "2077 Haste St - 501 Room 2 Bed A/B, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/87408b2d-28a1-4d8d-8e65-927185522dc4",
+      "field": "rent",
+      "parser": 1884.0,
+      "page": 2072,
+      "type": "conflict"
+    },
+    {
+      "address": "2077 Haste St - 503 Room 1 Bed A, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/8ff74409-0d7a-44b5-8deb-91101806ed9a",
+      "field": "rent",
+      "parser": 983.0,
+      "page": 1081,
+      "type": "conflict"
+    },
+    {
+      "address": "2077 Haste St - 701, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/fbaa7d70-576c-49c3-a390-8d4c569d3af1",
+      "field": "rent",
+      "parser": 5995.0,
+      "page": 6412,
       "type": "conflict"
     },
     {
@@ -1880,7 +1943,7 @@
       "manager": "CollabHome",
       "url": "https://collab.managebuilding.com/Resident/public/rentals/36719",
       "field": "rent",
-      "parser": 3895.0,
+      "parser": 3795.0,
       "page": 3980,
       "type": "conflict"
     },
@@ -1930,12 +1993,84 @@
       "type": "conflict"
     },
     {
+      "address": "2361 17th Street, San Pablo, CA 94806",
+      "manager": "Professional Property Management",
+      "url": "https://profpm.appfolio.com/listings/detail/c041e40b-c87a-4b58-a112-92252818c0c0",
+      "field": "rent",
+      "parser": 2900.0,
+      "page": 3000,
+      "type": "conflict"
+    },
+    {
+      "address": "2640 Shattuck Ave - 410, 410, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/c8c74814-4a4d-47f4-8159-a2af2da7fea3",
+      "field": "rent",
+      "parser": 4395.0,
+      "page": 4195,
+      "type": "conflict"
+    },
+    {
+      "address": "2731 Durant Ave - 5A, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/786c4b0a-0448-47cc-893b-4afe32c4dba4",
+      "field": "rent",
+      "parser": 1095.0,
+      "page": 1195,
+      "type": "conflict"
+    },
+    {
+      "address": "2731 Durant Ave - 6A, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/1556f6e7-5ac8-4f11-a596-9f11db0c70f4",
+      "field": "rent",
+      "parser": 1095.0,
+      "page": 1195,
+      "type": "conflict"
+    },
+    {
+      "address": "2731 Durant Ave - 6B, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/d82e9764-ff7e-4c86-bc95-1d34e37ee89d",
+      "field": "rent",
+      "parser": 1095.0,
+      "page": 1195,
+      "type": "conflict"
+    },
+    {
+      "address": "2731 Durant Ave - 8, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/df6fe0d3-2c50-4d71-a463-4597871e3d6b",
+      "field": "rent",
+      "parser": 1695.0,
+      "page": 1795,
+      "type": "conflict"
+    },
+    {
+      "address": "2731 Durant Ave - Fully Furnished Fall 2026-2027 , Private Single, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/40a75768-6993-408a-963f-d53d33033388",
+      "field": "rent",
+      "parser": 1095.0,
+      "page": 1195,
+      "type": "conflict"
+    },
+    {
       "address": "2954 Mission Blvd - 4, San Diego, CA 92109",
       "manager": "Cambridge Management Group",
       "url": "https://cambridgemgi.appfolio.com/listings/detail/d615941b-8503-4ca2-ad18-db3eba83cecb",
       "field": "rent",
       "parser": 4295.0,
       "page": 4395,
+      "type": "conflict"
+    },
+    {
+      "address": "3006 San Pablo Ave., 613, Berkeley, CA 94710",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/350da64e-2b4d-4ed3-866a-1fac25676968",
+      "field": "rent",
+      "parser": 3095.0,
+      "page": 2950,
       "type": "conflict"
     },
     {
@@ -1954,6 +2089,15 @@
       "field": "rent",
       "parser": 2195.0,
       "page": 2295,
+      "type": "conflict"
+    },
+    {
+      "address": "421 Golden Gate Avenue - 421, Richmond, CA 94801",
+      "manager": "Professional Property Management",
+      "url": "https://profpm.appfolio.com/listings/detail/cd08515c-399b-4a01-9dbe-913724e31a13",
+      "field": "rent",
+      "parser": 2580.0,
+      "page": 2600,
       "type": "conflict"
     },
     {
@@ -1990,6 +2134,15 @@
       "field": "rent",
       "parser": 2795.0,
       "page": 3000,
+      "type": "conflict"
+    },
+    {
+      "address": "659 Fillmore Street, #1, San Francisco, CA 94117",
+      "manager": "West Coast Property Management",
+      "url": "https://wcpm.appfolio.com/listings/detail/7561b7f6-d6b2-4ac3-b3d1-5cef90a54c86",
+      "field": "rent",
+      "parser": 4195.0,
+      "page": 4295,
       "type": "conflict"
     },
     {

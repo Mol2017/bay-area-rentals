@@ -3,8 +3,8 @@
   "source": "bancal_pm",
   "manager": "BanCal Property Management",
   "source_url": "https://bancalsf.appfolio.com/listings",
-  "scraped_at": "2026-07-28T07:03:18-07:00",
-  "unit_count": 4,
+  "scraped_at": "2026-07-29T07:03:35-07:00",
+  "unit_count": 3,
   "units": [
     {
       "address": "1602 Ashby Ave, Berkeley, CA 94703",
@@ -84,30 +84,6 @@
       "postal_code": "94103",
       "title": "1033 Minna | Newly Updated 1BR/1BA Cottage in SOMA, Pet Friendly",
       "url": "https://bancalsf.appfolio.com/listings/detail/d33b327a-a3c5-44f6-831b-37c2c502a8e7"
-    },
-    {
-      "address": "1251 40th Avenue, San Francisco, CA 94122",
-      "source": "bancal_pm",
-      "manager": "BanCal Property Management",
-      "city": "San Francisco",
-      "bedrooms": 4.0,
-      "available_date": null,
-      "rent": 12500.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": "unfurnished",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "A 4-bedroom, 3-bathroom single-family home in Outer Sunset with 2,195 square feet, fully renovated in 2018 with modern design, premium finishes, and a private backyard. Off-street driveway parking and in-unit washer/dryer included.",
-      "available_now": true,
-      "bathrooms": 3.0,
-      "square_feet": 2195,
-      "state": "CA",
-      "postal_code": "94122",
-      "title": "Stunning Designer-Renovated 4BR/3BA Single-Family Home in Outer Sunset, Just Blocks from Ocean Beach, Next to Golden Gate Park",
-      "url": "https://bancalsf.appfolio.com/listings/detail/32711c36-7e61-4c25-bff0-3017693b9b33"
     }
   ]
 }

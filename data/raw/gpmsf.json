@@ -3,8 +3,8 @@
   "source": "gpmsf",
   "manager": "Gordon Property Management",
   "source_url": "https://gordon.appfolio.com/listings",
-  "scraped_at": "2026-07-28T07:03:18-07:00",
-  "unit_count": 2,
+  "scraped_at": "2026-07-29T07:03:35-07:00",
+  "unit_count": 3,
   "units": [
     {
       "address": "105 Richland Avenue - 01, San Francisco, CA 94110",
@@ -53,6 +53,30 @@
       "postal_code": "94123",
       "title": "Prime Location One Bedroom in the Marina - Please Contact for Showing Availability!",
       "url": "https://gordon.appfolio.com/listings/detail/890595ae-f7f8-40ae-8d64-8c6f8392ffa4"
+    },
+    {
+      "address": "380 29th Street #2, San Francisco, CA 94131",
+      "source": "gpmsf",
+      "manager": "Gordon Property Management",
+      "city": "San Francisco",
+      "bedrooms": 2.0,
+      "available_date": "2026-08-01",
+      "rent": 5200.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94131",
+      "title": "Charming light filled two bedroom + Prime Location+ Please Contact for Showing Availability!",
+      "url": "https://gordon.appfolio.com/listings/detail/2947efcd-2683-4794-bda6-a7bc296e1eff"
     }
   ]
 }

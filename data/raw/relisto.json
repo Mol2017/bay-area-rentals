@@ -3,8 +3,8 @@
   "source": "relisto",
   "manager": "ReListo",
   "source_url": "https://www.relisto.com/",
-  "scraped_at": "2026-07-28T07:03:49-07:00",
-  "unit_count": 10,
+  "scraped_at": "2026-07-29T07:03:55-07:00",
+  "unit_count": 9,
   "units": [
     {
       "address": "1426 Addison St., Berkeley, CA, 94702",
@@ -204,30 +204,6 @@
       "postal_code": "94110",
       "title": "1264 Treat Ave.",
       "url": "https://www.relisto.com/rentals/413412772-1264-treat-ave-san-francisco-ca-94110/"
-    },
-    {
-      "address": "250 King St., San Francisco, CA, 94107",
-      "source": "relisto",
-      "manager": "ReListo",
-      "city": "San Francisco",
-      "bedrooms": 3.0,
-      "available_date": "2026-08-01",
-      "rent": 8000.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": "unfurnished",
-      "parking": "garage",
-      "laundry": "in_unit",
-      "summary": "Modern 3-bedroom, 2-bathroom condo in the Beacon building with floor-to-ceiling windows, in-unit Miele washer/dryer, and 1,653 square feet. Building amenities include heated pool, fitness center, dog park, and 24-hour concierge.",
-      "available_now": false,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94107",
-      "title": "250 King St.",
-      "url": "https://www.relisto.com/rentals/270889035-250-king-st-652-san-francisco-ca-94107/"
     },
     {
       "address": "37 Crestmont Dr., San Francisco, CA, 94131",

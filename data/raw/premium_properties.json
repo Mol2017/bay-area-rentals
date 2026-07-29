@@ -3,8 +3,8 @@
   "source": "premium_properties",
   "manager": "Premium Properties",
   "source_url": "https://premiumpd.com/",
-  "scraped_at": "2026-07-28T07:03:20-07:00",
-  "unit_count": 7,
+  "scraped_at": "2026-07-29T07:03:37-07:00",
+  "unit_count": 8,
   "units": [
     {
       "address": "2325 Woolsey Street - Apt. #9, Berkeley, CA 94705",
@@ -94,6 +94,37 @@
           "field": "kind",
           "parsed": "room",
           "observed": "residential"
+        }
+      ]
+    },
+    {
+      "address": "2338 Telegraph Ave. - Unit 409, Berkeley, CA 94704",
+      "source": "premium_properties",
+      "manager": "Premium Properties",
+      "city": "Berkeley",
+      "bedrooms": null,
+      "available_date": "2026-10-01",
+      "rent": 995.0,
+      "kind": "residential",
+      "unit_type": null,
+      "room_type": "private_room",
+      "pets": null,
+      "furnished": null,
+      "parking": "garage",
+      "laundry": "shared",
+      "summary": "One-bedroom apartment in Berkeley with hardwood floors and large windows. Water and garbage included; on-site laundry and attached garage available. Available September or October 2026.",
+      "available_now": false,
+      "bathrooms": null,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "2338 Telegraph Ave. - Unit 409",
+      "url": "https://showmojo.com/a2a2489044/l",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 995.0,
+          "observed": 1995
         }
       ]
     },
