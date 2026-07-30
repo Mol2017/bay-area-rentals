@@ -3,8 +3,8 @@
   "source": "golden_gate_pm",
   "manager": "Golden State Property Management",
   "source_url": "https://goldenstate.appfolio.com/listings",
-  "scraped_at": "2026-07-29T07:03:36-07:00",
-  "unit_count": 9,
+  "scraped_at": "2026-07-30T07:02:56-07:00",
+  "unit_count": 8,
   "units": [
     {
       "address": "2122 Lyon Avenue, Belmont, CA 94002",
@@ -77,30 +77,6 @@
       "postal_code": "94061",
       "title": "Unfurnished updated top floor unit. Walk In Closet, Additional Storage in Carport",
       "url": "https://goldenstate.appfolio.com/listings/detail/da84a5a8-695a-433c-8c4f-af2a0f27e00e"
-    },
-    {
-      "address": "460 S. 4th Street, Unit 15, San Jose, CA 95112",
-      "source": "golden_gate_pm",
-      "manager": "Golden State Property Management",
-      "city": "San Jose",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2895.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Spacious 2 bed, 2 bath entire unit near SJSU with granite countertops, remodeled bathrooms, and balcony. Available now at $2,895/month.",
-      "available_now": true,
-      "bathrooms": 2.0,
-      "square_feet": 980,
-      "state": "CA",
-      "postal_code": "95112",
-      "title": "1 Block From SJSU- Spacious 2 bed, 2 bath unit- Secured Community",
-      "url": "https://goldenstate.appfolio.com/listings/detail/139d2d1d-a332-4436-85a3-e8c3adbb090f"
     },
     {
       "address": "1111 Pippin Creek Court, Unit B, San Jose, CA 95120",
@@ -181,7 +157,7 @@
       "city": "Santa Clara",
       "bedrooms": 2.0,
       "available_date": null,
-      "rent": 3695.0,
+      "rent": 3495.0,
       "kind": "residential",
       "unit_type": "2_bedroom",
       "room_type": "entire_place",
@@ -196,7 +172,14 @@
       "state": "CA",
       "postal_code": "95051",
       "title": "Great 2 bedroom/ 2 bathroom duplex with private yard in Santa Clara, CA",
-      "url": "https://goldenstate.appfolio.com/listings/detail/bbeb6ed2-54dd-4f9f-9acd-9d58e8934da0"
+      "url": "https://goldenstate.appfolio.com/listings/detail/bbeb6ed2-54dd-4f9f-9acd-9d58e8934da0",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 3495.0,
+          "observed": 3695
+        }
+      ]
     },
     {
       "address": "706 San Tomas Street, Sunnyvale, CA 94085",

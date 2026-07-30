@@ -3,8 +3,8 @@
   "source": "panoramic_berkeley",
   "manager": "Panoramic Berkeley",
   "source_url": "https://panoramicmgt.appfolio.com/listings",
-  "scraped_at": "2026-07-29T07:03:34-07:00",
-  "unit_count": 5,
+  "scraped_at": "2026-07-30T07:02:55-07:00",
+  "unit_count": 3,
   "units": [
     {
       "address": "1752 Shattuck Avenue, Unit 406, Berkeley, CA 94709",
@@ -29,30 +29,6 @@
       "postal_code": "94709",
       "title": "New Modern FURNISHED Apt with 4 PRIVATE ROOMS",
       "url": "https://panoramicmgt.appfolio.com/listings/detail/e080f443-b7b6-4f98-bcc6-5a1d90194429"
-    },
-    {
-      "address": "1752 Shattuck Avenue, Unit 711, Berkeley, CA 94709",
-      "source": "panoramic_berkeley",
-      "manager": "Panoramic Berkeley",
-      "city": "Berkeley",
-      "bedrooms": 4.0,
-      "available_date": null,
-      "rent": 6554.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": null,
-      "summary": "Modern furnished 4-bedroom, 1.5-bathroom apartment in Berkeley with private rooms, rooftop garden, and utilities included. One month free on 12-month lease.",
-      "available_now": true,
-      "bathrooms": 1.5,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94709",
-      "title": "New Modern FURNISHED Apt with 4 PRIVATE ROOMS",
-      "url": "https://panoramicmgt.appfolio.com/listings/detail/034a3740-b941-4090-8d1d-68666bf92245"
     },
     {
       "address": "1752 Shattuck Avenue, Unit 104, Berkeley, CA 94709",
@@ -101,30 +77,6 @@
       "postal_code": "94704",
       "title": "New Modern FURNISHED Apt with PRIVATE ROOMS",
       "url": "https://panoramicmgt.appfolio.com/listings/detail/106b93de-f77c-4226-bb4e-63ee78bfd771"
-    },
-    {
-      "address": "2555 College Ave., 103, Berkeley, CA 94704",
-      "source": "panoramic_berkeley",
-      "manager": "Panoramic Berkeley",
-      "city": "Berkeley",
-      "bedrooms": 5.0,
-      "available_date": null,
-      "rent": 7950.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": null,
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.5,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "New Modern FURNISHED Apt with PRIVATE ROOMS",
-      "url": "https://panoramicmgt.appfolio.com/listings/detail/48c0113b-c63f-4999-9354-0031f31d0978"
     }
   ]
 }

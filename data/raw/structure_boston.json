@@ -3,8 +3,8 @@
   "source": "structure_boston",
   "manager": "Structure Boston",
   "source_url": "https://structureboston.appfolio.com/listings",
-  "scraped_at": "2026-07-29T07:03:36-07:00",
-  "unit_count": 73,
+  "scraped_at": "2026-07-30T07:02:57-07:00",
+  "unit_count": 74,
   "units": [
     {
       "address": "7 Wilton Street - 12, Allston, MA 02134",
@@ -1325,6 +1325,30 @@
       "postal_code": "02130",
       "title": "Move-In Ready! \u2013 Renovated Brownstone Units in Jamaica Plain.",
       "url": "https://structureboston.appfolio.com/listings/detail/49ff3a80-3bc8-406a-90c6-ed15793223d1"
+    },
+    {
+      "address": "3146-3150 Washington Street - 3146-2, Jamaica Plain, MA 02130",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Jamaica Plain",
+      "bedrooms": 3.0,
+      "available_date": null,
+      "rent": 3600.0,
+      "kind": "residential",
+      "unit_type": "3plus_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.5,
+      "square_feet": 1250,
+      "state": "MA",
+      "postal_code": "02130",
+      "title": "Available 3 Beds/1.5 Baths Apartment!",
+      "url": "https://structureboston.appfolio.com/listings/detail/5a3dd768-0290-4425-8800-3c4d91b5456d"
     },
     {
       "address": "3148 Washington Street - 3, Jamaica Plain, MA 02130",

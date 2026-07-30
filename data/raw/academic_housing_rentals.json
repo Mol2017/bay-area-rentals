@@ -3,7 +3,7 @@
   "source": "academic_housing_rentals",
   "manager": "Academic Housing Rentals",
   "source_url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-29T07:03:36-07:00",
+  "scraped_at": "2026-07-30T07:02:57-07:00",
   "unit_count": 25,
   "units": [
     {
@@ -44,7 +44,7 @@
       "city": "Berkeley",
       "bedrooms": 0.0,
       "available_date": "2026-06-01",
-      "rent": 1000.0,
+      "rent": 1250.0,
       "kind": "room",
       "unit_type": "studio",
       "room_type": "shared_room",
@@ -61,6 +61,11 @@
       "title": "Dwight 2C - BED IN TRIPLE",
       "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/207507",
       "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 1250.0,
+          "observed": 1000
+        },
         {
           "field": "kind",
           "parsed": "residential",
@@ -153,123 +158,6 @@
       "postal_code": "94704",
       "title": "Dwight 3C - BED IN TRIPLE",
       "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/111312",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
-      "address": "Dwight 2A - BED IN TRIPLE, Berkeley, CA 94704",
-      "source": "academic_housing_rentals",
-      "manager": "Academic Housing Rentals",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": "2026-06-01",
-      "rent": 1000.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "shared_room",
-      "pets": null,
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "A bed in a triple-occupancy shared room in a fully furnished coliving house near UC Berkeley, 5 blocks from BART and downtown Berkeley. Rent is per bed and includes utilities, WiFi, laundry, and community amenities.",
-      "available_now": false,
-      "bathrooms": 3.0,
-      "square_feet": 2390,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Dwight 2A - BED IN TRIPLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/150171"
-    },
-    {
-      "address": "Dwight 2B - BED IN TRIPLE, Berkeley, CA 94704",
-      "source": "academic_housing_rentals",
-      "manager": "Academic Housing Rentals",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": "2026-06-01",
-      "rent": 1000.0,
-      "kind": "room",
-      "unit_type": "1_bedroom",
-      "room_type": "shared_room",
-      "pets": null,
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "A single bed in a triple-occupancy shared bedroom in a fully furnished house near UC Berkeley, rent is per bed.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 2390,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Dwight 2B - BED IN TRIPLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/206953",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
-      "address": "Dwight 1A - BED IN DOUBLE, Berkeley, CA 94704",
-      "source": "academic_housing_rentals",
-      "manager": "Academic Housing Rentals",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": "2026-06-01",
-      "rent": 1200.0,
-      "kind": "room",
-      "unit_type": "1_bedroom",
-      "room_type": "shared_room",
-      "pets": null,
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "One bed in a double occupancy room at a 7-bedroom co-living house near UC Berkeley, fully furnished with shared kitchen, bathrooms, and laundry.",
-      "available_now": false,
-      "bathrooms": 3.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Dwight 1A - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149311",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
-      "address": "Dwight 1B - BED IN DOUBLE, Berkeley, CA 94704",
-      "source": "academic_housing_rentals",
-      "manager": "Academic Housing Rentals",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": "2026-06-01",
-      "rent": 1200.0,
-      "kind": "room",
-      "unit_type": "1_bedroom",
-      "room_type": "shared_room",
-      "pets": null,
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "A twin bed in a double-occupancy furnished bedroom at a co-living house near UC Berkeley, rent is per person per month.",
-      "available_now": false,
-      "bathrooms": 3.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Dwight 1B - BED IN DOUBLE",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/147377",
       "conflicts": [
         {
           "field": "kind",
@@ -496,6 +384,128 @@
       ]
     },
     {
+      "address": "Dwight 1A - BED IN DOUBLE, Berkeley, CA 94704",
+      "source": "academic_housing_rentals",
+      "manager": "Academic Housing Rentals",
+      "city": "Berkeley",
+      "bedrooms": 1.0,
+      "available_date": "2026-06-01",
+      "rent": 1250.0,
+      "kind": "room",
+      "unit_type": "1_bedroom",
+      "room_type": "shared_room",
+      "pets": null,
+      "furnished": "furnished",
+      "parking": null,
+      "laundry": "shared",
+      "summary": "One bed in a double occupancy room at a 7-bedroom co-living house near UC Berkeley, fully furnished with shared kitchen, bathrooms, and laundry.",
+      "available_now": false,
+      "bathrooms": 3.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "Dwight 1A - BED IN DOUBLE",
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/149311",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
+    },
+    {
+      "address": "Dwight 1B - BED IN DOUBLE, Berkeley, CA 94704",
+      "source": "academic_housing_rentals",
+      "manager": "Academic Housing Rentals",
+      "city": "Berkeley",
+      "bedrooms": 1.0,
+      "available_date": "2026-06-01",
+      "rent": 1250.0,
+      "kind": "room",
+      "unit_type": "1_bedroom",
+      "room_type": "shared_room",
+      "pets": null,
+      "furnished": "furnished",
+      "parking": null,
+      "laundry": "shared",
+      "summary": "A twin bed in a double-occupancy furnished bedroom at a co-living house near UC Berkeley, rent is per person per month.",
+      "available_now": false,
+      "bathrooms": 3.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "Dwight 1B - BED IN DOUBLE",
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/147377",
+      "conflicts": [
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
+    },
+    {
+      "address": "Dwight 2A - BED IN TRIPLE, Berkeley, CA 94704",
+      "source": "academic_housing_rentals",
+      "manager": "Academic Housing Rentals",
+      "city": "Berkeley",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-31",
+      "rent": 1250.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": "shared_room",
+      "pets": null,
+      "furnished": "furnished",
+      "parking": null,
+      "laundry": "shared",
+      "summary": "A bed in a triple-occupancy shared room in a fully furnished coliving house near UC Berkeley, 5 blocks from BART and downtown Berkeley. Rent is per bed and includes utilities, WiFi, laundry, and community amenities.",
+      "available_now": false,
+      "bathrooms": 3.0,
+      "square_feet": 2390,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "Dwight 2A - BED IN TRIPLE",
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/150171"
+    },
+    {
+      "address": "Dwight 2B - BED IN TRIPLE, Berkeley, CA 94704",
+      "source": "academic_housing_rentals",
+      "manager": "Academic Housing Rentals",
+      "city": "Berkeley",
+      "bedrooms": 1.0,
+      "available_date": "2026-06-01",
+      "rent": 1250.0,
+      "kind": "room",
+      "unit_type": "1_bedroom",
+      "room_type": "shared_room",
+      "pets": null,
+      "furnished": "furnished",
+      "parking": null,
+      "laundry": "shared",
+      "summary": "A single bed in a triple-occupancy shared bedroom in a fully furnished house near UC Berkeley, rent is per bed.",
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 2390,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "Dwight 2B - BED IN TRIPLE",
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/206953",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 1250.0,
+          "observed": 1000
+        },
+        {
+          "field": "kind",
+          "parsed": "residential",
+          "observed": "room"
+        }
+      ]
+    },
+    {
       "address": "Fulton 6A - BED IN DOUBLE, Berkeley, CA 94704",
       "source": "academic_housing_rentals",
       "manager": "Academic Housing Rentals",
@@ -564,7 +574,7 @@
       "city": "Berkeley",
       "bedrooms": 1.0,
       "available_date": "2026-06-01",
-      "rent": 1850.0,
+      "rent": 1950.0,
       "kind": "room",
       "unit_type": "1_bedroom",
       "room_type": "private_room",
@@ -579,7 +589,14 @@
       "state": "CA",
       "postal_code": "94704",
       "title": "Dwight 1 - PRIVATE ROOM",
-      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/111308"
+      "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/111308",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 1950.0,
+          "observed": 1850
+        }
+      ]
     },
     {
       "address": "Dwight 4 - PRIVATE ROOM, Berkeley, CA 94704",

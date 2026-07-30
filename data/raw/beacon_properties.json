@@ -3,8 +3,8 @@
   "source": "beacon_properties",
   "manager": "Beacon Properties",
   "source_url": "https://beaconprop.appfolio.com/listings",
-  "scraped_at": "2026-07-29T07:03:35-07:00",
-  "unit_count": 20,
+  "scraped_at": "2026-07-30T07:02:55-07:00",
+  "unit_count": 19,
   "units": [
     {
       "address": "2091 California Street - 225, Berkeley, CA 94703",
@@ -149,30 +149,6 @@
       "postal_code": "94704",
       "title": "Viewing Schedule: Coming Soon! Call Van 510-961-3757!",
       "url": "https://beaconprop.appfolio.com/listings/detail/a03a518c-2442-4ed6-8eed-483035332389"
-    },
-    {
-      "address": "2020 Dwight Way - A, Berkeley, CA 94704",
-      "source": "beacon_properties",
-      "manager": "Beacon Properties",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 3750.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": "partial",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Newly constructed 2-bedroom, 2-bathroom ADU near UC Berkeley in a Victorian four-plex, available now with in-unit washer and dryer and AC.",
-      "available_now": true,
-      "bathrooms": 2.0,
-      "square_feet": 1058,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Viewing Schedule: Wednesday (7/29) 7:00pm-7:40pm & Saturday (8/1) 2:00pm-2:40pm",
-      "url": "https://beaconprop.appfolio.com/listings/detail/43c74548-7881-469a-9831-cd19dbee5840"
     },
     {
       "address": "2091 California Street - Non-Res Rental5, Berkeley, CA 94703",

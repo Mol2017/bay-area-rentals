@@ -3,8 +3,8 @@
   "source": "lapham_company",
   "manager": "Lapham Company",
   "source_url": "https://laphamcompany.appfolio.com/listings",
-  "scraped_at": "2026-07-29T07:03:36-07:00",
-  "unit_count": 53,
+  "scraped_at": "2026-07-30T07:02:57-07:00",
+  "unit_count": 52,
   "units": [
     {
       "address": "2550 Telegraph Ave. Apt 220, Berkeley, CA 94704",
@@ -869,30 +869,6 @@
       "postal_code": "94610",
       "title": "479 Merritt, Studio, Hardwood,1 Block to Lake! China Hill",
       "url": "https://laphamcompany.appfolio.com/listings/detail/97de73db-55a6-400f-b72a-d53d48f6e947"
-    },
-    {
-      "address": "1530 Harrison St. #55, Oakland, CA 94612",
-      "source": "lapham_company",
-      "manager": "Lapham Company",
-      "city": "Oakland",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 1400.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "cats_only",
-      "furnished": null,
-      "parking": null,
-      "laundry": "shared",
-      "summary": "One-bedroom, one-bathroom apartment in Oakland near BART with new carpet and updated bathroom. Cats allowed; laundry on-site.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94612",
-      "title": "One Bedroom Available, New Carpet, Updated Bathroom",
-      "url": "https://laphamcompany.appfolio.com/listings/detail/b050ecc7-9672-4f9c-9116-bb57976519d4"
     },
     {
       "address": "259 MacArthur Blvd. 305, Oakland, CA 94610",

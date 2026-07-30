@@ -3,7 +3,7 @@
   "source": "advent_properties",
   "manager": "Advent Properties",
   "source_url": "https://adventproperties.appfolio.com/listings",
-  "scraped_at": "2026-07-29T07:03:36-07:00",
+  "scraped_at": "2026-07-30T07:02:56-07:00",
   "unit_count": 12,
   "units": [
     {
@@ -13,7 +13,7 @@
       "city": "Berkeley",
       "bedrooms": 0.0,
       "available_date": null,
-      "rent": 1550.0,
+      "rent": 1395.0,
       "kind": "residential",
       "unit_type": "studio",
       "room_type": null,
@@ -29,6 +29,30 @@
       "postal_code": "94702",
       "title": "Charming Berkeley Studio Apartment in Prime Location Near Downtown & North Berkeley",
       "url": "https://adventproperties.appfolio.com/listings/detail/8f6f9fd1-c8ee-4444-95e7-3e82a7548d34"
+    },
+    {
+      "address": "1339 Francisco St, Apt B, Berkeley, CA 94702-1447",
+      "source": "advent_properties",
+      "manager": "Advent Properties",
+      "city": "Berkeley",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 2295.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 988,
+      "state": "CA",
+      "postal_code": "94702",
+      "title": "Bright and Spacious Two Bedroom W/ Parking & Laundry On-Site!",
+      "url": "https://adventproperties.appfolio.com/listings/detail/d872766e-8ad4-4dbe-ba87-cda3840d2edb"
     },
     {
       "address": "2700 Le Conte Ave Carport 33, Berkeley, CA 94709-1049",
@@ -85,7 +109,7 @@
       "city": "Fairfield",
       "bedrooms": 4.0,
       "available_date": null,
-      "rent": 2995.0,
+      "rent": 2795.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
       "room_type": "entire_place",
@@ -99,8 +123,15 @@
       "square_feet": 1285,
       "state": "CA",
       "postal_code": "94533",
-      "title": "*Beautifully Updated 4 Bedroom, 2 Bathroom Home in Fairfield!*",
-      "url": "https://adventproperties.appfolio.com/listings/detail/5cf202dd-f9bc-4704-835f-9fb7c75fe319"
+      "title": "*Beautifully Updated 4 Bedroom, 2 Bathroom Home in Fairfield! 2 Week Concession Off First Month Rent!",
+      "url": "https://adventproperties.appfolio.com/listings/detail/5cf202dd-f9bc-4704-835f-9fb7c75fe319",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 2795.0,
+          "observed": 2995
+        }
+      ]
     },
     {
       "address": "1717 Novato Blvd, Unit 21, Novato, CA 94947-3046",
@@ -171,32 +202,8 @@
       "square_feet": 700,
       "state": "CA",
       "postal_code": "94607",
-      "title": "Beautiful Modern 1 Bedroom Oakland Apartment in Prime Downtown Location",
+      "title": "Beautiful Modern 1 Bedroom Oakland Apartment in Prime Downtown Location/With $250 VISA GIFT CARD PROMOTION",
       "url": "https://adventproperties.appfolio.com/listings/detail/7d20cda1-2908-49bb-8b59-05f60f235359"
-    },
-    {
-      "address": "558 58th St, Apt 1, Oakland, CA 94609-1531",
-      "source": "advent_properties",
-      "manager": "Advent Properties",
-      "city": "Oakland",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 2195.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": null,
-      "summary": "Spacious 1-bedroom, 1-bathroom craftsman-style apartment in Oakland's Bushrod area with renovated kitchen, hardwood floors, and off-street parking. Available now.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 950,
-      "state": "CA",
-      "postal_code": "94609",
-      "title": "Modern Spacious 1-Bedroom & 1-Bathroom Apartment With Off-street Parking / 558 58th St Oakland",
-      "url": "https://adventproperties.appfolio.com/listings/detail/3cff76ad-3d2c-475e-a3d0-da9b26a110c3"
     },
     {
       "address": "466 Crescent St, Unit 213, Oakland, CA 94610-2620",
@@ -247,28 +254,28 @@
       "url": "https://adventproperties.appfolio.com/listings/detail/a95d6b39-1742-47cb-91a9-f8c4198190a0"
     },
     {
-      "address": "411 Euclid Ave, Apt 6, Oakland, CA 94610-3531",
+      "address": "217 Santa Clara Ave, Apt 404, Oakland, CA 94610-2647",
       "source": "advent_properties",
       "manager": "Advent Properties",
       "city": "Oakland",
       "bedrooms": 2.0,
       "available_date": null,
-      "rent": 2695.0,
+      "rent": 2495.0,
       "kind": "residential",
       "unit_type": "2_bedroom",
       "room_type": "entire_place",
-      "pets": "cats_only",
+      "pets": "allowed",
       "furnished": null,
       "parking": "off_street",
-      "laundry": null,
-      "summary": "Two-bedroom, two-bathroom second-floor apartment near Lake Merritt with balcony, one parking space, and updated appliances. Available 7/24/26.",
-      "available_now": false,
-      "bathrooms": 2.0,
-      "square_feet": 1045,
+      "laundry": "shared",
+      "summary": "Two-bedroom, one-bath apartment in Oakland's Adams Point neighborhood with dishwasher, coin-op laundry, and gated parking lot.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 825,
       "state": "CA",
       "postal_code": "94610",
-      "title": "(COMING SOON) Bright & Spacious Two Bedroom Second Floor Apartment W/ Balcony & Parking!",
-      "url": "https://adventproperties.appfolio.com/listings/detail/978b8cb4-5ede-4a60-8485-393fe0ce0237"
+      "title": "Beautiful Two Bedroom Apartment W/ Dishwasher, On Site Laundry & Available Parking",
+      "url": "https://adventproperties.appfolio.com/listings/detail/52f8ddd2-0dfe-4989-a027-d6c9b6d8ec48"
     },
     {
       "address": "354 25th Ave, Apt 2, San Francisco, CA 94121-1937",

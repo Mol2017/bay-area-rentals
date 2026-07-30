@@ -3,40 +3,9 @@
   "source": "authentic_properties",
   "manager": "Authentic Properties",
   "source_url": "https://authenticrealestate.appfolio.com/listings",
-  "scraped_at": "2026-07-29T07:03:35-07:00",
-  "unit_count": 13,
+  "scraped_at": "2026-07-30T07:02:55-07:00",
+  "unit_count": 12,
   "units": [
-    {
-      "address": "2228 McKinnley Ave - 2228 McKinley Ave Unit 1, Unit 1, Berkeley, CA 94703",
-      "source": "authentic_properties",
-      "manager": "Authentic Properties",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 1100.0,
-      "kind": "room",
-      "unit_type": "1_bedroom",
-      "room_type": "private_room",
-      "pets": null,
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Private furnished room on the 3rd floor of a Victorian multi-unit home near UC Berkeley, with shared kitchen, dining room, 2 bathrooms, and yard. Rent is $1,100/month plus $150 utilities.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 175,
-      "state": "CA",
-      "postal_code": "94703",
-      "title": "Private 3rd Floor Room with Shared Ammenities",
-      "url": "https://authenticrealestate.appfolio.com/listings/detail/5f34d031-2d50-41a7-a45d-f0c112f2f2d4",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
     {
       "address": "1619 Fairview Street - Unit 2, Berkeley, CA 94703",
       "source": "authentic_properties",
@@ -260,7 +229,7 @@
       "city": "Oakland",
       "bedrooms": 3.0,
       "available_date": null,
-      "rent": 3695.0,
+      "rent": 3895.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
       "room_type": null,

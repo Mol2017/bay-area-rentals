@@ -3,7 +3,7 @@
   "source": "relisto",
   "manager": "ReListo",
   "source_url": "https://www.relisto.com/",
-  "scraped_at": "2026-07-29T07:03:55-07:00",
+  "scraped_at": "2026-07-30T07:03:23-07:00",
   "unit_count": 9,
   "units": [
     {
@@ -61,7 +61,7 @@
       "city": "Richmond",
       "bedrooms": 4.0,
       "available_date": "2026-07-15",
-      "rent": 3495.0,
+      "rent": 3295.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
       "room_type": null,

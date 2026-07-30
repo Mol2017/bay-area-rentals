@@ -3,8 +3,8 @@
   "source": "west_coast_pm",
   "manager": "West Coast Property Management",
   "source_url": "https://wcpm.appfolio.com/listings",
-  "scraped_at": "2026-07-29T07:03:36-07:00",
-  "unit_count": 17,
+  "scraped_at": "2026-07-30T07:02:57-07:00",
+  "unit_count": 18,
   "units": [
     {
       "address": "461 Broadway Street, #211, San Francisco, CA 94133",
@@ -67,6 +67,30 @@
           "observed": "room"
         }
       ]
+    },
+    {
+      "address": "2695 Greenwich Street # 303, San Francisco, CA 94123",
+      "source": "west_coast_pm",
+      "manager": "West Coast Property Management",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": null,
+      "rent": 2999.0,
+      "kind": "residential",
+      "unit_type": "studio",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94123",
+      "title": "Spacious & Bright Studio W/Eat in Kitchen in Cow Hollow",
+      "url": "https://wcpm.appfolio.com/listings/detail/b1fe1ff2-e916-432f-b820-b427b17593a5"
     },
     {
       "address": "430 9th Avenue # 5, San Francisco, CA 94118",
