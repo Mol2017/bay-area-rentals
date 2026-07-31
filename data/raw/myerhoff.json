@@ -3,8 +3,8 @@
   "source": "myerhoff",
   "manager": "Myerhoff & Associates",
   "source_url": "https://myerhoff.appfolio.com/listings",
-  "scraped_at": "2026-07-30T07:02:55-07:00",
-  "unit_count": 2,
+  "scraped_at": "2026-07-31T07:03:09-07:00",
+  "unit_count": 3,
   "units": [
     {
       "address": "2539 Durant - 18, Berkeley, CA 94704",
@@ -29,6 +29,30 @@
       "postal_code": "94704",
       "title": "Private Cozy Cottage Studio w/Patio 1 block to Campus!",
       "url": "https://myerhoff.appfolio.com/listings/detail/896c496a-282a-4241-8593-883c3a747af0"
+    },
+    {
+      "address": "3144 Martin Luther King Jr Way, Oakland, CA 94609",
+      "source": "myerhoff",
+      "manager": "Myerhoff & Associates",
+      "city": "Oakland",
+      "bedrooms": 0.0,
+      "available_date": "2026-08-01",
+      "rent": 2495.0,
+      "kind": "commercial",
+      "unit_type": "studio",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 900,
+      "state": "CA",
+      "postal_code": "94609",
+      "title": "Amazing Live/Work Office and Studio Space near MacArthur BART",
+      "url": "https://myerhoff.appfolio.com/listings/detail/68f92702-4b6a-4fbf-94d0-dcbd51b1eef6"
     },
     {
       "address": "1502 Jackson St - 106, Oakland 94612",

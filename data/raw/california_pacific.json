@@ -3,8 +3,8 @@
   "source": "california_pacific",
   "manager": "California Pacific Realty",
   "source_url": "https://californiapacific.appfolio.com/listings",
-  "scraped_at": "2026-07-30T07:02:55-07:00",
-  "unit_count": 5,
+  "scraped_at": "2026-07-31T07:03:09-07:00",
+  "unit_count": 4,
   "units": [
     {
       "address": "2801 College Ave - 19, Berkeley, CA 94705",
@@ -53,30 +53,6 @@
       "postal_code": "94705",
       "title": "1 bed/1 bath unit on College Avenue, Berkeley",
       "url": "https://californiapacific.appfolio.com/listings/detail/3cd4d831-2aeb-4cb9-a4c1-275a7e806ce9"
-    },
-    {
-      "address": "2333 Dwight Way , Berkeley, CA 94704",
-      "source": "california_pacific",
-      "manager": "California Pacific Realty",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2495.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": null,
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 840,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Great & Spacious 2 bedroom / 1 bath apartment on Dwight way off Telegraph",
-      "url": "https://californiapacific.appfolio.com/listings/detail/6abe60c6-b850-4d68-9c18-09cebf88d64a"
     },
     {
       "address": "2329 Dwight Way , Berkeley, CA 94704",

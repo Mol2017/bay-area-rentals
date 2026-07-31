@@ -3,39 +3,32 @@
   "source": "raj_properties",
   "manager": "Raj Properties",
   "source_url": "https://rajproperties.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-30T07:02:57-07:00",
+  "scraped_at": "2026-07-31T07:03:11-07:00",
   "unit_count": 57,
   "units": [
     {
-      "address": "1931 Dwight Way, 10, Berkeley, CA 94704",
+      "address": "2070 University Avenue, 2072, Berkeley, CA 94704",
       "source": "raj_properties",
       "manager": "Raj Properties",
       "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": "2026-08-07",
-      "rent": 1795.0,
-      "kind": "room",
-      "unit_type": "1_bedroom",
-      "room_type": "private_room",
+      "bedrooms": 0.0,
+      "available_date": "2026-07-30",
+      "rent": 9000.0,
+      "kind": "residential",
+      "unit_type": "studio",
+      "room_type": null,
       "pets": null,
       "furnished": null,
-      "parking": "garage",
-      "laundry": "shared",
-      "summary": "Private room in a 1-bedroom, 1-bathroom unit in Berkeley near UC Berkeley; 374 sq ft, available August 7, 2026.",
+      "parking": null,
+      "laundry": null,
+      "summary": null,
       "available_now": false,
       "bathrooms": 1.0,
-      "square_feet": 374,
+      "square_feet": 2415,
       "state": "CA",
       "postal_code": "94704",
-      "title": "1931 Dwight Way, 10",
-      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/63529",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
+      "title": "2070 University Avenue, 2072",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/64155"
     },
     {
       "address": "1931 Dwight Way, 12, Berkeley, CA 94704",

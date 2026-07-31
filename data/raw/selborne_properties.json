@@ -3,7 +3,7 @@
   "source": "selborne_properties",
   "manager": "Selborne Properties",
   "source_url": "https://selborne.appfolio.com/listings",
-  "scraped_at": "2026-07-30T07:02:57-07:00",
+  "scraped_at": "2026-07-31T07:03:10-07:00",
   "unit_count": 20,
   "units": [
     {
@@ -108,7 +108,7 @@
       "manager": "Selborne Properties",
       "city": "Oakland",
       "bedrooms": 1.0,
-      "available_date": "2026-07-31",
+      "available_date": null,
       "rent": 1695.0,
       "kind": "residential",
       "unit_type": "1_bedroom",

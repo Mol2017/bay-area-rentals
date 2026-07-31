@@ -3,7 +3,7 @@
   "source": "advent_properties",
   "manager": "Advent Properties",
   "source_url": "https://adventproperties.appfolio.com/listings",
-  "scraped_at": "2026-07-30T07:02:56-07:00",
+  "scraped_at": "2026-07-31T07:03:09-07:00",
   "unit_count": 12,
   "units": [
     {
@@ -236,7 +236,7 @@
       "city": "Oakland",
       "bedrooms": 1.0,
       "available_date": null,
-      "rent": 2895.0,
+      "rent": 2595.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
       "room_type": "entire_place",
@@ -251,7 +251,14 @@
       "state": "CA",
       "postal_code": "94607",
       "title": "Beautiful Spacious 1 Bedroom Loft at Pacific Cannery Lofts \u2013 1201 Pine St , Oakland",
-      "url": "https://adventproperties.appfolio.com/listings/detail/a95d6b39-1742-47cb-91a9-f8c4198190a0"
+      "url": "https://adventproperties.appfolio.com/listings/detail/a95d6b39-1742-47cb-91a9-f8c4198190a0",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 2595.0,
+          "observed": 2895
+        }
+      ]
     },
     {
       "address": "217 Santa Clara Ave, Apt 404, Oakland, CA 94610-2647",

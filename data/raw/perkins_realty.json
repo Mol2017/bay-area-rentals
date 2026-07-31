@@ -3,8 +3,8 @@
   "source": "perkins_realty",
   "manager": "Perkins Realty Partners",
   "source_url": "https://perkins.appfolio.com/listings",
-  "scraped_at": "2026-07-30T07:02:55-07:00",
-  "unit_count": 4,
+  "scraped_at": "2026-07-31T07:03:09-07:00",
+  "unit_count": 3,
   "units": [
     {
       "address": "3568 Madison Cmn, Fremont, CA 94538",
@@ -77,30 +77,6 @@
       "postal_code": "94550",
       "title": "Lovely Remodeled Home in Sunset West Livermore",
       "url": "https://perkins.appfolio.com/listings/detail/bc0cfbd5-e46c-45d5-a48a-73bfa173fa11"
-    },
-    {
-      "address": "609 Poinsettia Ave, San Mateo, CA 94403",
-      "source": "perkins_realty",
-      "manager": "Perkins Realty Partners",
-      "city": "San Mateo",
-      "bedrooms": 4.0,
-      "available_date": null,
-      "rent": 7500.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "in_unit",
-      "summary": "Large 4-bedroom, 3-bathroom updated home in San Mateo with 2,640 sq ft, including family room, bonus room, and backyard with deck and fruit trees.",
-      "available_now": true,
-      "bathrooms": 3.0,
-      "square_feet": 2640,
-      "state": "CA",
-      "postal_code": "94403",
-      "title": "Large updated home in San Mateo Village!",
-      "url": "https://perkins.appfolio.com/listings/detail/1362f1dd-0413-4fc8-b3f5-c3641bef8e2c"
     }
   ]
 }

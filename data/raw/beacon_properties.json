@@ -3,8 +3,8 @@
   "source": "beacon_properties",
   "manager": "Beacon Properties",
   "source_url": "https://beaconprop.appfolio.com/listings",
-  "scraped_at": "2026-07-30T07:02:55-07:00",
-  "unit_count": 19,
+  "scraped_at": "2026-07-31T07:03:08-07:00",
+  "unit_count": 20,
   "units": [
     {
       "address": "2091 California Street - 225, Berkeley, CA 94703",
@@ -379,6 +379,30 @@
       "postal_code": "94606",
       "title": "Viewing Schedule: Wednesday (7/29) 5:00pm-5:40pm",
       "url": "https://beaconprop.appfolio.com/listings/detail/004233a7-d3c6-40b6-8fa7-e7277197ce07"
+    },
+    {
+      "address": "2275 Park Blvd - 7, Oakland, CA 94606",
+      "source": "beacon_properties",
+      "manager": "Beacon Properties",
+      "city": "Oakland",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-15",
+      "rent": 1895.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94606",
+      "title": "Viewing Schedule: Coming Soon!",
+      "url": "https://beaconprop.appfolio.com/listings/detail/ab192aa3-fa3b-4282-9ef5-e993b331dc3c"
     },
     {
       "address": "650 Vernon Street - 3, Oakland, CA 94610",

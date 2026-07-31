@@ -1,8 +1,17 @@
 {
-  "checked": 805,
-  "conflicts": 296,
-  "parser_missing": 85,
+  "checked": 789,
+  "conflicts": 321,
+  "parser_missing": 89,
   "rows": [
+    {
+      "address": "1115 Virginia Ln. # 31, Concord, CA 94520",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/c4337bcb-8b11-4f70-ad44-36428936f6ff",
+      "field": "available_date",
+      "parser": "2026-09-15",
+      "page": "2026-09-01",
+      "type": "conflict"
+    },
     {
       "address": "1235 94th Ave #4, Oakland, CA 94603",
       "manager": "Community Realty Property Management",
@@ -337,6 +346,15 @@
       "type": "conflict"
     },
     {
+      "address": "241 Lafayette Circle, Unit 14, Lafayette, CA 94549",
+      "manager": "Kasa Properties",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/b108c8b9-a148-4dcf-8d91-e780412d1774",
+      "field": "available_date",
+      "parser": "2026-08-20",
+      "page": "2026-08-15",
+      "type": "conflict"
+    },
+    {
       "address": "2505 Virginia St #10, Berkeley, CA 94709",
       "manager": "Hayes Management",
       "url": "https://hayesmanagement.appfolio.com/listings/detail/1e21e7df-0471-4c45-89d5-989b288d8f93",
@@ -370,6 +388,15 @@
       "field": "available_date",
       "parser": "2026-06-04",
       "page": "2025-06-04",
+      "type": "conflict"
+    },
+    {
+      "address": "2562 Ivy Drive, Oakland, CA 94606",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/c6d8b7e5-cace-4c40-b817-025ed2c551d3",
+      "field": "available_date",
+      "parser": "2026-10-06",
+      "page": "2026-08-15",
       "type": "conflict"
     },
     {
@@ -733,6 +760,15 @@
       "type": "conflict"
     },
     {
+      "address": "1009 E 22nd Street, Oakland, CA 94606",
+      "manager": "Selborne Properties",
+      "url": "https://selborne.appfolio.com/listings/detail/90cd372a-f917-4fb0-8460-d784f2b0fa89",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "1115 Virginia Ln. #50, Concord, CA 94520",
       "manager": "Community Realty Property Management",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/469cd052-6b3a-466a-9c09-8e1cf75132cb",
@@ -913,12 +949,12 @@
       "type": "conflict"
     },
     {
-      "address": "2322 Haste St. Apt 27, Berkeley, CA 94704",
-      "manager": "K&S Company",
-      "url": "https://kands.appfolio.com/listings/detail/f53f030a-27a6-4cc3-8473-1e6a4d4a6887",
+      "address": "240 Crescent Street - 3, Waltham, MA 02453",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/d2944b8f-13dc-4cca-a9f6-c62e0cedd894",
       "field": "available_now",
-      "parser": false,
-      "page": true,
+      "parser": true,
+      "page": false,
       "type": "conflict"
     },
     {
@@ -1000,6 +1036,15 @@
       "field": "available_now",
       "parser": false,
       "page": true,
+      "type": "conflict"
+    },
+    {
+      "address": "2943 MacArthur Blvd. #201, Oakland, CA 94602",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/7e23c6b0-4438-4e5a-b1fe-d8c6070f467a",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
       "type": "conflict"
     },
     {
@@ -1156,6 +1201,24 @@
       "type": "conflict"
     },
     {
+      "address": "84 Orange Street - 1N, Fall River, MA 02720",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/2279680a-681c-4af3-8af2-271d9a135b81",
+      "field": "available_now",
+      "parser": false,
+      "page": true,
+      "type": "conflict"
+    },
+    {
+      "address": "9308 Bancroft Ave., Oakland, CA 94603",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/932b24cf-182b-4649-a423-a95c4696c056",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "950 63rd Street, Unit 310, Oakland, CA 94608",
       "manager": "2B Living",
       "url": "https://twobliving.appfolio.com/listings/detail/0a46d776-ea72-4f2f-93ab-ee0155f20b2d",
@@ -1189,6 +1252,15 @@
       "field": "bathrooms",
       "parser": 2.0,
       "page": 1,
+      "type": "conflict"
+    },
+    {
+      "address": "5318 Fairfax Ave, Oakland, CA 94601",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/b6a9eee3-ba80-4b80-8d92-f234f22d630e",
+      "field": "bathrooms",
+      "parser": 1.0,
+      "page": 1.5,
       "type": "conflict"
     },
     {
@@ -1444,15 +1516,6 @@
       "type": "conflict"
     },
     {
-      "address": "1931 Dwight Way, 10, Berkeley, CA 94704",
-      "manager": "Raj Properties",
-      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/63529",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
       "address": "2001 Milvia St - 211A (shared female), Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/1656a139-674c-49e3-a79f-51ca3532b5fa",
@@ -1672,15 +1735,6 @@
       "address": "2731 Durant Ave - 5A, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/786c4b0a-0448-47cc-893b-4afe32c4dba4",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "2731 Durant Ave - 6A, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/1556f6e7-5ac8-4f11-a596-9f11db0c70f4",
       "field": "kind",
       "parser": "residential",
       "page": "room",
@@ -2002,6 +2056,78 @@
       "type": "conflict"
     },
     {
+      "address": "1087 Natoma Street, San Francisco, CA 94103",
+      "manager": "Structure Properties",
+      "url": "https://spsf.appfolio.com/listings/detail/50468253-941a-4d5a-a6ef-1bc71c8d630d",
+      "field": "rent",
+      "parser": 5150.0,
+      "page": 5295,
+      "type": "conflict"
+    },
+    {
+      "address": "115 Grant St- B, Framingham, MA 01702",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/45ef8331-2df1-4f31-8cc2-bb63067b7d82",
+      "field": "rent",
+      "parser": 1600.0,
+      "page": 1700,
+      "type": "conflict"
+    },
+    {
+      "address": "117 Grant St- A, Framingham, MA 01702",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/ba7cb7d5-fc44-434e-85c8-b298d8a54bb4",
+      "field": "rent",
+      "parser": 1700.0,
+      "page": 1800,
+      "type": "conflict"
+    },
+    {
+      "address": "12 Centennial Place -2, Framingham, MA 01701",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/6e8ddc61-1f75-4526-b950-4bd7fafb609e",
+      "field": "rent",
+      "parser": 3100.0,
+      "page": 3300,
+      "type": "conflict"
+    },
+    {
+      "address": "1201 Green Street, #4, San Francisco, CA 94109",
+      "manager": "West Coast Property Management",
+      "url": "https://wcpm.appfolio.com/listings/detail/3157d943-3498-47fe-a0db-88b1b7e08922",
+      "field": "rent",
+      "parser": 3050.0,
+      "page": 3395,
+      "type": "conflict"
+    },
+    {
+      "address": "1201 Pine St, Unit 463, Oakland, CA 94607-1469",
+      "manager": "Advent Properties",
+      "url": "https://adventproperties.appfolio.com/listings/detail/a95d6b39-1742-47cb-91a9-f8c4198190a0",
+      "field": "rent",
+      "parser": 2595.0,
+      "page": 2895,
+      "type": "conflict"
+    },
+    {
+      "address": "121 Grant St- A, Framingham, MA 01702",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/21e8b89f-6fe9-4088-8f86-9574a6fa0018",
+      "field": "rent",
+      "parser": 1750.0,
+      "page": 1850,
+      "type": "conflict"
+    },
+    {
+      "address": "1273 Massachusetts Avenue - 3, Boston, MA 02125",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/5d552504-3b16-40e4-80cf-62e62ffef9ed",
+      "field": "rent",
+      "parser": 2775.0,
+      "page": 2700,
+      "type": "conflict"
+    },
+    {
       "address": "1284 Mattox Rd 14, Hayward, CA 94541",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/2cc36513-e58e-42c9-a5d1-ee0918bfb813",
@@ -2038,6 +2164,15 @@
       "type": "conflict"
     },
     {
+      "address": "16 Centennial Place -1, Framingham, MA 01701",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/63fdf9c3-85b1-48eb-81c6-1fca0396f623",
+      "field": "rent",
+      "parser": 1900.0,
+      "page": 2000,
+      "type": "conflict"
+    },
+    {
       "address": "1640 5th Avenue - 14, Oakland, CA 94606",
       "manager": "Beacon Properties",
       "url": "https://beaconprop.appfolio.com/listings/detail/004233a7-d3c6-40b6-8fa7-e7277197ce07",
@@ -2056,21 +2191,30 @@
       "type": "conflict"
     },
     {
+      "address": "168 Hall Street - 1, Fall River, MA 02724",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/0c5085df-6629-4845-8d3e-d2c6c21cf2f9",
+      "field": "rent",
+      "parser": 1450.0,
+      "page": 1400,
+      "type": "conflict"
+    },
+    {
+      "address": "1723 Pleasant St - 2E, Fall River, MA 02723",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/7862d10a-938f-4b0d-ab6e-6930dae2a990",
+      "field": "rent",
+      "parser": 1400.0,
+      "page": 1275,
+      "type": "conflict"
+    },
+    {
       "address": "1757 Oxford St, Apt 12, Berkeley, CA 94709",
       "manager": "K&S Company",
       "url": "https://kands.appfolio.com/listings/detail/3b6a6cfd-05e6-4de5-945a-ebe7c8d95562",
       "field": "rent",
       "parser": 2195.0,
       "page": 2295,
-      "type": "conflict"
-    },
-    {
-      "address": "1757 Oxford St, Apt 8, Berkeley, CA 94709",
-      "manager": "K&S Company",
-      "url": "https://kands.appfolio.com/listings/detail/dba9aa58-eddd-400b-9892-d2c16e48bbe2",
-      "field": "rent",
-      "parser": 1745.0,
-      "page": 1795,
       "type": "conflict"
     },
     {
@@ -2107,6 +2251,42 @@
       "field": "rent",
       "parser": 3995.0,
       "page": 4795,
+      "type": "conflict"
+    },
+    {
+      "address": "1988 California St. Apt 55, Berkeley, CA 94703",
+      "manager": "K&S Company",
+      "url": "https://kands.appfolio.com/listings/detail/1e849e12-a5e2-495c-a7af-ef31f7141481",
+      "field": "rent",
+      "parser": 1795.0,
+      "page": 1875,
+      "type": "conflict"
+    },
+    {
+      "address": "1988 California St. Apt 57, Berkeley, CA 94703",
+      "manager": "K&S Company",
+      "url": "https://kands.appfolio.com/listings/detail/f396075c-9891-4536-b304-e02d600234a3",
+      "field": "rent",
+      "parser": 1895.0,
+      "page": 1925,
+      "type": "conflict"
+    },
+    {
+      "address": "1988 California St. Apt 59, Berkeley, CA 94703",
+      "manager": "K&S Company",
+      "url": "https://kands.appfolio.com/listings/detail/4a5c684a-29c9-4cce-81ad-07edc1defccd",
+      "field": "rent",
+      "parser": 1925.0,
+      "page": 1975,
+      "type": "conflict"
+    },
+    {
+      "address": "1988 California St. Apt 61, Berkeley, CA 94703",
+      "manager": "K&S Company",
+      "url": "https://kands.appfolio.com/listings/detail/12c5a289-1a46-4cfc-afbc-0c2b290b393b",
+      "field": "rent",
+      "parser": 2197.0,
+      "page": 2295,
       "type": "conflict"
     },
     {
@@ -2227,11 +2407,20 @@
       "type": "conflict"
     },
     {
+      "address": "2140 California Street, Apt 2, Concord, CA 94520",
+      "manager": "Kasa Properties",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/41f90e18-0a11-4064-baf9-8fc0e2522889",
+      "field": "rent",
+      "parser": 1545.0,
+      "page": 1595,
+      "type": "conflict"
+    },
+    {
       "address": "2150 Kittredge St - 406.., Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/800f60ab-0d10-479e-93eb-ddf03443507d",
       "field": "rent",
-      "parser": 1995.0,
+      "parser": 1790.0,
       "page": 5220,
       "type": "conflict"
     },
@@ -2240,7 +2429,7 @@
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/96274a5f-53ba-4733-91b1-78b7db7eed5b",
       "field": "rent",
-      "parser": 5195.0,
+      "parser": 3995.0,
       "page": 5695,
       "type": "conflict"
     },
@@ -2249,8 +2438,17 @@
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/ccb2189d-f51f-4a32-8d75-07c6827f5265",
       "field": "rent",
-      "parser": 5195.0,
+      "parser": 3995.0,
       "page": 5395,
+      "type": "conflict"
+    },
+    {
+      "address": "22 Centennial Place - Unit 2 , Framingham, MA 01701",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/cc718e0b-ddc4-4385-b6e2-e3c73908d241",
+      "field": "rent",
+      "parser": 3200.0,
+      "page": 3000,
       "type": "conflict"
     },
     {
@@ -2335,15 +2533,6 @@
       "type": "conflict"
     },
     {
-      "address": "2731 Durant Ave - 6A, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/1556f6e7-5ac8-4f11-a596-9f11db0c70f4",
-      "field": "rent",
-      "parser": 1095.0,
-      "page": 1195,
-      "type": "conflict"
-    },
-    {
       "address": "2731 Durant Ave - 6B, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/d82e9764-ff7e-4c86-bc95-1d34e37ee89d",
@@ -2398,6 +2587,24 @@
       "type": "conflict"
     },
     {
+      "address": "3669 39th Ave - 7, Oakland, CA 94619",
+      "manager": "MPM Oakland",
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/79764",
+      "field": "rent",
+      "parser": 1595.0,
+      "page": 1695,
+      "type": "conflict"
+    },
+    {
+      "address": "3669 39th Ave - 9, Oakland, CA 94619",
+      "manager": "MPM Oakland",
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/91896",
+      "field": "rent",
+      "parser": 1595.0,
+      "page": 1695,
+      "type": "conflict"
+    },
+    {
       "address": "3719 Emerson Street, Unit 09, Oakland, CA 94610",
       "manager": "2B Living",
       "url": "https://twobliving.appfolio.com/listings/detail/f2ccdac1-be6b-4af1-8161-4cb0acd7442b",
@@ -2440,6 +2647,15 @@
       "field": "rent",
       "parser": 1425.0,
       "page": 1450,
+      "type": "conflict"
+    },
+    {
+      "address": "55 Everit Ave- A, Framingham, MA 01702",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/15d45b0e-a0d2-4c75-b09b-5b6d931069ad",
+      "field": "rent",
+      "parser": 3650.0,
+      "page": 3750,
       "type": "conflict"
     },
     {
@@ -2519,8 +2735,17 @@
       "manager": "Authentic Properties",
       "url": "https://authenticrealestate.appfolio.com/listings/detail/431ee71c-7875-4158-9d9b-ce17bc31791a",
       "field": "rent",
-      "parser": 4195.0,
+      "parser": 3995.0,
       "page": 4395,
+      "type": "conflict"
+    },
+    {
+      "address": "84 Lawrence Street #A, Framingham, MA 01702",
+      "manager": "Structure Boston",
+      "url": "https://structureboston.appfolio.com/listings/detail/0e8c3e13-8171-441d-aba6-d1fb50fe7537",
+      "field": "rent",
+      "parser": 1700.0,
+      "page": 1800,
       "type": "conflict"
     },
     {

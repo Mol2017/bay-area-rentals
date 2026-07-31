@@ -14,10 +14,12 @@
     "source_url": "https://adventproperties.appfolio.com/listings/detail/8f6f9fd1-c8ee-4444-95e7-3e82a7548d34"
   },
   "all_east_bay": {
-    "emails": [],
+    "emails": [
+      "mj@alleastbayproperties.com"
+    ],
     "manager": "All East Bay Properties",
-    "phone": "(510) 698-8133",
-    "source_url": "https://alleastbayproperties.appfolio.com/listings/detail/78b5697a-e7ac-4050-ba3d-593d57b6ada0"
+    "phone": "(510) 684-8794",
+    "source_url": "https://alleastbayproperties.appfolio.com/listings/detail/6454f4d5-228b-4100-a099-cc2b1b30506b"
   },
   "authentic_properties": {
     "emails": [],
@@ -41,7 +43,7 @@
     "emails": [],
     "manager": "Bay Property Group",
     "phone": "(415) 649-7685",
-    "source_url": "https://baypropertygroup.appfolio.com/listings/detail/53f9e3bb-84f4-475f-8606-0ad8138d789c"
+    "source_url": "https://baypropertygroup.appfolio.com/listings/detail/ea589bb0-f49b-4b35-9d8a-899fada2a380"
   },
   "beacon_properties": {
     "emails": [],
@@ -54,8 +56,8 @@
       "leasing@boardwalkrents.com"
     ],
     "manager": "Boardwalk Properties",
-    "phone": "(650) 355-5556",
-    "source_url": "https://boardwalkinvestments.appfolio.com/listings/detail/abcc56c6-6991-4b24-bd50-453a2c6018a9"
+    "phone": "(650) 466-8652",
+    "source_url": "https://boardwalkinvestments.appfolio.com/listings/detail/b48631ba-d78d-4096-b5e3-e28beec40421"
   },
   "boston_luxury": {
     "emails": [],
@@ -113,7 +115,7 @@
     "emails": [],
     "manager": "Community Realty Property Management",
     "phone": "(510) 530-1005",
-    "source_url": "https://communityrealtypm.appfolio.com/listings/detail/6fa9eb43-34a8-4c22-a8bc-19aa5d24ff7a"
+    "source_url": "https://communityrealtypm.appfolio.com/listings/detail/0e5e3825-7322-4d65-a6b3-ffca0d0fd1ee"
   },
   "domingo_properties": {
     "emails": [
@@ -126,7 +128,6 @@
   },
   "eri_property_management": {
     "emails": [
-      "terrence@erihomes.com",
       "info@erihomes.com"
     ],
     "manager": "ERI Property Management",
@@ -159,7 +160,7 @@
     ],
     "manager": "Kasa Properties",
     "phone": "(510) 373-8008",
-    "source_url": "https://kasaproperties.appfolio.com/listings/detail/32174b0c-4c28-4c0c-ad11-e4a9f1bac8d4"
+    "source_url": "https://kasaproperties.appfolio.com/listings/detail/0c136866-879c-4d64-8e47-a6fa553d8ffd"
   },
   "korman_and_ng": {
     "emails": [],
@@ -192,7 +193,7 @@
     ],
     "manager": "MPM Oakland",
     "phone": "(510) 530-2050",
-    "source_url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95053"
+    "source_url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95435"
   },
   "myerhoff": {
     "emails": [],
@@ -259,24 +260,23 @@
   },
   "square_one_management": {
     "emails": [
-      "info@squareonemanagement.com",
       "wendy@squareonemanagement.com"
     ],
     "manager": "Square One Management",
     "phone": "(510) 900-9056",
-    "source_url": "https://som.managebuilding.com/Resident/public/rentals/10660"
+    "source_url": "https://som.managebuilding.com/Resident/public/rentals/24923"
   },
   "structure_boston": {
     "emails": [],
     "manager": "Structure Boston",
     "phone": "(617) 396-3102",
-    "source_url": "https://structureboston.appfolio.com/listings/detail/5a3dd768-0290-4425-8800-3c4d91b5456d"
+    "source_url": "https://structureboston.appfolio.com/listings/detail/03ebdd58-3382-4ae7-b9f3-26c516cdbce7"
   },
   "structure_properties": {
     "emails": [],
     "manager": "Structure Properties",
-    "phone": "(415) 237-1083",
-    "source_url": "https://spsf.appfolio.com/listings/detail/3a52dc90-aff3-424b-9989-1a7273d1ef6f"
+    "phone": "(415) 527-7998",
+    "source_url": "https://spsf.appfolio.com/listings/detail/0f341f3f-563f-4466-9e4a-5d8914b1e92a"
   },
   "t_lee_development": {
     "emails": [],

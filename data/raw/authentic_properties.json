@@ -3,7 +3,7 @@
   "source": "authentic_properties",
   "manager": "Authentic Properties",
   "source_url": "https://authenticrealestate.appfolio.com/listings",
-  "scraped_at": "2026-07-30T07:02:55-07:00",
+  "scraped_at": "2026-07-31T07:03:08-07:00",
   "unit_count": 12,
   "units": [
     {
@@ -127,30 +127,6 @@
       "url": "https://authenticrealestate.appfolio.com/listings/detail/1da144c1-db9c-418a-9f47-638796a7f3e6"
     },
     {
-      "address": "19770 Sprague Ct, Castro Valley, CA 94546",
-      "source": "authentic_properties",
-      "manager": "Authentic Properties",
-      "city": "Castro Valley",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 2700.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": "furnished",
-      "parking": "off_street",
-      "laundry": null,
-      "summary": "Fully furnished one-bedroom cottage with private entrance, off-street parking, and all utilities included; available now for short-term or longer lease.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 700,
-      "state": "CA",
-      "postal_code": "94546",
-      "title": "Furnished One Bedroom Cottage in Castro Valley",
-      "url": "https://authenticrealestate.appfolio.com/listings/detail/c0c5f577-c08f-423d-a537-33d41c9f2046"
-    },
-    {
       "address": "925 Apgar Street , Emeryville, CA 94608",
       "source": "authentic_properties",
       "manager": "Authentic Properties",
@@ -173,6 +149,30 @@
       "postal_code": "94608",
       "title": "Excellent Condition 2 Bedroom, 1 Bath in Emeryville with Parking",
       "url": "https://authenticrealestate.appfolio.com/listings/detail/66b71969-70da-4698-a388-e64c4d07b51a"
+    },
+    {
+      "address": "741-743 Hillgirt Circle , Oakland, CA 94610",
+      "source": "authentic_properties",
+      "manager": "Authentic Properties",
+      "city": "Oakland",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-05",
+      "rent": 2095.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 650,
+      "state": "CA",
+      "postal_code": "94610",
+      "title": "$2,095 / 1br - 650ft2 - Great Location-Lake Merritt One Bedroom, One Bath",
+      "url": "https://authenticrealestate.appfolio.com/listings/detail/7ac8adab-765d-458c-a5a1-bf8bb01a5971"
     },
     {
       "address": "3060 Logan Street - Unit 5, Oakland, CA 94601",
@@ -253,7 +253,7 @@
       "city": "Pleasant Hill",
       "bedrooms": 3.0,
       "available_date": "2026-08-01",
-      "rent": 4195.0,
+      "rent": 3995.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
       "room_type": "entire_place",
@@ -268,7 +268,14 @@
       "state": "CA",
       "postal_code": "94523",
       "title": "Great Location 3 BD, 2.5 BA in Pleasant Hill With Garage",
-      "url": "https://authenticrealestate.appfolio.com/listings/detail/431ee71c-7875-4158-9d9b-ce17bc31791a"
+      "url": "https://authenticrealestate.appfolio.com/listings/detail/431ee71c-7875-4158-9d9b-ce17bc31791a",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 3995.0,
+          "observed": 4395
+        }
+      ]
     },
     {
       "address": "2941 Chavez Lane, Richmond, CA 94804",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-30T07:05:26-07:00",
-  "total_units": 1151,
+  "generated_at": "2026-07-31T07:06:08-07:00",
+  "total_units": 1159,
   "stale_after_hours": 48,
   "sources": [
     {
@@ -9,7 +9,7 @@
       "site": "https://tripalink.com/berkeley/homes-for-rent",
       "platform": "tripalink",
       "unit_count": 271,
-      "scraped_at": "2026-07-30T07:03:19-07:00",
+      "scraped_at": "2026-07-31T07:03:42-07:00",
       "stale": false
     },
     {
@@ -17,8 +17,8 @@
       "manager": "SG Real Estate Co.",
       "site": "https://sgreresidential.com/",
       "platform": "appfolio",
-      "unit_count": 172,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
+      "unit_count": 169,
+      "scraped_at": "2026-07-31T07:03:10-07:00",
       "stale": false
     },
     {
@@ -26,17 +26,8 @@
       "manager": "K&S Company",
       "site": "https://www.kands.com/",
       "platform": "appfolio",
-      "unit_count": 70,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
-      "stale": false
-    },
-    {
-      "slug": "lapham_company",
-      "manager": "Lapham Company",
-      "site": "https://www.laphamcompany.com/",
-      "platform": "appfolio",
-      "unit_count": 52,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "unit_count": 67,
+      "scraped_at": "2026-07-31T07:03:10-07:00",
       "stale": false
     },
     {
@@ -44,8 +35,17 @@
       "manager": "Community Realty Property Management",
       "site": "https://www.crpmrealty.com/",
       "platform": "appfolio",
-      "unit_count": 51,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
+      "unit_count": 52,
+      "scraped_at": "2026-07-31T07:03:10-07:00",
+      "stale": false
+    },
+    {
+      "slug": "lapham_company",
+      "manager": "Lapham Company",
+      "site": "https://www.laphamcompany.com/",
+      "platform": "appfolio",
+      "unit_count": 49,
+      "scraped_at": "2026-07-31T07:03:10-07:00",
       "stale": false
     },
     {
@@ -54,7 +54,7 @@
       "site": "https://www.rajproperties.com/",
       "platform": "buildium",
       "unit_count": 49,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
@@ -62,8 +62,8 @@
       "manager": "Structure Boston",
       "site": "https://structureboston.appfolio.com/",
       "platform": "appfolio",
-      "unit_count": 41,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "unit_count": 48,
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
@@ -72,7 +72,7 @@
       "site": "https://mmgprop.com/",
       "platform": "mmg",
       "unit_count": 38,
-      "scraped_at": "2026-07-30T07:03:03-07:00",
+      "scraped_at": "2026-07-31T07:03:15-07:00",
       "stale": false
     },
     {
@@ -80,8 +80,17 @@
       "manager": "Structure Properties",
       "site": "https://structureproperties.com/",
       "platform": "appfolio",
+      "unit_count": 35,
+      "scraped_at": "2026-07-31T07:03:09-07:00",
+      "stale": false
+    },
+    {
+      "slug": "two_b_living",
+      "manager": "2B Living",
+      "site": "https://www.twobliving.com/",
+      "platform": "appfolio",
       "unit_count": 32,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
+      "scraped_at": "2026-07-31T07:03:09-07:00",
       "stale": false
     },
     {
@@ -90,16 +99,16 @@
       "site": "https://mpmoakland.managebuilding.com/",
       "platform": "buildium",
       "unit_count": 31,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
-      "slug": "two_b_living",
-      "manager": "2B Living",
-      "site": "https://www.twobliving.com/",
+      "slug": "kasa_properties",
+      "manager": "Kasa Properties",
+      "site": "https://www.kasaproperties.com/",
       "platform": "appfolio",
-      "unit_count": 30,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
+      "unit_count": 26,
+      "scraped_at": "2026-07-31T07:03:09-07:00",
       "stale": false
     },
     {
@@ -108,7 +117,7 @@
       "site": "https://www.academichousingrentals.com",
       "platform": "buildium",
       "unit_count": 25,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
@@ -117,16 +126,7 @@
       "site": "https://bostonpropertymanagementllc.com/",
       "platform": "boston_pm",
       "unit_count": 25,
-      "scraped_at": "2026-07-30T07:02:59-07:00",
-      "stale": false
-    },
-    {
-      "slug": "kasa_properties",
-      "manager": "Kasa Properties",
-      "site": "https://www.kasaproperties.com/",
-      "platform": "appfolio",
-      "unit_count": 25,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
+      "scraped_at": "2026-07-31T07:03:12-07:00",
       "stale": false
     },
     {
@@ -134,17 +134,8 @@
       "manager": "Utopia Management",
       "site": "https://utopiamanagement.com/",
       "platform": "appfolio",
-      "unit_count": 22,
-      "scraped_at": "2026-07-30T07:02:58-07:00",
-      "stale": false
-    },
-    {
-      "slug": "bay_property_group",
-      "manager": "Bay Property Group",
-      "site": "https://www.baypropertygroup.com/",
-      "platform": "appfolio",
-      "unit_count": 19,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
+      "unit_count": 21,
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
@@ -153,16 +144,7 @@
       "site": "https://www.selborneproperties.com/",
       "platform": "appfolio",
       "unit_count": 19,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
-      "stale": false
-    },
-    {
-      "slug": "beacon_properties",
-      "manager": "Beacon Properties",
-      "site": "https://www.beacprop.com/",
-      "platform": "appfolio",
-      "unit_count": 17,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
+      "scraped_at": "2026-07-31T07:03:10-07:00",
       "stale": false
     },
     {
@@ -170,8 +152,26 @@
       "manager": "All East Bay Properties",
       "site": "https://alleastbayproperties.com/",
       "platform": "appfolio",
-      "unit_count": 16,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
+      "unit_count": 18,
+      "scraped_at": "2026-07-31T07:03:10-07:00",
+      "stale": false
+    },
+    {
+      "slug": "bay_property_group",
+      "manager": "Bay Property Group",
+      "site": "https://www.baypropertygroup.com/",
+      "platform": "appfolio",
+      "unit_count": 18,
+      "scraped_at": "2026-07-31T07:03:09-07:00",
+      "stale": false
+    },
+    {
+      "slug": "beacon_properties",
+      "manager": "Beacon Properties",
+      "site": "https://www.beacprop.com/",
+      "platform": "appfolio",
+      "unit_count": 18,
+      "scraped_at": "2026-07-31T07:03:08-07:00",
       "stale": false
     },
     {
@@ -180,7 +180,16 @@
       "site": "https://www.bostonpropertycare.com/",
       "platform": "appfolio",
       "unit_count": 15,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
+      "scraped_at": "2026-07-31T07:03:10-07:00",
+      "stale": false
+    },
+    {
+      "slug": "west_coast_pm",
+      "manager": "West Coast Property Management",
+      "site": "https://wcpm.com/",
+      "platform": "appfolio",
+      "unit_count": 14,
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
@@ -189,7 +198,7 @@
       "site": "https://authenticre.com/",
       "platform": "appfolio",
       "unit_count": 12,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
+      "scraped_at": "2026-07-31T07:03:08-07:00",
       "stale": false
     },
     {
@@ -198,7 +207,7 @@
       "site": "https://www.ppm4rent.com/",
       "platform": "appfolio",
       "unit_count": 12,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "scraped_at": "2026-07-31T07:03:10-07:00",
       "stale": false
     },
     {
@@ -207,16 +216,7 @@
       "site": "https://adventpropertiesinc.com/",
       "platform": "appfolio",
       "unit_count": 11,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
-      "stale": false
-    },
-    {
-      "slug": "west_coast_pm",
-      "manager": "West Coast Property Management",
-      "site": "https://wcpm.com/",
-      "platform": "appfolio",
-      "unit_count": 11,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "scraped_at": "2026-07-31T07:03:09-07:00",
       "stale": false
     },
     {
@@ -225,7 +225,7 @@
       "site": "https://www.relisto.com/",
       "platform": "relisto",
       "unit_count": 9,
-      "scraped_at": "2026-07-30T07:03:23-07:00",
+      "scraped_at": "2026-07-31T07:03:34-07:00",
       "stale": false
     },
     {
@@ -234,7 +234,7 @@
       "site": "https://www.goldenstatepropertymanagement.com/",
       "platform": "appfolio",
       "unit_count": 8,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
+      "scraped_at": "2026-07-31T07:03:10-07:00",
       "stale": false
     },
     {
@@ -243,7 +243,7 @@
       "site": "https://premiumpd.com/",
       "platform": "showmojo",
       "unit_count": 8,
-      "scraped_at": "2026-07-30T07:02:58-07:00",
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
@@ -252,7 +252,7 @@
       "site": "https://www.cedarproperties.com/",
       "platform": "appfolio",
       "unit_count": 7,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
+      "scraped_at": "2026-07-31T07:03:09-07:00",
       "stale": false
     },
     {
@@ -261,25 +261,16 @@
       "site": "https://www.domingoprop.com/",
       "platform": "buildium",
       "unit_count": 7,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
-      "slug": "korman_and_ng",
-      "manager": "Korman & Ng Real Estate Services",
-      "site": "https://www.kormanandngpm.com/",
+      "slug": "bancal_pm",
+      "manager": "BanCal Property Management",
+      "site": "https://www.bancalsf.com/",
       "platform": "appfolio",
-      "unit_count": 6,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
-      "stale": false
-    },
-    {
-      "slug": "square_one_management",
-      "manager": "Square One Management",
-      "site": "https://squareonemanagement.com/",
-      "platform": "buildium",
-      "unit_count": 6,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "unit_count": 5,
+      "scraped_at": "2026-07-31T07:03:09-07:00",
       "stale": false
     },
     {
@@ -288,16 +279,25 @@
       "site": "https://bostonluxury.managebuilding.com/",
       "platform": "buildium",
       "unit_count": 5,
-      "scraped_at": "2026-07-30T07:02:58-07:00",
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
-      "slug": "bancal_pm",
-      "manager": "BanCal Property Management",
-      "site": "https://www.bancalsf.com/",
+      "slug": "korman_and_ng",
+      "manager": "Korman & Ng Real Estate Services",
+      "site": "https://www.kormanandngpm.com/",
       "platform": "appfolio",
-      "unit_count": 4,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
+      "unit_count": 5,
+      "scraped_at": "2026-07-31T07:03:09-07:00",
+      "stale": false
+    },
+    {
+      "slug": "square_one_management",
+      "manager": "Square One Management",
+      "site": "https://squareonemanagement.com/",
+      "platform": "buildium",
+      "unit_count": 5,
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
@@ -305,17 +305,8 @@
       "manager": "California Pacific Realty",
       "site": "https://californiapacific.appfolio.com/listings",
       "platform": "appfolio",
-      "unit_count": 4,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
-      "stale": false
-    },
-    {
-      "slug": "perkins_realty",
-      "manager": "Perkins Realty Partners",
-      "site": "https://perkinsrealtypartners.com/",
-      "platform": "appfolio",
-      "unit_count": 4,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
+      "unit_count": 3,
+      "scraped_at": "2026-07-31T07:03:09-07:00",
       "stale": false
     },
     {
@@ -324,7 +315,7 @@
       "site": "https://gpmsf.com/",
       "platform": "appfolio",
       "unit_count": 3,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
+      "scraped_at": "2026-07-31T07:03:09-07:00",
       "stale": false
     },
     {
@@ -333,7 +324,34 @@
       "site": "https://www.panoramicberkeley.com/",
       "platform": "appfolio",
       "unit_count": 3,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
+      "scraped_at": "2026-07-31T07:03:08-07:00",
+      "stale": false
+    },
+    {
+      "slug": "perkins_realty",
+      "manager": "Perkins Realty Partners",
+      "site": "https://perkinsrealtypartners.com/",
+      "platform": "appfolio",
+      "unit_count": 3,
+      "scraped_at": "2026-07-31T07:03:09-07:00",
+      "stale": false
+    },
+    {
+      "slug": "boardwalk",
+      "manager": "Boardwalk Properties",
+      "site": "https://www.boardwalkrents.com/",
+      "platform": "appfolio",
+      "unit_count": 2,
+      "scraped_at": "2026-07-31T07:03:08-07:00",
+      "stale": false
+    },
+    {
+      "slug": "chandler_properties",
+      "manager": "Chandler Properties",
+      "site": "https://www.chandlerproperties.com/",
+      "platform": "appfolio",
+      "unit_count": 2,
+      "scraped_at": "2026-07-31T07:03:10-07:00",
       "stale": false
     },
     {
@@ -342,7 +360,7 @@
       "site": "https://rentals.collabhome.io/",
       "platform": "buildium",
       "unit_count": 2,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
@@ -351,7 +369,7 @@
       "site": "https://www.bayapartmentbroker.com/",
       "platform": "appfolio",
       "unit_count": 2,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
+      "scraped_at": "2026-07-31T07:03:09-07:00",
       "stale": false
     },
     {
@@ -360,7 +378,7 @@
       "site": "https://tleedevelopment.appfolio.com/",
       "platform": "appfolio",
       "unit_count": 2,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "scraped_at": "2026-07-31T07:03:10-07:00",
       "stale": false
     },
     {
@@ -369,25 +387,7 @@
       "site": "https://bcpm.com/",
       "platform": "appfolio",
       "unit_count": 1,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
-      "stale": false
-    },
-    {
-      "slug": "boardwalk",
-      "manager": "Boardwalk Properties",
-      "site": "https://www.boardwalkrents.com/",
-      "platform": "appfolio",
-      "unit_count": 1,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
-      "stale": false
-    },
-    {
-      "slug": "chandler_properties",
-      "manager": "Chandler Properties",
-      "site": "https://www.chandlerproperties.com/",
-      "platform": "appfolio",
-      "unit_count": 1,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
+      "scraped_at": "2026-07-31T07:03:08-07:00",
       "stale": false
     },
     {
@@ -405,7 +405,7 @@
       "site": "https://hayesm.com/available/",
       "platform": "appfolio",
       "unit_count": 1,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
+      "scraped_at": "2026-07-31T07:03:09-07:00",
       "stale": false
     },
     {
@@ -414,7 +414,7 @@
       "site": "https://apmanage.net/",
       "platform": "appfolio",
       "unit_count": 0,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
+      "scraped_at": "2026-07-31T07:03:08-07:00",
       "stale": false
     },
     {
@@ -423,7 +423,7 @@
       "site": "https://cambridgemgi.appfolio.com/",
       "platform": "appfolio",
       "unit_count": 0,
-      "scraped_at": "2026-07-30T07:02:56-07:00",
+      "scraped_at": "2026-07-31T07:03:10-07:00",
       "stale": false
     },
     {
@@ -432,7 +432,7 @@
       "site": "https://www.cwmgmtinc.com/",
       "platform": "appfolio",
       "unit_count": 0,
-      "scraped_at": "2026-07-30T07:02:57-07:00",
+      "scraped_at": "2026-07-31T07:03:10-07:00",
       "stale": false
     },
     {
@@ -441,7 +441,7 @@
       "site": "https://hawthornepmg.managebuilding.com/",
       "platform": "buildium",
       "unit_count": 0,
-      "scraped_at": "2026-07-30T07:02:58-07:00",
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
@@ -450,7 +450,7 @@
       "site": "https://keyopp.net/",
       "platform": "buildium",
       "unit_count": 0,
-      "scraped_at": "2026-07-30T07:02:58-07:00",
+      "scraped_at": "2026-07-31T07:03:11-07:00",
       "stale": false
     },
     {
@@ -459,7 +459,7 @@
       "site": "https://www.northberkeleyproperties.com/",
       "platform": "appfolio",
       "unit_count": 0,
-      "scraped_at": "2026-07-30T07:02:55-07:00",
+      "scraped_at": "2026-07-31T07:03:09-07:00",
       "stale": false
     }
   ],
@@ -467,15 +467,15 @@
     "cities": [
       {
         "name": "Berkeley",
-        "count": 651
+        "count": 642
       },
       {
         "name": "Oakland",
-        "count": 175
+        "count": 178
       },
       {
         "name": "San Francisco",
-        "count": 79
+        "count": 86
       },
       {
         "name": "Hayward",
@@ -487,7 +487,7 @@
       },
       {
         "name": "Framingham",
-        "count": 17
+        "count": 18
       },
       {
         "name": "Richmond",
@@ -502,10 +502,6 @@
         "count": 9
       },
       {
-        "name": "El Cerrito",
-        "count": 9
-      },
-      {
         "name": "San Leandro",
         "count": 9
       },
@@ -515,6 +511,10 @@
       },
       {
         "name": "Dorchester",
+        "count": 8
+      },
+      {
+        "name": "El Cerrito",
         "count": 8
       },
       {
@@ -542,6 +542,10 @@
         "count": 6
       },
       {
+        "name": "Everett",
+        "count": 5
+      },
+      {
         "name": "San Jose",
         "count": 5
       },
@@ -550,8 +554,8 @@
         "count": 5
       },
       {
-        "name": "Everett",
-        "count": 4
+        "name": "Waltham",
+        "count": 5
       },
       {
         "name": "Rohnert Park",
@@ -571,10 +575,6 @@
       },
       {
         "name": "Allston",
-        "count": 2
-      },
-      {
-        "name": "Castro Valley",
         "count": 2
       },
       {
@@ -598,6 +598,14 @@
         "count": 2
       },
       {
+        "name": "Medford",
+        "count": 2
+      },
+      {
+        "name": "Newark",
+        "count": 2
+      },
+      {
         "name": "Pleasant Hill",
         "count": 2
       },
@@ -614,11 +622,19 @@
         "count": 2
       },
       {
+        "name": "Atherton",
+        "count": 1
+      },
+      {
         "name": "Belmont",
         "count": 1
       },
       {
         "name": "Burlingame",
+        "count": 1
+      },
+      {
+        "name": "Castro Valley",
         "count": 1
       },
       {
@@ -638,10 +654,6 @@
         "count": 1
       },
       {
-        "name": "Medford",
-        "count": 1
-      },
-      {
         "name": "Morgan Hill",
         "count": 1
       },
@@ -650,11 +662,11 @@
         "count": 1
       },
       {
-        "name": "Newark",
+        "name": "Novato",
         "count": 1
       },
       {
-        "name": "Novato",
+        "name": "Pittsburg",
         "count": 1
       },
       {
@@ -674,19 +686,7 @@
         "count": 1
       },
       {
-        "name": "San Mateo",
-        "count": 1
-      },
-      {
         "name": "Santa Clara",
-        "count": 1
-      },
-      {
-        "name": "South San Francisco",
-        "count": 1
-      },
-      {
-        "name": "Waltham",
         "count": 1
       },
       {
@@ -698,7 +698,7 @@
       {
         "value": 0.0,
         "label": "Studio",
-        "count": 160
+        "count": 168
       },
       {
         "value": 0.5,
@@ -708,7 +708,7 @@
       {
         "value": 1.0,
         "label": "1 bed",
-        "count": 310
+        "count": 312
       },
       {
         "value": 1.5,
@@ -718,7 +718,7 @@
       {
         "value": 2.0,
         "label": "2 bed",
-        "count": 291
+        "count": 289
       },
       {
         "value": 2.5,
@@ -728,12 +728,12 @@
       {
         "value": 3.0,
         "label": "3 bed",
-        "count": 205
+        "count": 207
       },
       {
         "value": 4.0,
         "label": "4 bed",
-        "count": 65
+        "count": 64
       },
       {
         "value": 5.0,
@@ -758,7 +758,7 @@
       {
         "value": null,
         "label": "Unknown",
-        "count": 27
+        "count": 26
       }
     ],
     "rent": {
@@ -768,51 +768,51 @@
     "room_type": [
       {
         "name": "entire_place",
-        "count": 727
+        "count": 736
       },
       {
         "name": "private_room",
-        "count": 217
+        "count": 215
       },
       {
         "name": "shared_room",
-        "count": 132
+        "count": 131
       },
       {
         "name": "unknown",
-        "count": 75
+        "count": 77
       }
     ],
     "unit_type": [
       {
         "name": "3plus_bedroom",
-        "count": 360
+        "count": 361
       },
       {
         "name": "1_bedroom",
-        "count": 311
+        "count": 313
       },
       {
         "name": "2_bedroom",
-        "count": 292
+        "count": 290
       },
       {
         "name": "studio",
-        "count": 161
+        "count": 169
       },
       {
         "name": "unknown",
-        "count": 27
+        "count": 26
       }
     ],
     "pets": [
       {
         "name": "none",
-        "count": 493
+        "count": 485
       },
       {
         "name": "allowed",
-        "count": 185
+        "count": 181
       },
       {
         "name": "cats_only",
@@ -824,13 +824,13 @@
       },
       {
         "name": "unknown",
-        "count": 420
+        "count": 440
       }
     ],
     "furnished": [
       {
         "name": "furnished",
-        "count": 383
+        "count": 380
       },
       {
         "name": "partial",
@@ -842,17 +842,17 @@
       },
       {
         "name": "unknown",
-        "count": 709
+        "count": 720
       }
     ],
     "parking": [
       {
         "name": "off_street",
-        "count": 208
+        "count": 203
       },
       {
         "name": "garage",
-        "count": 142
+        "count": 135
       },
       {
         "name": "street",
@@ -864,17 +864,17 @@
       },
       {
         "name": "unknown",
-        "count": 695
+        "count": 715
       }
     ],
     "laundry": [
       {
         "name": "shared",
-        "count": 434
+        "count": 426
       },
       {
         "name": "in_unit",
-        "count": 366
+        "count": 362
       },
       {
         "name": "hookups",
@@ -886,7 +886,7 @@
       },
       {
         "name": "unknown",
-        "count": 316
+        "count": 336
       }
     ]
   },
@@ -904,9 +904,11 @@
       "source_url": "https://adventproperties.appfolio.com/listings/detail/8f6f9fd1-c8ee-4444-95e7-3e82a7548d34"
     },
     "All East Bay Properties": {
-      "phone": "(510) 698-8133",
-      "emails": [],
-      "source_url": "https://alleastbayproperties.appfolio.com/listings/detail/78b5697a-e7ac-4050-ba3d-593d57b6ada0"
+      "phone": "(510) 684-8794",
+      "emails": [
+        "mj@alleastbayproperties.com"
+      ],
+      "source_url": "https://alleastbayproperties.appfolio.com/listings/detail/6454f4d5-228b-4100-a099-cc2b1b30506b"
     },
     "Authentic Properties": {
       "phone": "(510) 542-9565",
@@ -926,7 +928,7 @@
     "Bay Property Group": {
       "phone": "(415) 649-7685",
       "emails": [],
-      "source_url": "https://baypropertygroup.appfolio.com/listings/detail/53f9e3bb-84f4-475f-8606-0ad8138d789c"
+      "source_url": "https://baypropertygroup.appfolio.com/listings/detail/ea589bb0-f49b-4b35-9d8a-899fada2a380"
     },
     "Beacon Properties": {
       "phone": "(510) 736-1559",
@@ -934,11 +936,11 @@
       "source_url": "https://beaconprop.appfolio.com/listings/detail/0b332bb5-772f-439e-8820-a7107aeb0629"
     },
     "Boardwalk Properties": {
-      "phone": "(650) 355-5556",
+      "phone": "(650) 466-8652",
       "emails": [
         "leasing@boardwalkrents.com"
       ],
-      "source_url": "https://boardwalkinvestments.appfolio.com/listings/detail/abcc56c6-6991-4b24-bd50-453a2c6018a9"
+      "source_url": "https://boardwalkinvestments.appfolio.com/listings/detail/b48631ba-d78d-4096-b5e3-e28beec40421"
     },
     "Boston Luxury Real Estate": {
       "phone": null,
@@ -987,7 +989,7 @@
     "Community Realty Property Management": {
       "phone": "(510) 530-1005",
       "emails": [],
-      "source_url": "https://communityrealtypm.appfolio.com/listings/detail/6fa9eb43-34a8-4c22-a8bc-19aa5d24ff7a"
+      "source_url": "https://communityrealtypm.appfolio.com/listings/detail/0e5e3825-7322-4d65-a6b3-ffca0d0fd1ee"
     },
     "Domingo Properties": {
       "phone": "(510) 666-9477",
@@ -1000,7 +1002,6 @@
     "ERI Property Management": {
       "phone": "(510) 883-7070",
       "emails": [
-        "terrence@erihomes.com",
         "info@erihomes.com"
       ],
       "source_url": "https://www.erirentals.com/unit.php?id=540"
@@ -1027,7 +1028,7 @@
       "emails": [
         "vacancies@kasaproperties.com"
       ],
-      "source_url": "https://kasaproperties.appfolio.com/listings/detail/32174b0c-4c28-4c0c-ad11-e4a9f1bac8d4"
+      "source_url": "https://kasaproperties.appfolio.com/listings/detail/0c136866-879c-4d64-8e47-a6fa553d8ffd"
     },
     "Korman & Ng Real Estate Services": {
       "phone": "(415) 420-7663",
@@ -1055,7 +1056,7 @@
         "rentals@mpmoakland.com",
         "nicole@mpmoakland.com"
       ],
-      "source_url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95053"
+      "source_url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95435"
     },
     "Myerhoff & Associates": {
       "phone": "(678) 886-1918",
@@ -1114,20 +1115,19 @@
     "Square One Management": {
       "phone": "(510) 900-9056",
       "emails": [
-        "info@squareonemanagement.com",
         "wendy@squareonemanagement.com"
       ],
-      "source_url": "https://som.managebuilding.com/Resident/public/rentals/10660"
+      "source_url": "https://som.managebuilding.com/Resident/public/rentals/24923"
     },
     "Structure Boston": {
       "phone": "(617) 396-3102",
       "emails": [],
-      "source_url": "https://structureboston.appfolio.com/listings/detail/5a3dd768-0290-4425-8800-3c4d91b5456d"
+      "source_url": "https://structureboston.appfolio.com/listings/detail/03ebdd58-3382-4ae7-b9f3-26c516cdbce7"
     },
     "Structure Properties": {
-      "phone": "(415) 237-1083",
+      "phone": "(415) 527-7998",
       "emails": [],
-      "source_url": "https://spsf.appfolio.com/listings/detail/3a52dc90-aff3-424b-9989-1a7273d1ef6f"
+      "source_url": "https://spsf.appfolio.com/listings/detail/0f341f3f-563f-4466-9e4a-5d8914b1e92a"
     },
     "T. Lee Development": {
       "phone": "(617) 294-9119",
@@ -1157,34 +1157,11 @@
   },
   "excluded": {
     "application": 7,
-    "commercial": 31,
-    "parking": 7,
+    "commercial": 32,
+    "parking": 6,
     "storage": 4
   },
   "units": [
-    {
-      "address": "2322 Haste St. Apt 27, Berkeley, CA 94704",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": "2026-07-31",
-      "rent": 1800.0,
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": "cats_only",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "shared",
-      "summary": "Sunny studio apartment on the top floor of a Spanish Mission Style building near UC Berkeley and BART, with 450 sq ft, 1 bathroom, and large windows.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 450,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Sunny Studio Apartment, Close to everywhere! Near by BART",
-      "url": "https://kands.appfolio.com/listings/detail/f53f030a-27a6-4cc3-8473-1e6a4d4a6887"
-    },
     {
       "address": "25 Dighton St #B, Brighton, MA 02135",
       "source": "boston_property_care",
@@ -2201,41 +2178,6 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/f4a90fa4-3d0d-45cc-b0fc-2b1fc418b570"
     },
     {
-      "address": "2731 Durant Ave - 6A, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 1095.0,
-      "unit_type": "1_bedroom",
-      "room_type": "private_room",
-      "pets": "none",
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Private furnished single room in a co-living community near UC Berkeley. Rent is per room for this 200 sq ft unit; shared kitchen and bathroom with floor-mates.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 200,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Immediate Move in + Special Gift! Private Single at 2731 Durant Perfect Location 2 Blocks to Campus! Inspiring Furnished Single Room! An Inviting and Super Friendly & Supportive Community! Join Us!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/1556f6e7-5ac8-4f11-a596-9f11db0c70f4",
-      "conflicts": [
-        {
-          "field": "rent",
-          "parsed": 1095.0,
-          "observed": 1195
-        },
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
       "address": "2099 Martin Luther King Jr. Way, Berkeley, CA 94704",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -2365,6 +2307,29 @@
       "url": "https://cedarpm.appfolio.com/listings/detail/30a27c23-7b0d-4a07-93f4-ab110cddf92b"
     },
     {
+      "address": "240 Crescent Street - 4, Waltham, MA 02453",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Waltham",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 1200.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "MA",
+      "postal_code": "02453",
+      "title": null,
+      "url": "https://structureboston.appfolio.com/listings/detail/03ebdd58-3382-4ae7-b9f3-26c516cdbce7"
+    },
+    {
       "address": "2126-A Dwight Way Room # 01, Berkeley, CA 94704",
       "source": "ks_company",
       "manager": "K&S Company",
@@ -2492,6 +2457,52 @@
       "postal_code": "94590",
       "title": "Quaint cottage with hardwood floors, private entrance and patio, surrounded by lush gardens!",
       "url": "https://alleastbayproperties.appfolio.com/listings/detail/e37ec510-578e-4817-aa6c-c891d78e2d22"
+    },
+    {
+      "address": "240 Crescent Street - 9, Waltham, MA 02453",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Waltham",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 1350.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "MA",
+      "postal_code": "02453",
+      "title": "240 Crescent Street Room 9",
+      "url": "https://structureboston.appfolio.com/listings/detail/64156194-c096-441e-af2b-1e13c847fc7b"
+    },
+    {
+      "address": "1010 Bush Street #201, San Francisco, CA 94109",
+      "source": "structure_properties",
+      "manager": "Structure Properties",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": null,
+      "rent": 1350.0,
+      "unit_type": "studio",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 0.0,
+      "square_feet": 115,
+      "state": "CA",
+      "postal_code": "94109",
+      "title": "Private Room w/ All Utilities Included Available Now!!",
+      "url": "https://spsf.appfolio.com/listings/detail/28ebd2ee-4f24-4c7f-a12b-a3f97a2bf655"
     },
     {
       "address": "2451 Bonar St, Berkeley, CA 94702-2062",
@@ -3060,6 +3071,36 @@
       "url": "https://laphamcompany.appfolio.com/listings/detail/255dd535-e9d2-42b2-9b3e-8600aa248ad5"
     },
     {
+      "address": "115 Grant St- B, Framingham, MA 01702",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Framingham",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 1600.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": "1 bedroom, 1 bathroom unit in Framingham available now at $1,700/month.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "MA",
+      "postal_code": "01702",
+      "title": null,
+      "url": "https://structureboston.appfolio.com/listings/detail/45ef8331-2df1-4f31-8cc2-bb63067b7d82",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 1600.0,
+          "observed": 1700
+        }
+      ]
+    },
+    {
       "address": "858 WASHINGTON ST # 2, SAN FRANCISCO, CA 94108",
       "source": "structure_properties",
       "manager": "Structure Properties",
@@ -3419,7 +3460,7 @@
       "url": "https://baypropertygroup.appfolio.com/listings/detail/26f58cf2-7f85-48c8-9b62-cc654dab05aa"
     },
     {
-      "address": "115 Grant St- B, Framingham, MA 01702",
+      "address": "117 Grant St- A, Framingham, MA 01702",
       "source": "structure_boston",
       "manager": "Structure Boston",
       "city": "Framingham",
@@ -3432,14 +3473,51 @@
       "furnished": null,
       "parking": null,
       "laundry": null,
-      "summary": "1 bedroom, 1 bathroom unit in Framingham available now at $1,700/month.",
+      "summary": "1-bedroom, 1-bathroom apartment in Framingham available now at $1,800/month.",
       "available_now": true,
       "bathrooms": 1.0,
-      "square_feet": null,
+      "square_feet": 501,
       "state": "MA",
       "postal_code": "01702",
       "title": null,
-      "url": "https://structureboston.appfolio.com/listings/detail/45ef8331-2df1-4f31-8cc2-bb63067b7d82"
+      "url": "https://structureboston.appfolio.com/listings/detail/ba7cb7d5-fc44-434e-85c8-b298d8a54bb4",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 1700.0,
+          "observed": 1800
+        }
+      ]
+    },
+    {
+      "address": "84 Lawrence Street #A, Framingham, MA 01702",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Framingham",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 1700.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": "1-bedroom, 1-bathroom apartment in Framingham; 461 sq ft, available now.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 461,
+      "state": "MA",
+      "postal_code": "01702",
+      "title": null,
+      "url": "https://structureboston.appfolio.com/listings/detail/0e8c3e13-8171-441d-aba6-d1fb50fe7537",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 1700.0,
+          "observed": 1800
+        }
+      ]
     },
     {
       "address": "2867 MacArthur Blvd - 7, Oakland, CA 94602",
@@ -3509,29 +3587,6 @@
       "postal_code": "94704",
       "title": "2026-2027 Availability! Fully Furnished Supportive Living! Across from UC Berkeley! Large Furnished Apartments + Community Space! Welcome to the Wesley House!",
       "url": "https://sgrealestate.appfolio.com/listings/detail/50fb5284-0ea3-494b-b58e-495e4fdba406"
-    },
-    {
-      "address": "1757 Oxford St, Apt 8, Berkeley, CA 94709",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 1745.0,
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "street",
-      "laundry": "shared",
-      "summary": "Studio apartment one block from UC Berkeley campus. Water and garbage included; renters insurance required.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94709",
-      "title": "Studio is in a great location just a block from campus on the northwest end-email TO VIEW",
-      "url": "https://kands.appfolio.com/listings/detail/dba9aa58-eddd-400b-9892-d2c16e48bbe2"
     },
     {
       "address": "1435 3rd Avenue 203, Oakland, CA 94606",
@@ -3626,6 +3681,36 @@
       "url": "https://kands.appfolio.com/listings/detail/3074aa4b-0fd3-4056-a4d9-41e3ed0a4ccc"
     },
     {
+      "address": "121 Grant St- A, Framingham, MA 01702",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Framingham",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 1750.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": "One-bedroom, one-bathroom apartment in Framingham available for lease.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "MA",
+      "postal_code": "01702",
+      "title": "1 Bedrooms/1 Bath Apartment! Available 4/1",
+      "url": "https://structureboston.appfolio.com/listings/detail/21e8b89f-6fe9-4088-8f86-9574a6fa0018",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 1750.0,
+          "observed": 1850
+        }
+      ]
+    },
+    {
       "address": "460 S. Buena Vista Avenue - #6, San Jose, CA 95126",
       "source": "utopia_management",
       "manager": "Utopia Management",
@@ -3693,6 +3778,29 @@
       "postal_code": "94703",
       "title": "Charming, Studio Freshly Painted, move in ready",
       "url": "https://kands.appfolio.com/listings/detail/75e26773-9843-47ae-9c79-f0c61ac7f030"
+    },
+    {
+      "address": "1988 California St. Apt 55, Berkeley, CA 94703",
+      "source": "ks_company",
+      "manager": "K&S Company",
+      "city": "Berkeley",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 1795.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": "none",
+      "furnished": null,
+      "parking": null,
+      "laundry": "shared",
+      "summary": "One-bedroom, one-bathroom apartment in Berkeley near BART and University Ave with hardwood floors and large living room. No pets allowed.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94703",
+      "title": "A Bright Sunny 1 bedroom, with Hardwood Floors",
+      "url": "https://kands.appfolio.com/listings/detail/1e849e12-a5e2-495c-a7af-ef31f7141481"
     },
     {
       "address": "937 International Blvd , Oakland, CA 94606",
@@ -3787,30 +3895,30 @@
       "url": "https://kormanandng.appfolio.com/listings/detail/cc4dc2e3-9ae5-4f68-8050-6aa2f562603d"
     },
     {
-      "address": "117 Grant St- A, Framingham, MA 01702",
-      "source": "structure_boston",
-      "manager": "Structure Boston",
-      "city": "Framingham",
-      "bedrooms": 1.0,
+      "address": "2322 Haste St. Apt 27, Berkeley, CA 94704",
+      "source": "ks_company",
+      "manager": "K&S Company",
+      "city": "Berkeley",
+      "bedrooms": 0.0,
       "available_date": null,
       "rent": 1800.0,
-      "unit_type": "1_bedroom",
+      "unit_type": "studio",
       "room_type": "entire_place",
-      "pets": null,
+      "pets": "cats_only",
       "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": "1-bedroom, 1-bathroom apartment in Framingham available now at $1,800/month.",
+      "parking": "off_street",
+      "laundry": "shared",
+      "summary": "Sunny studio apartment on the top floor of a Spanish Mission Style building near UC Berkeley and BART, with 450 sq ft, 1 bathroom, and large windows.",
       "available_now": true,
       "bathrooms": 1.0,
-      "square_feet": 501,
-      "state": "MA",
-      "postal_code": "01702",
-      "title": null,
-      "url": "https://structureboston.appfolio.com/listings/detail/ba7cb7d5-fc44-434e-85c8-b298d8a54bb4"
+      "square_feet": 450,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "Sunny Studio Apartment, Close to everywhere! Near by BART",
+      "url": "https://kands.appfolio.com/listings/detail/f53f030a-27a6-4cc3-8473-1e6a4d4a6887"
     },
     {
-      "address": "84 Lawrence Street #A, Framingham, MA 01702",
+      "address": "16 Centennial Place - 2, Framingham, MA 01701",
       "source": "structure_boston",
       "manager": "Structure Boston",
       "city": "Framingham",
@@ -3823,14 +3931,37 @@
       "furnished": null,
       "parking": null,
       "laundry": null,
-      "summary": "1-bedroom, 1-bathroom apartment in Framingham; 461 sq ft, available now.",
+      "summary": null,
       "available_now": true,
       "bathrooms": 1.0,
-      "square_feet": 461,
+      "square_feet": null,
       "state": "MA",
-      "postal_code": "01702",
+      "postal_code": "01701",
       "title": null,
-      "url": "https://structureboston.appfolio.com/listings/detail/0e8c3e13-8171-441d-aba6-d1fb50fe7537"
+      "url": "https://structureboston.appfolio.com/listings/detail/89522541-7c20-4e96-abfa-267a52618db9"
+    },
+    {
+      "address": "145-147 Charles Street - 145-1, waltham, MA 02453",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Waltham",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 1800.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "MA",
+      "postal_code": "02453",
+      "title": null,
+      "url": "https://structureboston.appfolio.com/listings/detail/91647185-ed49-4f88-a2ba-80e4efd05792"
     },
     {
       "address": "1951 Chestnut Street 309, Berkeley, CA 94702",
@@ -4086,29 +4217,6 @@
       "url": "https://selborne.appfolio.com/listings/detail/da2c3bb2-dae6-4c20-92e9-737fde250ac7"
     },
     {
-      "address": "121 Grant St- A, Framingham, MA 01702",
-      "source": "structure_boston",
-      "manager": "Structure Boston",
-      "city": "Framingham",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 1850.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": "One-bedroom, one-bathroom apartment in Framingham available for lease.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "MA",
-      "postal_code": "01702",
-      "title": "1 Bedrooms/1 Bath Apartment! Available 4/1",
-      "url": "https://structureboston.appfolio.com/listings/detail/21e8b89f-6fe9-4088-8f86-9574a6fa0018"
-    },
-    {
       "address": "419 B Street, Richmond, CA 94801",
       "source": "professional_pm",
       "manager": "Professional Property Management",
@@ -4130,29 +4238,6 @@
       "postal_code": "94801",
       "title": "One Month Free rent, Move in with just a security deposit- Upper Corner Unit in Richmond with 1 car garage",
       "url": "https://profpm.appfolio.com/listings/detail/51ac7809-a1a3-4f8e-b89a-94acf7a05acb"
-    },
-    {
-      "address": "1988 California St. Apt 55, Berkeley, CA 94703",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 1875.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": null,
-      "laundry": "shared",
-      "summary": "One-bedroom, one-bathroom apartment in Berkeley near BART and University Ave with hardwood floors and large living room. No pets allowed.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94703",
-      "title": "A Bright Sunny 1 bedroom, with Hardwood Floors",
-      "url": "https://kands.appfolio.com/listings/detail/1e849e12-a5e2-495c-a7af-ef31f7141481"
     },
     {
       "address": "389 Palm Ave. #3, Oakland, CA 94610",
@@ -4199,29 +4284,6 @@
       "postal_code": "94541",
       "title": "GORGEOUS Design! HUGE Bedroom + Beautiful Interior + Parking! 100% Pet Friendly @ The Mattox!",
       "url": "https://sgrealestate.appfolio.com/listings/detail/63f03a96-48b0-4b41-993d-e5bf31cffdbc"
-    },
-    {
-      "address": "1284 Mattox Rd 44, Hayward, CA 94541",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Hayward",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 1892.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "shared",
-      "summary": "1-bedroom, 1-bathroom apartment with 580 sq ft of newly renovated interiors in a pet-friendly complex. Garage parking available (may require additional lease), on-site laundry, and 1 month free on 13-month leases.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 580,
-      "state": "CA",
-      "postal_code": "94541",
-      "title": "1 Mo Free! GORGEOUS Interiors + HUGE Bedroom @ The Mattox! Super Pet Friendly!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/368950ac-6697-43af-bf65-f3e75c8a2e1f"
     },
     {
       "address": "1284 Mattox Rd 14, Hayward, CA 94541",
@@ -4330,6 +4392,29 @@
       "url": "https://kands.appfolio.com/listings/detail/e75e3243-724a-4fa0-aff8-5ac5167ba646"
     },
     {
+      "address": "1988 California St. Apt 57, Berkeley, CA 94703",
+      "source": "ks_company",
+      "manager": "K&S Company",
+      "city": "Berkeley",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 1895.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": "none",
+      "furnished": null,
+      "parking": null,
+      "laundry": "shared",
+      "summary": "1 bed/1 bath apartment in Berkeley near North Berkeley BART with hardwood floors and large kitchen/living space. Water and garbage included; pets not allowed.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94703",
+      "title": "An excellent location on California at University Ave, just a few blocks from North Berkeley BART",
+      "url": "https://kands.appfolio.com/listings/detail/f396075c-9891-4536-b304-e02d600234a3"
+    },
+    {
       "address": "2425 Fulton St 04, Berkeley, CA 94704",
       "source": "lapham_company",
       "manager": "Lapham Company",
@@ -4397,29 +4482,6 @@
       "postal_code": "94704",
       "title": "Studio Available near CAL Campus",
       "url": "https://laphamcompany.appfolio.com/listings/detail/9580cd82-e3c0-4898-b7d6-53d03c7514c6"
-    },
-    {
-      "address": "2430 Dwight Way Apt 109, Berkeley, CA 94704",
-      "source": "lapham_company",
-      "manager": "Lapham Company",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 1895.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "shared",
-      "summary": "One-bedroom, one-bathroom apartment in Berkeley near UC Berkeley with 414 sq ft, available now. Includes garage parking and on-site coin laundry.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 414,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "2430 Dwight St., 1 Bed/1 Bath, Walk to UCB",
-      "url": "https://laphamcompany.appfolio.com/listings/detail/b68f2648-e4ae-449d-9f67-c1def0b35628"
     },
     {
       "address": "356 Jayne Ave, Unit 302, Oakland, CA 94610",
@@ -4560,27 +4622,50 @@
       "url": "https://kands.appfolio.com/listings/detail/f8001034-ff98-48bf-89b2-aca26e16e396"
     },
     {
-      "address": "1988 California St. Apt 57, Berkeley, CA 94703",
+      "address": "16 Centennial Place -1, Framingham, MA 01701",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Framingham",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 1900.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": "1 bed/1 bath apartment in Framingham available now at $2,000/month.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "MA",
+      "postal_code": "01701",
+      "title": "Framingham 1 Bed/1 Bath Apartment!!!!",
+      "url": "https://structureboston.appfolio.com/listings/detail/63fdf9c3-85b1-48eb-81c6-1fca0396f623"
+    },
+    {
+      "address": "1988 California St. Apt 59, Berkeley, CA 94703",
       "source": "ks_company",
       "manager": "K&S Company",
       "city": "Berkeley",
-      "bedrooms": 1.0,
+      "bedrooms": 0.0,
       "available_date": null,
       "rent": 1925.0,
-      "unit_type": "1_bedroom",
+      "unit_type": "studio",
       "room_type": "entire_place",
       "pets": "none",
       "furnished": null,
-      "parking": null,
-      "laundry": "shared",
-      "summary": "1 bed/1 bath apartment in Berkeley near North Berkeley BART with hardwood floors and large kitchen/living space. Water and garbage included; pets not allowed.",
+      "parking": "street",
+      "laundry": null,
+      "summary": "Completely renovated studio apartment in Berkeley, 5 minutes from North Berkeley BART station. Water and garbage included; renters insurance required.",
       "available_now": true,
       "bathrooms": 1.0,
       "square_feet": null,
       "state": "CA",
       "postal_code": "94703",
-      "title": "An excellent location on California at University Ave, just a few blocks from North Berkeley BART",
-      "url": "https://kands.appfolio.com/listings/detail/f396075c-9891-4536-b304-e02d600234a3"
+      "title": "Very Bright Sunny, Quiet and Cozy location, this unit is Completely Renovated Studio.",
+      "url": "https://kands.appfolio.com/listings/detail/4a5c684a-29c9-4cce-81ad-07edc1defccd"
     },
     {
       "address": "2430 Dwight Way Apt 306, Berkeley, CA 94704",
@@ -4696,29 +4781,6 @@
       "postal_code": "94621",
       "title": "Top floor loft with views, AC and laundry in unit!",
       "url": "https://twobliving.appfolio.com/listings/detail/54e75ef0-d500-419d-a9d4-624cd80b8e2c"
-    },
-    {
-      "address": "1988 California St. Apt 59, Berkeley, CA 94703",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 1975.0,
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "street",
-      "laundry": null,
-      "summary": "Completely renovated studio apartment in Berkeley, 5 minutes from North Berkeley BART station. Water and garbage included; renters insurance required.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94703",
-      "title": "Very Bright Sunny, Quiet and Cozy location, this unit is Completely Renovated Studio.",
-      "url": "https://kands.appfolio.com/listings/detail/4a5c684a-29c9-4cce-81ad-07edc1defccd"
     },
     {
       "address": "2 Hancock Street-9, Malden, MA 02148",
@@ -5250,6 +5312,29 @@
       "url": "https://structureboston.appfolio.com/listings/detail/b03d123e-28e4-4ff5-a277-9e9095db3248"
     },
     {
+      "address": "46 Summer Street #3, Everett, MA 02149",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Everett",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 2000.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "MA",
+      "postal_code": "02149",
+      "title": null,
+      "url": "https://structureboston.appfolio.com/listings/detail/ee20e601-f1f9-4ca8-8542-d3a5bd283e16"
+    },
+    {
       "address": "14 Centennial Place -1, Framingham, MA 01701",
       "source": "structure_boston",
       "manager": "Structure Boston",
@@ -5271,29 +5356,6 @@
       "postal_code": "01701",
       "title": "14 Centennial 1",
       "url": "https://structureboston.appfolio.com/listings/detail/c3068867-f0f6-4b9e-a5ca-d7a6aef4b4ec"
-    },
-    {
-      "address": "16 Centennial Place -1, Framingham, MA 01701",
-      "source": "structure_boston",
-      "manager": "Structure Boston",
-      "city": "Framingham",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 2000.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": "1 bed/1 bath apartment in Framingham available now at $2,000/month.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "MA",
-      "postal_code": "01701",
-      "title": "Framingham 1 Bed/1 Bath Apartment!!!!",
-      "url": "https://structureboston.appfolio.com/listings/detail/63fdf9c3-85b1-48eb-81c6-1fca0396f623"
     },
     {
       "address": "4 Hanock Street - 2, Malden, MA 02148",
@@ -5710,6 +5772,29 @@
       "url": "https://structureboston.appfolio.com/listings/detail/024e4511-288e-45d6-9329-51b238328917"
     },
     {
+      "address": "11 Gibbs Ct. - 2, Waltham, MA 02452",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Waltham",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 2100.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 700,
+      "state": "MA",
+      "postal_code": "02452",
+      "title": "2 Beds/ 1 Baths Apartment!",
+      "url": "https://structureboston.appfolio.com/listings/detail/81511f45-eaba-49e1-96e1-0f1aabcfe27d"
+    },
+    {
       "address": "2236 Lincoln Ave F, Alameda, CA 94501",
       "source": "ks_company",
       "manager": "K&S Company",
@@ -5991,6 +6076,52 @@
       "postal_code": "94541",
       "title": "GORGEOUS Design! HUGE Bedroom + Beautiful Interior + Parking! 100% Pet Friendly @ The Mattox!",
       "url": "https://sgrealestate.appfolio.com/listings/detail/0fd6d42c-01f3-46e1-8578-1c65c845ed05"
+    },
+    {
+      "address": "45 W. 10th Street, - 01, Pittsburg, CA 94565",
+      "source": "sg_real_estate",
+      "manager": "SG Real Estate Co.",
+      "city": "Pittsburg",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 2195.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94565",
+      "title": "Ground Floor Large Two Bedroom with Hardwood Floors located in Historic Pittsburg! 0.8 mi to BART!",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/c7d30565-1a06-4bd7-bb0b-cec3cd4f8d7a"
+    },
+    {
+      "address": "1988 California St. Apt 61, Berkeley, CA 94703",
+      "source": "ks_company",
+      "manager": "K&S Company",
+      "city": "Berkeley",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 2197.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": "none",
+      "furnished": null,
+      "parking": "street",
+      "laundry": "shared",
+      "summary": "Two-bedroom, one-bathroom apartment in Berkeley near North Berkeley BART with hardwood floors, granite counters, and Golden Gate Bridge views. No pets allowed.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94703",
+      "title": "-An excellent location on California at University Ave, just a few blocks from North Berkeley BART",
+      "url": "https://kands.appfolio.com/listings/detail/12c5a289-1a46-4cfc-afbc-0c2b290b393b"
     },
     {
       "address": "1046 63rd Street - D, Oakland, CA 94608",
@@ -6437,29 +6568,6 @@
       "url": "https://kasaproperties.appfolio.com/listings/detail/704be55b-3d36-4249-8ee7-b260caac87b3"
     },
     {
-      "address": "1988 California St. Apt 61, Berkeley, CA 94703",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2295.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "street",
-      "laundry": "shared",
-      "summary": "Two-bedroom, one-bathroom apartment in Berkeley near North Berkeley BART with hardwood floors, granite counters, and Golden Gate Bridge views. No pets allowed.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94703",
-      "title": "-An excellent location on California at University Ave, just a few blocks from North Berkeley BART",
-      "url": "https://kands.appfolio.com/listings/detail/12c5a289-1a46-4cfc-afbc-0c2b290b393b"
-    },
-    {
       "address": "2310 Piedmont Avenue 104, Berkeley, CA 94704",
       "source": "lapham_company",
       "manager": "Lapham Company",
@@ -6573,6 +6681,29 @@
       "postal_code": "94544",
       "title": "Renovated 1BR with Private Deck, In-Unit Laundry & Covered Parking \u2013 Pets Welcome",
       "url": "https://twobliving.appfolio.com/listings/detail/21da0564-4006-42b0-86ac-c007d84b49d2"
+    },
+    {
+      "address": "333 Park View Terrace, Unit 01, Oakland, CA 94610",
+      "source": "two_b_living",
+      "manager": "2B Living",
+      "city": "Oakland",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 2295.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 750,
+      "state": "CA",
+      "postal_code": "94610",
+      "title": "Spacious and light Adam's Point apartment in classic building. Steps to Lake Merritt!",
+      "url": "https://twobliving.appfolio.com/listings/detail/09e86eb0-1fbb-42d4-b58b-97f2d8bce4a1"
     },
     {
       "address": "970 Post Street, Unit 07, San Francisco, CA 94109",
@@ -7263,29 +7394,6 @@
       "url": "https://authenticrealestate.appfolio.com/listings/detail/66b71969-70da-4698-a388-e64c4d07b51a"
     },
     {
-      "address": "2333 Dwight Way , Berkeley, CA 94704",
-      "source": "california_pacific",
-      "manager": "California Pacific Realty",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2495.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 840,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Great & Spacious 2 bedroom / 1 bath apartment on Dwight way off Telegraph",
-      "url": "https://californiapacific.appfolio.com/listings/detail/6abe60c6-b850-4d68-9c18-09cebf88d64a"
-    },
-    {
       "address": "1735 Carleton Street - D, Berkeley, CA 94703",
       "source": "ks_company",
       "manager": "K&S Company",
@@ -7723,6 +7831,36 @@
       "url": "https://kands.appfolio.com/listings/detail/5e04b394-9bb1-4c44-8ed5-286d381db58e"
     },
     {
+      "address": "1201 Pine St, Unit 463, Oakland, CA 94607-1469",
+      "source": "advent_properties",
+      "manager": "Advent Properties",
+      "city": "Oakland",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 2595.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": "cats_only",
+      "furnished": null,
+      "parking": "off_street",
+      "laundry": "in_unit",
+      "summary": "Modern 1-bed, 1-bath loft in Pacific Cannery Lofts, West Oakland with in-unit washer/dryer, assigned parking, and stainless steel appliances. One small cat or dog under 25 lbs allowed.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 922,
+      "state": "CA",
+      "postal_code": "94607",
+      "title": "Beautiful Spacious 1 Bedroom Loft at Pacific Cannery Lofts \u2013 1201 Pine St , Oakland",
+      "url": "https://adventproperties.appfolio.com/listings/detail/a95d6b39-1742-47cb-91a9-f8c4198190a0",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 2595.0,
+          "observed": 2895
+        }
+      ]
+    },
+    {
       "address": "1951 E 30th St , Apt 10, Oakland, CA 94606",
       "source": "kasa_properties",
       "manager": "Kasa Properties",
@@ -7930,6 +8068,29 @@
       "url": "https://baypropertygroup.appfolio.com/listings/detail/97a343d1-bd03-4b22-875d-755132a678f4"
     },
     {
+      "address": "2320 Haste St. Apt 12, Berkeley, CA 94704-2253",
+      "source": "ks_company",
+      "manager": "K&S Company",
+      "city": "Berkeley",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 2650.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "650ft2 - Sunny Apartment, Close to everywhere! Nearby BART & CAL",
+      "url": "https://kands.appfolio.com/listings/detail/c35eea92-24ab-497d-a090-82a772793ea0"
+    },
+    {
       "address": "3059 Adeline Street, Berkeley, CA 94703",
       "source": "lapham_company",
       "manager": "Lapham Company",
@@ -7974,29 +8135,6 @@
       "postal_code": "94709",
       "title": "A Large two-bedroom in a modern building, with newly installed Hardwood Flooring",
       "url": "https://kands.appfolio.com/listings/detail/7a588a92-9b63-49bd-8284-a562653896fa"
-    },
-    {
-      "address": "2430 Dwight Way Apt 311, Berkeley, CA 94704",
-      "source": "lapham_company",
-      "manager": "Lapham Company",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2695.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "shared",
-      "summary": "Two-bedroom, one-bathroom apartment on the top floor with private balcony, new carpet, and updated bathroom. Water and garbage included; available now.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 700,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "2430 Dwight St., 2 Bed/1 Bath, Walk to UCB",
-      "url": "https://laphamcompany.appfolio.com/listings/detail/83c3a47f-b145-4b8e-a91d-7ace05cf2313"
     },
     {
       "address": "201 W. Prospect Avenue 09, Danville, CA 94526",
@@ -8068,52 +8206,6 @@
       "url": "https://utopiamanagement.appfolio.com/listings/detail/9874acb0-b95c-44d3-9a85-23fab0af2332"
     },
     {
-      "address": "19770 Sprague Ct, Castro Valley, CA 94546",
-      "source": "authentic_properties",
-      "manager": "Authentic Properties",
-      "city": "Castro Valley",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 2700.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": "furnished",
-      "parking": "off_street",
-      "laundry": null,
-      "summary": "Fully furnished one-bedroom cottage with private entrance, off-street parking, and all utilities included; available now for short-term or longer lease.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 700,
-      "state": "CA",
-      "postal_code": "94546",
-      "title": "Furnished One Bedroom Cottage in Castro Valley",
-      "url": "https://authenticrealestate.appfolio.com/listings/detail/c0c5f577-c08f-423d-a537-33d41c9f2046"
-    },
-    {
-      "address": "1273 Massachusetts Avenue - 3, Boston, MA 02125",
-      "source": "structure_boston",
-      "manager": "Structure Boston",
-      "city": "Boston",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2700.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": "street",
-      "laundry": "shared",
-      "summary": "Two-bedroom, one-bathroom apartment in Dorchester with hardwood floors, modern kitchen, and additional office/den space. Available now.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 1000,
-      "state": "MA",
-      "postal_code": "02125",
-      "title": null,
-      "url": "https://structureboston.appfolio.com/listings/detail/5d552504-3b16-40e4-80cf-62e62ffef9ed"
-    },
-    {
       "address": "950 63rd Street, Unit 310, Oakland, CA 94608",
       "source": "two_b_living",
       "manager": "2B Living",
@@ -8181,6 +8273,29 @@
       "postal_code": "02125",
       "title": "3 Beds/2 Baths Apartment! Available 04/01",
       "url": "https://structureboston.appfolio.com/listings/detail/27907ea4-b4bd-4012-a106-5a8dd282c562"
+    },
+    {
+      "address": "1273 Massachusetts Avenue - 3, Boston, MA 02125",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Boston",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 2775.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": "street",
+      "laundry": "shared",
+      "summary": "Two-bedroom, one-bathroom apartment in Dorchester with hardwood floors, modern kitchen, and additional office/den space. Available now.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 1000,
+      "state": "MA",
+      "postal_code": "02125",
+      "title": null,
+      "url": "https://structureboston.appfolio.com/listings/detail/5d552504-3b16-40e4-80cf-62e62ffef9ed"
     },
     {
       "address": "2041 Robin Dr, Fairfield, CA 94533-2332",
@@ -8289,6 +8404,29 @@
       "url": "https://laphamcompany.appfolio.com/listings/detail/175a7bb4-bcb6-4e34-a739-b95638b92e28"
     },
     {
+      "address": "3253 Ettie St. - 4, Emeryville, CA 94608",
+      "source": "all_east_bay",
+      "manager": "All East Bay Properties",
+      "city": "Emeryville",
+      "bedrooms": 3.0,
+      "available_date": null,
+      "rent": 2850.0,
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.5,
+      "square_feet": 1256,
+      "state": "CA",
+      "postal_code": "94608",
+      "title": "Multi level 2bd plus large loft with in unit washer & dryer,Close to Shopping, Bay Bridge and all modes of transportation.",
+      "url": "https://alleastbayproperties.appfolio.com/listings/detail/e39282fe-249e-4d8f-836e-a120664c2ada"
+    },
+    {
       "address": "257 Athol Avenue - 6, Oakland, CA 94606",
       "source": "bay_property_group",
       "manager": "Bay Property Group",
@@ -8310,29 +8448,6 @@
       "postal_code": "94606",
       "title": "2 Bedroom Spacious newly updated unit ready now!",
       "url": "https://baypropertygroup.appfolio.com/listings/detail/fa862b13-7de7-4f2e-b98a-df589b8042d4"
-    },
-    {
-      "address": "1201 Pine St, Unit 463, Oakland, CA 94607-1469",
-      "source": "advent_properties",
-      "manager": "Advent Properties",
-      "city": "Oakland",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 2895.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "cats_only",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Modern 1-bed, 1-bath loft in Pacific Cannery Lofts, West Oakland with in-unit washer/dryer, assigned parking, and stainless steel appliances. One small cat or dog under 25 lbs allowed.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 922,
-      "state": "CA",
-      "postal_code": "94607",
-      "title": "Beautiful Spacious 1 Bedroom Loft at Pacific Cannery Lofts \u2013 1201 Pine St , Oakland",
-      "url": "https://adventproperties.appfolio.com/listings/detail/a95d6b39-1742-47cb-91a9-f8c4198190a0"
     },
     {
       "address": "1033 Minna Street, San Francisco, CA 94103",
@@ -8694,29 +8809,6 @@
       "url": "https://laphamcompany.appfolio.com/listings/detail/6389f007-6731-4e9c-8d1f-c3101c438ad8"
     },
     {
-      "address": "22 Centennial Place - Unit 2 , Framingham, MA 01701",
-      "source": "structure_boston",
-      "manager": "Structure Boston",
-      "city": "Framingham",
-      "bedrooms": 3.0,
-      "available_date": null,
-      "rent": 3000.0,
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": "in_unit",
-      "summary": "3-bedroom, 2-bathroom apartment in Framingham with in-unit washer/dryer and dishwasher.",
-      "available_now": true,
-      "bathrooms": 2.0,
-      "square_feet": null,
-      "state": "MA",
-      "postal_code": "01701",
-      "title": null,
-      "url": "https://structureboston.appfolio.com/listings/detail/cc718e0b-ddc4-4385-b6e2-e3c73908d241"
-    },
-    {
       "address": "2725 Haste Street 106, Berkeley, CA 94704-2469",
       "source": "lapham_company",
       "manager": "Lapham Company",
@@ -8738,6 +8830,36 @@
       "postal_code": "94704",
       "title": "2725 Haste, 2 Bedroom, Super Clean, Walk to UCB",
       "url": "https://laphamcompany.appfolio.com/listings/detail/a5417fc4-4fea-40a0-b62a-58963306ea16"
+    },
+    {
+      "address": "1201 Green Street, #4, San Francisco, CA 94109",
+      "source": "west_coast_pm",
+      "manager": "West Coast Property Management",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": null,
+      "rent": 3050.0,
+      "unit_type": "studio",
+      "room_type": "entire_place",
+      "pets": "none",
+      "furnished": null,
+      "parking": null,
+      "laundry": "shared",
+      "summary": "Remodeled studio apartment with 1 bathroom in Russian Hill, San Francisco. 450 sq ft with hardwood and marble finishes, available now.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 450,
+      "state": "CA",
+      "postal_code": "94109",
+      "title": "$3,050 Bright, Remodeled, Hdwd, Marble bthrm, Large Kitchen! PICS!",
+      "url": "https://wcpm.appfolio.com/listings/detail/3157d943-3498-47fe-a0db-88b1b7e08922",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 3050.0,
+          "observed": 3395
+        }
+      ]
     },
     {
       "address": "3057 Adeline Street, Berkeley, CA 94703",
@@ -8809,14 +8931,44 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/350da64e-2b4d-4ed3-866a-1fac25676968"
     },
     {
-      "address": "3006 San Pablo Ave, Berkeley, CA 94702",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
+      "address": "12 Centennial Place -2, Framingham, MA 01701",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Framingham",
+      "bedrooms": 3.0,
       "available_date": null,
-      "rent": 3095.0,
-      "unit_type": "1_bedroom",
+      "rent": 3100.0,
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": "3-bedroom, 2-bathroom apartment in Framingham available now at $3,300/month.",
+      "available_now": true,
+      "bathrooms": 2.0,
+      "square_feet": null,
+      "state": "MA",
+      "postal_code": "01701",
+      "title": null,
+      "url": "https://structureboston.appfolio.com/listings/detail/6e8ddc61-1f75-4526-b950-4bd7fafb609e",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 3100.0,
+          "observed": 3300
+        }
+      ]
+    },
+    {
+      "address": "3700 20th Street, #35, San Francisco, CA 94110",
+      "source": "west_coast_pm",
+      "manager": "West Coast Property Management",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": null,
+      "rent": 3195.0,
+      "unit_type": "studio",
       "room_type": "entire_place",
       "pets": null,
       "furnished": null,
@@ -8824,35 +8976,42 @@
       "laundry": null,
       "summary": null,
       "available_now": true,
-      "bathrooms": 0.0,
-      "square_feet": 609,
+      "bathrooms": 1.0,
+      "square_feet": 571,
       "state": "CA",
-      "postal_code": "94702",
-      "title": "Perfect 1 Bedroom Apartment at Aquatic Higby! Now Leasing for 2026\u20132027",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/5781815c-0cea-4e91-a453-f71e9c53d9b6"
+      "postal_code": "94110",
+      "title": "3700 20th St #35 - Elegant Studio by Dolores Park w/Laundry, Bike Room",
+      "url": "https://wcpm.appfolio.com/listings/detail/fd663be8-1e8c-4099-b4ae-ea92172b15c9"
     },
     {
-      "address": "66 Fairmount Ave Unit 219, oakland, CA 94611",
-      "source": "korman_and_ng",
-      "manager": "Korman & Ng Real Estate Services",
-      "city": "Oakland",
-      "bedrooms": 2.0,
+      "address": "22 Centennial Place - Unit 2 , Framingham, MA 01701",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Framingham",
+      "bedrooms": 3.0,
       "available_date": null,
       "rent": 3200.0,
-      "unit_type": "2_bedroom",
+      "unit_type": "3plus_bedroom",
       "room_type": "entire_place",
-      "pets": "allowed",
+      "pets": null,
       "furnished": null,
-      "parking": "garage",
-      "laundry": "shared",
-      "summary": "Spacious 2-bed, 2-bath corner-unit condo in Westlake with modern updates, wood-burning fireplace, and patio. Includes one garage parking space and shared laundry.",
+      "parking": null,
+      "laundry": "in_unit",
+      "summary": "3-bedroom, 2-bathroom apartment in Framingham with in-unit washer/dryer and dishwasher.",
       "available_now": true,
       "bathrooms": 2.0,
       "square_feet": null,
-      "state": "CA",
-      "postal_code": "94611",
-      "title": "2B2B - Prime Westlake Location Spacious Corner-unit Condo",
-      "url": "https://kormanandng.appfolio.com/listings/detail/9ca536ce-be14-4a6e-82bf-443b2a2ef758"
+      "state": "MA",
+      "postal_code": "01701",
+      "title": null,
+      "url": "https://structureboston.appfolio.com/listings/detail/cc718e0b-ddc4-4385-b6e2-e3c73908d241",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 3200.0,
+          "observed": 3000
+        }
+      ]
     },
     {
       "address": "430 9th Avenue # 5, San Francisco, CA 94118",
@@ -8922,6 +9081,29 @@
       "postal_code": "94010",
       "title": "Newly Renovated 1 Bedroom Apartment in Downtown Burlingame!",
       "url": "https://twobliving.appfolio.com/listings/detail/a68cfee0-078e-423e-83d3-f6fb24465e90"
+    },
+    {
+      "address": "2107 Larkin St. Apt 2, San Francisco, CA 94109",
+      "source": "chandler_properties",
+      "manager": "Chandler Properties",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": null,
+      "rent": 3295.0,
+      "unit_type": "studio",
+      "room_type": "entire_place",
+      "pets": "none",
+      "furnished": null,
+      "parking": "street",
+      "laundry": "shared",
+      "summary": "Studio apartment in Russian Hill with updated kitchen, stainless steel appliances, and plank flooring. Water and garbage included; parking available for additional monthly fee.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 500,
+      "state": "CA",
+      "postal_code": "94109",
+      "title": "Beautiful Studio in Russian Hill",
+      "url": "https://chandlerproperties.appfolio.com/listings/detail/d15f2291-b017-4d67-bdf0-303c9892b883"
     },
     {
       "address": "2132 Roosevelt Avenue 6, Berkeley, CA 94703",
@@ -8998,29 +9180,6 @@
       "postal_code": "94704",
       "title": "This 2-BDR apartment offers spacious closets, two bathrooms",
       "url": "https://kands.appfolio.com/listings/detail/fa25d6bb-8005-42dd-ab8b-10bc1b110a2e"
-    },
-    {
-      "address": "12 Centennial Place -2, Framingham, MA 01701",
-      "source": "structure_boston",
-      "manager": "Structure Boston",
-      "city": "Framingham",
-      "bedrooms": 3.0,
-      "available_date": null,
-      "rent": 3300.0,
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": "3-bedroom, 2-bathroom apartment in Framingham available now at $3,300/month.",
-      "available_now": true,
-      "bathrooms": 2.0,
-      "square_feet": null,
-      "state": "MA",
-      "postal_code": "01701",
-      "title": null,
-      "url": "https://structureboston.appfolio.com/listings/detail/6e8ddc61-1f75-4526-b950-4bd7fafb609e"
     },
     {
       "address": "1401 Jackson Street - 502, Oakland, CA 94612",
@@ -9329,6 +9488,29 @@
       "url": "https://profpm.appfolio.com/listings/detail/cf1b5420-616a-45ca-8b53-d0d7f947feb1"
     },
     {
+      "address": "562 Main st -2 Medford MA 02155, Medford, MA 02155",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Medford",
+      "bedrooms": 4.0,
+      "available_date": null,
+      "rent": 3595.0,
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "MA",
+      "postal_code": "02155",
+      "title": null,
+      "url": "https://structureboston.appfolio.com/listings/detail/1b47ebeb-3c84-4451-b5f8-a72461549476"
+    },
+    {
       "address": "2905 Van Ness Ave, #201, San Francisco, CA 94109",
       "source": "west_coast_pm",
       "manager": "West Coast Property Management",
@@ -9373,6 +9555,29 @@
       "postal_code": "94541",
       "title": "Beautiful End Unit Townhouse",
       "url": "https://perkins.appfolio.com/listings/detail/ab744d63-5280-48f5-8088-c535c32316ab"
+    },
+    {
+      "address": "3146-3150 Washington Street - 3146-2, Jamaica Plain, MA 02130",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Jamaica Plain",
+      "bedrooms": 3.0,
+      "available_date": null,
+      "rent": 3600.0,
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.5,
+      "square_feet": 1250,
+      "state": "MA",
+      "postal_code": "02130",
+      "title": "Available 3 Beds/1.5 Baths Apartment!",
+      "url": "https://structureboston.appfolio.com/listings/detail/5a3dd768-0290-4425-8800-3c4d91b5456d"
     },
     {
       "address": "3148 Washington Street - 3, Jamaica Plain, MA 02130",
@@ -9442,6 +9647,29 @@
       "postal_code": "94704",
       "title": "2br - 780ft2 - Prime location! One block to UCB",
       "url": "https://kands.appfolio.com/listings/detail/7a4f5301-9854-4c6e-89d1-61959ca15079"
+    },
+    {
+      "address": "55 Everit Ave- A, Framingham, MA 01702",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Framingham",
+      "bedrooms": 3.0,
+      "available_date": null,
+      "rent": 3650.0,
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": "allowed",
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": "3-bedroom, 2.5-bathroom entire apartment in Framingham available now. Cats and small dogs allowed with landlord approval.",
+      "available_now": true,
+      "bathrooms": 2.5,
+      "square_feet": 1356,
+      "state": "MA",
+      "postal_code": "01702",
+      "title": null,
+      "url": "https://structureboston.appfolio.com/listings/detail/15d45b0e-a0d2-4c75-b09b-5b6d931069ad"
     },
     {
       "address": "2540 College Ave - 106, Berkeley, CA 94704",
@@ -9580,29 +9808,6 @@
       "postal_code": "94806",
       "title": "Remodeled 4 bedroom Single Story Home in San Pablo, CA.",
       "url": "https://profpm.appfolio.com/listings/detail/d9d731f7-83ab-4b31-8282-769a94b34987"
-    },
-    {
-      "address": "55 Everit Ave- A, Framingham, MA 01702",
-      "source": "structure_boston",
-      "manager": "Structure Boston",
-      "city": "Framingham",
-      "bedrooms": 3.0,
-      "available_date": null,
-      "rent": 3750.0,
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": "3-bedroom, 2.5-bathroom entire apartment in Framingham available now. Cats and small dogs allowed with landlord approval.",
-      "available_now": true,
-      "bathrooms": 2.5,
-      "square_feet": 1356,
-      "state": "MA",
-      "postal_code": "01702",
-      "title": null,
-      "url": "https://structureboston.appfolio.com/listings/detail/15d45b0e-a0d2-4c75-b09b-5b6d931069ad"
     },
     {
       "address": "28 Centennial Place - 2L, Framingham, MA 01701",
@@ -9904,29 +10109,6 @@
       "url": "https://twobliving.appfolio.com/listings/detail/1e1d1a8c-faa7-4d14-8a58-6442de7781ae"
     },
     {
-      "address": "1556 Brunswig Lane, Emeryville, CA 94608",
-      "source": "utopia_management",
-      "manager": "Utopia Management",
-      "city": "Emeryville",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 4095.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Two-bedroom, 2.5-bath townhouse in gated Bay Street Complex with sunset view, hardwood floors, and stainless steel appliances. $750 move-in special.",
-      "available_now": true,
-      "bathrooms": 2.5,
-      "square_feet": 1465,
-      "state": "CA",
-      "postal_code": "94608",
-      "title": "$750 MOVE IN SPECIAL!!! Two Story Two Bedroom Townhouse Unit With Sunset View Available at Bay Street Complex in Emeryville!!!",
-      "url": "https://utopiamanagement.appfolio.com/listings/detail/cfb15eac-54fa-44b8-9b66-21eb3b9a7d20"
-    },
-    {
       "address": "2024 Vine Street Unit 1A, Berkeley, CA 94709",
       "source": "ks_company",
       "manager": "K&S Company",
@@ -10040,29 +10222,6 @@
       "postal_code": "95119",
       "title": "3 bed 2 bath Available in San Jose! | $4,395",
       "url": "https://utopiamanagement.appfolio.com/listings/detail/1410684c-6ace-4448-bce9-5e7b1509a762"
-    },
-    {
-      "address": "2526 Durant Avenue 402, Berkeley, CA 94704-1715",
-      "source": "lapham_company",
-      "manager": "Lapham Company",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 4400.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": null,
-      "laundry": "shared",
-      "summary": "2-bedroom, 2-bathroom apartment at SouthGate Apartments near UC Berkeley with granite counters, dishwasher, and roof deck access. Water and garbage included; no pets allowed.",
-      "available_now": true,
-      "bathrooms": 2.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Welcome to The SouthGate Apartments, just steps from U.C. Berkeley and all manner of shops and restaurants to meet your needs.",
-      "url": "https://laphamcompany.appfolio.com/listings/detail/56ea0071-d4d8-4393-a319-661d4ccbf563"
     },
     {
       "address": "354 25th Ave, Apt 2, San Francisco, CA 94121-1937",
@@ -10410,7 +10569,7 @@
       "city": "San Francisco",
       "bedrooms": 2.0,
       "available_date": null,
-      "rent": 5295.0,
+      "rent": 5150.0,
       "unit_type": "2_bedroom",
       "room_type": "entire_place",
       "pets": null,
@@ -10494,29 +10653,6 @@
       "postal_code": "95120",
       "title": "Remodeled Bathrooms- Fresh Interior Paint - 9,382 Square Foot Lot- 5.5 Miles from IBM Research Lab",
       "url": "https://goldenstate.appfolio.com/listings/detail/ce23f559-b6f9-496b-9c48-fac949f82ed0"
-    },
-    {
-      "address": "710 W Orange Ave , South San Francisco, CA 94080",
-      "source": "utopia_management",
-      "manager": "Utopia Management",
-      "city": "South San Francisco",
-      "bedrooms": 4.0,
-      "available_date": null,
-      "rent": 5895.0,
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": null,
-      "laundry": "in_unit",
-      "summary": "Fully remodeled 4-bedroom, 2-bathroom house in South San Francisco with 1,400 sq ft, garage, fenced yard, and in-unit washer/dryer. No pets allowed.",
-      "available_now": true,
-      "bathrooms": 2.0,
-      "square_feet": 1400,
-      "state": "CA",
-      "postal_code": "94080",
-      "title": "Spacious 4 Bedroom/2Bathroom Home in South San Francisco!",
-      "url": "https://utopiamanagement.appfolio.com/listings/detail/1e368c34-8814-463c-b43a-afe2030432ed"
     },
     {
       "address": "1752 Shattuck Avenue, Unit 406, Berkeley, CA 94709",
@@ -10664,6 +10800,29 @@
       "url": "https://kands.appfolio.com/listings/detail/82a9065b-3b7e-4862-9889-1ab60df90e6e"
     },
     {
+      "address": "2068 McAllister Street - 2068, San Francisco, CA 94118",
+      "source": "structure_properties",
+      "manager": "Structure Properties",
+      "city": "San Francisco",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 6295.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.5,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94118",
+      "title": "Spacious Top Floor NOPA 2BR/1.5BA",
+      "url": "https://spsf.appfolio.com/listings/detail/54090975-ce89-45b8-b385-1026749d67c3"
+    },
+    {
       "address": "205 Collins Street #5, San Francisco, CA 94118",
       "source": "structure_properties",
       "manager": "Structure Properties",
@@ -10731,29 +10890,6 @@
       "postal_code": "94560",
       "title": "3 Homes On One Lot/Perfect for Large Group or Family -- Available Now!!!",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/c5bbdeed-c370-49ac-86bf-5535e2840d9b"
-    },
-    {
-      "address": "609 Poinsettia Ave, San Mateo, CA 94403",
-      "source": "perkins_realty",
-      "manager": "Perkins Realty Partners",
-      "city": "San Mateo",
-      "bedrooms": 4.0,
-      "available_date": null,
-      "rent": 7500.0,
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "in_unit",
-      "summary": "Large 4-bedroom, 3-bathroom updated home in San Mateo with 2,640 sq ft, including family room, bonus room, and backyard with deck and fruit trees.",
-      "available_now": true,
-      "bathrooms": 3.0,
-      "square_feet": 2640,
-      "state": "CA",
-      "postal_code": "94403",
-      "title": "Large updated home in San Mateo Village!",
-      "url": "https://perkins.appfolio.com/listings/detail/1362f1dd-0413-4fc8-b3f5-c3641bef8e2c"
     },
     {
       "address": "2480 Bancroft Avenue, 700, Berkeley, CA 94704",
@@ -12871,7 +13007,7 @@
       "city": "Oakland",
       "bedrooms": 1.0,
       "available_date": "2026-07-01",
-      "rent": 1695.0,
+      "rent": 1595.0,
       "unit_type": "1_bedroom",
       "room_type": "private_room",
       "pets": null,
@@ -12885,7 +13021,14 @@
       "state": "CA",
       "postal_code": "94619",
       "title": "3669 39th Ave - 7",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/79764"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/79764",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 1595.0,
+          "observed": 1695
+        }
+      ]
     },
     {
       "address": "3669 39th Ave - 9, Oakland, CA 94619",
@@ -12894,7 +13037,7 @@
       "city": "Oakland",
       "bedrooms": 1.0,
       "available_date": "2026-07-01",
-      "rent": 1695.0,
+      "rent": 1595.0,
       "unit_type": "1_bedroom",
       "room_type": "entire_place",
       "pets": "cats_only",
@@ -12908,7 +13051,14 @@
       "state": "CA",
       "postal_code": "94619",
       "title": "3669 39th Ave - 9",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/91896"
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/91896",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 1595.0,
+          "observed": 1695
+        }
+      ]
     },
     {
       "address": "2417 Blake Street #2, Berkeley, CA 94704",
@@ -13376,6 +13526,29 @@
       "url": "https://communityrealtypm.appfolio.com/listings/detail/4bad92e0-50a2-4a1f-98bd-291460835798"
     },
     {
+      "address": "482 40th Street - 26, Oakland, CA 94609",
+      "source": "mpm_oakland",
+      "manager": "MPM Oakland",
+      "city": "Oakland",
+      "bedrooms": 0.0,
+      "available_date": "2026-07-30",
+      "rent": 1695.0,
+      "unit_type": "studio",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94609",
+      "title": "482 40th Street - 26",
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95435"
+    },
+    {
       "address": "529 Stevenson Street #415, San Francisco, CA 94103",
       "source": "structure_properties",
       "manager": "Structure Properties",
@@ -13399,50 +13572,27 @@
       "url": "https://spsf.appfolio.com/listings/detail/0cee2c93-54e3-4cf5-9e5d-00d1bc52f36f"
     },
     {
-      "address": "1009 E 22nd Street, Oakland, CA 94606",
-      "source": "selborne_properties",
-      "manager": "Selborne Properties",
-      "city": "Oakland",
-      "bedrooms": 1.0,
-      "available_date": "2026-07-31",
-      "rent": 1695.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": null,
-      "laundry": "shared",
-      "summary": "One-bedroom, one-bathroom apartment near Lake Merritt with 650 square feet. On-site coin-op laundry available; parking costs extra.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 650,
-      "state": "CA",
-      "postal_code": "94606",
-      "title": "Great One Bedroom Near Lake Merritt",
-      "url": "https://selborne.appfolio.com/listings/detail/90cd372a-f917-4fb0-8460-d784f2b0fa89"
-    },
-    {
-      "address": "9308 Bancroft Ave., Oakland, CA 94603",
-      "source": "community_realty",
-      "manager": "Community Realty Property Management",
-      "city": "Oakland",
-      "bedrooms": 1.0,
-      "available_date": "2026-07-31",
-      "rent": 1750.0,
-      "unit_type": "1_bedroom",
+      "address": "2070 University Avenue, 2072, Berkeley, CA 94704",
+      "source": "raj_properties",
+      "manager": "Raj Properties",
+      "city": "Berkeley",
+      "bedrooms": 0.0,
+      "available_date": "2026-07-30",
+      "rent": 9000.0,
+      "unit_type": "studio",
       "room_type": "entire_place",
       "pets": null,
       "furnished": null,
-      "parking": "off_street",
-      "laundry": "shared",
-      "summary": "One-bedroom, one-bathroom apartment in Oakland, recently remodeled, with assigned parking and on-site laundry. Water and garbage included.",
+      "parking": null,
+      "laundry": null,
+      "summary": null,
       "available_now": false,
       "bathrooms": 1.0,
-      "square_feet": null,
+      "square_feet": 2415,
       "state": "CA",
-      "postal_code": "94603",
-      "title": "Coming soon - One bedroom apartment in Oakland!",
-      "url": "https://communityrealtypm.appfolio.com/listings/detail/932b24cf-182b-4649-a423-a95c4696c056"
+      "postal_code": "94704",
+      "title": "2070 University Avenue, 2072",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/64155"
     },
     {
       "address": "5420 Foothill Blvd, Oakland, CA 94601",
@@ -13489,98 +13639,6 @@
       "postal_code": "94603",
       "title": "Two bedroom apartment coming soon on 94th Ave, Oakland.",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/0238a88e-69a4-466a-96d1-5d79e6f115b7"
-    },
-    {
-      "address": "2943 MacArthur Blvd. #201, Oakland, CA 94602",
-      "source": "community_realty",
-      "manager": "Community Realty Property Management",
-      "city": "Oakland",
-      "bedrooms": 2.0,
-      "available_date": "2026-07-31",
-      "rent": 2250.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "shared",
-      "summary": "Spacious 2-bedroom, 2-bathroom apartment in a secured building with gated garage. One parking space included; laundry room on-site.",
-      "available_now": false,
-      "bathrooms": 2.0,
-      "square_feet": 1024,
-      "state": "CA",
-      "postal_code": "94602",
-      "title": "Spacious 2 Bedroom apartment - Coming soon!",
-      "url": "https://communityrealtypm.appfolio.com/listings/detail/7e23c6b0-4438-4e5a-b1fe-d8c6070f467a"
-    },
-    {
-      "address": "333 Park View Terrace, Unit 01, Oakland, CA 94610",
-      "source": "two_b_living",
-      "manager": "2B Living",
-      "city": "Oakland",
-      "bedrooms": 1.0,
-      "available_date": "2026-07-31",
-      "rent": 2295.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 750,
-      "state": "CA",
-      "postal_code": "94610",
-      "title": "Spacious and light Adam's Point apartment in classic building. Steps to Lake Merritt!",
-      "url": "https://twobliving.appfolio.com/listings/detail/09e86eb0-1fbb-42d4-b58b-97f2d8bce4a1"
-    },
-    {
-      "address": "2320 Haste St. Apt 12, Berkeley, CA 94704-2253",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": "2026-07-31",
-      "rent": 2650.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "650ft2 - Sunny Apartment, Close to everywhere! Nearby BART & CAL",
-      "url": "https://kands.appfolio.com/listings/detail/c35eea92-24ab-497d-a090-82a772793ea0"
-    },
-    {
-      "address": "2068 McAllister Street - 2068, San Francisco, CA 94118",
-      "source": "structure_properties",
-      "manager": "Structure Properties",
-      "city": "San Francisco",
-      "bedrooms": 2.0,
-      "available_date": "2026-07-31",
-      "rent": 6295.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.5,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94118",
-      "title": "Spacious Top Floor NOPA 2BR/1.5BA",
-      "url": "https://spsf.appfolio.com/listings/detail/54090975-ce89-45b8-b385-1026749d67c3"
     },
     {
       "address": "2338 Telegraph Ave. - Unit 335-A2, Berkeley, CA 94704",
@@ -14199,6 +14257,29 @@
       "url": "https://communityrealtypm.appfolio.com/listings/detail/1f3f0266-1c16-4df4-8342-9706688df99b"
     },
     {
+      "address": "2150 Kittredge , Berkeley, CA 94704",
+      "source": "sg_real_estate",
+      "manager": "SG Real Estate Co.",
+      "city": "Berkeley",
+      "bedrooms": 2.0,
+      "available_date": "2026-08-01",
+      "rent": 1790.0,
+      "unit_type": "2_bedroom",
+      "room_type": "private_room",
+      "pets": "allowed",
+      "furnished": "furnished",
+      "parking": "off_street",
+      "laundry": "in_unit",
+      "summary": "Private bedroom with attached bathroom in a 2-bedroom unit at The Kittredge, a fully furnished modern building one block from UC Berkeley. Rent is $1,995/month and includes in-unit washer/dryer, rooftop with 360-degree views, dog run, and parking.",
+      "available_now": false,
+      "bathrooms": 2.0,
+      "square_feet": 965,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "Private Bedroom w/ Attached Bathroom $1790 {Limited Time Flash Sale}",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/184de59e-e721-4778-9528-5205387e5386"
+    },
+    {
       "address": "1918 Channing Way - A, Berkeley, CA 94704",
       "source": "domingo_properties",
       "manager": "Domingo Properties",
@@ -14365,29 +14446,6 @@
       "postal_code": "94704",
       "title": "450ft2 - Sunny Studio Apartment, Close to everywhere! Near by BART",
       "url": "https://kands.appfolio.com/listings/detail/ee435a64-4917-4723-8240-4dbb41527866"
-    },
-    {
-      "address": "2150 Kittredge , Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": "2026-08-01",
-      "rent": 1995.0,
-      "unit_type": "2_bedroom",
-      "room_type": "private_room",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Private bedroom with attached bathroom in a 2-bedroom unit at The Kittredge, a fully furnished modern building one block from UC Berkeley. Rent is $1,995/month and includes in-unit washer/dryer, rooftop with 360-degree views, dog run, and parking.",
-      "available_now": false,
-      "bathrooms": 2.0,
-      "square_feet": 965,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Private Bedroom w/ Attached Bathroom $1995 {Limited Time Flash Sale}",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/184de59e-e721-4778-9528-5205387e5386"
     },
     {
       "address": "2150 Kittredge St - 403., Berkeley, CA 94704",
@@ -14627,6 +14685,29 @@
       ]
     },
     {
+      "address": "640 Polk Street, #601, San Francisco, CA 94102",
+      "source": "west_coast_pm",
+      "manager": "West Coast Property Management",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": "2026-08-01",
+      "rent": 2375.0,
+      "unit_type": "studio",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94102",
+      "title": "$2,375 Top Floor Deluxe, City Hall, Opera, Civic Center, Symphony, BART, Pics!",
+      "url": "https://wcpm.appfolio.com/listings/detail/d26fce22-c513-4571-b3d5-7533cf1545ac"
+    },
+    {
       "address": "1084 16th St., Oakland, CA 94607",
       "source": "bay_property_group",
       "manager": "Bay Property Group",
@@ -14648,29 +14729,6 @@
       "postal_code": "94607",
       "title": "UPDATED 1000 sf 2 BR/1BA Oak Center/West Oakland Cottage Minutes from Emeryville, Downtown, 80, 580, 880, 980 Fwy's",
       "url": "https://baypropertygroup.appfolio.com/listings/detail/6bc63a36-bd20-4963-af09-b12e805a1350"
-    },
-    {
-      "address": "939 Lexington Ave. Apt 12, El Cerrito, CA",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "El Cerrito",
-      "bedrooms": 2.0,
-      "available_date": "2026-08-01",
-      "rent": 2395.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "shared",
-      "summary": "Two-bedroom, one-bathroom apartment in El Cerrito with one included parking space. Water and garbage included; coin-operated laundry available in building.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": null,
-      "title": "939 Lexington Ave. #12, El Cerrito, CA 94530",
-      "url": "https://kands.appfolio.com/listings/detail/f2402fca-fb51-458a-99a4-1d36c1da9290"
     },
     {
       "address": "2701 Shattuck Ave - 211, Berkeley, CA 94705",
@@ -14855,29 +14913,6 @@
       "postal_code": "94806",
       "title": "2 Bed 2 Bath Condo in San Pablo - COMING SOON!!",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/d08edc04-f43b-4082-a93b-6e8affd7426d"
-    },
-    {
-      "address": "2428 Ellsworth St Apt 305, Berkeley, CA 94704",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": "2026-08-01",
-      "rent": 2695.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "shared",
-      "summary": "Updated 2-bedroom, 1-bathroom apartment on the top floor near UC Berkeley campus, available August 1, 2026. Water and garbage included; pets not allowed.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "COMING SOON -Updated Top Floor Unit Near Campus, Shattuck Ave. & Telegraph Ave.",
-      "url": "https://kands.appfolio.com/listings/detail/08fd267b-1a1f-4a82-a8bc-3114c20af5b8"
     },
     {
       "address": "1901 Dwight Way - 102, Berkeley, CA 94704",
@@ -15324,27 +15359,34 @@
       "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/81477"
     },
     {
-      "address": "2638 Fisher Avenue, Oakland, CA 94605",
-      "source": "mpm_oakland",
-      "manager": "MPM Oakland",
-      "city": "Oakland",
+      "address": "785 Duke Circle, Pleasant Hill, CA 94523",
+      "source": "authentic_properties",
+      "manager": "Authentic Properties",
+      "city": "Pleasant Hill",
       "bedrooms": 3.0,
       "available_date": "2026-08-01",
-      "rent": 3795.0,
+      "rent": 3995.0,
       "unit_type": "3plus_bedroom",
       "room_type": "entire_place",
-      "pets": null,
+      "pets": "none",
       "furnished": null,
       "parking": "garage",
-      "laundry": null,
-      "summary": "3 bedroom, 1.5 bathroom house in Oakland with high-end finishes including marble countertops and stainless steel appliances. One-car garage plus driveway parking and fenced yard. Available August 1, 2026.",
+      "laundry": "in_unit",
+      "summary": "A 3-bedroom, 2.5-bathroom 1950s home in Pleasant Hill with attached garage, original wood floors, upgraded kitchen and bathrooms, and a fenced yard with patio.",
       "available_now": false,
-      "bathrooms": 1.5,
-      "square_feet": null,
+      "bathrooms": 2.5,
+      "square_feet": 1592,
       "state": "CA",
-      "postal_code": "94605",
-      "title": "2638 Fisher Avenue",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/70908"
+      "postal_code": "94523",
+      "title": "Great Location 3 BD, 2.5 BA in Pleasant Hill With Garage",
+      "url": "https://authenticrealestate.appfolio.com/listings/detail/431ee71c-7875-4158-9d9b-ce17bc31791a",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 3995.0,
+          "observed": 4395
+        }
+      ]
     },
     {
       "address": "870 Appian Way - A, El Sobrante, CA 94803",
@@ -15387,6 +15429,89 @@
       ]
     },
     {
+      "address": "2150 Kittredge- Fall 2026-2027 [Standard], Berkeley, CA 94704",
+      "source": "sg_real_estate",
+      "manager": "SG Real Estate Co.",
+      "city": "Berkeley",
+      "bedrooms": 2.0,
+      "available_date": "2026-08-01",
+      "rent": 3995.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": "allowed",
+      "furnished": "furnished",
+      "parking": "garage",
+      "laundry": "in_unit",
+      "summary": "Fully furnished two-bedroom, two-bathroom apartment in a new building one block from UC Berkeley, available August 1, 2026. Building amenities include rooftop deck, dog run, and in-unit washer/dryer.",
+      "available_now": false,
+      "bathrooms": 2.0,
+      "square_feet": 1234,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "1 MONTH FREE + LOOK & LEASE! $1000 Amazon Gift card! Fully Furnished Two Bedroom Two Bath Suites! Welcome to The Kittredge! Across from UC Berkeley!",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/ccb2189d-f51f-4a32-8d75-07c6827f5265",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 3995.0,
+          "observed": 5395
+        }
+      ]
+    },
+    {
+      "address": "2150 Kittredge St - 624, Berkeley, CA 94704",
+      "source": "sg_real_estate",
+      "manager": "SG Real Estate Co.",
+      "city": "Berkeley",
+      "bedrooms": 2.0,
+      "available_date": "2026-08-01",
+      "rent": 3995.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": "allowed",
+      "furnished": "furnished",
+      "parking": "off_street",
+      "laundry": "in_unit",
+      "summary": "Ultra-modern 2-bedroom, 2-bathroom apartment at The Kittredge in Berkeley near UC campus, fully furnished with in-unit washer/dryer and rooftop amenities including movie theater and dog run.",
+      "available_now": false,
+      "bathrooms": 2.0,
+      "square_feet": 1000,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "2 BEDROOM 2 BATHROOM'S OFFERING 1 MONTH FREE + $1000 AMAZON GIFT CARD",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/53844e11-aaee-4642-bc63-13506d731a77"
+    },
+    {
+      "address": "2150 Kittredge St - Fall 2026-2027 [Standard], Berkeley, CA 94704",
+      "source": "sg_real_estate",
+      "manager": "SG Real Estate Co.",
+      "city": "Berkeley",
+      "bedrooms": 2.0,
+      "available_date": "2026-08-01",
+      "rent": 3995.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": "allowed",
+      "furnished": "furnished",
+      "parking": "off_street",
+      "laundry": "in_unit",
+      "summary": "Fully furnished two-bedroom, two-bathroom apartment in a new building one block from UC Berkeley with in-unit washer/dryer and rooftop amenities. Secure covered parking available for additional monthly fee.",
+      "available_now": false,
+      "bathrooms": 2.0,
+      "square_feet": 853,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "Fully Furnished Two Bedroom Two Bath Suites! (LOOK & LEASE! 1 MONTH FREE + $1000 Amazon Gift card!)",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/96274a5f-53ba-4733-91b1-78b7db7eed5b",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 3995.0,
+          "observed": 5695
+        }
+      ]
+    },
+    {
       "address": "1901 Dwight Way - 206, Berkeley, CA 94704",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -15415,29 +15540,6 @@
           "observed": 4895
         }
       ]
-    },
-    {
-      "address": "785 Duke Circle, Pleasant Hill, CA 94523",
-      "source": "authentic_properties",
-      "manager": "Authentic Properties",
-      "city": "Pleasant Hill",
-      "bedrooms": 3.0,
-      "available_date": "2026-08-01",
-      "rent": 4195.0,
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "in_unit",
-      "summary": "A 3-bedroom, 2.5-bathroom 1950s home in Pleasant Hill with attached garage, original wood floors, upgraded kitchen and bathrooms, and a fenced yard with patio.",
-      "available_now": false,
-      "bathrooms": 2.5,
-      "square_feet": 1592,
-      "state": "CA",
-      "postal_code": "94523",
-      "title": "Great Location 3 BD, 2.5 BA in Pleasant Hill With Garage",
-      "url": "https://authenticrealestate.appfolio.com/listings/detail/431ee71c-7875-4158-9d9b-ce17bc31791a"
     },
     {
       "address": "2077 Haste St - 405, Berkeley, CA 94704",
@@ -15486,7 +15588,7 @@
       "summary": null,
       "available_now": false,
       "bathrooms": 1.0,
-      "square_feet": 505,
+      "square_feet": null,
       "state": "CA",
       "postal_code": "94115",
       "title": "Newly Renovated 1-Bedroom in Charming Lower Pacific Heights!",
@@ -15514,59 +15616,6 @@
       "postal_code": "94611",
       "title": "Experience the One Piedmont lifestyle - Modern Luxury right on Piedmont Avenue - Boutique Style Intimacy 2 Bedroom 2 Bath",
       "url": "https://sgrealestate.appfolio.com/listings/detail/4db1e362-5b1e-48dc-931f-3170f36f3b0e"
-    },
-    {
-      "address": "2150 Kittredge- Fall 2026-2027 [Standard], Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": "2026-08-01",
-      "rent": 5195.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": "garage",
-      "laundry": "in_unit",
-      "summary": "Fully furnished two-bedroom, two-bathroom apartment in a new building one block from UC Berkeley, available August 1, 2026. Building amenities include rooftop deck, dog run, and in-unit washer/dryer.",
-      "available_now": false,
-      "bathrooms": 2.0,
-      "square_feet": 1234,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "1 MONTH FREE + LOOK & LEASE! $1000 Amazon Gift card! Fully Furnished Two Bedroom Two Bath Suites! Welcome to The Kittredge! Across from UC Berkeley!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/ccb2189d-f51f-4a32-8d75-07c6827f5265"
-    },
-    {
-      "address": "2150 Kittredge St - Fall 2026-2027 [Standard], Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": "2026-08-01",
-      "rent": 5195.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Fully furnished two-bedroom, two-bathroom apartment in a new building one block from UC Berkeley with in-unit washer/dryer and rooftop amenities. Secure covered parking available for additional monthly fee.",
-      "available_now": false,
-      "bathrooms": 2.0,
-      "square_feet": 853,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Fully Furnished Two Bedroom Two Bath Suites! (LOOK & LEASE! 1 MONTH FREE + $1000 Amazon Gift card!)",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/96274a5f-53ba-4733-91b1-78b7db7eed5b",
-      "conflicts": [
-        {
-          "field": "rent",
-          "parsed": 5195.0,
-          "observed": 5695
-        }
-      ]
     },
     {
       "address": "380 29th Street #2, San Francisco, CA 94131",
@@ -15615,29 +15664,6 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/6f62bb67-e9b1-4c3d-9759-d1fe895819bb"
     },
     {
-      "address": "2150 Kittredge St - 624, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": "2026-08-01",
-      "rent": 5679.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Ultra-modern 2-bedroom, 2-bathroom apartment at The Kittredge in Berkeley near UC campus, fully furnished with in-unit washer/dryer and rooftop amenities including movie theater and dog run.",
-      "available_now": false,
-      "bathrooms": 2.0,
-      "square_feet": 1000,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "2 BEDROOM 2 BATHROOM'S OFFERING 1 MONTH FREE + $1000 AMAZON GIFT CARD",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/53844e11-aaee-4642-bc63-13506d731a77"
-    },
-    {
       "address": "1803 Oxford St - A, Berkeley, CA 94709",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -15682,6 +15708,29 @@
       "postal_code": "94709",
       "title": "STUNNING 4Bedroom 2 Bath in North Berkeley! 2 Blocks from UC Berkeley!",
       "url": "https://sgrealestate.appfolio.com/listings/detail/b9743b42-39a7-4274-a92d-8020f79cc052"
+    },
+    {
+      "address": "3421 El Camino Real #10, Atherton, CA 94027",
+      "source": "boardwalk",
+      "manager": "Boardwalk Properties",
+      "city": "Atherton",
+      "bedrooms": 3.0,
+      "available_date": "2026-08-01",
+      "rent": 6200.0,
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 3.5,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94027",
+      "title": "Beautiful, Spacious Condo in Excellent Location!",
+      "url": "https://boardwalkinvestments.appfolio.com/listings/detail/b48631ba-d78d-4096-b5e3-e28beec40421"
     },
     {
       "address": "1873 Turk St., San Francisco, CA, 94115",
@@ -15797,6 +15846,29 @@
       "postal_code": "94117",
       "title": "5 Bedroom Apartment perfect for roommates!",
       "url": "https://spsf.appfolio.com/listings/detail/af0de67f-3562-4d03-adef-c00b981b2acd"
+    },
+    {
+      "address": "706 Kearny Street 115, San Francisco, CA 94108",
+      "source": "structure_properties",
+      "manager": "Structure Properties",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": "2026-08-02",
+      "rent": 950.0,
+      "unit_type": "studio",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 0.0,
+      "square_feet": 76,
+      "state": "CA",
+      "postal_code": "94108",
+      "title": "One Month Free!! Centrally Located, Renovated SRO near Financial District & Chinatown!",
+      "url": "https://spsf.appfolio.com/listings/detail/0f341f3f-563f-4466-9e4a-5d8914b1e92a"
     },
     {
       "address": "2505 Virginia St #10, Berkeley, CA 94709",
@@ -15921,14 +15993,14 @@
       "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/39914"
     },
     {
-      "address": "1717 Oxford St. -108, Berkeley, CA 94709",
-      "source": "square_one_management",
-      "manager": "Square One Management",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
+      "address": "35750 Bettencourt Street, Unit 50, Newark, CA 94560",
+      "source": "two_b_living",
+      "manager": "2B Living",
+      "city": "Newark",
+      "bedrooms": 2.0,
       "available_date": "2026-08-03",
-      "rent": 2295.0,
-      "unit_type": "studio",
+      "rent": 2395.0,
+      "unit_type": "2_bedroom",
       "room_type": "entire_place",
       "pets": null,
       "furnished": null,
@@ -15937,11 +16009,11 @@
       "summary": null,
       "available_now": false,
       "bathrooms": 1.0,
-      "square_feet": 600,
+      "square_feet": 780,
       "state": "CA",
-      "postal_code": "94709",
-      "title": "1717 Oxford St. -108",
-      "url": "https://som.managebuilding.com/Resident/public/rentals/10660"
+      "postal_code": "94560",
+      "title": "Beautiful 2BR Apartment Available Now!",
+      "url": "https://twobliving.appfolio.com/listings/detail/5b9ce140-3637-43cb-8dcb-17cfa56505bb"
     },
     {
       "address": "1816 Fairview Street, Apt 7, Berkeley, CA 94703",
@@ -16059,13 +16131,36 @@
       "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/40526"
     },
     {
+      "address": "559 7th Avenue, Unit 3, San Francisco, CA 94118",
+      "source": "bancal_pm",
+      "manager": "BanCal Property Management",
+      "city": "San Francisco",
+      "bedrooms": 2.0,
+      "available_date": "2026-08-03",
+      "rent": 4895.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.5,
+      "square_feet": 950,
+      "state": "CA",
+      "postal_code": "94118",
+      "title": "Spacious, Newly Renovated 2BR/1.5BA Apartment in Inner Richmond",
+      "url": "https://bancalsf.appfolio.com/listings/detail/957a036f-32d1-470c-adb4-f7769267107e"
+    },
+    {
       "address": "2140 California Street, Apt 2, Concord, CA 94520",
       "source": "kasa_properties",
       "manager": "Kasa Properties",
       "city": "Concord",
       "bedrooms": 0.0,
       "available_date": "2026-08-04",
-      "rent": 1595.0,
+      "rent": 1545.0,
       "unit_type": "studio",
       "room_type": "entire_place",
       "pets": "allowed",
@@ -16266,6 +16361,29 @@
       "url": "https://kasaproperties.appfolio.com/listings/detail/17e2c32c-b288-4df2-842f-d706c1a2fb0f"
     },
     {
+      "address": "2122 Sacramento St., Berkeley, CA 94702",
+      "source": "all_east_bay",
+      "manager": "All East Bay Properties",
+      "city": "Berkeley",
+      "bedrooms": 3.0,
+      "available_date": "2026-08-04",
+      "rent": 4850.0,
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 2.0,
+      "square_feet": 1680,
+      "state": "CA",
+      "postal_code": "94702",
+      "title": "Large top floor 3 bedroom fully furnished walking distance to UC Berkeley Campus!",
+      "url": "https://alleastbayproperties.appfolio.com/listings/detail/6454f4d5-228b-4100-a099-cc2b1b30506b"
+    },
+    {
       "address": "1932 Haste St. Apt 1, Berkeley, CA 94704",
       "source": "ks_company",
       "manager": "K&S Company",
@@ -16287,6 +16405,29 @@
       "postal_code": "94704",
       "title": "COMING SOON-This is a great 1-bdr right in the heart of Berkeley",
       "url": "https://kands.appfolio.com/listings/detail/0221e2e7-d10a-45d6-8e5c-e024664d4c26"
+    },
+    {
+      "address": "741-743 Hillgirt Circle , Oakland, CA 94610",
+      "source": "authentic_properties",
+      "manager": "Authentic Properties",
+      "city": "Oakland",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-05",
+      "rent": 2095.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 650,
+      "state": "CA",
+      "postal_code": "94610",
+      "title": "$2,095 / 1br - 650ft2 - Great Location-Lake Merritt One Bedroom, One Bath",
+      "url": "https://authenticrealestate.appfolio.com/listings/detail/7ac8adab-765d-458c-a5a1-bf8bb01a5971"
     },
     {
       "address": "2 Anchor Drive Apt F386, Emeryville, CA 94608-1556",
@@ -16404,36 +16545,6 @@
       "url": "https://kasaproperties.appfolio.com/listings/detail/20170d4e-c0ca-46f4-b512-6d1ea8639fb8"
     },
     {
-      "address": "1931 Dwight Way, 10, Berkeley, CA 94704",
-      "source": "raj_properties",
-      "manager": "Raj Properties",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": "2026-08-07",
-      "rent": 1795.0,
-      "unit_type": "1_bedroom",
-      "room_type": "private_room",
-      "pets": null,
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "shared",
-      "summary": "Private room in a 1-bedroom, 1-bathroom unit in Berkeley near UC Berkeley; 374 sq ft, available August 7, 2026.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 374,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "1931 Dwight Way, 10",
-      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/63529",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
       "address": "1931 Dwight Way, 2, Berkeley, CA 94704",
       "source": "raj_properties",
       "manager": "Raj Properties",
@@ -16524,29 +16635,6 @@
       "postal_code": "94703",
       "title": "Coming Soon in August! Call Vanessa: 510-961-3757",
       "url": "https://beaconprop.appfolio.com/listings/detail/bfbe8133-674e-41f2-968b-523b75171a8d"
-    },
-    {
-      "address": "117 Tewksbury Ave., #06, Richmond, CA 94801",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "Richmond",
-      "bedrooms": 1.0,
-      "available_date": "2026-08-07",
-      "rent": 2200.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94801",
-      "title": "COMING SOON-Spacious One Bedroom, large living room area",
-      "url": "https://kands.appfolio.com/listings/detail/0c566053-8309-42ac-aada-022d856a08ea"
     },
     {
       "address": "1927 Dwight Way, 202, Berkeley, CA 94704",
@@ -16731,6 +16819,29 @@
       "postal_code": "94013",
       "title": "1353 Minna St.",
       "url": "https://www.relisto.com/rentals/443114629-1353-minna-st-san-francisco-ca-94013/"
+    },
+    {
+      "address": "1674 Washington Street #01, San Francisco, CA 94109",
+      "source": "structure_properties",
+      "manager": "Structure Properties",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": "2026-08-08",
+      "rent": 3200.0,
+      "unit_type": "studio",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94109",
+      "title": "Charming Ground-Floor Studio \u2013 Newly Renovated",
+      "url": "https://spsf.appfolio.com/listings/detail/df0b59d0-e649-4052-95e8-a556380a58fc"
     },
     {
       "address": "1301 Hearst Avenue, Apt 5, Berkeley, CA 94702",
@@ -16991,29 +17102,6 @@
       "postal_code": "94704",
       "title": "2732 Haste Street, 39",
       "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/27027"
-    },
-    {
-      "address": "1659-1661 9th Avenue , San Francisco, CA 94122",
-      "source": "bay_property_group",
-      "manager": "Bay Property Group",
-      "city": "San Francisco",
-      "bedrooms": 1.0,
-      "available_date": "2026-08-10",
-      "rent": 3495.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 950,
-      "state": "CA",
-      "postal_code": "94122",
-      "title": "UPDATED LARGE 1BR/1BA/1GR Sunset/UCSF Apartment AVAILABLE 8/10",
-      "url": "https://baypropertygroup.appfolio.com/listings/detail/53f9e3bb-84f4-475f-8606-0ad8138d789c"
     },
     {
       "address": "364 40th Street 201, Oakland, CA 94609",
@@ -19057,6 +19145,29 @@
       "postal_code": null,
       "title": "2618 College",
       "url": "https://tripalink.com/apartments/bay-area/berkeley/50000220"
+    },
+    {
+      "address": "1304 Bay Street #7, Bellingham 98225",
+      "source": "utopia_management",
+      "manager": "Utopia Management",
+      "city": null,
+      "bedrooms": 0.0,
+      "available_date": "2026-08-14",
+      "rent": 1250.0,
+      "unit_type": "studio",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 300,
+      "state": "CA",
+      "postal_code": null,
+      "title": "Newly Remodeled Modern Studio Apartment in Downtown Bellingham",
+      "url": "https://utopiamanagement.appfolio.com/listings/detail/4a00f9b8-cfa3-4892-af32-467435ce6cfa"
     },
     {
       "address": "2701 Durant Avenue, Berkeley, CA 94704 #1202-11-B1",
@@ -22900,29 +23011,6 @@
       "url": "https://tripalink.com/apartments/bay-area/berkeley/50000218"
     },
     {
-      "address": "2150 Kittredge St, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": null,
-      "available_date": "2026-08-15",
-      "rent": 895.0,
-      "unit_type": null,
-      "room_type": "shared_room",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "in_unit",
-      "summary": "A bed in a fully-furnished shared room at a new Berkeley apartment building one block from UC Berkeley, available 8/10/26. Rent is $999 per bed.",
-      "available_now": false,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "$795/Bed - LIMITED TIME FLASH SALE! Fully-Furnished By-The-Bed Unit AVAILABLE 8/15",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/c69c9669-f9bb-4269-a31f-e541a33a0af2"
-    },
-    {
       "address": "2025 Kala Bagai Way - 405A, Berkeley, CA 94704",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -22981,6 +23069,29 @@
       "url": "https://communityrealtypm.appfolio.com/listings/detail/c6d8b7e5-cace-4c40-b817-025ed2c551d3"
     },
     {
+      "address": "2275 Park Blvd - 7, Oakland, CA 94606",
+      "source": "beacon_properties",
+      "manager": "Beacon Properties",
+      "city": "Oakland",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-15",
+      "rent": 1895.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94606",
+      "title": "Viewing Schedule: Coming Soon!",
+      "url": "https://beaconprop.appfolio.com/listings/detail/ab192aa3-fa3b-4282-9ef5-e993b331dc3c"
+    },
+    {
       "address": "2715 Channing Way, Berkeley, CA 94704",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -23032,6 +23143,29 @@
       "postal_code": "94601",
       "title": "Coming soon - 2 BED 1 BATH UNIT IN A TRIPLEX",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/5394fe2a-8a87-4a82-baa0-a58507d9c52a"
+    },
+    {
+      "address": "117 Tewksbury Ave., #06, Richmond, CA 94801",
+      "source": "ks_company",
+      "manager": "K&S Company",
+      "city": "Richmond",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-15",
+      "rent": 2200.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94801",
+      "title": "COMING SOON-Spacious One Bedroom, large living room area",
+      "url": "https://kands.appfolio.com/listings/detail/0c566053-8309-42ac-aada-022d856a08ea"
     },
     {
       "address": "96 Harrishof St #1, Roxbury, MA 02121",
@@ -23101,6 +23235,29 @@
       "postal_code": "02139",
       "title": "Cambridge One Bedroom Condo With In-Unit Laundry Available 8/15",
       "url": "https://bostonpropertycare.appfolio.com/listings/detail/2390b44a-f0e0-4738-addd-1695b0358c04"
+    },
+    {
+      "address": "215 Laurel Ave, Hayward, CA 94541",
+      "source": "community_realty",
+      "manager": "Community Realty Property Management",
+      "city": "Hayward",
+      "bedrooms": 2.0,
+      "available_date": "2026-08-15",
+      "rent": 2450.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94541",
+      "title": "Charming 2 bedroom 1 Bathroom in Hayward - Coming Soon!!!",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/0e5e3825-7322-4d65-a6b3-ffca0d0fd1ee"
     },
     {
       "address": "1144 Pine Street , Unit 301, San Francisco, CA 94109",
@@ -23260,7 +23417,7 @@
       "square_feet": 900,
       "state": "CA",
       "postal_code": "94549",
-      "title": "2 Bedroom Located in the heart of Lafayette Circle",
+      "title": "2 Bedroom Located in the heart of Lafayette Circle- Just Remodeled!",
       "url": "https://kasaproperties.appfolio.com/listings/detail/b108c8b9-a148-4dcf-8d91-e780412d1774"
     },
     {
@@ -23471,6 +23628,29 @@
       "url": "https://kasaproperties.appfolio.com/listings/detail/881b3228-fb5a-46cd-ac37-be0b448c8507"
     },
     {
+      "address": "529 Stevenson Street #205, San Francisco, CA 94103",
+      "source": "structure_properties",
+      "manager": "Structure Properties",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": "2026-08-18",
+      "rent": 2595.0,
+      "unit_type": "studio",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 522,
+      "state": "CA",
+      "postal_code": "94103",
+      "title": "Modern Urban Living at Stevenson Lofts!!",
+      "url": "https://spsf.appfolio.com/listings/detail/55ebd7a6-efd5-4152-9352-c55e9c102697"
+    },
+    {
       "address": "2640 Shattuck Ave , 509, Berkeley, CA 94704",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -23644,6 +23824,29 @@
       "postal_code": "94704",
       "title": "1927 Dwight Way, 308",
       "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/11836"
+    },
+    {
+      "address": "3006 San Pablo Ave., 601, Berkeley, CA 94710",
+      "source": "sg_real_estate",
+      "manager": "SG Real Estate Co.",
+      "city": "Berkeley",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-20",
+      "rent": 3195.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 654,
+      "state": "CA",
+      "postal_code": "94710",
+      "title": "Now Leasing a Spacious 1 Bedroom Apartment for 2026\u20132027!",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/fb0e5511-9ca9-4588-81c6-26a495df7780"
     },
     {
       "address": "1801 Milvia Street - 2, 2, Berkeley, CA 94709",
@@ -24440,29 +24643,6 @@
           "observed": "room"
         }
       ]
-    },
-    {
-      "address": "2640 Shattuck Ave - 407, 407, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": "2026-08-27",
-      "rent": 3195.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 672,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "\u2728Unit 407 Move in Ready : Berkeley Hills views",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/532ef61b-c1b3-48ab-95fa-62643bcdccd8"
     },
     {
       "address": "1536 62nd Street, Berkeley, CA 94703",
@@ -25496,50 +25676,50 @@
       "url": "https://kasaproperties.appfolio.com/listings/detail/0d44c1ff-d9a0-4d2e-a19b-13570207efc9"
     },
     {
-      "address": "138 Vernal Street - 2L, Everett, MA 02149",
+      "address": "142 Vernal Street - 2L, Everett, MA 02149",
       "source": "structure_boston",
       "manager": "Structure Boston",
       "city": "Everett",
       "bedrooms": 1.0,
       "available_date": "2026-09-10",
-      "rent": 2100.0,
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": null,
-      "summary": "1-bedroom, 1-bathroom apartment in Everett with heat included in rent. Off-street parking available for additional rent.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 600,
-      "state": "MA",
-      "postal_code": "02149",
-      "title": null,
-      "url": "https://structureboston.appfolio.com/listings/detail/197ab2fa-5ace-41f1-ad88-7f4759408c9d"
-    },
-    {
-      "address": "240 Crescent Street - 3, Waltham, MA 02453",
-      "source": "structure_boston",
-      "manager": "Structure Boston",
-      "city": "Waltham",
-      "bedrooms": 1.0,
-      "available_date": "2026-09-10",
-      "rent": 2200.0,
+      "rent": 2000.0,
       "unit_type": "1_bedroom",
       "room_type": "entire_place",
       "pets": null,
       "furnished": null,
       "parking": null,
       "laundry": null,
-      "summary": "1 bedroom, 1 bathroom apartment in Waltham available September 10, 2026.",
+      "summary": null,
       "available_now": false,
       "bathrooms": 1.0,
-      "square_feet": null,
+      "square_feet": 600,
       "state": "MA",
-      "postal_code": "02453",
-      "title": "240 Crescent Street #3",
-      "url": "https://structureboston.appfolio.com/listings/detail/d2944b8f-13dc-4cca-a9f6-c62e0cedd894"
+      "postal_code": "02149",
+      "title": "1 Bedrooms/1 Bath Apartment! Available 8/1",
+      "url": "https://structureboston.appfolio.com/listings/detail/bf20f268-e8bc-4636-8cbd-251f5588f6c3"
+    },
+    {
+      "address": "290 Lee St., Unit 106, Oakland, CA 94610",
+      "source": "kasa_properties",
+      "manager": "Kasa Properties",
+      "city": "Oakland",
+      "bedrooms": 1.0,
+      "available_date": "2026-09-10",
+      "rent": 2695.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 785,
+      "state": "CA",
+      "postal_code": "94610",
+      "title": "Newly Remodeled 1 Bedroom with In Unit Laundry!",
+      "url": "https://kasaproperties.appfolio.com/listings/detail/0c136866-879c-4d64-8e47-a6fa553d8ffd"
     },
     {
       "address": "2077 Haste St - 401 Room 2 Bed B, Berkeley, CA 94704",
@@ -26055,29 +26235,6 @@
       "url": "https://academichousingrentals.managebuilding.com/Resident/public/rentals/191551"
     },
     {
-      "address": "529 Stevenson Street #205, San Francisco, CA 94103",
-      "source": "structure_properties",
-      "manager": "Structure Properties",
-      "city": "San Francisco",
-      "bedrooms": 0.0,
-      "available_date": "2027-06-01",
-      "rent": 2595.0,
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 522,
-      "state": "CA",
-      "postal_code": "94103",
-      "title": "Modern Urban Living at Stevenson Lofts!!",
-      "url": "https://spsf.appfolio.com/listings/detail/55ebd7a6-efd5-4152-9352-c55e9c102697"
-    },
-    {
       "address": "2077 Haste St - 202 Room 2 Bed B, Berkeley, CA 94704",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -26468,6 +26625,29 @@
       "url": "https://mmgprop.com/properties/706-Apartment-1229-Pacific-Avenue-Santa-Rosa-California-United-States-95404-1-Bedroom-1-Bathroom-USD1-695/"
     },
     {
+      "address": "1009 E 22nd Street, Oakland, CA 94606",
+      "source": "selborne_properties",
+      "manager": "Selborne Properties",
+      "city": "Oakland",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 1695.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": "none",
+      "furnished": null,
+      "parking": null,
+      "laundry": "shared",
+      "summary": "One-bedroom, one-bathroom apartment near Lake Merritt with 650 square feet. On-site coin-op laundry available; parking costs extra.",
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 650,
+      "state": "CA",
+      "postal_code": "94606",
+      "title": "Great One Bedroom Near Lake Merritt",
+      "url": "https://selborne.appfolio.com/listings/detail/90cd372a-f917-4fb0-8460-d784f2b0fa89"
+    },
+    {
       "address": "1115 Virginia Ln. # 12, Concord, CA 94520",
       "source": "community_realty",
       "manager": "Community Realty Property Management",
@@ -26606,6 +26786,29 @@
       "url": "https://selborne.appfolio.com/listings/detail/bf3644f0-56e6-4d97-bd2c-f2c5bd7bd55a"
     },
     {
+      "address": "9308 Bancroft Ave., Oakland, CA 94603",
+      "source": "community_realty",
+      "manager": "Community Realty Property Management",
+      "city": "Oakland",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 1750.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": "off_street",
+      "laundry": "shared",
+      "summary": "One-bedroom, one-bathroom apartment in Oakland, recently remodeled, with assigned parking and on-site laundry. Water and garbage included.",
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94603",
+      "title": "Coming soon - One bedroom apartment in Oakland!",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/932b24cf-182b-4649-a423-a95c4696c056"
+    },
+    {
       "address": "112-114 Shurtleff - 114-7, Chelsea, MA 02150",
       "source": "structure_boston",
       "manager": "Structure Boston",
@@ -26627,6 +26830,41 @@
       "postal_code": "02150",
       "title": null,
       "url": "https://structureboston.appfolio.com/listings/detail/e422f619-6760-4652-a780-849c7dc89a66"
+    },
+    {
+      "address": "2150 Kittredge St - 406.., Berkeley, CA 94704",
+      "source": "sg_real_estate",
+      "manager": "SG Real Estate Co.",
+      "city": "Berkeley",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 1790.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": "allowed",
+      "furnished": "furnished",
+      "parking": "off_street",
+      "laundry": "in_unit",
+      "summary": "Fully furnished 2-bedroom, 2-bathroom apartment in a modern building across from UC Berkeley with in-unit washer/dryer and rooftop amenities. Available August 1, 2026.",
+      "available_now": false,
+      "bathrooms": 2.0,
+      "square_feet": 853,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "#406B Private Bedroom - (Female) Available NOW! - $500 Amazon Gift Card",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/800f60ab-0d10-479e-93eb-ddf03443507d",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 1790.0,
+          "observed": 5220
+        },
+        {
+          "field": "kind",
+          "parsed": "room",
+          "observed": "residential"
+        }
+      ]
     },
     {
       "address": "500 Leavenworth Street, San Francisco, California, United States 94109",
@@ -26926,41 +27164,6 @@
       "url": "https://mmgprop.com/properties/992-Apartment-1229-Pacific-Avenue-Santa-Rosa-California-United-States-95404-2-Bedrooms-1-Bathroom-USD1-995/"
     },
     {
-      "address": "2150 Kittredge St - 406.., Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 1995.0,
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Fully furnished 2-bedroom, 2-bathroom apartment in a modern building across from UC Berkeley with in-unit washer/dryer and rooftop amenities. Available August 1, 2026.",
-      "available_now": false,
-      "bathrooms": 2.0,
-      "square_feet": 853,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "#406B Private Bedroom - (Female) Available NOW! - $500 Amazon Gift Card",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/800f60ab-0d10-479e-93eb-ddf03443507d",
-      "conflicts": [
-        {
-          "field": "rent",
-          "parsed": 1995.0,
-          "observed": 5220
-        },
-        {
-          "field": "kind",
-          "parsed": "room",
-          "observed": "residential"
-        }
-      ]
-    },
-    {
       "address": "5 Beaver Park Rd #5, Framingham, MA 01702",
       "source": "boston_property_care",
       "manager": "Boston Property Care",
@@ -27074,6 +27277,29 @@
       "postal_code": "94580",
       "title": "Private Patio 1BR in San Lorenzo | Renovated Kitchen | Assigned Parking | Pet Friendly",
       "url": "https://twobliving.appfolio.com/listings/detail/94543406-9fd5-45bc-8b96-c9380a5bf1dd"
+    },
+    {
+      "address": "768 Walker Avenue, Unit A, Oakland, CA 94610",
+      "source": "two_b_living",
+      "manager": "2B Living",
+      "city": "Oakland",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 2108.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 500,
+      "state": "CA",
+      "postal_code": "94610",
+      "title": "Luxury Junior 1-Bedroom with Private Patio | In-Unit Laundry | Heart of Lakeshore",
+      "url": "https://twobliving.appfolio.com/listings/detail/dd520aa3-71b4-4938-b886-04973b282c6d"
     },
     {
       "address": "400 Orange Street, Oakland, California, United States",
@@ -27191,6 +27417,29 @@
       "url": "https://mmgprop.com/properties/856-Apartment-315-Wayne-Pl-Oakland-California-United-States-94606-1-Bedroom-1-Bathroom-USD2-195/"
     },
     {
+      "address": "240 Crescent Street - 3, Waltham, MA 02453",
+      "source": "structure_boston",
+      "manager": "Structure Boston",
+      "city": "Waltham",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 2200.0,
+      "unit_type": "1_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": "1 bedroom, 1 bathroom apartment in Waltham available September 10, 2026.",
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "MA",
+      "postal_code": "02453",
+      "title": "240 Crescent Street #3",
+      "url": "https://structureboston.appfolio.com/listings/detail/d2944b8f-13dc-4cca-a9f6-c62e0cedd894"
+    },
+    {
       "address": "1956 Lazzini Avenue, Santa Rosa, California, United States 95407",
       "source": "mmg_properties",
       "manager": "MMG Properties",
@@ -27212,6 +27461,29 @@
       "postal_code": "95407",
       "title": "1956 Lazzini Ave.",
       "url": "https://mmgprop.com/properties/496-Apartment-1956-Lazzini-Avenue-Santa-Rosa-California-United-States-95407-2-Bedrooms-1-Bathroom-USD2-225/"
+    },
+    {
+      "address": "2943 MacArthur Blvd. #201, Oakland, CA 94602",
+      "source": "community_realty",
+      "manager": "Community Realty Property Management",
+      "city": "Oakland",
+      "bedrooms": 2.0,
+      "available_date": null,
+      "rent": 2250.0,
+      "unit_type": "2_bedroom",
+      "room_type": "entire_place",
+      "pets": null,
+      "furnished": null,
+      "parking": "off_street",
+      "laundry": "shared",
+      "summary": "Spacious 2-bedroom, 2-bathroom apartment in a secured building with gated garage. One parking space included; laundry room on-site.",
+      "available_now": false,
+      "bathrooms": 2.0,
+      "square_feet": 1024,
+      "state": "CA",
+      "postal_code": "94602",
+      "title": "Spacious 2 Bedroom apartment - Coming soon!",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/7e23c6b0-4438-4e5a-b1fe-d8c6070f467a"
     },
     {
       "address": "7425 Camino Colegio, Rohnert Park, California, United States 94928",
@@ -28123,29 +28395,6 @@
       "postal_code": "94118",
       "title": "4425 California St.",
       "url": "https://mmgprop.com/properties/890-Apartment-4425-California-St-San-Francisco-California-United-States-94118-2-Bedrooms-1-Bathroom-USD3-600/"
-    },
-    {
-      "address": "3146-3150 Washington Street - 3146-2, Jamaica Plain, MA 02130",
-      "source": "structure_boston",
-      "manager": "Structure Boston",
-      "city": "Jamaica Plain",
-      "bedrooms": 3.0,
-      "available_date": null,
-      "rent": 3600.0,
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.5,
-      "square_feet": 1250,
-      "state": "MA",
-      "postal_code": "02130",
-      "title": "Available 3 Beds/1.5 Baths Apartment!",
-      "url": "https://structureboston.appfolio.com/listings/detail/5a3dd768-0290-4425-8800-3c4d91b5456d"
     },
     {
       "address": "2611 Coolidge Ave, Oakland, CA 94601",
