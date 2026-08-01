@@ -1,7 +1,7 @@
 {
-  "checked": 789,
-  "conflicts": 321,
-  "parser_missing": 89,
+  "checked": 760,
+  "conflicts": 370,
+  "parser_missing": 134,
   "rows": [
     {
       "address": "1115 Virginia Ln. # 31, Concord, CA 94520",
@@ -58,15 +58,6 @@
       "type": "conflict"
     },
     {
-      "address": "1515 Webster Street - 5-527, Oakland, CA 94612",
-      "manager": "MPM Oakland",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94409",
-      "field": "available_date",
-      "parser": "2027-05-15",
-      "page": "2026-05-15",
-      "type": "conflict"
-    },
-    {
       "address": "1752 Shattuck Avenue, Unit 104, Berkeley, CA 94709",
       "manager": "Panoramic Berkeley",
       "url": "https://panoramicmgt.appfolio.com/listings/detail/61885c45-9cd5-4969-8f7e-9cd18f33e7c8",
@@ -112,15 +103,6 @@
       "type": "conflict"
     },
     {
-      "address": "1835 28th. Ave. #302, Oakland, CA 94601",
-      "manager": "Community Realty Property Management",
-      "url": "https://communityrealtypm.appfolio.com/listings/detail/be667f42-9d2c-4f05-9208-e923fc66bda5",
-      "field": "available_date",
-      "parser": "2026-08-01",
-      "page": "2026-07-25",
-      "type": "conflict"
-    },
-    {
       "address": "1850 E. Birch Ave Unit 107, Fresno, CA 93720",
       "manager": "Raj Properties",
       "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/45432",
@@ -154,6 +136,15 @@
       "field": "available_date",
       "parser": "2026-08-10",
       "page": "2026-08-01",
+      "type": "conflict"
+    },
+    {
+      "address": "1910 Berryman Street, 306, Berkeley, CA 94709",
+      "manager": "Raj Properties",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/61404",
+      "field": "available_date",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
       "type": "conflict"
     },
     {
@@ -207,6 +198,15 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/84c96696-1542-4378-9dd7-aa6d5012b696",
       "field": "available_date",
       "parser": "2026-08-28",
+      "page": "2026-08-19",
+      "type": "conflict"
+    },
+    {
+      "address": "2020 Dwight Way - C, Berkeley, CA 94704",
+      "manager": "Beacon Properties",
+      "url": "https://beaconprop.appfolio.com/listings/detail/a03a518c-2442-4ed6-8eed-483035332389",
+      "field": "available_date",
+      "parser": "2026-08-18",
       "page": "2026-08-19",
       "type": "conflict"
     },
@@ -283,12 +283,39 @@
       "type": "conflict"
     },
     {
-      "address": "2250 96th. Avenue #208, Oakland, CA 94603",
-      "manager": "Community Realty Property Management",
-      "url": "https://communityrealtypm.appfolio.com/listings/detail/32998641-261b-4939-9867-af515745eb76",
+      "address": "2138 Derby Street - Apt. 2, Berkeley, CA 94705",
+      "manager": "Korman & Ng Real Estate Services",
+      "url": "https://kormanandng.appfolio.com/listings/detail/44d1477a-f57f-46e7-936d-73a6bd6cbf8b",
       "field": "available_date",
-      "parser": "2026-08-01",
-      "page": "2026-07-25",
+      "parser": "2026-08-23",
+      "page": "2026-08-15",
+      "type": "conflict"
+    },
+    {
+      "address": "2230 Dwight Way, 102, Berkeley, CA 94704",
+      "manager": "Raj Properties",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/38634",
+      "field": "available_date",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2230 Dwight Way, 304, Berkeley, CA 94704",
+      "manager": "Raj Properties",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/62914",
+      "field": "available_date",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2230 Dwight Way, 405, Berkeley, CA 94704",
+      "manager": "Raj Properties",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/62915",
+      "field": "available_date",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
       "type": "conflict"
     },
     {
@@ -328,15 +355,6 @@
       "type": "conflict"
     },
     {
-      "address": "2333 Humboldt Avenue - B, Oakland, CA 94601",
-      "manager": "MPM Oakland",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94460",
-      "field": "available_date",
-      "parser": "2027-05-18",
-      "page": "2026-05-18",
-      "type": "conflict"
-    },
-    {
       "address": "235 Cardinal Medeiros Avenue - 1, Cambridge, MA 02141",
       "manager": "Boston Luxury Real Estate",
       "url": "https://bostonluxury.managebuilding.com/Resident/public/rentals/327393",
@@ -355,12 +373,21 @@
       "type": "conflict"
     },
     {
-      "address": "2505 Virginia St #10, Berkeley, CA 94709",
-      "manager": "Hayes Management",
-      "url": "https://hayesmanagement.appfolio.com/listings/detail/1e21e7df-0471-4c45-89d5-989b288d8f93",
+      "address": "2417 Blake Street #2, Berkeley, CA 94704",
+      "manager": "Domingo Properties",
+      "url": "https://domingoprop.managebuilding.com/Resident/public/rentals/40693",
       "field": "available_date",
-      "parser": "2026-08-01",
-      "page": "2026-08-02",
+      "parser": "2026-07-31",
+      "page": "2026-07-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2431 Ellsworth Street, 109, Berkeley, CA 94704",
+      "manager": "Raj Properties",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/62919",
+      "field": "available_date",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
       "type": "conflict"
     },
     {
@@ -370,6 +397,24 @@
       "field": "available_date",
       "parser": "2026-08-10",
       "page": "2026-08-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2515 Benvenue Avenue, 104, Berkeley, CA 94704",
+      "manager": "Raj Properties",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/62921",
+      "field": "available_date",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2541 Regent Street, 201, Berkeley, CA 94704",
+      "manager": "Raj Properties",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/27023",
+      "field": "available_date",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
       "type": "conflict"
     },
     {
@@ -400,12 +445,39 @@
       "type": "conflict"
     },
     {
-      "address": "2731 Durant Ave - 8, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/df6fe0d3-2c50-4d71-a463-4597871e3d6b",
+      "address": "2637 Regent Street, 105, Berkeley, CA 94704",
+      "manager": "Raj Properties",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/9343",
       "field": "available_date",
-      "parser": "2026-08-01",
-      "page": "2024-08-01",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2637 Regent Street, 106, Berkeley, CA 94704",
+      "manager": "Raj Properties",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/51541",
+      "field": "available_date",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2637 Regent Street, 304, Berkeley, CA 94704",
+      "manager": "Raj Properties",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/5161",
+      "field": "available_date",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2732 Haste Street, 29, Berkeley, CA 94704",
+      "manager": "Raj Properties",
+      "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/62961",
+      "field": "available_date",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
       "type": "conflict"
     },
     {
@@ -472,6 +544,15 @@
       "type": "conflict"
     },
     {
+      "address": "4607 Fall Ave., Richmond, CA 94804",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/8aa04bf5-a790-4ff6-8492-c4092e091edc",
+      "field": "available_date",
+      "parser": "2026-08-15",
+      "page": "2026-08-01",
+      "type": "conflict"
+    },
+    {
       "address": "529 Stevenson Street #415, San Francisco, CA 94103",
       "manager": "Structure Properties",
       "url": "https://spsf.appfolio.com/listings/detail/0cee2c93-54e3-4cf5-9e5d-00d1bc52f36f",
@@ -487,6 +568,15 @@
       "field": "available_date",
       "parser": "2026-08-15",
       "page": "2026-07-31",
+      "type": "conflict"
+    },
+    {
+      "address": "5736 Bayview Ave. , Richmond, CA 94804",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/532ca37f-d034-488f-8887-31ae2b1f7c4d",
+      "field": "available_date",
+      "parser": "2026-08-15",
+      "page": "2026-08-01",
       "type": "conflict"
     },
     {
@@ -508,21 +598,21 @@
       "type": "conflict"
     },
     {
-      "address": "763 Blossom Way - #23, Hayward, CA 94541",
-      "manager": "MPM Oakland",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93001",
-      "field": "available_date",
-      "parser": "2026-07-29",
-      "page": "2026-06-05",
-      "type": "conflict"
-    },
-    {
       "address": "95 Linda Avenue 310, Oakland, CA 94611",
       "manager": "Lapham Company",
       "url": "https://laphamcompany.appfolio.com/listings/detail/ea5ed445-409e-4110-b0f9-0e1354609ea2",
       "field": "available_date",
       "parser": "2026-12-28",
       "page": "2026-07-25",
+      "type": "conflict"
+    },
+    {
+      "address": "9822 International Boulevard 9818-9824 International Boulevard - 9828, Oakland, CA 94603",
+      "manager": "MPM Oakland",
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94649",
+      "field": "available_date",
+      "parser": "2027-06-01",
+      "page": "2026-06-01",
       "type": "conflict"
     },
     {
@@ -769,9 +859,72 @@
       "type": "conflict"
     },
     {
+      "address": "10801 Foothill Blvd. #B, Oakland, CA 94605",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/e40030f6-de11-4efc-bb59-5ce91e915281",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1084 16th St., Oakland, CA 94607",
+      "manager": "Bay Property Group",
+      "url": "https://baypropertygroup.appfolio.com/listings/detail/6bc63a36-bd20-4963-af09-b12e805a1350",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1115 Virginia Ln. # 14, Concord, CA 94520",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/1f3f0266-1c16-4df4-8342-9706688df99b",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1115 Virginia Ln. #13, Concord, CA 94520",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/ff7cd329-8a3f-4fee-92ed-c3f76d5dc768",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "1115 Virginia Ln. #50, Concord, CA 94520",
       "manager": "Community Realty Property Management",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/469cd052-6b3a-466a-9c09-8e1cf75132cb",
+      "field": "available_now",
+      "parser": false,
+      "page": true,
+      "type": "conflict"
+    },
+    {
+      "address": "121 Hawthorne #B6, Chelsea, MA",
+      "manager": "Boston Property Management",
+      "url": "https://bostonpropertymanagementllc.com/resident_listings/121-hawthorne-b6-chelsea-2/",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "13700 San Pablo Ave #2223, San Pablo, CA 94806",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/d08edc04-f43b-4082-a93b-6e8affd7426d",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1371 E Lexington Ave - 27, El Cajon, CA 92019",
+      "manager": "Cambridge Management Group",
+      "url": "https://cambridgemgi.appfolio.com/listings/detail/9d0e83ef-58ee-4571-bc1a-faeff9d8a761",
       "field": "available_now",
       "parser": false,
       "page": true,
@@ -814,6 +967,15 @@
       "type": "conflict"
     },
     {
+      "address": "1537 Truman St. #A, Richmond, CA 94801",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/6d3edcdb-e07d-4691-a51f-f9677661dcfb",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "16 Centennial Place -3L, Framingham, MA 01701",
       "manager": "Structure Boston",
       "url": "https://structureboston.appfolio.com/listings/detail/024e4511-288e-45d6-9329-51b238328917",
@@ -826,6 +988,69 @@
       "address": "164-166 Washington # 7, Chelsea, MA",
       "manager": "Boston Property Management",
       "url": "https://bostonpropertymanagementllc.com/resident_listings/164-166-washington-7-chelsea-2/",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1755 Fulton Street, San Francisco, CA 94117",
+      "manager": "Structure Properties",
+      "url": "https://spsf.appfolio.com/listings/detail/af0de67f-3562-4d03-adef-c00b981b2acd",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1801 Milvia Street -3 , Berkeley, CA 94709",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/b9743b42-39a7-4274-a92d-8020f79cc052",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1803 Oxford St - A, Berkeley, CA 94709",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/5e71c5ee-e1a8-47c3-8292-9747e76c1d91",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1803 Oxford St - Single - 2026-2027, Berkeley, CA 94709",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/f32d2b26-fb64-441e-ba90-18a12a6f1bce",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1835 28th. Ave. #302, Oakland, CA 94601",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/be667f42-9d2c-4f05-9208-e923fc66bda5",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1901 Dwight Way - 102, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/0151187b-27c8-46c2-a37a-23b10122f8ff",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1901 Dwight Way - 206, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/124b5010-25e4-440f-a900-6febee87c56b",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -850,18 +1075,27 @@
       "type": "conflict"
     },
     {
-      "address": "193 Redwood Avenue - Unit 3, Redwood City, CA 94061",
-      "manager": "Golden State Property Management",
-      "url": "https://goldenstate.appfolio.com/listings/detail/da84a5a8-695a-433c-8c4f-af2a0f27e00e",
+      "address": "2001 Milvia St - 702B (Shared Male), Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/cdd82e45-35dc-4260-ab65-b3a0dd150ec4",
       "field": "available_now",
       "parser": true,
       "page": false,
       "type": "conflict"
     },
     {
-      "address": "2001 Milvia St - 702B (Shared Male), Berkeley, CA 94704",
+      "address": "2025 Kala Bagai Way - 301, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/cdd82e45-35dc-4260-ab65-b3a0dd150ec4",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/690cd9eb-5d82-4e25-bf02-1a1670b38e29",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2025 Kala Bagai Way - 306B, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/192be9b2-788b-479f-8731-47625550c3fd",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -880,6 +1114,24 @@
       "address": "2077 Haste St - 202 Room 3 Bed A, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/9b9ee47d-9967-46fd-bdd1-ad57fe971463",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2077 Haste St - 301 Room 3 Bed B, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/6049656a-ebef-4839-a868-5a3998792d56",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2077 Haste St - 405, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/70c7e13e-6154-458a-b143-ce444bed5b69",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -913,6 +1165,15 @@
       "type": "conflict"
     },
     {
+      "address": "2077 Haste St - 504 Room 1 Bed B, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/a1a44459-9092-4022-b2a9-79de1858dfb6",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "2077 Haste St - 803, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/1954e7a5-a6ea-4126-9ccb-5c39cb99f245",
@@ -922,9 +1183,63 @@
       "type": "conflict"
     },
     {
+      "address": "2099 Martin Luther King Jr. Way - 511A, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/6f62bb67-e9b1-4c3d-9759-d1fe895819bb",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2099 Martin Luther King Jr. Way - 511B, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/863619e5-8061-42c6-9487-09e4b4e5e155",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2099 Martin Luther King Jr. Way - 611 Room 1 Bed B, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/fc8e42b2-1e99-4e6e-8e63-b0f5e68f976d",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "21 Paul Francis Way # 27, Plymouth, MA",
+      "manager": "Boston Property Management",
+      "url": "https://bostonpropertymanagementllc.com/resident_listings/21-paul-francis-way-27-plymouth/",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "2150 Kittredge St - 406.., Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/800f60ab-0d10-479e-93eb-ddf03443507d",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2150 Kittredge St - Fall 2026-2027 [Standard], Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/96274a5f-53ba-4733-91b1-78b7db7eed5b",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2150 Kittredge- Fall 2026-2027 [Standard], Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/ccb2189d-f51f-4a32-8d75-07c6827f5265",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -949,6 +1264,33 @@
       "type": "conflict"
     },
     {
+      "address": "2233 Channing Way - 13, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/d3b54503-6926-49da-98ad-5946ea15e9f6",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2250 96th. Avenue #208, Oakland, CA 94603",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/32998641-261b-4939-9867-af515745eb76",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2300 High Street #4, Oakland, CA 94601",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/1689fd35-11d9-422c-80f6-d93758d7ccb2",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "240 Crescent Street - 3, Waltham, MA 02453",
       "manager": "Structure Boston",
       "url": "https://structureboston.appfolio.com/listings/detail/d2944b8f-13dc-4cca-a9f6-c62e0cedd894",
@@ -958,12 +1300,12 @@
       "type": "conflict"
     },
     {
-      "address": "25 Dighton St #B, Brighton, MA 02135",
-      "manager": "Boston Property Care",
-      "url": "https://bostonpropertycare.appfolio.com/listings/detail/55328147-0037-4c9c-bab4-a49da0d11662",
+      "address": "240 W. MacArthur Blvd - 308, Oakland, CA 94611",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/4db1e362-5b1e-48dc-931f-3170f36f3b0e",
       "field": "available_now",
-      "parser": false,
-      "page": true,
+      "parser": true,
+      "page": false,
       "type": "conflict"
     },
     {
@@ -985,18 +1327,27 @@
       "type": "conflict"
     },
     {
-      "address": "2529 Etna Street #5, Berkeley, CA 94704",
-      "manager": "Cedar Properties",
-      "url": "https://cedarpm.appfolio.com/listings/detail/1d1c9d00-1b5b-4d0e-8457-156ab4aab097",
+      "address": "2510 Channing Way - 406, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/ad90dda1-0c67-4227-a87c-901838f8d7df",
       "field": "available_now",
-      "parser": false,
-      "page": true,
+      "parser": true,
+      "page": false,
       "type": "conflict"
     },
     {
-      "address": "2701 Shattuck Ave \u2013 409, Berkeley, CA 94705",
+      "address": "2701 Shattuck Ave - 211, Berkeley, CA 94705",
       "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/cb816552-2d5d-43b6-91cd-7c3b656bedc4",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/7c941a1c-6432-4c44-9280-36d386c53292",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2701 Shattuck Ave \u2013 505, Berkeley, CA 94705",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/f155b978-1f4c-4945-80e1-7250a25fa6a2",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -1057,6 +1408,15 @@
       "type": "conflict"
     },
     {
+      "address": "35 Woodstock Ave, Brighton, MA 02135",
+      "manager": "Boston Property Care",
+      "url": "https://bostonpropertycare.appfolio.com/listings/detail/e297dcc4-f02c-4f0a-895f-d78478d26212",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "359 Grand Ave. - 104, Oakland, CA 94610",
       "manager": "Selborne Properties",
       "url": "https://selborne.appfolio.com/listings/detail/a06e393c-d26d-4fbe-bffc-dc9e1a580b71",
@@ -1066,9 +1426,27 @@
       "type": "conflict"
     },
     {
+      "address": "36 Orange #3, Chelsea, MA",
+      "manager": "Boston Property Management",
+      "url": "https://bostonpropertymanagementllc.com/resident_listings/36-orange-3-chelsea-2/",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "370 Staten Ave, Apt J, Oakland, CA 94610",
       "manager": "Kasa Properties",
       "url": "https://kasaproperties.appfolio.com/listings/detail/c6aa3b54-4e84-490e-96b2-702437971a10",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "3806 39th Ave #3, Oakland, CA 94619",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/63b8e5ee-3371-4b4e-8007-90f053860e92",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -1087,6 +1465,24 @@
       "address": "40 Butler # 201, Quincy, MA",
       "manager": "Boston Property Management",
       "url": "https://bostonpropertymanagementllc.com/resident_listings/40-butler-201-quincy-3/",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "433 Adams St. Apt 1E, Oakland, CA 94610",
+      "manager": "K&S Company",
+      "url": "https://kands.appfolio.com/listings/detail/8bb7f0b7-2cbd-474a-9433-4fb524a4fd84",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "433 Adams St. Apt 3A, Oakland, CA 94610",
+      "manager": "K&S Company",
+      "url": "https://kands.appfolio.com/listings/detail/7a4af0d0-2eb1-4015-b68d-5ff65ab76620",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -1174,9 +1570,63 @@
       "type": "conflict"
     },
     {
+      "address": "63 Shawmut # 2, Chelsea, MA",
+      "manager": "Boston Property Management",
+      "url": "https://bostonpropertymanagementllc.com/resident_listings/63-shawmut-2-chelsea-2/",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "63 Shawmut # 3, Chelsea, MA",
+      "manager": "Boston Property Management",
+      "url": "https://bostonpropertymanagementllc.com/resident_listings/63-shawmut-3-chelsea/",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "6455 La Jolla Blvd #344, La Jolla, CA 92037",
+      "manager": "Cambridge Management Group",
+      "url": "https://cambridgemgi.appfolio.com/listings/detail/36474660-9e52-4443-978e-17b93a445e7a",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "6500 Yucca Street #332, Los Angeles, CA 90028",
+      "manager": "Structure Properties",
+      "url": "https://spsf.appfolio.com/listings/detail/4677f921-49cb-475a-912b-04c0a46dd661",
+      "field": "available_now",
+      "parser": false,
+      "page": true,
+      "type": "conflict"
+    },
+    {
       "address": "659 Fillmore Street, #1, San Francisco, CA 94117",
       "manager": "West Coast Property Management",
       "url": "https://wcpm.appfolio.com/listings/detail/7561b7f6-d6b2-4ac3-b3d1-5cef90a54c86",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "754 55th St., Oakland, CA 94609",
+      "manager": "Selborne Properties",
+      "url": "https://selborne.appfolio.com/listings/detail/f4ef6d91-506e-4fa7-9d31-5edb85ea17c3",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "764 59th St. - 1, Oakland, CA 94609",
+      "manager": "Bay Property Group",
+      "url": "https://baypropertygroup.appfolio.com/listings/detail/d7f01133-7aff-4d1c-9c66-69cf6c747117",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -1201,6 +1651,15 @@
       "type": "conflict"
     },
     {
+      "address": "785 Duke Circle, Pleasant Hill, CA 94523",
+      "manager": "Authentic Properties",
+      "url": "https://authenticrealestate.appfolio.com/listings/detail/431ee71c-7875-4158-9d9b-ce17bc31791a",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "84 Orange Street - 1N, Fall River, MA 02720",
       "manager": "Structure Boston",
       "url": "https://structureboston.appfolio.com/listings/detail/2279680a-681c-4af3-8af2-271d9a135b81",
@@ -1213,6 +1672,24 @@
       "address": "9308 Bancroft Ave., Oakland, CA 94603",
       "manager": "Community Realty Property Management",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/932b24cf-182b-4649-a423-a95c4696c056",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "935 Solano Ave. - 06, 06, Albany, CA 94706",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/986d2ce3-4e3f-41f7-a372-2c4525e9cdb1",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "95 Orange # A, Chelsea, MA",
+      "manager": "Boston Property Management",
+      "url": "https://bostonpropertymanagementllc.com/resident_listings/95-orange-a-chelsea-2/",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -1276,15 +1753,6 @@
       "address": "1526 Willow Street, 1st Fl, Martinez, CA 94553",
       "manager": "BanCal Property Management",
       "url": "https://bancalsf.appfolio.com/listings/detail/1b6edcc1-1053-4fc4-bf14-f6751c972bdf",
-      "field": "bedrooms",
-      "parser": 2.0,
-      "page": 1,
-      "type": "conflict"
-    },
-    {
-      "address": "1757 Oxford St, Apt 12, Berkeley, CA 94709",
-      "manager": "K&S Company",
-      "url": "https://kands.appfolio.com/listings/detail/3b6a6cfd-05e6-4de5-945a-ebe7c8d95562",
       "field": "bedrooms",
       "parser": 2.0,
       "page": 1,
@@ -1426,15 +1894,6 @@
       "type": "conflict"
     },
     {
-      "address": "1515 Webster Street - 4-416, Oakland, CA 94612",
-      "manager": "MPM Oakland",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95035",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
       "address": "1515 Webster Street - 4-418, Oakland, CA 94612",
       "manager": "MPM Oakland",
       "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93913",
@@ -1492,15 +1951,6 @@
       "address": "1515 Webster Street - 5-522, Oakland, CA 94612",
       "manager": "MPM Oakland",
       "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93179",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "1515 Webster Street - 5-527, Oakland, CA 94612",
-      "manager": "MPM Oakland",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94409",
       "field": "kind",
       "parser": "residential",
       "page": "room",
@@ -1744,15 +2194,6 @@
       "address": "2731 Durant Ave - 6B, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/d82e9764-ff7e-4c86-bc95-1d34e37ee89d",
-      "field": "kind",
-      "parser": "residential",
-      "page": "room",
-      "type": "conflict"
-    },
-    {
-      "address": "2731 Durant Ave - 8, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/df6fe0d3-2c50-4d71-a463-4597871e3d6b",
       "field": "kind",
       "parser": "residential",
       "page": "room",
@@ -2128,21 +2569,12 @@
       "type": "conflict"
     },
     {
-      "address": "1284 Mattox Rd 14, Hayward, CA 94541",
+      "address": "1286 Mattox Rd 54, Hayward, CA 94541",
       "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/2cc36513-e58e-42c9-a5d1-ee0918bfb813",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/0fd6d42c-01f3-46e1-8578-1c65c845ed05",
       "field": "rent",
-      "parser": 1892.31,
-      "page": 2026.15,
-      "type": "conflict"
-    },
-    {
-      "address": "1284 Mattox Rd 17, Hayward, CA 94541",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/b509f66f-a005-4da5-923d-35df29ad12cf",
-      "field": "rent",
-      "parser": 1892.31,
-      "page": 2026.15,
+      "parser": 2026.15,
+      "page": 2195,
       "type": "conflict"
     },
     {
@@ -2152,6 +2584,15 @@
       "field": "rent",
       "parser": 1995.0,
       "page": 2095,
+      "type": "conflict"
+    },
+    {
+      "address": "14723 Martell Ave - A, San Leandro, CA 94578",
+      "manager": "Utopia Management",
+      "url": "https://utopiamanagement.appfolio.com/listings/detail/81766f12-e655-491b-8586-13e1cbd170e7",
+      "field": "rent",
+      "parser": 2295.0,
+      "page": 2395,
       "type": "conflict"
     },
     {
@@ -2209,12 +2650,12 @@
       "type": "conflict"
     },
     {
-      "address": "1757 Oxford St, Apt 12, Berkeley, CA 94709",
-      "manager": "K&S Company",
-      "url": "https://kands.appfolio.com/listings/detail/3b6a6cfd-05e6-4de5-945a-ebe7c8d95562",
+      "address": "1752 Shattuck Avenue, Unit 406, Berkeley, CA 94709",
+      "manager": "Panoramic Berkeley",
+      "url": "https://panoramicmgt.appfolio.com/listings/detail/e080f443-b7b6-4f98-bcc6-5a1d90194429",
       "field": "rent",
-      "parser": 2195.0,
-      "page": 2295,
+      "parser": 6600.0,
+      "page": 5950,
       "type": "conflict"
     },
     {
@@ -2287,6 +2728,15 @@
       "field": "rent",
       "parser": 2197.0,
       "page": 2295,
+      "type": "conflict"
+    },
+    {
+      "address": "2025 Kala Bagai Way - 301, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/690cd9eb-5d82-4e25-bf02-1a1670b38e29",
+      "field": "rent",
+      "parser": 2595.0,
+      "page": 2750,
       "type": "conflict"
     },
     {
@@ -2366,7 +2816,7 @@
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/87408b2d-28a1-4d8d-8e65-927185522dc4",
       "field": "rent",
-      "parser": 1884.0,
+      "parser": 1695.0,
       "page": 2072,
       "type": "conflict"
     },
@@ -2515,6 +2965,15 @@
       "type": "conflict"
     },
     {
+      "address": "2417 Blake Street #2, Berkeley, CA 94704",
+      "manager": "Domingo Properties",
+      "url": "https://domingoprop.managebuilding.com/Resident/public/rentals/40693",
+      "field": "rent",
+      "parser": 2050.0,
+      "page": 2195,
+      "type": "conflict"
+    },
+    {
       "address": "2640 Shattuck Ave - 410, 410, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/c8c74814-4a4d-47f4-8159-a2af2da7fea3",
@@ -2539,15 +2998,6 @@
       "field": "rent",
       "parser": 1095.0,
       "page": 1195,
-      "type": "conflict"
-    },
-    {
-      "address": "2731 Durant Ave - 8, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/df6fe0d3-2c50-4d71-a463-4597871e3d6b",
-      "field": "rent",
-      "parser": 1695.0,
-      "page": 1795,
       "type": "conflict"
     },
     {
@@ -2719,15 +3169,6 @@
       "field": "rent",
       "parser": 3495.0,
       "page": 3699,
-      "type": "conflict"
-    },
-    {
-      "address": "763 Blossom Way - #23, Hayward, CA 94541",
-      "manager": "MPM Oakland",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93001",
-      "field": "rent",
-      "parser": 1595.0,
-      "page": 1675,
       "type": "conflict"
     },
     {

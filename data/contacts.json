@@ -15,10 +15,10 @@
   },
   "all_east_bay": {
     "emails": [
-      "mj@alleastbayproperties.com"
+      "2122-sacramento-st@rent.dynasty"
     ],
     "manager": "All East Bay Properties",
-    "phone": "(510) 684-8794",
+    "phone": "(925) 438-6269",
     "source_url": "https://alleastbayproperties.appfolio.com/listings/detail/6454f4d5-228b-4100-a099-cc2b1b30506b"
   },
   "authentic_properties": {
@@ -97,11 +97,11 @@
   },
   "chandler_properties": {
     "emails": [
-      "ethelpropmanagement@gmail.com"
+      "rm2890c@gmail.com"
     ],
     "manager": "Chandler Properties",
-    "phone": "(415) 921-5733",
-    "source_url": "https://chandlerproperties.appfolio.com/listings/detail/8afacf89-ab01-4fb7-bc6f-b5a475a34ff6"
+    "phone": "(315) 391-2180",
+    "source_url": "https://chandlerproperties.appfolio.com/listings/detail/090976e1-6c51-4aec-b87e-237ca23be32e"
   },
   "collabhome": {
     "emails": [
@@ -115,7 +115,7 @@
     "emails": [],
     "manager": "Community Realty Property Management",
     "phone": "(510) 530-1005",
-    "source_url": "https://communityrealtypm.appfolio.com/listings/detail/0e5e3825-7322-4d65-a6b3-ffca0d0fd1ee"
+    "source_url": "https://communityrealtypm.appfolio.com/listings/detail/0640f641-d87d-4e96-996c-39849a3448bd"
   },
   "domingo_properties": {
     "emails": [
@@ -127,11 +127,9 @@
     "source_url": "https://domingoprop.managebuilding.com/Resident/public/rentals/2559"
   },
   "eri_property_management": {
-    "emails": [
-      "info@erihomes.com"
-    ],
+    "emails": [],
     "manager": "ERI Property Management",
-    "phone": "(510) 883-7070",
+    "phone": null,
     "source_url": "https://www.erirentals.com/unit.php?id=540"
   },
   "golden_gate_pm": {
@@ -199,7 +197,7 @@
     "emails": [],
     "manager": "Myerhoff & Associates",
     "phone": "(678) 886-1918",
-    "source_url": "https://myerhoff.appfolio.com/listings/detail/896c496a-282a-4241-8593-883c3a747af0"
+    "source_url": "https://myerhoff.appfolio.com/listings/detail/e06826f4-efd9-40ab-9890-f7f816b5401c"
   },
   "panoramic_berkeley": {
     "emails": [],
@@ -306,6 +304,6 @@
     "emails": [],
     "manager": "West Coast Property Management",
     "phone": "(415) 789-3798",
-    "source_url": "https://wcpm.appfolio.com/listings/detail/a96a083a-ade4-43a6-975a-0051e4738542"
+    "source_url": "https://wcpm.appfolio.com/listings/detail/b1fe1ff2-e916-432f-b820-b427b17593a5"
   }
 }

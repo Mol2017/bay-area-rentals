@@ -3,8 +3,8 @@
   "source": "advent_properties",
   "manager": "Advent Properties",
   "source_url": "https://adventproperties.appfolio.com/listings",
-  "scraped_at": "2026-07-31T07:03:09-07:00",
-  "unit_count": 12,
+  "scraped_at": "2026-08-01T06:55:04-07:00",
+  "unit_count": 11,
   "units": [
     {
       "address": "2451 Bonar St, Berkeley, CA 94702-2062",
@@ -178,7 +178,7 @@
       "square_feet": 600,
       "state": "CA",
       "postal_code": "94607",
-      "title": "(COMING SOON) Ground Floor 1 Bedroom Oakland Apartment",
+      "title": "Ground Floor 1 Bedroom Oakland Apartment",
       "url": "https://adventproperties.appfolio.com/listings/detail/14654273-4c9c-4a3c-882e-7968330f1870"
     },
     {
@@ -283,30 +283,6 @@
       "postal_code": "94610",
       "title": "Beautiful Two Bedroom Apartment W/ Dishwasher, On Site Laundry & Available Parking",
       "url": "https://adventproperties.appfolio.com/listings/detail/52f8ddd2-0dfe-4989-a027-d6c9b6d8ec48"
-    },
-    {
-      "address": "354 25th Ave, Apt 2, San Francisco, CA 94121-1937",
-      "source": "advent_properties",
-      "manager": "Advent Properties",
-      "city": "San Francisco",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 4495.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": null,
-      "summary": "2-bedroom, 1.5-bathroom apartment in San Francisco's Richmond district with 1,020 sq ft, hardwood floors, and on-site garage parking. Cats and dogs allowed.",
-      "available_now": true,
-      "bathrooms": 1.5,
-      "square_feet": 1020,
-      "state": "CA",
-      "postal_code": "94121",
-      "title": "Introducing Your Gateway to Vibrant Living in San Francisco!",
-      "url": "https://adventproperties.appfolio.com/listings/detail/7c7b0759-0a13-46c0-968f-08a6fd1a3820"
     }
   ]
 }

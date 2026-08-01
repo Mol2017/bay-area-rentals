@@ -3,7 +3,7 @@
   "source": "boardwalk",
   "manager": "Boardwalk Properties",
   "source_url": "https://boardwalkinvestments.appfolio.com/listings",
-  "scraped_at": "2026-07-31T07:03:08-07:00",
+  "scraped_at": "2026-08-01T06:55:03-07:00",
   "unit_count": 2,
   "units": [
     {
@@ -12,7 +12,7 @@
       "manager": "Boardwalk Properties",
       "city": "Atherton",
       "bedrooms": 3.0,
-      "available_date": "2026-08-01",
+      "available_date": null,
       "rent": 6200.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
@@ -22,7 +22,7 @@
       "parking": null,
       "laundry": null,
       "summary": null,
-      "available_now": false,
+      "available_now": true,
       "bathrooms": 3.5,
       "square_feet": null,
       "state": "CA",

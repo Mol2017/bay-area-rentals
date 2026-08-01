@@ -3,8 +3,8 @@
   "source": "beacon_properties",
   "manager": "Beacon Properties",
   "source_url": "https://beaconprop.appfolio.com/listings",
-  "scraped_at": "2026-07-31T07:03:08-07:00",
-  "unit_count": 20,
+  "scraped_at": "2026-08-01T06:55:03-07:00",
+  "unit_count": 18,
   "units": [
     {
       "address": "2091 California Street - 225, Berkeley, CA 94703",
@@ -147,7 +147,7 @@
       "square_feet": 542,
       "state": "CA",
       "postal_code": "94704",
-      "title": "Viewing Schedule: Coming Soon! Call Van 510-961-3757!",
+      "title": "Coming in August! Call Van for private tour 510-961-3757!",
       "url": "https://beaconprop.appfolio.com/listings/detail/a03a518c-2442-4ed6-8eed-483035332389"
     },
     {
@@ -252,30 +252,6 @@
       "postal_code": "94609",
       "title": "Viewing Schedule: Please call Isaac at 510-384-3947 (before 9pm) to schedule a viewing!",
       "url": "https://beaconprop.appfolio.com/listings/detail/fbe05bc8-bcab-4feb-8321-294f3fb392e9"
-    },
-    {
-      "address": "544 37th Street - 305, Oakland, CA 94609",
-      "source": "beacon_properties",
-      "manager": "Beacon Properties",
-      "city": "Oakland",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 1595.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "shared",
-      "summary": "Studio apartment with 1 bathroom in a 21-unit Oakland building near BART and UC Berkeley. Hardwood floors, walk-in closet, separate kitchen, water and garbage included. No pets allowed.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94609",
-      "title": "Viewing Schedule: Please call Isaac at 510-384-3947 (before 9pm) to schedule a viewing.",
-      "url": "https://beaconprop.appfolio.com/listings/detail/ea476024-665d-4d59-a4a0-8c4d370a73c6"
     },
     {
       "address": "2318 9th Avenue - C6, Oakland, CA 94606",
@@ -475,30 +451,6 @@
       "postal_code": "94601",
       "title": "Viewing Schedule: Wednesday (7/29) 6:00pm-6:40pm",
       "url": "https://beaconprop.appfolio.com/listings/detail/8f16694d-8975-4179-8caa-fc2da9124072"
-    },
-    {
-      "address": "2320 9th Avenue - B, Oakland, CA 94606",
-      "source": "beacon_properties",
-      "manager": "Beacon Properties",
-      "city": "Oakland",
-      "bedrooms": 3.0,
-      "available_date": null,
-      "rent": 3250.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": "unfurnished",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "3 bedroom, 3 bathroom unfurnished apartment in Oakland with in-unit AC, hardwood flooring, and stainless steel appliances. Available now.",
-      "available_now": true,
-      "bathrooms": 3.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94606",
-      "title": "Please call Shammie at (415) 225-2543 to schedule a viewing!",
-      "url": "https://beaconprop.appfolio.com/listings/detail/f2796154-e2b3-4652-b2b1-a0855f4d9631"
     }
   ]
 }

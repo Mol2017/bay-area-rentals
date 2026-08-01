@@ -3,7 +3,7 @@
   "source": "panoramic_berkeley",
   "manager": "Panoramic Berkeley",
   "source_url": "https://panoramicmgt.appfolio.com/listings",
-  "scraped_at": "2026-07-31T07:03:08-07:00",
+  "scraped_at": "2026-08-01T06:55:03-07:00",
   "unit_count": 3,
   "units": [
     {
@@ -13,7 +13,7 @@
       "city": "Berkeley",
       "bedrooms": 4.0,
       "available_date": null,
-      "rent": 5950.0,
+      "rent": 6600.0,
       "kind": "residential",
       "unit_type": "3plus_bedroom",
       "room_type": "entire_place",
@@ -28,7 +28,14 @@
       "state": "CA",
       "postal_code": "94709",
       "title": "New Modern FURNISHED Apt with 4 PRIVATE ROOMS",
-      "url": "https://panoramicmgt.appfolio.com/listings/detail/e080f443-b7b6-4f98-bcc6-5a1d90194429"
+      "url": "https://panoramicmgt.appfolio.com/listings/detail/e080f443-b7b6-4f98-bcc6-5a1d90194429",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 6600.0,
+          "observed": 5950
+        }
+      ]
     },
     {
       "address": "1752 Shattuck Avenue, Unit 104, Berkeley, CA 94709",

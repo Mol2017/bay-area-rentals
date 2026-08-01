@@ -3,8 +3,8 @@
   "source": "mpm_oakland",
   "manager": "MPM Oakland",
   "source_url": "https://mpmoakland.managebuilding.com/Resident/public/rentals",
-  "scraped_at": "2026-07-31T07:03:11-07:00",
-  "unit_count": 34,
+  "scraped_at": "2026-08-01T06:55:06-07:00",
+  "unit_count": 30,
   "units": [
     {
       "address": "7990 Glenbar Way, Fair Oaks, CA 95628",
@@ -29,30 +29,6 @@
       "postal_code": "95628",
       "title": "7990 Glenbar Way",
       "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95053"
-    },
-    {
-      "address": "763 Blossom Way - #23, Hayward, CA 94541",
-      "source": "mpm_oakland",
-      "manager": "MPM Oakland",
-      "city": "Hayward",
-      "bedrooms": 1.0,
-      "available_date": "2026-06-05",
-      "rent": 1595.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "shared",
-      "summary": "1 bedroom, 1 bathroom apartment (525 sqft) in a 58-unit complex with shared pool, courtyard, and on-site laundry. Available 6/5/2026.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 525,
-      "state": "CA",
-      "postal_code": "94541",
-      "title": "763 Blossom Way - #23",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93001"
     },
     {
       "address": "763 Blossom Way - #19, Hayward, CA 94541",
@@ -227,37 +203,6 @@
       ]
     },
     {
-      "address": "1515 Webster Street - 4-416, Oakland, CA 94612",
-      "source": "mpm_oakland",
-      "manager": "MPM Oakland",
-      "city": "Oakland",
-      "bedrooms": 0.0,
-      "available_date": "2026-07-10",
-      "rent": 1100.0,
-      "kind": "room",
-      "unit_type": "studio",
-      "room_type": "shared_room",
-      "pets": null,
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Furnished shared room in a co-living building in downtown Oakland with utilities and on-site laundry included. 167 sq ft, available 7/10/2026.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 167,
-      "state": "CA",
-      "postal_code": "94612",
-      "title": "1515 Webster Street - 4-416",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95035",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
       "address": "1515 Webster Street - 4-418, Oakland, CA 94612",
       "source": "mpm_oakland",
       "manager": "MPM Oakland",
@@ -373,37 +318,6 @@
       "postal_code": "94612",
       "title": "1515 Webster Street - 5-522",
       "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93179",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
-      "address": "1515 Webster Street - 5-527, Oakland, CA 94612",
-      "source": "mpm_oakland",
-      "manager": "MPM Oakland",
-      "city": "Oakland",
-      "bedrooms": 0.0,
-      "available_date": "2026-05-15",
-      "rent": 1150.0,
-      "kind": "room",
-      "unit_type": "studio",
-      "room_type": "shared_room",
-      "pets": null,
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "shared",
-      "summary": "A furnished room in a co-living building in downtown Oakland with shared kitchen and laundry. All utilities included; flexible 6-12 month leases.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 172,
-      "state": "CA",
-      "postal_code": "94612",
-      "title": "1515 Webster Street - 5-527",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94409",
       "conflicts": [
         {
           "field": "kind",
@@ -679,30 +593,6 @@
       "postal_code": "94606",
       "title": "427 East 19th Street - 15",
       "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/95214"
-    },
-    {
-      "address": "2333 Humboldt Avenue - B, Oakland, CA 94601",
-      "source": "mpm_oakland",
-      "manager": "MPM Oakland",
-      "city": "Oakland",
-      "bedrooms": 1.0,
-      "available_date": "2026-05-18",
-      "rent": 1795.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": null,
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": null,
-      "summary": "Spacious 1 bed/1 bath lower unit in a walkup building in Oakland's Peralta Hacienda neighborhood. Features fresh paint, granite counters, and off-street parking for one car.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94601",
-      "title": "2333 Humboldt Avenue - B",
-      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/94460"
     },
     {
       "address": "5949 E.16th Street, Oakland, CA 94621",

@@ -3,8 +3,8 @@
   "source": "golden_gate_pm",
   "manager": "Golden State Property Management",
   "source_url": "https://goldenstate.appfolio.com/listings",
-  "scraped_at": "2026-07-31T07:03:10-07:00",
-  "unit_count": 8,
+  "scraped_at": "2026-08-01T06:55:05-07:00",
+  "unit_count": 6,
   "units": [
     {
       "address": "2122 Lyon Avenue, Belmont, CA 94002",
@@ -53,30 +53,6 @@
       "postal_code": "95014",
       "title": "Large Landscaped Backyard! Fruit Trees",
       "url": "https://goldenstate.appfolio.com/listings/detail/d9eb0e92-58dd-48aa-bf15-f6ee045a54c1"
-    },
-    {
-      "address": "193 Redwood Avenue - Unit 3, Redwood City, CA 94061",
-      "source": "golden_gate_pm",
-      "manager": "Golden State Property Management",
-      "city": "Redwood City",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 2395.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": "unfurnished",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Unfurnished 1-bed/1-bath top-floor apartment in Redwood City with washer/dryer combo, quartz counters, and carport parking. Available 7/25/26.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 750,
-      "state": "CA",
-      "postal_code": "94061",
-      "title": "Unfurnished updated top floor unit. Walk In Closet, Additional Storage in Carport",
-      "url": "https://goldenstate.appfolio.com/listings/detail/da84a5a8-695a-433c-8c4f-af2a0f27e00e"
     },
     {
       "address": "1111 Pippin Creek Court, Unit B, San Jose, CA 95120",
@@ -180,30 +156,6 @@
           "observed": 3695
         }
       ]
-    },
-    {
-      "address": "706 San Tomas Street, Sunnyvale, CA 94085",
-      "source": "golden_gate_pm",
-      "manager": "Golden State Property Management",
-      "city": "Sunnyvale",
-      "bedrooms": 3.0,
-      "available_date": null,
-      "rent": 5395.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "dogs_only",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "in_unit",
-      "summary": "Beautifully remodeled 3-bedroom, 2-bathroom single-family home in Sunnyvale with designer kitchen, private backyard, and attached one-car garage. One small dog under 40 lbs welcome.",
-      "available_now": true,
-      "bathrooms": 2.0,
-      "square_feet": 1543,
-      "state": "CA",
-      "postal_code": "94085",
-      "title": "Beautifully Remodeled 3BD/2BA Sunnyvale Home with Designer Kitchen & Private Backyard",
-      "url": "https://goldenstate.appfolio.com/listings/detail/8f787bc7-6021-4513-872b-904e1d1c1dc3"
     }
   ]
 }

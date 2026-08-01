@@ -3,8 +3,8 @@
   "source": "professional_pm",
   "manager": "Professional Property Management",
   "source_url": "https://profpm.appfolio.com/listings",
-  "scraped_at": "2026-07-31T07:03:10-07:00",
-  "unit_count": 19,
+  "scraped_at": "2026-08-01T06:55:05-07:00",
+  "unit_count": 17,
   "units": [
     {
       "address": "1313 Curtis Street - 1313, Berkeley, CA 94702",
@@ -101,30 +101,6 @@
       "postal_code": "94801",
       "title": "One Month Free rent, Move in with just a security deposit- Upper Corner Unit in Richmond with 1 car garage",
       "url": "https://profpm.appfolio.com/listings/detail/51ac7809-a1a3-4f8e-b89a-94acf7a05acb"
-    },
-    {
-      "address": "418 C Street - 422 C Street, Richmond, CA 94801",
-      "source": "professional_pm",
-      "manager": "Professional Property Management",
-      "city": "Richmond",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 1995.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": "partial",
-      "parking": "street",
-      "laundry": null,
-      "summary": "2-bedroom, 1-bathroom townhouse-style apartment in Richmond with 1-car garage, fresh paint, and wall-to-wall carpeting. No pets allowed.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94801",
-      "title": "1.5 Months FREE Move-In Bonus! Move in with just your security deposit!",
-      "url": "https://profpm.appfolio.com/listings/detail/e7929257-fbbe-4180-8a9d-959d5af97158"
     },
     {
       "address": "421 Golden Gate Avenue - 421, Richmond, CA 94801",
@@ -451,30 +427,6 @@
       "postal_code": "94806",
       "title": "Single story home located in San Pablo, Ca",
       "url": "https://profpm.appfolio.com/listings/detail/c041e40b-c87a-4b58-a112-92252818c0c0"
-    },
-    {
-      "address": "2846 20th Street, San Pablo, CA 94806",
-      "source": "professional_pm",
-      "manager": "Professional Property Management",
-      "city": "San Pablo",
-      "bedrooms": 4.0,
-      "available_date": null,
-      "rent": 3750.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "hookups",
-      "summary": "Remodeled 4-bedroom, 2-bathroom single-story home in San Pablo with 1,637 sq. ft., two-car garage, and modern updates. Available now.",
-      "available_now": true,
-      "bathrooms": 2.0,
-      "square_feet": 1637,
-      "state": "CA",
-      "postal_code": "94806",
-      "title": "Remodeled 4 bedroom Single Story Home in San Pablo, CA.",
-      "url": "https://profpm.appfolio.com/listings/detail/d9d731f7-83ab-4b31-8282-769a94b34987"
     }
   ]
 }

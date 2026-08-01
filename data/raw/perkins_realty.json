@@ -3,7 +3,7 @@
   "source": "perkins_realty",
   "manager": "Perkins Realty Partners",
   "source_url": "https://perkins.appfolio.com/listings",
-  "scraped_at": "2026-07-31T07:03:09-07:00",
+  "scraped_at": "2026-08-01T06:55:03-07:00",
   "unit_count": 3,
   "units": [
     {
@@ -12,7 +12,7 @@
       "manager": "Perkins Realty Partners",
       "city": "Fremont",
       "bedrooms": 2.0,
-      "available_date": "2026-08-01",
+      "available_date": null,
       "rent": 3600.0,
       "kind": "residential",
       "unit_type": "2_bedroom",
@@ -22,7 +22,7 @@
       "parking": null,
       "laundry": null,
       "summary": null,
-      "available_now": false,
+      "available_now": true,
       "bathrooms": 2.0,
       "square_feet": 1174,
       "state": "CA",
