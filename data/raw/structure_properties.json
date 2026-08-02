@@ -3,7 +3,7 @@
   "source": "structure_properties",
   "manager": "Structure Properties",
   "source_url": "https://spsf.appfolio.com/listings",
-  "scraped_at": "2026-08-01T06:55:05-07:00",
+  "scraped_at": "2026-08-02T06:54:57-07:00",
   "unit_count": 42,
   "units": [
     {
@@ -300,7 +300,7 @@
       "manager": "Structure Properties",
       "city": "San Francisco",
       "bedrooms": 0.0,
-      "available_date": "2026-08-02",
+      "available_date": null,
       "rent": 950.0,
       "kind": "room",
       "unit_type": "studio",
@@ -310,7 +310,7 @@
       "parking": null,
       "laundry": null,
       "summary": null,
-      "available_now": false,
+      "available_now": true,
       "bathrooms": 0.0,
       "square_feet": 76,
       "state": "CA",

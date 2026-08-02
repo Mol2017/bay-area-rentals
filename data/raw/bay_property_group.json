@@ -3,8 +3,8 @@
   "source": "bay_property_group",
   "manager": "Bay Property Group",
   "source_url": "https://baypropertygroup.appfolio.com/listings",
-  "scraped_at": "2026-08-01T06:55:05-07:00",
-  "unit_count": 18,
+  "scraped_at": "2026-08-02T06:54:57-07:00",
+  "unit_count": 19,
   "units": [
     {
       "address": "2829 Prince St. - 5, Berkeley, CA 94705",
@@ -389,6 +389,30 @@
       "postal_code": "94606",
       "title": "2 Bedroom Spacious newly updated unit ready now!",
       "url": "https://baypropertygroup.appfolio.com/listings/detail/fa862b13-7de7-4f2e-b98a-df589b8042d4"
+    },
+    {
+      "address": "1659-1661 9th Avenue , San Francisco, CA 94122",
+      "source": "bay_property_group",
+      "manager": "Bay Property Group",
+      "city": "San Francisco",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-10",
+      "rent": 3495.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 950,
+      "state": "CA",
+      "postal_code": "94122",
+      "title": "UPDATED LARGE 1BR/1BA/1GR Sunset/UCSF Apartment AVAILABLE 8/10",
+      "url": "https://baypropertygroup.appfolio.com/listings/detail/53f9e3bb-84f4-475f-8606-0ad8138d789c"
     },
     {
       "address": "1855 California St - 2, San Francisco, CA 94109",

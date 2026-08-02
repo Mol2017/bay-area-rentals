@@ -3,8 +3,8 @@
   "source": "ks_company",
   "manager": "K&S Company",
   "source_url": "https://kands.appfolio.com/listings",
-  "scraped_at": "2026-08-01T06:55:06-07:00",
-  "unit_count": 68,
+  "scraped_at": "2026-08-02T06:54:58-07:00",
+  "unit_count": 66,
   "units": [
     {
       "address": "2253 Central Avenue Apt H, Alameda, CA 94501",
@@ -149,30 +149,6 @@
       "postal_code": "94704",
       "title": "Sunny Studio Apartment, Close to everywhere! Near by BART",
       "url": "https://kands.appfolio.com/listings/detail/f53f030a-27a6-4cc3-8473-1e6a4d4a6887"
-    },
-    {
-      "address": "1988 California St. Apt 58, Berkeley, CA 94703",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 1850.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": "street",
-      "laundry": null,
-      "summary": "Completely renovated studio in Berkeley with hardwood floors, updated kitchen and bathroom, and new windows. Street parking only; cats and dogs not allowed.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94703",
-      "title": "Very Bright Sunny, Quiet and Cozy location, this unit is Completely Renovated Studio",
-      "url": "https://kands.appfolio.com/listings/detail/51322e9c-7ee4-464b-89ea-b6d7d70c5a24"
     },
     {
       "address": "2609 Sacramento Street, Berkeley, CA 94703",
@@ -1512,7 +1488,7 @@
       "square_feet": null,
       "state": "CA",
       "postal_code": "94610",
-      "title": "COMING SOON -A solid 1bdr in the Adam\u2019s Point area of Oakland. Close walk to Grand/Lakeshore",
+      "title": "-A solid 1bdr in the Adam\u2019s Point area of Oakland. Close walk to Grand/Lakeshore",
       "url": "https://kands.appfolio.com/listings/detail/8bb7f0b7-2cbd-474a-9433-4fb524a4fd84"
     },
     {
@@ -1610,30 +1586,6 @@
       "postal_code": "94801",
       "title": "COMING SOON-Spacious One Bedroom, large living room area",
       "url": "https://kands.appfolio.com/listings/detail/0c566053-8309-42ac-aada-022d856a08ea"
-    },
-    {
-      "address": "12450 San Pablo Ave #A, Richmond, CA 94805",
-      "source": "ks_company",
-      "manager": "K&S Company",
-      "city": "Richmond",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 1845.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": "unfurnished",
-      "parking": "off_street",
-      "laundry": "hookups",
-      "summary": "Remodeled 2-bedroom, 1-bathroom apartment with new hardwood floors, windows, and appliances on San Pablo Ave in Richmond. Ground floor unit with off-street parking available for $60/month and washer/dryer hookups.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 884,
-      "state": "CA",
-      "postal_code": "94805",
-      "title": "Remodeled 2 Bedroom, on San Pablo Ave, in East Richmond Area",
-      "url": "https://kands.appfolio.com/listings/detail/3f720f61-6ef8-4f4b-b8ac-dcec35bf1b7e"
     },
     {
       "address": "12124 Saratoga-Sunnyvale Rd., Saratoga, CA 95070",

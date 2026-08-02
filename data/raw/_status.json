@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-08-01T06:55:35-07:00",
+  "checked_at": "2026-08-02T06:55:26-07:00",
   "sources_ok": 51,
   "sources_failed": 0,
-  "total_units": 1536,
+  "total_units": 1528,
   "unscrapable": [
     {
       "slug": "hudson_mcdonald",
@@ -111,7 +111,7 @@
       "manager": "BanCal Property Management",
       "platform": "appfolio",
       "ok": true,
-      "units": 4,
+      "units": 3,
       "error": null,
       "preserved": false
     },
@@ -129,7 +129,7 @@
       "manager": "Bay Property Group",
       "platform": "appfolio",
       "ok": true,
-      "units": 18,
+      "units": 19,
       "error": null,
       "preserved": false
     },
@@ -228,7 +228,7 @@
       "manager": "Community Realty Property Management",
       "platform": "appfolio",
       "ok": true,
-      "units": 54,
+      "units": 53,
       "error": null,
       "preserved": false
     },
@@ -327,7 +327,7 @@
       "manager": "K&S Company",
       "platform": "appfolio",
       "ok": true,
-      "units": 68,
+      "units": 66,
       "error": null,
       "preserved": false
     },
@@ -426,7 +426,7 @@
       "manager": "ReListo",
       "platform": "relisto",
       "ok": true,
-      "units": 9,
+      "units": 11,
       "error": null,
       "preserved": false
     },
@@ -444,7 +444,7 @@
       "manager": "SG Real Estate Co.",
       "platform": "appfolio",
       "ok": true,
-      "units": 170,
+      "units": 164,
       "error": null,
       "preserved": false
     },
@@ -498,7 +498,7 @@
       "manager": "2B Living",
       "platform": "appfolio",
       "ok": true,
-      "units": 30,
+      "units": 29,
       "error": null,
       "preserved": false
     },

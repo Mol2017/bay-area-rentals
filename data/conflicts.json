@@ -1,7 +1,7 @@
 {
-  "checked": 760,
-  "conflicts": 370,
-  "parser_missing": 134,
+  "checked": 752,
+  "conflicts": 365,
+  "parser_missing": 127,
   "rows": [
     {
       "address": "1115 Virginia Ln. # 31, Concord, CA 94520",
@@ -100,6 +100,15 @@
       "field": "available_date",
       "parser": "2027-04-02",
       "page": "2026-04-02",
+      "type": "conflict"
+    },
+    {
+      "address": "1835 28th. Ave. #302, Oakland, CA 94601",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/be667f42-9d2c-4f05-9208-e923fc66bda5",
+      "field": "available_date",
+      "parser": "2026-08-05",
+      "page": "2026-07-25",
       "type": "conflict"
     },
     {
@@ -229,15 +238,6 @@
       "type": "conflict"
     },
     {
-      "address": "2067 University Ave - 702, 702, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/c9e0a0c1-516f-4875-b00f-c0b0e0531f12",
-      "field": "available_date",
-      "parser": "2026-08-20",
-      "page": "2026-08-25",
-      "type": "conflict"
-    },
-    {
       "address": "2070 University Avenue, 113, Berkeley, CA 94704",
       "manager": "Raj Properties",
       "url": "https://rajproperties.managebuilding.com/Resident/public/rentals/52777",
@@ -253,15 +253,6 @@
       "field": "available_date",
       "parser": "2026-08-10",
       "page": "2026-08-11",
-      "type": "conflict"
-    },
-    {
-      "address": "20900 Birch St, Hayward, CA 94541",
-      "manager": "Community Realty Property Management",
-      "url": "https://communityrealtypm.appfolio.com/listings/detail/4bad92e0-50a2-4a1f-98bd-291460835798",
-      "field": "available_date",
-      "parser": "2026-08-31",
-      "page": "2026-07-25",
       "type": "conflict"
     },
     {
@@ -316,6 +307,24 @@
       "field": "available_date",
       "parser": "2027-06-01",
       "page": "2026-06-01",
+      "type": "conflict"
+    },
+    {
+      "address": "2300 High Street #11, Oakland, CA 94601",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/1a2bfb02-337a-45fb-a2a1-7b58b5622d35",
+      "field": "available_date",
+      "parser": "2026-09-01",
+      "page": "2026-09-15",
+      "type": "conflict"
+    },
+    {
+      "address": "2300 High Street #4, Oakland, CA 94601",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/1689fd35-11d9-422c-80f6-d93758d7ccb2",
+      "field": "available_date",
+      "parser": "2026-08-08",
+      "page": "2026-08-01",
       "type": "conflict"
     },
     {
@@ -440,7 +449,7 @@
       "manager": "Community Realty Property Management",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/c6d8b7e5-cace-4c40-b817-025ed2c551d3",
       "field": "available_date",
-      "parser": "2026-10-06",
+      "parser": "2026-08-31",
       "page": "2026-08-15",
       "type": "conflict"
     },
@@ -523,6 +532,15 @@
       "field": "available_date",
       "parser": "2027-05-29",
       "page": "2026-05-29",
+      "type": "conflict"
+    },
+    {
+      "address": "3806 39th Ave #3, Oakland, CA 94619",
+      "manager": "Community Realty Property Management",
+      "url": "https://communityrealtypm.appfolio.com/listings/detail/63b8e5ee-3371-4b4e-8007-90f053860e92",
+      "field": "available_date",
+      "parser": "2026-08-08",
+      "page": "2026-08-01",
       "type": "conflict"
     },
     {
@@ -859,15 +877,6 @@
       "type": "conflict"
     },
     {
-      "address": "10801 Foothill Blvd. #B, Oakland, CA 94605",
-      "manager": "Community Realty Property Management",
-      "url": "https://communityrealtypm.appfolio.com/listings/detail/e40030f6-de11-4efc-bb59-5ce91e915281",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
       "address": "1084 16th St., Oakland, CA 94607",
       "manager": "Bay Property Group",
       "url": "https://baypropertygroup.appfolio.com/listings/detail/6bc63a36-bd20-4963-af09-b12e805a1350",
@@ -1030,15 +1039,6 @@
       "type": "conflict"
     },
     {
-      "address": "1835 28th. Ave. #302, Oakland, CA 94601",
-      "manager": "Community Realty Property Management",
-      "url": "https://communityrealtypm.appfolio.com/listings/detail/be667f42-9d2c-4f05-9208-e923fc66bda5",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
       "address": "1901 Dwight Way - 102, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/0151187b-27c8-46c2-a37a-23b10122f8ff",
@@ -1147,15 +1147,6 @@
       "type": "conflict"
     },
     {
-      "address": "2077 Haste St - 503 Room 1 Bed A, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/8ff74409-0d7a-44b5-8deb-91101806ed9a",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
       "address": "2077 Haste St - 503 Room 2 Bed A/B/C, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/8bbceec8-7321-4a17-9890-e542df9569b7",
@@ -1186,15 +1177,6 @@
       "address": "2099 Martin Luther King Jr. Way - 511A, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/6f62bb67-e9b1-4c3d-9759-d1fe895819bb",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
-      "address": "2099 Martin Luther King Jr. Way - 511B, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/863619e5-8061-42c6-9487-09e4b4e5e155",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -1276,15 +1258,6 @@
       "address": "2250 96th. Avenue #208, Oakland, CA 94603",
       "manager": "Community Realty Property Management",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/32998641-261b-4939-9867-af515745eb76",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
-      "address": "2300 High Street #4, Oakland, CA 94601",
-      "manager": "Community Realty Property Management",
-      "url": "https://communityrealtypm.appfolio.com/listings/detail/1689fd35-11d9-422c-80f6-d93758d7ccb2",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -1438,15 +1411,6 @@
       "address": "370 Staten Ave, Apt J, Oakland, CA 94610",
       "manager": "Kasa Properties",
       "url": "https://kasaproperties.appfolio.com/listings/detail/c6aa3b54-4e84-490e-96b2-702437971a10",
-      "field": "available_now",
-      "parser": true,
-      "page": false,
-      "type": "conflict"
-    },
-    {
-      "address": "3806 39th Ave #3, Oakland, CA 94619",
-      "manager": "Community Realty Property Management",
-      "url": "https://communityrealtypm.appfolio.com/listings/detail/63b8e5ee-3371-4b4e-8007-90f053860e92",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -2758,15 +2722,6 @@
       "type": "conflict"
     },
     {
-      "address": "2067 University Ave - 702, 702, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/c9e0a0c1-516f-4875-b00f-c0b0e0531f12",
-      "field": "rent",
-      "parser": 3050.0,
-      "page": 3195,
-      "type": "conflict"
-    },
-    {
       "address": "2067 University Ave - 704, 704, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/4ed2ec0d-4820-414d-8be0-793e70dd67ff",
@@ -2818,15 +2773,6 @@
       "field": "rent",
       "parser": 1695.0,
       "page": 2072,
-      "type": "conflict"
-    },
-    {
-      "address": "2077 Haste St - 503 Room 1 Bed A, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/8ff74409-0d7a-44b5-8deb-91101806ed9a",
-      "field": "rent",
-      "parser": 983.0,
-      "page": 1081,
       "type": "conflict"
     },
     {
@@ -3169,6 +3115,15 @@
       "field": "rent",
       "parser": 3495.0,
       "page": 3699,
+      "type": "conflict"
+    },
+    {
+      "address": "740 Oakland Avenue #304, Oakland, CA 94611",
+      "manager": "Cedar Properties",
+      "url": "https://cedarpm.appfolio.com/listings/detail/d5f2cbc5-f2fc-4cd1-afa3-d16707d92732",
+      "field": "rent",
+      "parser": 1995.0,
+      "page": 2095,
       "type": "conflict"
     },
     {

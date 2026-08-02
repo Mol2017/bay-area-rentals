@@ -3,8 +3,8 @@
   "source": "relisto",
   "manager": "ReListo",
   "source_url": "https://www.relisto.com/",
-  "scraped_at": "2026-08-01T06:55:35-07:00",
-  "unit_count": 9,
+  "scraped_at": "2026-08-02T06:55:26-07:00",
+  "unit_count": 11,
   "units": [
     {
       "address": "1426 Addison St., Berkeley, CA, 94702",
@@ -79,6 +79,30 @@
       "url": "https://www.relisto.com/rentals/442092409-369-s-20th-st-richmond-ca-94804/"
     },
     {
+      "address": "670 Hayes St., San Francisco, CA, 94102",
+      "source": "relisto",
+      "manager": "ReListo",
+      "city": "San Francisco",
+      "bedrooms": 1.0,
+      "available_date": "2026-08-14",
+      "rent": 3495.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": null,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94102",
+      "title": "670 Hayes St.",
+      "url": "https://www.relisto.com/rentals/99851164-670-hayes-st-a-san-francisco-ca-94102/"
+    },
+    {
       "address": "1924 Cabrillo St., San Francisco, CA, 94121",
       "source": "relisto",
       "manager": "ReListo",
@@ -132,6 +156,30 @@
           "observed": 5800
         }
       ]
+    },
+    {
+      "address": "331 Campbell Ave., San Francisco, CA, 94134",
+      "source": "relisto",
+      "manager": "ReListo",
+      "city": "San Francisco",
+      "bedrooms": 2.0,
+      "available_date": "2026-08-07",
+      "rent": 3600.0,
+      "kind": "residential",
+      "unit_type": "2_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": null,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94134",
+      "title": "331 Campbell Ave.",
+      "url": "https://www.relisto.com/rentals/436450023-331-campbell-ave-1-san-francisco-ca-94134/"
     },
     {
       "address": "1353 Minna St., San Francisco, CA, 94013",

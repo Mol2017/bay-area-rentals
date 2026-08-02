@@ -43,7 +43,7 @@
     "emails": [],
     "manager": "Bay Property Group",
     "phone": "(415) 649-7685",
-    "source_url": "https://baypropertygroup.appfolio.com/listings/detail/ea589bb0-f49b-4b35-9d8a-899fada2a380"
+    "source_url": "https://baypropertygroup.appfolio.com/listings/detail/53f9e3bb-84f4-475f-8606-0ad8138d789c"
   },
   "beacon_properties": {
     "emails": [],
@@ -115,7 +115,7 @@
     "emails": [],
     "manager": "Community Realty Property Management",
     "phone": "(510) 530-1005",
-    "source_url": "https://communityrealtypm.appfolio.com/listings/detail/0640f641-d87d-4e96-996c-39849a3448bd"
+    "source_url": "https://communityrealtypm.appfolio.com/listings/detail/03e1e98a-87cb-4f62-812d-6f68e48a0aa6"
   },
   "domingo_properties": {
     "emails": [
@@ -127,9 +127,11 @@
     "source_url": "https://domingoprop.managebuilding.com/Resident/public/rentals/2559"
   },
   "eri_property_management": {
-    "emails": [],
+    "emails": [
+      "info@erihomes.com"
+    ],
     "manager": "ERI Property Management",
-    "phone": null,
+    "phone": "(510) 883-7070",
     "source_url": "https://www.erirentals.com/unit.php?id=540"
   },
   "golden_gate_pm": {
@@ -239,7 +241,7 @@
     ],
     "manager": "ReListo",
     "phone": "(415) 236-6116",
-    "source_url": "https://www.relisto.com/rentals/442092409-369-s-20th-st-richmond-ca-94804/"
+    "source_url": "https://www.relisto.com/rentals/436450023-331-campbell-ave-1-san-francisco-ca-94134/"
   },
   "selborne_properties": {
     "emails": [],
