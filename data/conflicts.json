@@ -1,7 +1,7 @@
 {
   "checked": 752,
-  "conflicts": 365,
-  "parser_missing": 127,
+  "conflicts": 371,
+  "parser_missing": 132,
   "rows": [
     {
       "address": "1115 Virginia Ln. # 31, Concord, CA 94520",
@@ -55,6 +55,15 @@
       "field": "available_date",
       "parser": "2027-05-22",
       "page": "2026-05-22",
+      "type": "conflict"
+    },
+    {
+      "address": "1515 Webster Street - 5-522, Oakland, CA 94612",
+      "manager": "MPM Oakland",
+      "url": "https://mpmoakland.managebuilding.com/Resident/public/rentals/93179",
+      "field": "available_date",
+      "parser": "2027-06-03",
+      "page": "2026-06-03",
       "type": "conflict"
     },
     {
@@ -253,15 +262,6 @@
       "field": "available_date",
       "parser": "2026-08-10",
       "page": "2026-08-11",
-      "type": "conflict"
-    },
-    {
-      "address": "2099 Martin Luther King Jr. Way - 411-Room 2 Bed A, Berkeley, CA 94704",
-      "manager": "SG Real Estate Co.",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/7813fec6-dd9f-4013-ace3-2635ae524780",
-      "field": "available_date",
-      "parser": "2026-08-03",
-      "page": "2026-08-01",
       "type": "conflict"
     },
     {
@@ -568,15 +568,6 @@
       "field": "available_date",
       "parser": "2026-08-15",
       "page": "2026-08-01",
-      "type": "conflict"
-    },
-    {
-      "address": "529 Stevenson Street #415, San Francisco, CA 94103",
-      "manager": "Structure Properties",
-      "url": "https://spsf.appfolio.com/listings/detail/0cee2c93-54e3-4cf5-9e5d-00d1bc52f36f",
-      "field": "available_date",
-      "parser": "2026-08-03",
-      "page": "2026-07-30",
       "type": "conflict"
     },
     {
@@ -976,6 +967,15 @@
       "type": "conflict"
     },
     {
+      "address": "1516 Henry Street APT 1, Berkeley, CA 94706",
+      "manager": "All East Bay Properties",
+      "url": "https://alleastbayproperties.appfolio.com/listings/detail/fa5cb187-a0b2-48e3-a1bf-d383be2ca7a7",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "1537 Truman St. #A, Richmond, CA 94801",
       "manager": "Community Realty Property Management",
       "url": "https://communityrealtypm.appfolio.com/listings/detail/6d3edcdb-e07d-4691-a51f-f9677661dcfb",
@@ -1033,6 +1033,15 @@
       "address": "1803 Oxford St - Single - 2026-2027, Berkeley, CA 94709",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/f32d2b26-fb64-441e-ba90-18a12a6f1bce",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "1816 Fairview Street, Apt 7, Berkeley, CA 94703",
+      "manager": "All East Bay Properties",
+      "url": "https://alleastbayproperties.appfolio.com/listings/detail/19edd78f-4344-4ea6-9ddb-7ef439d9b20c",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -1168,6 +1177,15 @@
       "address": "2077 Haste St - 803, Berkeley, CA 94704",
       "manager": "SG Real Estate Co.",
       "url": "https://sgrealestate.appfolio.com/listings/detail/1954e7a5-a6ea-4126-9ccb-5c39cb99f245",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "2099 Martin Luther King Jr. Way - 411-Room 2 Bed A, Berkeley, CA 94704",
+      "manager": "SG Real Estate Co.",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/7813fec6-dd9f-4013-ace3-2635ae524780",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -1453,6 +1471,15 @@
       "type": "conflict"
     },
     {
+      "address": "460 N. Civic Drive, Apt 401, Walnut Creek, CA 94596",
+      "manager": "All East Bay Properties",
+      "url": "https://alleastbayproperties.appfolio.com/listings/detail/e4b68cd0-5e4a-4090-9030-9edb49c689d4",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
       "address": "4690 Tompkins Avenue, Unit 220, Oakland, CA 94619",
       "manager": "2B Living",
       "url": "https://twobliving.appfolio.com/listings/detail/2d19f5b4-44b0-4cc0-afdd-d6b8eaa230eb",
@@ -1474,6 +1501,15 @@
       "address": "5 Paul Francis Way # 10, Plymouth, MA",
       "manager": "Boston Property Management",
       "url": "https://bostonpropertymanagementllc.com/resident_listings/5-21-paul-francis-way-10-plymouth/",
+      "field": "available_now",
+      "parser": true,
+      "page": false,
+      "type": "conflict"
+    },
+    {
+      "address": "529 Stevenson Street #415, San Francisco, CA 94103",
+      "manager": "Structure Properties",
+      "url": "https://spsf.appfolio.com/listings/detail/0cee2c93-54e3-4cf5-9e5d-00d1bc52f36f",
       "field": "available_now",
       "parser": true,
       "page": false,
@@ -2881,6 +2917,24 @@
       "field": "rent",
       "parser": 2895.0,
       "page": 3295,
+      "type": "conflict"
+    },
+    {
+      "address": "2236 Durant Avenue #7, Berkeley, CA 94704",
+      "manager": "Korman & Ng Real Estate Services",
+      "url": "https://kormanandng.appfolio.com/listings/detail/c15842e2-724a-480b-a033-d15a37890f59",
+      "field": "rent",
+      "parser": 2300.0,
+      "page": 2400,
+      "type": "conflict"
+    },
+    {
+      "address": "2236 Durant Avenue - Unit #3, Berkeley, CA 94704",
+      "manager": "Korman & Ng Real Estate Services",
+      "url": "https://kormanandng.appfolio.com/listings/detail/51cabfa2-7c82-487f-a695-0b75ce5ad729",
+      "field": "rent",
+      "parser": 2400.0,
+      "page": 2500,
       "type": "conflict"
     },
     {

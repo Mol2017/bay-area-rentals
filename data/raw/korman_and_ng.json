@@ -3,7 +3,7 @@
   "source": "korman_and_ng",
   "manager": "Korman & Ng Real Estate Services",
   "source_url": "https://kormanandng.appfolio.com/listings",
-  "scraped_at": "2026-08-02T06:54:56-07:00",
+  "scraped_at": "2026-08-03T07:06:05-07:00",
   "unit_count": 5,
   "units": [
     {
@@ -61,7 +61,7 @@
       "city": "Berkeley",
       "bedrooms": 1.0,
       "available_date": null,
-      "rent": 2400.0,
+      "rent": 2300.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
       "room_type": "entire_place",
@@ -85,7 +85,7 @@
       "city": "Berkeley",
       "bedrooms": 1.0,
       "available_date": null,
-      "rent": 2500.0,
+      "rent": 2400.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
       "room_type": "entire_place",

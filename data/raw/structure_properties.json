@@ -3,7 +3,7 @@
   "source": "structure_properties",
   "manager": "Structure Properties",
   "source_url": "https://spsf.appfolio.com/listings",
-  "scraped_at": "2026-08-02T06:54:57-07:00",
+  "scraped_at": "2026-08-03T07:06:05-07:00",
   "unit_count": 42,
   "units": [
     {
@@ -537,7 +537,7 @@
       "manager": "Structure Properties",
       "city": "San Francisco",
       "bedrooms": 1.0,
-      "available_date": "2026-07-30",
+      "available_date": null,
       "rent": 2602.45,
       "kind": "residential",
       "unit_type": "1_bedroom",

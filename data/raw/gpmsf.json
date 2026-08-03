@@ -3,8 +3,8 @@
   "source": "gpmsf",
   "manager": "Gordon Property Management",
   "source_url": "https://gordon.appfolio.com/listings",
-  "scraped_at": "2026-08-02T06:54:57-07:00",
-  "unit_count": 3,
+  "scraped_at": "2026-08-03T07:06:04-07:00",
+  "unit_count": 4,
   "units": [
     {
       "address": "105 Richland Avenue - 01, San Francisco, CA 94110",
@@ -29,6 +29,30 @@
       "postal_code": "94110",
       "title": "Bright and Airy One Bedroom Apartment in Bernal Heights - Please Contact for Showing Availability!",
       "url": "https://gordon.appfolio.com/listings/detail/b95fe834-cb2b-48f8-9f50-1113eb947980"
+    },
+    {
+      "address": "134 28th Street - #1, San Francisco, CA 94131",
+      "source": "gpmsf",
+      "manager": "Gordon Property Management",
+      "city": "San Francisco",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 4150.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 647,
+      "state": "CA",
+      "postal_code": "94131",
+      "title": "Prime Location One Bedroom in Noe Valley - Please Contact for Showing Availability!",
+      "url": "https://gordon.appfolio.com/listings/detail/b30aeca1-a617-4743-9eb5-98b2d840e783"
     },
     {
       "address": "3055 Gough Street - 201, San Francisco, CA 94123",
