@@ -3,8 +3,8 @@
   "source": "advent_properties",
   "manager": "Advent Properties",
   "source_url": "https://adventproperties.appfolio.com/listings",
-  "scraped_at": "2026-08-03T07:06:05-07:00",
-  "unit_count": 11,
+  "scraped_at": "2026-08-04T07:03:35-07:00",
+  "unit_count": 9,
   "units": [
     {
       "address": "2451 Bonar St, Berkeley, CA 94702-2062",
@@ -29,30 +29,6 @@
       "postal_code": "94702",
       "title": "Charming Berkeley Studio Apartment in Prime Location Near Downtown & North Berkeley",
       "url": "https://adventproperties.appfolio.com/listings/detail/8f6f9fd1-c8ee-4444-95e7-3e82a7548d34"
-    },
-    {
-      "address": "1339 Francisco St, Apt B, Berkeley, CA 94702-1447",
-      "source": "advent_properties",
-      "manager": "Advent Properties",
-      "city": "Berkeley",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 2295.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": null,
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 988,
-      "state": "CA",
-      "postal_code": "94702",
-      "title": "Bright and Spacious Two Bedroom W/ Parking & Laundry On-Site!",
-      "url": "https://adventproperties.appfolio.com/listings/detail/d872766e-8ad4-4dbe-ba87-cda3840d2edb"
     },
     {
       "address": "2700 Le Conte Ave Carport 33, Berkeley, CA 94709-1049",
@@ -101,37 +77,6 @@
       "postal_code": "94541",
       "title": "Beautiful & Spacious 3 Bedroom, 1 Bathroom Locust St Home in Cherryland \u2013 W Laundry Hook up, Backyard & Driveway",
       "url": "https://adventproperties.appfolio.com/listings/detail/049f54c6-4fc5-4065-af5c-745252e1fcf1"
-    },
-    {
-      "address": "2041 Robin Dr, Fairfield, CA 94533-2332",
-      "source": "advent_properties",
-      "manager": "Advent Properties",
-      "city": "Fairfield",
-      "bedrooms": 4.0,
-      "available_date": null,
-      "rent": 2795.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": null,
-      "summary": "Beautifully updated 4-bedroom, 2-bathroom home in Fairfield with open-concept layout, stainless steel appliances, remodeled primary bathroom, and attached two-car garage. Pets allowed (up to 25 lbs).",
-      "available_now": true,
-      "bathrooms": 2.0,
-      "square_feet": 1285,
-      "state": "CA",
-      "postal_code": "94533",
-      "title": "*Beautifully Updated 4 Bedroom, 2 Bathroom Home in Fairfield! 2 Week Concession Off First Month Rent!",
-      "url": "https://adventproperties.appfolio.com/listings/detail/5cf202dd-f9bc-4704-835f-9fb7c75fe319",
-      "conflicts": [
-        {
-          "field": "rent",
-          "parsed": 2795.0,
-          "observed": 2995
-        }
-      ]
     },
     {
       "address": "1717 Novato Blvd, Unit 21, Novato, CA 94947-3046",

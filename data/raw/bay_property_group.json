@@ -3,8 +3,8 @@
   "source": "bay_property_group",
   "manager": "Bay Property Group",
   "source_url": "https://baypropertygroup.appfolio.com/listings",
-  "scraped_at": "2026-08-03T07:06:06-07:00",
-  "unit_count": 19,
+  "scraped_at": "2026-08-04T07:03:35-07:00",
+  "unit_count": 20,
   "units": [
     {
       "address": "2829 Prince St. - 5, Berkeley, CA 94705",
@@ -12,7 +12,7 @@
       "manager": "Bay Property Group",
       "city": "Berkeley",
       "bedrooms": 1.0,
-      "available_date": null,
+      "available_date": "2026-08-10",
       "rent": 2350.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
@@ -391,15 +391,15 @@
       "url": "https://baypropertygroup.appfolio.com/listings/detail/fa862b13-7de7-4f2e-b98a-df589b8042d4"
     },
     {
-      "address": "1659-1661 9th Avenue , San Francisco, CA 94122",
+      "address": "576 Valencia St. - 202, San Francisco, CA 94110",
       "source": "bay_property_group",
       "manager": "Bay Property Group",
       "city": "San Francisco",
-      "bedrooms": 1.0,
+      "bedrooms": 0.0,
       "available_date": "2026-08-10",
-      "rent": 3495.0,
+      "rent": 2650.0,
       "kind": "residential",
-      "unit_type": "1_bedroom",
+      "unit_type": "studio",
       "room_type": null,
       "pets": null,
       "furnished": null,
@@ -408,11 +408,11 @@
       "summary": null,
       "available_now": false,
       "bathrooms": 1.0,
-      "square_feet": 950,
+      "square_feet": 500,
       "state": "CA",
-      "postal_code": "94122",
-      "title": "UPDATED LARGE 1BR/1BA/1GR Sunset/UCSF Apartment AVAILABLE 8/10",
-      "url": "https://baypropertygroup.appfolio.com/listings/detail/53f9e3bb-84f4-475f-8606-0ad8138d789c"
+      "postal_code": "94110",
+      "title": "REMODELED Studio 16th/Valencia Heart of Mission District Blocks to Dolores Park",
+      "url": "https://baypropertygroup.appfolio.com/listings/detail/8422151a-7728-4fa9-9859-60b3cd8c24f9"
     },
     {
       "address": "1855 California St - 2, San Francisco, CA 94109",
@@ -461,6 +461,30 @@
       "postal_code": "94133",
       "title": "UPDATED 2BR/1BA 1250sf Sunny Flat Heart of Historic North Beach AVAILABLE NOW",
       "url": "https://baypropertygroup.appfolio.com/listings/detail/ea589bb0-f49b-4b35-9d8a-899fada2a380"
+    },
+    {
+      "address": "271-273 Waller Street - 271, San Francisco, CA 94102",
+      "source": "bay_property_group",
+      "manager": "Bay Property Group",
+      "city": "San Francisco",
+      "bedrooms": 3.0,
+      "available_date": null,
+      "rent": 6200.0,
+      "kind": "residential",
+      "unit_type": "3plus_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 2.0,
+      "square_feet": 1400,
+      "state": "CA",
+      "postal_code": "94102",
+      "title": "Gorgeous 3+Bedroom / 2-Bath Upper Flat - Sparkles!",
+      "url": "https://baypropertygroup.appfolio.com/listings/detail/3c7ef26e-4e00-45c5-9583-35e57b0fe843"
     }
   ]
 }

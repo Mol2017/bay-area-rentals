@@ -3,8 +3,8 @@
   "source": "sg_real_estate",
   "manager": "SG Real Estate Co.",
   "source_url": "https://sgrealestate.appfolio.com/listings",
-  "scraped_at": "2026-08-03T07:06:06-07:00",
-  "unit_count": 164,
+  "scraped_at": "2026-08-04T07:03:35-07:00",
+  "unit_count": 150,
   "units": [
     {
       "address": "935 Solano Ave. - 06, 06, Albany, CA 94706",
@@ -79,30 +79,6 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/0b353b62-085f-4a22-86cb-0ea97df9a912"
     },
     {
-      "address": "2099 Martin Luther King Jr. Way - 611 Room 1 Bed B, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 950.0,
-      "kind": "room",
-      "unit_type": "studio",
-      "room_type": "shared_room",
-      "pets": null,
-      "furnished": "furnished",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "A bed in a shared furnished room in a 3-bedroom apartment near UC Berkeley; rent is $950/month per bed with utilities included.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "#611 Room 1 Bed B Luxury Shared Furnished Suite Perfectly Set up! Walk To Trader Joes and UC Berkeley - Rent by the Bed",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/fc8e42b2-1e99-4e6e-8e63-b0f5e68f976d"
-    },
-    {
       "address": "2398 Bancroft Way - Triple 2026-2027 [Premium], Berkeley, CA 94704",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -149,37 +125,6 @@
       "postal_code": "94704",
       "title": "2026-2027 Availability! Furnished Double DIRECTLY across from UC Berkeley! Welcome to the Wesley House!",
       "url": "https://sgrealestate.appfolio.com/listings/detail/ff215eea-4c81-4fda-aa3f-aa56afa63a4b"
-    },
-    {
-      "address": "2001 Milvia St - 211A (shared female), Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 1150.0,
-      "kind": "room",
-      "unit_type": "studio",
-      "room_type": "shared_room",
-      "pets": null,
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "in_unit",
-      "summary": "Shared studio in Berkeley near UC Berkeley available for summer sublet (June 1\u2013August 1). Fully furnished with in-unit washer/dryer, stainless steel appliances, A/C, and building amenities including gym and rooftop deck.",
-      "available_now": true,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Summer Subletting Opportunity! Aquatic @ U \u2013 Shared Studio with High-End Furnishings, Designer Style, and Sweeping Views Near the University",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/1656a139-674c-49e3-a79f-51ca3532b5fa",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
     },
     {
       "address": "2701 Shattuck Avenue - Rent by the Bed , Berkeley, CA 94705",
@@ -290,37 +235,6 @@
       "postal_code": "94704",
       "title": "2026-2027 Shared Premium Studios @ The RISE at Berkeley! Experience The RISE at Berkeley! Furnished Double! ONE Block from UC Berkeley!",
       "url": "https://sgrealestate.appfolio.com/listings/detail/192be9b2-788b-479f-8731-47625550c3fd",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
-      "address": "2001 Milvia St - 807A (shared female), Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": "2026-08-19",
-      "rent": 1495.0,
-      "kind": "room",
-      "unit_type": "studio",
-      "room_type": "shared_room",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": null,
-      "laundry": "in_unit",
-      "summary": "Shared female studio (double occupancy) in a modern building blocks from UC Berkeley, fully furnished with in-unit washer/dryer, gym, and roof deck. Rent is $1,495/month for one bed in a shared room.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "2026-2027 Availability! Aquatic @ U! SHARED Female Studio! Berkeley's Highly Curated & Fully Furnished Modern Studio building! Blocks from UC Berkeley!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/dfeb41a3-87fd-43d0-82a2-beded1298e4c",
       "conflicts": [
         {
           "field": "kind",
@@ -493,37 +407,6 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/d5f88e07-aadb-4c35-8092-3cd2804e3f1e"
     },
     {
-      "address": "2025 Kala Bagai Way - 607 B, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 1595.0,
-      "kind": "room",
-      "unit_type": "studio",
-      "room_type": "shared_room",
-      "pets": "none",
-      "furnished": "furnished",
-      "parking": "none",
-      "laundry": "in_unit",
-      "summary": "Shared studio at RISE at Berkeley where rent of $1,595/month is per bed; furnished with in-unit washer/dryer, one bathroom, and no parking.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Available NOW! Premium Double Occupancy Studio! Experience The RISE at Berkeley! Furnished Double! ONE Block from UC Berkeley!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/bfd7d550-1642-4321-a7e3-18c45a81341a",
-      "conflicts": [
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
-    },
-    {
       "address": "2025 Kala Bagai Way, Apartment 607, Berkeley, CA 94704",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -634,30 +517,6 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/03d55a79-3031-4bbb-a4a8-4c5121b3a25f"
     },
     {
-      "address": "2701 Shattuck Ave \u2013 311, Berkeley, CA 94705",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 2495.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Furnished studio apartment with in-unit washer/dryer, air conditioning, and rooftop deck access in downtown Berkeley near UC Berkeley and BART.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 310,
-      "state": "CA",
-      "postal_code": "94705",
-      "title": "FURNISHED Studio Close to Everything! Amazing Roofdeck Secured Entrance building! Bustop in front! UC Berkeley! Berkeley Bowl!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/ec977f5c-21e0-40c4-acfe-8aa5c6eb4fdc"
-    },
-    {
       "address": "2701 Shattuck Ave \u2013 312, Berkeley, CA 94705",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -752,42 +611,6 @@
       "postal_code": "94705",
       "title": "FURNISHED TOP FLOOR Studio Close to Everything! Amazing Roofdeck Secured Entrance building! Bustop in front! UC Berkeley! Berkeley Bowl!",
       "url": "https://sgrealestate.appfolio.com/listings/detail/f155b978-1f4c-4945-80e1-7250a25fa6a2"
-    },
-    {
-      "address": "2025 Kala Bagai Way - 301, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 2595.0,
-      "kind": "room",
-      "unit_type": "studio",
-      "room_type": "private_room",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": "none",
-      "laundry": "in_unit",
-      "summary": "Furnished studio at RISE at Berkeley available for single or double occupancy, with in-unit washer/dryer, roof deck, and security features. One block from UC campus and near BART; no on-site parking.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 349,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Premium Private Studio! Fully Furnished! Roof Deck & Much MORE! NOW Leasing for 2026-2027 School Year!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/690cd9eb-5d82-4e25-bf02-1a1670b38e29",
-      "conflicts": [
-        {
-          "field": "rent",
-          "parsed": 2595.0,
-          "observed": 2750
-        },
-        {
-          "field": "kind",
-          "parsed": "residential",
-          "observed": "room"
-        }
-      ]
     },
     {
       "address": "2701 Shattuck Ave \u2013 509, Berkeley, CA 94705",
@@ -886,36 +709,12 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/32c55b50-b33c-4f22-af30-9a28332c78f9"
     },
     {
-      "address": "2001 Milvia St - 410, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": "2026-08-21",
-      "rent": 2795.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": null,
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 371,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Secure Your Spot for 2026\u20132027: Fully Furnished Private Studios with Panoramic Top-Floor Views, Modern Amenities, and a Prime Location Steps from Campus at Aquatic @ U",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/6445aa1d-4f86-4384-9c69-74299ef03fbe"
-    },
-    {
       "address": "2001 Milvia St - 509, Berkeley, CA 94704",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
       "city": "Berkeley",
       "bedrooms": 0.0,
-      "available_date": "2026-10-14",
+      "available_date": "2026-10-24",
       "rent": 2795.0,
       "kind": "residential",
       "unit_type": "studio",
@@ -932,30 +731,6 @@
       "postal_code": "94704",
       "title": "Aquatic @ U 2026-2027 Leasing! Spacious, Fully Furnished Private Studios with Gorgeous Views Just Blocks from Campus",
       "url": "https://sgrealestate.appfolio.com/listings/detail/d8ba731d-aaca-4787-8ba7-7d81f7068ff3"
-    },
-    {
-      "address": "2001 Milvia St - 611, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 2795.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": null,
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 371,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Experience the magic of Aquatic @ U! Highly Curated Furnished PRIVATE Studios blocks from Campus!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/97c26906-531b-4bd9-a2bc-e56d00fc69b0"
     },
     {
       "address": "2025 Kala Bagai Way - 702 , Berkeley, CA 94704",
@@ -992,30 +767,6 @@
           "observed": "room"
         }
       ]
-    },
-    {
-      "address": "2025 Kala Bagai Way - 708, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 2837.08,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": "private_room",
-      "pets": null,
-      "furnished": "furnished",
-      "parking": "none",
-      "laundry": "in_unit",
-      "summary": "Fully furnished studio in Berkeley available for single or double occupancy, with in-unit washer/dryer and rooftop deck. No physical parking on-site.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 349,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Premium Private Studio! Fully Furnished! Roof Deck & Much MORE! NOW Leasing for 2026-2027 School Year! \u2013 Get 4 Weeks FREE!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/21b074af-295f-44df-88f2-b9fc533f880c"
     },
     {
       "address": "2025 Kala Bagai Way - 504, Berkeley, CA 94704",
@@ -1577,37 +1328,6 @@
       "postal_code": "94704",
       "title": "AMAZING Location Channing @ Ellsworth! Renovated Convenient 1Bdr blocks to Campus!",
       "url": "https://sgrealestate.appfolio.com/listings/detail/d3b54503-6926-49da-98ad-5946ea15e9f6"
-    },
-    {
-      "address": "2099 Martin Luther King Jr. Way - 711A, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 1.0,
-      "available_date": "2026-08-01",
-      "rent": 2296.0,
-      "kind": "room",
-      "unit_type": "1_bedroom",
-      "room_type": "shared_room",
-      "pets": "allowed",
-      "furnished": "furnished",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Rent is per bed in a shared double bedroom in a female 2-bedroom apartment. Fully furnished with modern decor, utilities and amenities included at $99/month.",
-      "available_now": false,
-      "bathrooms": 1.0,
-      "square_feet": 951,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "#711 (Private Room) \u2013 Luxury Top-Floor Living with Stunning Views & Walk-In Closet!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/5b998938-7fe2-495a-97ec-c7a5ab6c0653",
-      "conflicts": [
-        {
-          "field": "rent",
-          "parsed": 2296.0,
-          "observed": 1148
-        }
-      ]
     },
     {
       "address": "2510 Channing Way , Berkeley, CA 94704",
@@ -2387,6 +2107,42 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/c1e2da1c-e7fa-4721-87f0-58348df01536"
     },
     {
+      "address": "2540 College Ave - 106, Berkeley, CA 94704",
+      "source": "sg_real_estate",
+      "manager": "SG Real Estate Co.",
+      "city": "Berkeley",
+      "bedrooms": 3,
+      "available_date": null,
+      "rent": 3095.0,
+      "kind": "residential",
+      "unit_type": "3plus_bedroom",
+      "room_type": "entire_place",
+      "pets": "allowed",
+      "furnished": null,
+      "parking": "garage",
+      "laundry": "shared",
+      "summary": "Upgraded 3-bedroom, 1-bathroom flat on College Ave near UC Berkeley with private balcony and secure parking garage. No living room; utilities (water, sewer, garbage) included.",
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": null,
+      "state": "CA",
+      "postal_code": "94704",
+      "title": "Upgraded 3 Bedroom Flat + Private Balcony on College Ave! a Perfect offering you will want to keep forever Secure entrance! Parking garage",
+      "url": "https://sgrealestate.appfolio.com/listings/detail/d16cb52d-ff2e-49c0-b731-859ac38aba85",
+      "conflicts": [
+        {
+          "field": "bedrooms",
+          "parsed": 2.0,
+          "observed": 3
+        },
+        {
+          "field": "rent",
+          "parsed": 3095.0,
+          "observed": 3695
+        }
+      ]
+    },
+    {
       "address": "1801 Milvia Street - 2, 2, Berkeley, CA 94709",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -3022,30 +2778,6 @@
       "url": "https://sgrealestate.appfolio.com/listings/detail/ff5c4659-ea01-4720-b687-61bddd2393fd"
     },
     {
-      "address": "2099 Martin Luther King Jr. Way, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 3.0,
-      "available_date": null,
-      "rent": 1663.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "private_room",
-      "pets": null,
-      "furnished": "furnished",
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Private furnished bedroom in a 3-bedroom luxury apartment share in Berkeley, rent by the room at $1,663/month. Building includes rooftop with Golden Gate Bridge views, arcade, gym, and study spaces.",
-      "available_now": false,
-      "bathrooms": 2.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "#611 Private Furnished Single in Luxury 3b2b - Rent by the Room",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/09431f64-b815-496d-a9ec-aa9677838b75"
-    },
-    {
       "address": "2077 Haste St - 501 Room 2 Bed A/B, Berkeley, CA 94704",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -3130,30 +2862,6 @@
       "postal_code": "94704",
       "title": "Unlock Smart Living - Private Room in 3 Bedroom",
       "url": "https://sgrealestate.appfolio.com/listings/detail/9b1515a3-72cf-40ba-80bb-e634cb3c263c"
-    },
-    {
-      "address": "2540 College Ave - 106, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": 3.0,
-      "available_date": null,
-      "rent": 3695.0,
-      "kind": "residential",
-      "unit_type": "3plus_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "garage",
-      "laundry": "shared",
-      "summary": "Upgraded 3-bedroom, 1-bathroom flat on College Ave near UC Berkeley with private balcony and secure parking garage. No living room; utilities (water, sewer, garbage) included.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "Upgraded 3 Bedroom Flat + Private Balcony on College Ave! a Perfect offering you will want to keep forever Secure entrance! Parking garage",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/d16cb52d-ff2e-49c0-b731-859ac38aba85"
     },
     {
       "address": "1301 Hearst Avenue, Apt 5, Berkeley, CA 94702",
@@ -3525,30 +3233,6 @@
       "postal_code": "94704",
       "title": "FULLY-FURNISHED, BY-THE-BED STARTING AT $795 (MALE UNIT ONLY)",
       "url": "https://sgrealestate.appfolio.com/listings/detail/55f8a30c-fa58-4fd7-904d-28afd0e9f0d8"
-    },
-    {
-      "address": "2150 Kittredge St - 324, Berkeley, CA 94704",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Berkeley",
-      "bedrooms": null,
-      "available_date": null,
-      "rent": 895.0,
-      "kind": "room",
-      "unit_type": null,
-      "room_type": null,
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": true,
-      "bathrooms": null,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94704",
-      "title": "$895 FULLY-FURNISHED SHARED BEDROOM - FLASH SALE! LIMITED TIME/QUANTITY + $500 GIFT CARD (MALE ONLY)",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/a8456651-cd84-4a84-961f-c953281056ad"
     },
     {
       "address": "2099 Martin Luther King Jr. Way, Berkeley, CA 94704",
@@ -3963,30 +3647,6 @@
       ]
     },
     {
-      "address": "5471 Vicente Way, 24, Oakland, CA 94609",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "Oakland",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 1595.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "shared",
-      "summary": "Studio apartment in Temescal with 280 sq ft, utilities included ($55/month flat fee for electric, gas, water, sewer). Pet-friendly with no breed restrictions; onsite laundry and parking available for additional fee.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 280,
-      "state": "CA",
-      "postal_code": "94609",
-      "title": "Absolutely PERFECT Studio in AMAZING Temescal! Close to CAL! Perfect Temescal Loc Right in the Heart of Things!!!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/ecff9132-ced8-4584-9c7e-1ba001913868"
-    },
-    {
       "address": "6037 Market Street - A-1, A, Oakland, CA 94608",
       "source": "sg_real_estate",
       "manager": "SG Real Estate Co.",
@@ -4232,30 +3892,6 @@
       "postal_code": "94523",
       "title": null,
       "url": "https://sgrealestate.appfolio.com/listings/detail/ec46d553-a402-4daa-a308-3cf1e5443641"
-    },
-    {
-      "address": "2297 Sutter St.- 102, San Francisco, CA 94115",
-      "source": "sg_real_estate",
-      "manager": "SG Real Estate Co.",
-      "city": "San Francisco",
-      "bedrooms": 1.0,
-      "available_date": null,
-      "rent": 3695.0,
-      "kind": "residential",
-      "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "street",
-      "laundry": "shared",
-      "summary": "Large 1 bedroom/1 bathroom apartment in Lower Pacific Heights with updated hardwood floors, renovated kitchen, and shared onsite laundry. Street parking only.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": null,
-      "state": "CA",
-      "postal_code": "94115",
-      "title": "Large & BRIGHT with Tons of Natural Light! 1 Bed/1 Bath apartment located on Sutter @ Scott! Lower Pac Heights! Laundry onsite!",
-      "url": "https://sgrealestate.appfolio.com/listings/detail/df04f325-bdf6-46ed-988e-d406d0ae5485"
     }
   ]
 }

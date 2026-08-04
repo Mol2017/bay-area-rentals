@@ -40,10 +40,12 @@
     "source_url": "https://baycitiespm.appfolio.com/listings/detail/c5166602-d4f1-45c0-ae44-c14a72660db7"
   },
   "bay_property_group": {
-    "emails": [],
+    "emails": [
+      "eric@baypropertygroup.com"
+    ],
     "manager": "Bay Property Group",
-    "phone": "(415) 649-7685",
-    "source_url": "https://baypropertygroup.appfolio.com/listings/detail/53f9e3bb-84f4-475f-8606-0ad8138d789c"
+    "phone": "(415) 717-3355",
+    "source_url": "https://baypropertygroup.appfolio.com/listings/detail/3c7ef26e-4e00-45c5-9583-35e57b0fe843"
   },
   "beacon_properties": {
     "emails": [],
@@ -75,7 +77,7 @@
     "emails": [],
     "manager": "Boston Property Care",
     "phone": "(617) 648-9804",
-    "source_url": "https://bostonpropertycare.appfolio.com/listings/detail/3fb4aee2-c029-4fb7-80f9-a70a2707457c"
+    "source_url": "https://bostonpropertycare.appfolio.com/listings/detail/a4ed282b-35d2-4d43-981e-8290ff932df5"
   },
   "california_pacific": {
     "emails": [],
@@ -97,11 +99,11 @@
   },
   "chandler_properties": {
     "emails": [
-      "rm2890c@gmail.com"
+      "leasing@chandlerproperties.com"
     ],
     "manager": "Chandler Properties",
-    "phone": "(315) 391-2180",
-    "source_url": "https://chandlerproperties.appfolio.com/listings/detail/090976e1-6c51-4aec-b87e-237ca23be32e"
+    "phone": "(415) 921-9960",
+    "source_url": "https://chandlerproperties.appfolio.com/listings/detail/8914dbcf-1eea-4953-bb25-6e2b38e6dc99"
   },
   "collabhome": {
     "emails": [
@@ -119,12 +121,12 @@
   },
   "domingo_properties": {
     "emails": [
-      "rasulbi@yahoo.com",
+      "anna@domingoprop.com",
       "info@domingoprop.com"
     ],
     "manager": "Domingo Properties",
-    "phone": "(510) 666-9477",
-    "source_url": "https://domingoprop.managebuilding.com/Resident/public/rentals/2559"
+    "phone": "(510) 993-6411",
+    "source_url": "https://domingoprop.managebuilding.com/Resident/public/rentals/12014"
   },
   "eri_property_management": {
     "emails": [
@@ -152,7 +154,7 @@
     "emails": [],
     "manager": "Hayes Management",
     "phone": "(510) 200-8005",
-    "source_url": "https://hayesmanagement.appfolio.com/listings/detail/1e21e7df-0471-4c45-89d5-989b288d8f93"
+    "source_url": "https://hayesmanagement.appfolio.com/listings/detail/afea53f1-70c2-4da2-83d8-cd498976a214"
   },
   "kasa_properties": {
     "emails": [
@@ -166,13 +168,13 @@
     "emails": [],
     "manager": "Korman & Ng Real Estate Services",
     "phone": "(415) 420-7663",
-    "source_url": "https://kormanandng.appfolio.com/listings/detail/cc4dc2e3-9ae5-4f68-8050-6aa2f562603d"
+    "source_url": "https://kormanandng.appfolio.com/listings/detail/5c4f3bbe-eae2-4f0e-9ef5-9c4d31b41da7"
   },
   "ks_company": {
     "emails": [],
     "manager": "K&S Company",
     "phone": "(510) 528-1900",
-    "source_url": "https://kands.appfolio.com/listings/detail/0c566053-8309-42ac-aada-022d856a08ea"
+    "source_url": "https://kands.appfolio.com/listings/detail/04b5fabb-0a1a-4257-a0ef-5a7d34114844"
   },
   "lapham_company": {
     "emails": [],
@@ -247,7 +249,7 @@
     "emails": [],
     "manager": "Selborne Properties",
     "phone": "(510) 422-0985",
-    "source_url": "https://selborne.appfolio.com/listings/detail/a14da7ae-9673-409f-911b-d17c3bbec9f7"
+    "source_url": "https://selborne.appfolio.com/listings/detail/3417e8cb-0fca-4fd0-bfbc-9d9adee4dd53"
   },
   "sg_real_estate": {
     "emails": [
@@ -305,7 +307,7 @@
   "west_coast_pm": {
     "emails": [],
     "manager": "West Coast Property Management",
-    "phone": "(415) 789-3798",
-    "source_url": "https://wcpm.appfolio.com/listings/detail/b1fe1ff2-e916-432f-b820-b427b17593a5"
+    "phone": "(415) 351-7382",
+    "source_url": "https://wcpm.appfolio.com/listings/detail/aa7f1258-1404-45e0-870d-9adbc3e5941b"
   }
 }

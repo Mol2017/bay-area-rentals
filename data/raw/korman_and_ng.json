@@ -3,8 +3,8 @@
   "source": "korman_and_ng",
   "manager": "Korman & Ng Real Estate Services",
   "source_url": "https://kormanandng.appfolio.com/listings",
-  "scraped_at": "2026-08-03T07:06:05-07:00",
-  "unit_count": 5,
+  "scraped_at": "2026-08-04T07:03:34-07:00",
+  "unit_count": 6,
   "units": [
     {
       "address": "1607-1611 Fairview St - 1607-B, Berkeley, CA 94703",
@@ -75,7 +75,7 @@
       "square_feet": 550,
       "state": "CA",
       "postal_code": "94704",
-      "title": "Bright Top-Floor 1BR Near UC Berkeley \u2013 Prime Location!",
+      "title": "Classic Berkeley Charm \u2013 Bright Top-Floor 1BR",
       "url": "https://kormanandng.appfolio.com/listings/detail/c15842e2-724a-480b-a033-d15a37890f59"
     },
     {
@@ -99,8 +99,32 @@
       "square_feet": null,
       "state": "CA",
       "postal_code": "94704",
-      "title": "Historic Julia Morgan Gem Near UC Berkeley!",
+      "title": "Perfect UC Berkeley Location \u2013 Historic 1BR Apartment",
       "url": "https://kormanandng.appfolio.com/listings/detail/51cabfa2-7c82-487f-a695-0b75ce5ad729"
+    },
+    {
+      "address": "2745 Stuart St - #10, Berkeley, CA 94705",
+      "source": "korman_and_ng",
+      "manager": "Korman & Ng Real Estate Services",
+      "city": "Berkeley",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 2400.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 450,
+      "state": "CA",
+      "postal_code": "94705",
+      "title": "Charming 1 Bedroom Apartment in North Berkeley \u2013 Furnished or Unfurnished",
+      "url": "https://kormanandng.appfolio.com/listings/detail/5c4f3bbe-eae2-4f0e-9ef5-9c4d31b41da7"
     },
     {
       "address": "2138 Derby Street - Apt. 2, Berkeley, CA 94705",

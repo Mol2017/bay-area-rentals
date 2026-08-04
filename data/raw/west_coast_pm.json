@@ -3,8 +3,8 @@
   "source": "west_coast_pm",
   "manager": "West Coast Property Management",
   "source_url": "https://wcpm.appfolio.com/listings",
-  "scraped_at": "2026-08-03T07:06:07-07:00",
-  "unit_count": 20,
+  "scraped_at": "2026-08-04T07:03:36-07:00",
+  "unit_count": 18,
   "units": [
     {
       "address": "461 Broadway Street, #211, San Francisco, CA 94133",
@@ -75,7 +75,7 @@
       "city": "San Francisco",
       "bedrooms": 0.0,
       "available_date": null,
-      "rent": 2375.0,
+      "rent": 2250.0,
       "kind": "residential",
       "unit_type": "studio",
       "room_type": null,
@@ -89,7 +89,7 @@
       "square_feet": null,
       "state": "CA",
       "postal_code": "94102",
-      "title": "$2,375 Top Floor Deluxe, City Hall, Opera, Civic Center, Symphony, BART, Pics!",
+      "title": "$2,250 Top Floor Deluxe, City Hall, Opera, Civic Center, Symphony, BART, Pics!",
       "url": "https://wcpm.appfolio.com/listings/detail/d26fce22-c513-4571-b3d5-7533cf1545ac"
     },
     {
@@ -115,61 +115,6 @@
       "postal_code": "94123",
       "title": "Spacious & Bright Studio W/Eat in Kitchen in Cow Hollow",
       "url": "https://wcpm.appfolio.com/listings/detail/b1fe1ff2-e916-432f-b820-b427b17593a5"
-    },
-    {
-      "address": "1201 Green Street, #4, San Francisco, CA 94109",
-      "source": "west_coast_pm",
-      "manager": "West Coast Property Management",
-      "city": "San Francisco",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 3050.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": null,
-      "parking": null,
-      "laundry": "shared",
-      "summary": "Remodeled studio apartment with 1 bathroom in Russian Hill, San Francisco. 450 sq ft with hardwood and marble finishes, available now.",
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 450,
-      "state": "CA",
-      "postal_code": "94109",
-      "title": "$3,050 Bright, Remodeled, Hdwd, Marble bthrm, Large Kitchen! PICS!",
-      "url": "https://wcpm.appfolio.com/listings/detail/3157d943-3498-47fe-a0db-88b1b7e08922",
-      "conflicts": [
-        {
-          "field": "rent",
-          "parsed": 3050.0,
-          "observed": 3395
-        }
-      ]
-    },
-    {
-      "address": "3700 20th Street, #35, San Francisco, CA 94110",
-      "source": "west_coast_pm",
-      "manager": "West Coast Property Management",
-      "city": "San Francisco",
-      "bedrooms": 0.0,
-      "available_date": null,
-      "rent": 3195.0,
-      "kind": "residential",
-      "unit_type": "studio",
-      "room_type": null,
-      "pets": null,
-      "furnished": null,
-      "parking": null,
-      "laundry": null,
-      "summary": null,
-      "available_now": true,
-      "bathrooms": 1.0,
-      "square_feet": 571,
-      "state": "CA",
-      "postal_code": "94110",
-      "title": "3700 20th St #35 - Elegant Studio by Dolores Park w/Laundry, Bike Room",
-      "url": "https://wcpm.appfolio.com/listings/detail/fd663be8-1e8c-4099-b4ae-ea92172b15c9"
     },
     {
       "address": "2905 Van Ness Ave, #201, San Francisco, CA 94109",
@@ -220,15 +165,15 @@
       "url": "https://wcpm.appfolio.com/listings/detail/7561b7f6-d6b2-4ac3-b3d1-5cef90a54c86"
     },
     {
-      "address": "1948 McAllister Street # 4, San Francisco, CA 94115",
+      "address": "1144 Green Street, San Francisco, CA 94109",
       "source": "west_coast_pm",
       "manager": "West Coast Property Management",
       "city": "San Francisco",
-      "bedrooms": 1.0,
+      "bedrooms": 2.0,
       "available_date": null,
-      "rent": 4800.0,
+      "rent": 5495.0,
       "kind": "residential",
-      "unit_type": "1_bedroom",
+      "unit_type": "2_bedroom",
       "room_type": null,
       "pets": null,
       "furnished": null,
@@ -237,11 +182,11 @@
       "summary": null,
       "available_now": true,
       "bathrooms": 1.0,
-      "square_feet": 650,
+      "square_feet": 1000,
       "state": "CA",
-      "postal_code": "94115",
-      "title": "Updated 1BR w/ gas kitchen and on-site laundry N. of Panhandle!",
-      "url": "https://wcpm.appfolio.com/listings/detail/bcc8ea87-50e8-4330-9fbf-631eb3612f4f"
+      "postal_code": "94109",
+      "title": "1144 Green St - Spacious, Gorgeous, Sunny, Quiet, & Convenient 2BR 1BA",
+      "url": "https://wcpm.appfolio.com/listings/detail/aa7f1258-1404-45e0-870d-9adbc3e5941b"
     },
     {
       "address": "603 Tennessee Street # 502, San Francisco, CA 94107",

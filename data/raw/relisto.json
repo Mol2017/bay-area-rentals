@@ -3,7 +3,7 @@
   "source": "relisto",
   "manager": "ReListo",
   "source_url": "https://www.relisto.com/",
-  "scraped_at": "2026-08-03T07:06:32-07:00",
+  "scraped_at": "2026-08-04T07:03:55-07:00",
   "unit_count": 11,
   "units": [
     {
@@ -127,35 +127,28 @@
       "url": "https://www.relisto.com/rentals/443120384-1924-cabrillo-st-3-san-francisco-ca-94121/"
     },
     {
-      "address": "18 Lansing, San Francisco, CA, 94105",
+      "address": "260 King St., San Francisco, CA, 94107",
       "source": "relisto",
       "manager": "ReListo",
       "city": "San Francisco",
-      "bedrooms": 1.5,
-      "available_date": "2026-07-01",
-      "rent": 5400.0,
+      "bedrooms": 1.0,
+      "available_date": "2026-08-15",
+      "rent": 4195.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
-      "room_type": "entire_place",
-      "pets": "none",
-      "furnished": "unfurnished",
-      "parking": "garage",
-      "laundry": "in_unit",
-      "summary": "A 1.5-bedroom, 2-bathroom loft in a converted 1928 print house in Rincon Hill with cathedral ceilings, a mezzanine bedroom, and bonus room; parking and laundry in unit included.",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
       "available_now": false,
       "bathrooms": null,
       "square_feet": null,
       "state": "CA",
-      "postal_code": "94105",
-      "title": "18 Lansing",
-      "url": "https://www.relisto.com/rentals/32691836-18-lansing-307-san-francisco-ca-94105/",
-      "conflicts": [
-        {
-          "field": "rent",
-          "parsed": 5400.0,
-          "observed": 5800
-        }
-      ]
+      "postal_code": "94107",
+      "title": "260 King St.",
+      "url": "https://www.relisto.com/rentals/444249607-260-king-st-553-san-francisco-ca-94107/"
     },
     {
       "address": "331 Campbell Ave., San Francisco, CA, 94134",

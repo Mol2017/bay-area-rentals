@@ -3,8 +3,8 @@
   "source": "structure_properties",
   "manager": "Structure Properties",
   "source_url": "https://spsf.appfolio.com/listings",
-  "scraped_at": "2026-08-03T07:06:05-07:00",
-  "unit_count": 42,
+  "scraped_at": "2026-08-04T07:03:35-07:00",
+  "unit_count": 44,
   "units": [
     {
       "address": "6500 Yucca Street #432, Los Angeles, CA 90028",
@@ -398,13 +398,13 @@
       ]
     },
     {
-      "address": "529 Stevenson Street #205, San Francisco, CA 94103",
+      "address": "2707 Sacramento Street #1, San Francisco, CA 94115",
       "source": "structure_properties",
       "manager": "Structure Properties",
       "city": "San Francisco",
       "bedrooms": 0.0,
-      "available_date": "2026-08-18",
-      "rent": 2595.0,
+      "available_date": "2026-08-07",
+      "rent": 2850.0,
       "kind": "residential",
       "unit_type": "studio",
       "room_type": null,
@@ -415,11 +415,11 @@
       "summary": null,
       "available_now": false,
       "bathrooms": 1.0,
-      "square_feet": 522,
+      "square_feet": null,
       "state": "CA",
-      "postal_code": "94103",
-      "title": "Modern Urban Living at Stevenson Lofts!!",
-      "url": "https://spsf.appfolio.com/listings/detail/55ebd7a6-efd5-4152-9352-c55e9c102697"
+      "postal_code": "94115",
+      "title": "Alta Plaza Park Studio- Live in the Heart of Pac Heights!",
+      "url": "https://spsf.appfolio.com/listings/detail/4638dbaf-90a3-47b6-bf14-901ed4dd77da"
     },
     {
       "address": "1426 Stockton St, San Francisco, CA 94133",
@@ -468,6 +468,30 @@
       "postal_code": "94109",
       "title": "Charming Ground-Floor Studio \u2013 Newly Renovated",
       "url": "https://spsf.appfolio.com/listings/detail/df0b59d0-e649-4052-95e8-a556380a58fc"
+    },
+    {
+      "address": "2485 Chestnut St. #205, San Francisco, CA 94123",
+      "source": "structure_properties",
+      "manager": "Structure Properties",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": "2026-08-10",
+      "rent": 3295.0,
+      "kind": "residential",
+      "unit_type": "studio",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": false,
+      "bathrooms": 1.0,
+      "square_feet": 550,
+      "state": "CA",
+      "postal_code": "94123",
+      "title": "Spacious Studio AVAILABLE NOW!!!",
+      "url": "https://spsf.appfolio.com/listings/detail/be36dbc6-8ff9-41a3-b04b-ba047cb68909"
     },
     {
       "address": "Hotel Ikon - 320, 325 Sutter Street, San Francisco, CA 94108",
@@ -580,6 +604,30 @@
       "url": "https://spsf.appfolio.com/listings/detail/d87730cf-3f63-43cb-a80e-95aee150de7c"
     },
     {
+      "address": "529 Stevenson Street #218, San Francisco, CA 94103",
+      "source": "structure_properties",
+      "manager": "Structure Properties",
+      "city": "San Francisco",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 2995.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 605,
+      "state": "CA",
+      "postal_code": "94103",
+      "title": "Large One Bedroom Loft Available Now!!",
+      "url": "https://spsf.appfolio.com/listings/detail/cabd5be9-7db5-43e9-ab99-4365c0a2e8f1"
+    },
+    {
       "address": "1010 Anza Street #103, San Francisco, CA 94118",
       "source": "structure_properties",
       "manager": "Structure Properties",
@@ -602,6 +650,30 @@
       "postal_code": "94118",
       "title": "Spacious & Bright San Francisco Apartment in a Prime Richmond District Location",
       "url": "https://spsf.appfolio.com/listings/detail/3cdda8f6-57a8-4a5b-b9a7-78aec56c6d47"
+    },
+    {
+      "address": "1160 Pine Street #2, San Francisco, CA 94109",
+      "source": "structure_properties",
+      "manager": "Structure Properties",
+      "city": "San Francisco",
+      "bedrooms": 1.0,
+      "available_date": null,
+      "rent": 4500.0,
+      "kind": "residential",
+      "unit_type": "1_bedroom",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 754,
+      "state": "CA",
+      "postal_code": "94109",
+      "title": "Renovated 1BD with Tons of Storage in Nob Hill AVAILABLE NOW!!!",
+      "url": "https://spsf.appfolio.com/listings/detail/8c2964a8-3bf0-46fc-8770-5003d59fd3dc"
     },
     {
       "address": "2100 Post Street #12, San Francisco, CA 94115",
@@ -634,7 +706,7 @@
       "city": "San Francisco",
       "bedrooms": 1.0,
       "available_date": null,
-      "rent": 5500.0,
+      "rent": 5000.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
       "room_type": "entire_place",
@@ -649,7 +721,14 @@
       "state": "CA",
       "postal_code": "94103",
       "title": "Chic Furnished SoMa Loft w/ Soaring Ceilings",
-      "url": "https://spsf.appfolio.com/listings/detail/282406c3-b0f0-4d60-a8a2-b401ccf62795"
+      "url": "https://spsf.appfolio.com/listings/detail/282406c3-b0f0-4d60-a8a2-b401ccf62795",
+      "conflicts": [
+        {
+          "field": "rent",
+          "parsed": 5000.0,
+          "observed": 5500
+        }
+      ]
     },
     {
       "address": "1087 Natoma Street, San Francisco, CA 94103",
@@ -722,30 +801,6 @@
       "postal_code": "94118",
       "title": "Spacious Top Floor NOPA 2BR/1.5BA",
       "url": "https://spsf.appfolio.com/listings/detail/54090975-ce89-45b8-b385-1026749d67c3"
-    },
-    {
-      "address": "205 Collins Street #5, San Francisco, CA 94118",
-      "source": "structure_properties",
-      "manager": "Structure Properties",
-      "city": "San Francisco",
-      "bedrooms": 2.0,
-      "available_date": null,
-      "rent": 6500.0,
-      "kind": "residential",
-      "unit_type": "2_bedroom",
-      "room_type": "entire_place",
-      "pets": "allowed",
-      "furnished": null,
-      "parking": "off_street",
-      "laundry": "in_unit",
-      "summary": "Renovated 2-bedroom, 2-bathroom apartment in San Francisco with in-unit laundry, hardwood floors, stainless steel appliances, and parking included.",
-      "available_now": true,
-      "bathrooms": 2.0,
-      "square_feet": 889,
-      "state": "CA",
-      "postal_code": "94118",
-      "title": "Renovated 2BR/2BA w/ all the Updates! Parking Included!",
-      "url": "https://spsf.appfolio.com/listings/detail/66eacd25-9f23-4498-bf29-ab3afe94e487"
     },
     {
       "address": "32 Perego Terrace, San Francisco, CA 94131",
@@ -1018,7 +1073,7 @@
       "city": "San Rafael",
       "bedrooms": 1.0,
       "available_date": null,
-      "rent": 2495.0,
+      "rent": 2395.0,
       "kind": "residential",
       "unit_type": "1_bedroom",
       "room_type": "entire_place",

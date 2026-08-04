@@ -3,8 +3,8 @@
   "source": "bancal_pm",
   "manager": "BanCal Property Management",
   "source_url": "https://bancalsf.appfolio.com/listings",
-  "scraped_at": "2026-08-03T07:06:05-07:00",
-  "unit_count": 3,
+  "scraped_at": "2026-08-04T07:03:35-07:00",
+  "unit_count": 4,
   "units": [
     {
       "address": "1602 Ashby Ave, Berkeley, CA 94703",
@@ -60,6 +60,30 @@
           "observed": 1
         }
       ]
+    },
+    {
+      "address": "1144 Pine Street , Unit 202, San Francisco, CA 94109",
+      "source": "bancal_pm",
+      "manager": "BanCal Property Management",
+      "city": "San Francisco",
+      "bedrooms": 0.0,
+      "available_date": null,
+      "rent": 2650.0,
+      "kind": "parking",
+      "unit_type": "studio",
+      "room_type": null,
+      "pets": null,
+      "furnished": null,
+      "parking": null,
+      "laundry": null,
+      "summary": null,
+      "available_now": true,
+      "bathrooms": 1.0,
+      "square_feet": 450,
+      "state": "CA",
+      "postal_code": "94109",
+      "title": "Updated Spacious Studio with Private Deck in Prime Nob Hill, parking Available",
+      "url": "https://bancalsf.appfolio.com/listings/detail/f320ab47-3b0a-4dc5-b196-87a6babe72ac"
     },
     {
       "address": "1033 Minna Street, San Francisco, CA 94103",
